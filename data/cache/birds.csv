@@ -1,0 +1,1734 @@
+taxon_name;family_name;date;sex;age;length;rwing;rtarsu;blenght;bheight;bwidth;occiput;tail;bmass
+Ammodramus humeralis;Passerellidae;1999-02-07;I;I;-;6;1.98;1.15;0.59;-;-;4.66;17.5
+Ammodramus humeralis;Passerellidae;1999-02-28;I;A;-;5.6;2;1.37;0.6;-;-;4.2;-
+Ammodramus humeralis;Passerellidae;1999-02-28;I;A;10;5.5;-;1.47;0.64;-;-;4.25;16
+Ammodramus humeralis;Passerellidae;1999-02-28;I;A;11.3;5.6;1.92;1.24;0.65;-;-;4.2;17
+Ammodramus humeralis;Passerellidae;1999-02-28;I;A;12.5;5.4;1.88;1.1;0.59;-;-;4.84;15.5
+Ammodramus humeralis;Passerellidae;1999-02-28;I;I;11.8;6.2;1.95;1.06;0.62;-;-;4.5;18.5
+Ammodramus humeralis;Passerellidae;1999-02-28;I;A;12;5.8;1.98;1.09;0.62;-;-;4.62;16
+Ammodramus humeralis;Passerellidae;1999-02-28;I;A;13;-;-;1.1;0.64;-;-;4.1;18
+Ammodramus humeralis;Passerellidae;1999-03-06;I;A;13.4;5.7;1.94;1.11;0.57;-;-;4.74;19
+Ammodramus humeralis;Passerellidae;1999-03-06;I;A;10;5.5;1.91;1.14;0.62;-;-;-;17
+Ammodramus humeralis;Passerellidae;1999-03-07;I;I;11.5;5.3;1.91;1.07;0.58;-;-;4.07;15.5
+Ammodramus humeralis;Passerellidae;1999-03-23;I;A;11.7;5.6;1.76;1;0.62;-;-;3.81;17
+Ammodramus humeralis;Passerellidae;1999-03-23;I;A;11.9;5.7;1.94;1.06;0.63;-;-;4.7;14.5
+Ammodramus humeralis;Passerellidae;1999-05-01;I;A;12.8;5.9;2;1.2;0.61;-;-;5.01;17
+Ammodramus humeralis;Passerellidae;1999-05-01;I;A;13.2;5.8;2.07;1.12;0.68;-;-;4.49;18
+Ammodramus humeralis;Passerellidae;1999-05-01;I;A;12.6;5.7;1.94;1.26;0.62;0.81;2.77;4.18;18
+Ammodramus humeralis;Passerellidae;1999-07-10;I;A;11.1;5.5;1.95;1.19;0.69;0.79;-;4.48;15.5
+Ammodramus humeralis;Passerellidae;1999-08-29;I;A;11.6;5.9;2.21;1.15;0.65;0.68;2.89;4.88;18
+Ammodramus humeralis;Passerellidae;1999-11-06;I;A;11.7;5.7;1.95;1.22;0.63;0.8;2.84;4.7;17
+Ammodramus humeralis;Passerellidae;1999-11-06;I;A;11.9;5.6;2.05;1.28;0.66;0.73;2.91;4.79;17
+Ammodramus humeralis;Passerellidae;1999-11-06;I;A;11.7;6;1.09;1.23;0.63;0.8;2.82;4.99;17.5
+Ammodramus humeralis;Passerellidae;1999-11-06;I;A;11.4;5.6;1.96;1.12;0.61;0.79;2.87;4.74;18
+Ammodramus humeralis;Passerellidae;1999-11-06;I;A;11.8;5.6;1.96;1;0.58;0.72;2.81;5.15;18
+Ammodramus humeralis;Passerellidae;2000-02-19;I;A;11.6;5.8;1.97;1.21;0.64;0.84;2.77;4.92;18.5
+Ammodramus humeralis;Passerellidae;2000-02-20;I;A;11.3;5.6;2.04;1.24;0.66;0.89;2.83;4.72;17.5
+Ammodramus humeralis;Passerellidae;2000-08-05;I;A;12.7;5.6;1.91;1.06;0.63;0.72;2.8;4.74;15.2
+Ammodramus humeralis;Passerellidae;2000-08-06;I;A;11.7;5.7;1.89;1.11;0.65;0.82;2.81;4.83;16.1
+Ammodramus humeralis;Passerellidae;2000-08-06;I;A;12;5.9;1.95;1.08;0.65;0.86;3.9;4.82;16.6
+Ammodramus humeralis;Passerellidae;2000-08-06;I;A;12;6;2;1.16;0.64;0.79;2.83;4.98;-
+Ammodramus humeralis;Passerellidae;2000-08-20;I;A;11.7;-;1.94;1.1;0.68;0.91;2.92;4.7;17.8
+Ammodramus humeralis;Passerellidae;2000-09-16;I;A;12;5.8;2.07;1.05;0.68;0.79;2.94;4.68;17.7
+Ammodramus humeralis;Passerellidae;2000-09-17;I;A;13.5;6.5;1.96;1.26;0.63;0.59;2.86;4.34;18
+Ammodramus humeralis;Passerellidae;2000-09-17;I;A;13;6.7;2.13;1.43;0.72;0.62;2.77;4.42;19.3
+Ammodramus humeralis;Passerellidae;2000-10-07;I;A;12;5.8;1.89;1.09;0.64;0.88;2.74;5.05;16.8
+Ammodramus humeralis;Passerellidae;2000-10-07;I;A;12;5.7;1.94;1.01;0.61;0.74;2.89;4.63;15.6
+Ammodramus humeralis;Passerellidae;2000-10-21;I;A;13;5.6;1.76;1.21;0.65;0.62;2.1;4.56;17.7
+Ammodramus humeralis;Passerellidae;2001-01-09;I;A;12;5.8;1.93;1.11;0.68;0.87;2.94;4.46;16.4
+Ammodramus humeralis;Passerellidae;2001-04-09;I;A;11.7;5.6;1.91;1.15;0.72;0.94;2.83;4.62;16.9
+Ammodramus humeralis;Passerellidae;2001-04-09;I;A;11.9;5.7;2;1.28;0.76;0.8;2.8;4.89;17.6
+Ammodramus humeralis;Passerellidae;2001-04-09;I;A;11.6;5.6;1.96;1.01;0.57;0.91;2.74;4.42;16.4
+Ammodramus humeralis;Passerellidae;2001-04-09;I;A;11.6;5.5;1.92;1.09;0.68;0.89;2.83;4.63;17.8
+Ammodramus humeralis;Passerellidae;2001-04-09;I;A;11.9;5.7;2.02;1.24;0.64;0.77;2.89;4.66;16.7
+Ammodramus humeralis;Passerellidae;2005-02-26;I;A;12.8;-;-;-;-;-;-;-;18.9
+Ammodramus humeralis;Passerellidae;2005-02-27;M;A;12.4;5.6;2.08;1.09;1.23;0.94;2.97;4.5;17.4
+Ammodramus humeralis;Passerellidae;2005-02-27;M;A;12;-;-;-;-;-;-;-;18.4
+Ammodramus humeralis;Passerellidae;2005-02-27;F;A;11.9;-;-;-;-;-;-;-;18.1
+Ammodramus humeralis;Passerellidae;2005-02-27;M;A;12.5;-;-;-;-;-;-;-;18.4
+Ammodramus humeralis;Passerellidae;2005-02-27;M;A;12;5.5;1.83;1.11;0.66;0.96;2.77;4.38;17.2
+Ammodramus humeralis;Passerellidae;2005-02-27;F;A;12.1;-;-;-;-;-;-;-;17.7
+Ammodramus humeralis;Passerellidae;2005-02-27;M;A;12.1;5.4;1.9;1.31;0.7;0.96;2.94;4.64;19.2
+Ammodramus humeralis;Passerellidae;2005-02-27;F;A;11.9;5.4;1.95;1.11;0.64;0.91;1.89;4.42;17.9
+Ammodramus humeralis;Passerellidae;2005-03-09;M;A;12.5;5.8;2.02;1.14;0.68;0.99;2.98;4.57;17.5
+Ammodramus humeralis;Passerellidae;2005-03-09;F;A;11.7;5.5;1.97;1.19;0.69;0.89;2.88;4.27;17
+Ammodramus humeralis;Passerellidae;2005-03-09;I;A;12.2;5.6;2.03;1.14;0.66;0.96;2.92;4.66;18
+Ammodramus humeralis;Passerellidae;2005-03-09;I;A;12;5.9;2.03;1.22;0.73;0.91;2.9;4.55;17
+Ammodramus humeralis;Passerellidae;2005-03-09;M;A;-;5.6;1.98;1.14;0.61;0.96;2.9;4.58;17
+Ammodramus humeralis;Passerellidae;2005-03-10;I;A;13;5.8;1.99;1.13;0.64;0.87;2.89;4.62;16.5
+Ammodramus humeralis;Passerellidae;2005-03-10;F;A;12.3;5.6;2.07;1.18;0.62;0.95;2.95;4.8;18
+Ammodramus humeralis;Passerellidae;2005-03-10;I;A;12;5.8;2.02;1.19;0.64;0.95;2.97;4.9;17.5
+Ammodramus humeralis;Passerellidae;2005-03-10;F;A;11.5;5.5;1.96;1.07;0.64;0.93;2.89;4.22;16.5
+Ammodramus humeralis;Passerellidae;2005-03-10;I;A;11.5;5.5;1.97;1.18;0.61;0.91;2.86;4.57;18.5
+Ammodramus humeralis;Passerellidae;2005-03-10;I;A;13;5.8;2.02;1.16;0.64;0.91;3.03;5.07;17.5
+Ammodramus humeralis;Passerellidae;2005-04-05;I;A;12.3;5.7;1.88;1.11;0.63;0.93;2.86;4.74;16
+Ammodramus humeralis;Passerellidae;2005-04-05;I;A;11;5.6;2;1.1;0.68;0.93;2.9;-;18
+Ammodramus humeralis;Passerellidae;2005-04-05;I;A;12;5.9;2;1.14;0.68;0.88;2.93;-;19
+Ammodramus humeralis;Passerellidae;2005-04-06;I;I;12;5.5;1.93;1.15;0.58;0.95;2.89;4.58;15.9
+Ammodramus humeralis;Passerellidae;2005-04-06;I;A;12.2;5.6;2.04;1.09;0.64;0.86;2.87;4.58;17.5
+Ammodramus humeralis;Passerellidae;2005-04-06;I;A;12.1;5.6;1.9;1.1;0.82;0.82;2.83;4.83;17.5
+Ammodramus humeralis;Passerellidae;2006-12-21;I;A;-;-;-;-;-;-;-;-;16.6
+Anthracothorax nigricollis;Trochilidae;2002-11-28;F;A;-;-;-;-;-;-;-;-;7.1
+Antilophia galeata;Pipridae;1999-05-30;M;J;16.3;7.8;2.02;1.03;0.42;-;-;1.11;20
+Antilophia galeata;Pipridae;1999-09-19;F;A;15;7.6;2;0.98;0.45;1.11;3.2;6.75;25
+Antilophia galeata;Pipridae;2000-08-15;M;A;15.6;7.9;2.11;1.81;0.4;1.17;3.27;6.75;21.4
+Antilophia galeata;Pipridae;2001-10-13;F;A;-;-;-;-;-;-;-;-;21.2
+Antilophia galeata;Pipridae;2001-10-13;F;A;-;-;-;-;-;-;-;-;19.2
+Antilophia galeata;Pipridae;2001-11-18;F;A;-;-;-;-;-;-;-;-;39.4
+Antilophia galeata;Pipridae;2002-04-20;M;J;16.5;8.1;2.24;0.63;0.44;0.96;3.3;6.6;21.5
+Antilophia galeata;Pipridae;2002-04-21;F;A;14;7.2;1.92;0.66;0.43;1.06;3.02;5.69;19.7
+Antilophia galeata;Pipridae;2002-06-16;F;A;14.5;7.5;1.94;0.87;0.45;0.65;3.28;6.12;20.4
+Antilophia galeata;Pipridae;2002-11-28;F;A;14.7;8.1;2.54;0.97;0.41;1.07;3.11;6.45;21.2
+Antilophia galeata;Pipridae;2002-11-28;F;A;14.2;7.4;2.46;1.16;0.99;1.03;3.35;5.44;21.5
+Antilophia galeata;Pipridae;2002-11-29;F;A;-;-;-;-;-;-;-;-;21
+Antilophia galeata;Pipridae;2007-03-31;I;J;13.6;7.9;2.19;1.07;0.42;0.94;3.23;5.41;19.2
+Anumbius annumbi;Furnariidae;1999-05-01;I;A;18.2;7.9;2.5;1.22;0.53;-;-;9.22;-
+Anumbius annumbi;Furnariidae;2000-11-20;I;A;18;8.3;2.54;1.7;0.61;1.09;4.19;8.57;47.1
+Arundinicola leucocephala;Tyrannidae;1999-08-28;F;A;12.5;6;1.81;1.51;0.44;0.99;3.6;4.59;13.5
+Arundinicola leucocephala;Tyrannidae;1999-08-29;F;A;13.4;6.1;2.11;1.46;0.46;1.03;3.62;4.56;15
+Basileuterus culicivorus;Parulidae;2000-02-04;I;A;11.8;5.7;1.98;0.97;0.39;0.76;2.95;5.57;10
+Basileuterus culicivorus;Parulidae;2000-02-04;I;A;11;5.6;2.11;1.04;0.38;0.72;2.82;5.34;9.5
+Basileuterus culicivorus;Parulidae;2000-08-15;I;A;11.9;5.9;2.03;0.97;0.43;0.73;2.88;5.67;10.3
+Basileuterus culicivorus;Parulidae;2000-08-15;I;A;11.6;5.7;1.98;1.07;0.39;0.65;2.8;5.62;9.2
+Basileuterus culicivorus;Parulidae;2001-03-21;I;A;12.1;5.9;1.88;0.99;0.37;0.71;2.69;5.88;9.9
+Calliphlox amethystina;Trochilidae;1999-10-24;F;I;6.65;-;-;1.99;-;-;-;-;2.8
+Calliphlox amethystina;Trochilidae;2000-03-18;F;A;6.4;-;-;1.42;-;-;2.7;1.76;2.5
+Calliphlox amethystina;Trochilidae;2000-03-18;M;A;8.4;-;-;1.87;-;-;3.16;2.91;3.4
+Calliphlox amethystina;Trochilidae;2000-03-18;M;A;9;-;-;1.84;-;-;-;3;-
+Calliphlox amethystina;Trochilidae;2000-03-18;M;A;8.3;-;-;2.04;-;-;3.16;3.12;3.6
+Calliphlox amethystina;Trochilidae;2000-03-18;M;A;8.6;-;-;1.98;-;-;3.38;3.06;4
+Calliphlox amethystina;Trochilidae;2000-08-19;I;A;7.1;3.5;-;1.4;-;-;2.65;2.26;2.4
+Calliphlox amethystina;Trochilidae;2000-10-21;F;A;6.7;3.25;-;1.53;-;-;2.75;2.16;2.4
+Calliphlox amethystina;Trochilidae;2000-10-21;I;A;7;3.4;-;1.34;-;-;2.55;2.07;2.5
+Calliphlox amethystina;Trochilidae;2000-10-21;I;A;7;3.3;-;1.34;-;-;2.6;2.2;2.7
+Calliphlox amethystina;Trochilidae;2000-10-21;I;A;6.5;3.3;-;1.57;-;-;2.73;2.04;2.3
+Calliphlox amethystina;Trochilidae;2000-10-21;F;A;6.7;3.5;-;1.8;-;-;2.71;1.94;2.7
+Calliphlox amethystina;Trochilidae;2001-10-13;F;A;-;-;-;-;-;-;-;-;2.8
+Camptostoma obsoletum;Tyrannidae;1999-09-26;I;A;11;5.7;1.88;1.08;0.33;0.72;2.71;5.15;9
+Camptostoma obsoletum;Tyrannidae;1999-09-26;I;A;11.1;6.1;1.69;1.02;0.33;0.74;2.49;5.87;9
+Camptostoma obsoletum;Tyrannidae;2000-08-14;I;A;10.2;5.4;1.54;0.77;0.31;0.67;2.31;4.59;7.7
+Camptostoma obsoletum;Tyrannidae;2000-09-17;I;A;10.5;5.8;1.5;0.77;0.29;0.73;2.4;4.91;7.8
+Camptostoma obsoletum;Tyrannidae;2000-10-21;I;A;9.8;5.3;1.66;0.68;0.32;0.77;2.75;4.3;6.9
+Camptostoma obsoletum;Tyrannidae;2000-12-17;I;A;-;-;-;-;-;-;-;-;8.2
+Camptostoma obsoletum;Tyrannidae;2000-12-17;I;A;-;-;-;-;-;-;-;-;7.7
+Camptostoma obsoletum;Tyrannidae;2001-01-29;I;A;13;6.8;1.66;1.13;0.35;0.93;2.92;5.83;15
+Camptostoma obsoletum;Tyrannidae;2001-10-13;I;A;-;-;-;-;-;-;-;-;6.4
+Camptostoma obsoletum;Tyrannidae;2002-01-21;I;J;13.3;6.7;1.65;0.63;0.35;1.05;2.92;5.56;14.5
+Camptostoma obsoletum;Tyrannidae;2002-02-06;I;A;-;-;-;-;-;-;-;-;9
+Camptostoma obsoletum;Tyrannidae;2006-12-20;I;J;10.1;5.2;1.4;0.97;0.5;0.66;2.35;4.4;7.6
+Certhiaxis cinnamomeus;Furnariidae;1999-07-11;I;A;16.5;7;2.14;1.39;0.39;0.63;-;7.96;16
+Certhiaxis cinnamomeus;Furnariidae;1999-07-11;I;A;14;6;2.13;1.65;0.39;0.78;-;6.71;15
+Certhiaxis cinnamomeus;Furnariidae;1999-08-28;I;A;14.4;6.5;2.19;1.55;0.51;0.64;3.44;7.5;15
+Certhiaxis cinnamomeus;Furnariidae;1999-08-29;I;A;12.5;5.9;2.1;1.4;0.48;0.65;3.47;5.09;14
+Certhiaxis cinnamomeus;Furnariidae;1999-09-25;I;A;13.6;5.9;2.08;1.55;0.41;0.65;3.8;6.51;15
+Certhiaxis cinnamomeus;Furnariidae;1999-09-25;I;A;15;6;2.13;1.75;0.4;0.75;3.46;6.82;16
+Certhiaxis cinnamomeus;Furnariidae;2000-08-06;I;A;15;6.3;2.12;1.42;0.41;0.77;3.75;7.22;23.4
+Certhiaxis cinnamomeus;Furnariidae;2000-08-20;I;A;13.7;5.9;2.1;1.5;0.38;0.76;3.56;5.9;15
+Certhiaxis cinnamomeus;Furnariidae;2000-12-16;I;A;-;-;-;-;-;-;-;-;15.7
+Certhiaxis cinnamomeus;Furnariidae;2005-02-27;I;A;14.9;-;-;-;-;-;-;-;13.2
+Certhiaxis cinnamomeus;Furnariidae;2006-12-20;I;I;-;-;2.04;1.69;0.43;0.58;3.5;-;-
+Chionomesa lactea;Trochilidae;1999-11-20;M;A;8.3;5.4;-;1.75;-;-;3.05;-;4
+Chionomesa lactea;Trochilidae;2000-10-21;I;A;7.8;5.2;-;1.89;-;-;3.24;-;3.7
+Chionomesa lactea;Trochilidae;2001-01-29;I;A;8.5;5;-;1.85;-;-;3.29;3.03;3.5
+Chionomesa lactea;Trochilidae;2001-08-12;I;I;-;-;-;-;-;-;-;-;4.1
+Chionomesa lactea;Trochilidae;2001-08-18;M;I;-;-;-;-;-;-;-;-;3.9
+Chionomesa lactea;Trochilidae;2001-12-11;I;A;-;-;-;-;-;-;-;-;3.9
+Chionomesa lactea;Trochilidae;2002-05-29;M;A;-;-;-;-;-;-;-;-;4.1
+Chionomesa lactea;Trochilidae;2002-06-16;M;A;-;-;-;-;-;-;-;-;5.1
+Chionomesa lactea;Trochilidae;2002-06-16;M;A;-;-;-;-;-;-;-;-;4.1
+Chionomesa lactea;Trochilidae;2002-06-17;M;A;-;-;-;-;-;-;-;-;3.1
+Chionomesa lactea;Trochilidae;2002-07-11;M;A;-;-;-;-;-;-;-;-;3.2
+Chionomesa lactea;Trochilidae;2002-07-11;M;A;-;-;-;-;-;-;-;-;2.3
+Chionomesa lactea;Trochilidae;2002-07-11;M;A;-;-;-;-;-;-;-;-;3.3
+Chionomesa lactea;Trochilidae;2002-07-11;M;A;-;-;-;-;-;-;-;-;2.7
+Chloroceryle amazona;Alcedinidae;1999-05-30;F;A;31.7;14.1;1.35;6.29;1.67;;;2.47;
+Chloroceryle americana;Alcedinidae;1999-05-30;F;A;20.5;8.5;0.84;4.23;0.92;;;;30
+Chloroceryle americana;Alcedinidae;2000-02-04;M;A;18.8;8.3;1.05;4.16;0.98;1.4;6.76;6.28;30.5
+Chloroceryle americana;Alcedinidae;2000-10-21;F;A;19.3;8.1;1.04;4.4;0.95;1.65;6.63;6.48;33.7
+Chloroceryle americana;Alcedinidae;2001-01-09;F;A;20;8.1;1;3.69;0.98;1.57;6.47;6;33.2
+Chloroceryle americana;Alcedinidae;2001-01-29;F;A;19.5;8.2;0.94;3.92;1.05;1.55;6.78;6.26;31.6
+Chloroceryle americana;Alcedinidae;2002-05-29;F;A;21.6;8.7;0.97;4.91;0.92;0.76;7.5;6.21;33.9
+Chloroceryle americana;Alcedinidae;2006-12-06;M;A;20;8.5;0.83;4.6;1.03;1.41;7.07;6.12;30.2
+Chloroceryle americana;Alcedinidae;2006-12-10;M;I;21;8;0.93;4.27;1.2;1.44;7.07;6.29;34.9
+Chlorostilbon lucidus;Trochilidae;1999-10-24;F;A;7.9;-;-;1.88;-;-;-;-;3
+Chlorostilbon lucidus;Trochilidae;2000-03-12;M;A;8.5;-;-;1.82;-;-;2.83;3.36;3.5
+Chlorostilbon lucidus;Trochilidae;2000-03-18;M;A;8.5;-;-;1.64;-;-;3;2.63;-
+Chlorostilbon lucidus;Trochilidae;2000-03-19;M;A;8.7;4.9;-;1.21;-;0.63;3.06;3.37;3
+Chlorostilbon lucidus;Trochilidae;2000-08-05;F;A;8.3;4.9;-;1.66;-;-;2.92;3.04;3.2
+Chlorostilbon lucidus;Trochilidae;2000-08-05;F;A;8.2;5;-;1.76;-;-;2.97;2.97;3.5
+Chlorostilbon lucidus;Trochilidae;2000-08-05;F;A;8;4.9;-;1.73;-;-;2.86;2.84;3.1
+Chlorostilbon lucidus;Trochilidae;2000-08-06;F;A;8.1;4.8;-;1.55;-;-;2.72;3.17;3
+Chlorostilbon lucidus;Trochilidae;2000-08-06;F;A;8.6;5;-;1.68;-;-;2.89;3.3;3.2
+Chlorostilbon lucidus;Trochilidae;2000-08-19;F;A;8.3;4.9;-;1.66;-;-;2.79;3.04;3.3
+Chlorostilbon lucidus;Trochilidae;2000-08-20;F;A;8.1;4.9;-;1.81;-;-;2.98;2.99;3.3
+Chlorostilbon lucidus;Trochilidae;2000-08-20;F;A;7.9;5;-;1.65;-;-;2.97;2.35;3.4
+Chlorostilbon lucidus;Trochilidae;2000-08-20;M;A;8;4.2;-;1.64;-;-;2.83;3.06;3.2
+Chlorostilbon lucidus;Trochilidae;2000-08-20;F;A;7.9;4.9;-;1.79;-;-;3.14;2.51;3.3
+Chlorostilbon lucidus;Trochilidae;2000-10-08;F;A;8.5;5;-;1.73;-;-;3.07;2.99;3.3
+Chlorostilbon lucidus;Trochilidae;2000-10-08;F;A;8.1;5.1;-;1.52;-;-;2.86;3.07;3.2
+Chlorostilbon lucidus;Trochilidae;2000-10-21;F;A;8;5;-;1.67;-;-;2.93;2.61;3.3
+Chlorostilbon lucidus;Trochilidae;2000-10-21;F;A;8;5.1;-;1.7;-;-;2.94;2.86;3.05
+Chlorostilbon lucidus;Trochilidae;2000-10-21;F;A;8.4;4.7;-;1.74;-;-;3.03;2.23;3.3
+Chlorostilbon lucidus;Trochilidae;2000-10-21;M;A;8.3;5.5;-;1.65;-;-;3.22;-;3.5
+Chlorostilbon lucidus;Trochilidae;2000-10-21;F;A;8.9;7.4;-;2.16;0.22;0.45;2.84;2.43;3.1
+Chlorostilbon lucidus;Trochilidae;2001-04-08;M;A;7.8;4.8;-;1.62;-;-;2.85;2.74;3.9
+Chlorostilbon lucidus;Trochilidae;2001-08-11;M;A;-;-;-;-;-;-;-;-;3.4
+Chlorostilbon lucidus;Trochilidae;2001-08-11;F;A;-;-;-;-;-;-;-;-;3.2
+Chlorostilbon lucidus;Trochilidae;2001-08-11;M;A;-;-;-;-;-;-;-;-;3
+Chlorostilbon lucidus;Trochilidae;2001-08-11;F;A;-;-;-;-;-;-;-;-;2.8
+Chlorostilbon lucidus;Trochilidae;2001-10-13;M;J;-;-;-;-;-;-;-;-;2.2
+Chlorostilbon lucidus;Trochilidae;2001-10-14;M;A;-;-;-;-;-;-;-;-;3.2
+Chlorostilbon lucidus;Trochilidae;2001-10-14;M;A;-;-;-;-;-;-;-;-;3.4
+Chlorostilbon lucidus;Trochilidae;2001-11-18;M;A;-;-;-;-;-;-;-;-;3.8
+Chlorostilbon lucidus;Trochilidae;2001-12-10;M;A;-;-;-;-;-;-;-;-;3.4
+Chlorostilbon lucidus;Trochilidae;2002-01-21;M;A;8.69;5;0.49;1.49;0.18;0.42;2.89;2.99;3.9
+Chlorostilbon lucidus;Trochilidae;2002-06-16;M;A;-;-;-;-;-;-;-;-;3.1
+Chlorostilbon lucidus;Trochilidae;2002-07-11;M;A;-;-;-;-;-;-;-;-;2.2
+Chlorostilbon lucidus;Trochilidae;2002-07-12;F;A;-;-;-;-;-;-;-;-;2.8
+Chlorostilbon lucidus;Trochilidae;2002-07-12;M;A;-;-;-;-;-;-;-;-;2
+Clibanornis rectirostris;Furnariidae;2000-04-09;I;A;22;10.4;2.91;2.35;0.76;1.29;5.05;9.56;51
+Clibanornis rectirostris;Furnariidae;2001-03-20;I;A;19.5;9.2;2.87;2.17;0.73;1.23;5.23;8.19;46.7
+Clibanornis rectirostris;Furnariidae;2001-03-20;I;A;20.5;9.3;2.78;2.29;0.78;1.22;4.99;9.72;47.7
+Clibanornis rectirostris;Furnariidae;2001-03-21;I;A;22.5;9.8;2.81;2.25;0.74;1.27;4.96;9.78;45.8
+Clibanornis rectirostris;Furnariidae;2001-09-08;I;A;21;9.7;3.08;3.14;0.7;1.26;4.94;4.65;38.5
+Clibanornis rectirostris;Furnariidae;2001-10-14;I;A;-;-;-;-;-;-;-;-;45.7
+Clibanornis rectirostris;Furnariidae;2002-11-28;I;A;20;9.3;2.93;-;-;1.89;5.14;8.55;47
+Clibanornis rectirostris;Furnariidae;2004-04-14;I;A;22;10.7;2.81;2.29;-;-;5.05;9.71;50
+Clibanornis rectirostris;Furnariidae;2004-04-15;I;A;22;10;2.72;2.51;-;-;4.98;9.19;45
+Clibanornis rectirostris;Furnariidae;2004-04-16;I;A;22.4;9.3;2.69;2.51;-;-;5.07;8.51;47
+Clibanornis rectirostris;Furnariidae;2004-04-17;I;A;22.3;10.1;2.76;2.5;-;-;5.22;9.66;48
+Clibanornis rectirostris;Furnariidae;2004-05-02;I;A;22;10;2.7;2.33;-;-;5.05;2.68;51
+Clibanornis rectirostris;Furnariidae;2004-05-14;I;A;21.5;10.5;2.9;2.21;-;-;5.07;9.58;49
+Clibanornis rectirostris;Furnariidae;2004-08-04;I;A;22;10;2.84;2.32;-;-;5.04;9.44;55
+Clibanornis rectirostris;Furnariidae;2004-08-06;I;A;20.5;9.4;2.88;2.26;-;-;4.95;8.72;48.5
+Clibanornis rectirostris;Furnariidae;2006-12-05;I;A;21;-;-;-;-;-;-;-;48.2
+Clibanornis rectirostris;Furnariidae;2007-03-31;I;A;20;9.7;2.92;3.22;1.41;1.36;5.28;-;41.2
+Clibanornis rectirostris;Furnariidae;2007-03-31;I;A;-;-;-;-;-;-;-;-;49.2
+Cnemotriccus fuscatus;Tyrannidae;1999-09-25;I;A;14;7;1.93;1.41;0.44;0.84;3.18;7.01;14
+Cnemotriccus fuscatus;Tyrannidae;2000-02-04;I;A;12.5;6.1;1.74;1.39;0.42;0.95;3.17;5.7;11.5
+Cnemotriccus fuscatus;Tyrannidae;2000-02-04;I;A;13;6;1.31;1.25;0.39;1.02;3.24;5.9;12
+Cnemotriccus fuscatus;Tyrannidae;2000-02-05;I;A;14;6.6;1.98;1.4;0.42;1.07;3.35;6.46;13
+Cnemotriccus fuscatus;Tyrannidae;2000-02-06;I;A;13.3;6.7;1.87;1.24;0.41;0.84;3.14;6.51;12.7
+Cnemotriccus fuscatus;Tyrannidae;2000-02-06;I;A;13.6;6.4;1.91;1.31;0.45;0.96;3.25;6.44;13
+Cnemotriccus fuscatus;Tyrannidae;2000-10-22;I;A;14.6;6.8;1.84;1.17;0.51;0.82;3.13;6.84;12.7
+Cnemotriccus fuscatus;Tyrannidae;2001-03-20;I;A;13.4;6.8;1.77;1.24;0.44;1;3.2;6.77;12.2
+Cnemotriccus fuscatus;Tyrannidae;2001-03-20;I;A;14;6.9;1.79;1.32;0.43;0.95;3.23;6.93;13.2
+Cnemotriccus fuscatus;Tyrannidae;2001-10-13;I;A;12.3;-;-;-;-;-;-;-;11.2
+Cnemotriccus fuscatus;Tyrannidae;2002-03-19;I;A;13.5;6.2;1.93;1.15;0.44;0.88;3.14;5.52;11.5
+Cnemotriccus fuscatus;Tyrannidae;2002-03-19;I;A;13.6;6.58;1.87;1.08;0.45;0.95;3.16;6.4;11.5
+Cnemotriccus fuscatus;Tyrannidae;2003-05-10;I;A;12.6;6.5;1.85;1.29;0.43;1;3.27;5.78;11.1
+Cnemotriccus fuscatus;Tyrannidae;2005-02-26;I;A;14;-;-;-;-;-;-;-;12.9
+Cnemotriccus fuscatus;Tyrannidae;2005-05-07;I;A;14.1;6.7;1.98;1.26;-;0.7;3;5.88;12.3
+Cnemotriccus fuscatus;Tyrannidae;2006-12-05;I;J;12.8;6.3;1.94;1.5;0.49;0.91;3.12;5.82;10.6
+Cnemotriccus fuscatus;Tyrannidae;2007-03-31;I;A;-;6.5;-;1.91;0.4;1.95;3.22;-;11
+Coccyzus melacoryphus ;Cuculidae;2009-10-24;I;A;25.3;11.6;2.63;2.91;0.79;1.29;4.85;15.3;44.9
+Coereba flaveola;Thraupidae ;2000-02-05;I;A;10.2;5.7;1.76;1.4;0.51;0.7;2.74;3.67;12
+Coereba flaveola;Thraupidae ;2000-03-18;I;A;9.6;5.2;1.51;1.35;0.46;0.68;2.74;3.56;8.7
+Coereba flaveola;Thraupidae ;2000-09-19;M;A;10;5.9;1.7;1.38;0.5;0.71;2.81;3.69;11.7
+Coereba flaveola;Thraupidae ;2000-10-08;I;A;9.3;5.5;1.64;1.28;0.43;0.64;2.75;3.37;9.9
+Coereba flaveola;Thraupidae ;2000-10-21;I;A;9.7;5.6;1.81;1.23;0.5;0.53;2.4;4.19;9.2
+Coereba flaveola;Thraupidae ;2001-03-20;I;A;10;5.9;1.73;1.13;0.41;0.6;2.81;4.11;10.2
+Coereba flaveola;Thraupidae ;2001-03-20;I;A;9.4;5.5;1.63;1.25;0.44;0.64;2.66;3.8;10.2
+Coereba flaveola;Thraupidae ;2001-08-11;I;A;10.6;6.4;2.02;1.4;0.43;0.48;2.62;3.72;12.7
+Coereba flaveola;Thraupidae ;2001-08-18;I;A;10.6;5.5;1.67;1.41;0.46;0.75;2.77;3.06;10
+Coereba flaveola;Thraupidae ;2001-09-08;I;A;10;5.4;1.88;1.26;0.41;0.7;2.87;3.49;10.4
+Coereba flaveola;Thraupidae ;2001-10-13;M;A;10.3;5.9;1.78;1.2;0.42;0.5;2.78;3.55;10.9
+Coereba flaveola;Thraupidae ;2001-10-13;F;A;9.5;5.3;1.62;1.28;0.44;0.69;2.69;3.32;9.7
+Coereba flaveola;Thraupidae ;2002-06-16;I;A;11;6;1.91;1.42;0.46;0.72;2.9;3.75;10.4
+Coereba flaveola;Thraupidae ;2005-02-26;M;A;8;-;-;-;-;-;-;-;9.4
+Coereba flaveola;Thraupidae ;2005-02-26;M;A;10;-;-;-;-;-;-;-;9.9
+Coereba flaveola;Thraupidae ;2005-11-19;F;A;11;-;-;-;-;-;-;-;-
+Coereba flaveola;Thraupidae ;2009-10-24;I;A;9.8;5.9;1.77;1.3;0.41;0.6;2.75;3.92;10
+Colaptes campestris;Picidae;2000-09-17;I;A;31;16;2.91;3.64;1.28;1.45;7.67;10.73;154.5
+Colaptes melanochloros;Picidae;1999-02-12;M;A;-;13.9;2.24;2.88;0.95;-;-;9.97;-
+Colaptes melanochloros;Picidae;2002-01-21;M;A;-;12.91;2.51;2.63;0.89;1.22;5.76;9.95;96.5
+Colaptes melanochloros;Picidae;2006-12-06;I;A;23.5;14;2.61;3.11;1.15;1.31;6.11;10.54;103.2
+Colibri serrirostris;Trochilidae;2000-08-05;I;A;11.4;7.2;-;2.43;-;-;3.91;4.86;7
+Colibri serrirostris;Trochilidae;2000-08-20;I;A;11.8;7.1;-;2.3;-;-;3.97;4.45;6.2
+Colibri serrirostris;Trochilidae;2000-08-20;I;A;11.7;6.9;-;2.36;-;-;4.05;4.29;6.4
+Colibri serrirostris;Trochilidae;2000-10-21;I;A;11.2;6.8;-;1.86;-;-;3.89;4.14;6.1
+Colibri serrirostris;Trochilidae;2000-10-21;I;A;10.5;6.4;-;2.04;-;-;3.47;3.98;4.6
+Colibri serrirostris;Trochilidae;2000-10-21;I;A;10.4;6.5;-;2.39;-;-;3.92;4.46;5.9
+Colibri serrirostris;Trochilidae;2000-10-21;I;A;11.2;7.2;-;2.6;-;-;3.95;4.8;6.1
+Colibri serrirostris;Trochilidae;2000-10-21;I;A;10.2;6.5;-;2.1;-;-;3.55;4.05;5.2
+Colibri serrirostris;Trochilidae;2000-10-21;F;A;10.9;6.4;-;2;-;-;3.5;4;5.5
+Colibri serrirostris;Trochilidae;2000-10-21;M;A;11;5.9;-;2.21;-;0.35;3.76;4;6.3
+Colibri serrirostris;Trochilidae;2001-08-11;M;A;-;-;-;-;-;-;-;-;5.4
+Colibri serrirostris;Trochilidae;2001-08-12;I;A;-;-;-;-;-;-;-;-;5.5
+Colibri serrirostris;Trochilidae;2001-08-18;F;A;-;-;-;-;-;-;-;-;6.8
+Colibri serrirostris;Trochilidae;2001-10-12;F;A;10.7;7;-;-;-;-;-;-;5.9
+Colibri serrirostris;Trochilidae;2001-10-13;I;A;-;-;-;-;-;-;-;-;7.1
+Colibri serrirostris;Trochilidae;2001-10-13;F;A;-;-;-;-;-;-;-;-;6.3
+Colibri serrirostris;Trochilidae;2001-10-13;M;A;-;-;-;-;-;-;-;-;5.1
+Colibri serrirostris;Trochilidae;2001-10-13;M;A;-;-;-;-;-;-;-;-;6.3
+Colibri serrirostris;Trochilidae;2002-06-16;M;A;-;-;-;-;-;-;-;-;5.1
+Colibri serrirostris;Trochilidae;2002-06-17;M;A;-;-;-;-;-;-;-;-;6
+Colibri serrirostris;Trochilidae;2002-06-17;M;A;-;-;-;-;-;-;-;-;6.1
+Colibri serrirostris;Trochilidae;2002-07-11;M;A;-;-;-;-;-;-;-;-;4.3
+Colibri serrirostris;Trochilidae;2002-07-11;M;A;-;-;-;-;-;-;-;-;6.4
+Colibri serrirostris;Trochilidae;2002-07-11;F;A;-;-;-;-;-;-;-;-;4.7
+Colibri serrirostris;Trochilidae;2002-07-11;M;A;-;-;-;-;-;-;-;-;5.3
+Colibri serrirostris;Trochilidae;2002-07-11;F;A;-;-;-;-;-;-;-;-;4.4
+Colibri serrirostris;Trochilidae;2002-07-11;M;A;-;-;-;-;-;-;-;-;3.8
+Colibri serrirostris;Trochilidae;2002-07-11;M;A;-;-;-;-;-;-;-;-;5.2
+Colibri serrirostris;Trochilidae;2002-07-12;I;J;-;-;-;-;-;-;-;-;5.2
+Colibri serrirostris;Trochilidae;2002-07-14;M;A;-;-;-;-;-;-;-;-;4.3
+Colibri serrirostris;Trochilidae;2002-11-29;M;A;-;-;-;-;-;-;-;-;6
+Columbina minuta;Columbidae;2000-10-08;M;A;13.6;7.5;1.4;1.15;0.38;0.45;2.88;5.55;26.7
+Columbina minuta;Columbidae;2000-10-08;F;A;13.7;7.8;1.53;1.09;0.36;0.54;2.97;5.96;27.3
+Columbina minuta;Columbidae;2000-12-13;M;A;14.6;7.8;1.44;1.04;0.38;0.51;2.98;5.76;34.8
+Columbina minuta;Columbidae;2000-12-16;F;A;-;-;-;-;-;-;-;-;34
+Columbina minuta;Columbidae;2001-01-09;F;A;14.5;7.5;1.6;1.15;0.36;0.57;2.99;5.57;32.2
+Columbina minuta;Columbidae;2001-03-06;M;A;14.7;8.1;1.5;1.13;0.36;0.67;2.98;5.31;33.6
+Columbina minuta;Columbidae;2001-03-06;F;A;-;-;-;-;-;-;-;-;34.3
+Columbina minuta;Columbidae;2001-03-06;F;A;-;-;-;-;-;-;-;-;34.8
+Columbina minuta;Columbidae;2001-03-06;M;A;-;-;-;-;-;-;-;-;29.3
+Columbina minuta;Columbidae;2001-04-08;M;A;13.5;7.8;1.56;1.23;0.37;0.48;2.82;5.43;30.6
+Columbina minuta;Columbidae;2001-04-09;M;A;14.2;7.35;1.48;1.13;0.38;0.51;3;5.57;27.1
+Columbina minuta;Columbidae;2001-04-09;M;A;14.3;7.9;1.59;1.09;0.41;0.61;2.95;5.56;31.4
+Columbina minuta;Columbidae;2001-04-09;I;J;13;7.5;1.46;1.22;0.43;0.59;3.06;5.11;22.7
+Columbina minuta;Columbidae;2001-04-09;I;J;13.2;6.95;1.44;1.24;0.47;0.5;2.85;4.72;26.4
+Columbina minuta;Columbidae;2001-04-09;F;A;14.5;7.8;1.57;1.33;0.47;0.44;3.07;5.34;33.4
+Columbina minuta;Columbidae;2001-04-09;M;A;13.9;7.8;1.61;1.18;0.33;0.49;2.93;5.6;30
+Columbina minuta;Columbidae;2001-04-09;I;J;13.7;7.7;1.6;1.14;0.52;0.51;3.01;5.12;28.4
+Columbina minuta;Columbidae;2001-04-09;F;A;14.3;7.4;1.49;1.26;0.36;0.53;2.84;5.36;28.4
+Columbina minuta;Columbidae;2001-04-09;M;J;13.4;7.3;1.46;1.13;0.44;0.52;2.86;4.78;25.5
+Columbina minuta;Columbidae;2001-04-09;M;A;13.2;7.3;1.45;1.3;0.47;0.58;3.03;4.84;30
+Columbina minuta;Columbidae;2001-04-09;I;J;13.2;7.6;1.53;1.14;0.5;0.57;-;5.22;29.2
+Columbina minuta;Columbidae;2001-11-13;I;A;13.5;-;-;-;-;-;-;-;31.4
+Columbina minuta;Columbidae;2001-11-13;I;A;-;-;-;-;-;-;-;-;42.9
+Columbina minuta;Columbidae;2001-11-13;I;A;-;-;-;-;-;-;-;-;31.4
+Columbina minuta;Columbidae;2001-11-13;I;A;-;-;-;-;-;-;-;-;33.4
+Columbina minuta;Columbidae;2001-11-18;I;A;-;-;-;-;-;-;-;-;35.4
+Columbina minuta;Columbidae;2001-12-11;I;A;-;-;-;-;-;-;-;-;33
+Columbina squammata ;Columbidae;2001-07-17;I;A;21.7;9.7;1.64;1.16;0.46;0.55;3.47;9.75;56.7
+Columbina squammata ;Columbidae;2001-07-17;I;A;21.8;9.8;1.91;1.27;0.47;0.51;3.53;9.24;53
+Columbina squammata ;Columbidae;2001-07-17;I;A;21;9.5;1.69;1.35;0.46;0.5;3.73;9.75;54
+Columbina squammata ;Columbidae;2006-12-21;I;A;29.5;9.04;-;-;-;-;-;-;-
+Columbina talpacoti;Columbidae;1999-02-11;M;A;-;-;-;1.52;0.36;-;-;6.28;-
+Columbina talpacoti;Columbidae;1999-02-12;M;A;-;-;1.47;1.57;0.44;-;-;7.3;-
+Columbina talpacoti;Columbidae;1999-02-12;M;A;-;-;-;1.54;0.5;-;-;6.81;-
+Columbina talpacoti;Columbidae;1999-03-06;M;I;18;9;1.82;1.29;0.48;-;-;6.74;-
+Columbina talpacoti;Columbidae;1999-09-25;I;I;-;-;1.73;1.26;0.41;0.54;3.43;-;-
+Columbina talpacoti;Columbidae;2000-08-19;M;A;15.5;10.2;1.74;1.36;0.52;0.46;2.97;6.72;52
+Columbina talpacoti;Columbidae;2000-08-19;M;A;-;-;1.74;1.43;-;-;-;-;-
+Columbina talpacoti;Columbidae;2000-09-10;M;J;16;8.7;1.66;1.23;0.57;0.61;3.18;6.66;43.7
+Columbina talpacoti;Columbidae;2000-09-10;M;A;17.1;9;1.78;1.15;0.44;0.56;3.26;6.54;49
+Columbina talpacoti;Columbidae;2000-09-10;M;J;16.2;8.9;1.73;1.3;0.51;0.61;3.25;6.02;47.2
+Columbina talpacoti;Columbidae;2000-09-10;M;A;17.6;8.9;1.88;1.47;0.52;0.63;3.44;6.97;51.2
+Columbina talpacoti;Columbidae;2000-10-22;F;A;17.2;8.6;2.18;1.28;0.52;0.63;2.21;6.42;40.7
+Columbina talpacoti;Columbidae;2000-10-22;M;A;17.5;8.8;1.7;1.48;0.61;0.68;3.3;6.52;47.7
+Columbina talpacoti;Columbidae;2000-10-22;M;A;15.7;8.7;1.51;1.32;0.54;0.57;3.27;6.71;42.7
+Columbina talpacoti;Columbidae;2000-12-13;M;J;15.9;8.7;1.65;1.23;0.42;0.6;3.07;6.27;42.2
+Columbina talpacoti;Columbidae;2000-12-13;M;A;17;8.8;1.62;1.24;0.49;0.63;3.26;6.36;46.2
+Columbina talpacoti;Columbidae;2000-12-13;M;A;16.9;9.1;1.61;1.27;0.44;0.57;3.25;7.62;47.2
+Columbina talpacoti;Columbidae;2000-12-13;M;A;17;9.2;1.64;1.28;0.44;0.61;3.26;7.18;49.1
+Columbina talpacoti;Columbidae;2000-12-13;F;A;16.6;8.8;1.57;1.33;0.43;0.61;3.32;7;45.7
+Columbina talpacoti;Columbidae;2000-12-13;M;A;17.2;9.5;1.53;1.19;0.42;0.44;3.27;7.63;50.1
+Columbina talpacoti;Columbidae;2000-12-13;M;A;16.8;9.2;1.68;1.28;0.48;0.63;3.24;6.95;48.9
+Columbina talpacoti;Columbidae;2000-12-13;M;A;16.5;9;1.61;1.17;0.48;0.64;3.24;7;43.6
+Columbina talpacoti;Columbidae;2000-12-13;M;A;16.9;9.1;1.63;1.27;0.43;0.58;3.16;6.97;55.2
+Columbina talpacoti;Columbidae;2000-12-14;M;J;16.4;9.3;1.72;1.31;0.46;0.58;3.4;6.92;35.5
+Columbina talpacoti;Columbidae;2000-12-16;M;A;16.3;8.9;1.54;1.31;0.45;0.63;3.16;6.47;47.2
+Columbina talpacoti;Columbidae;2000-12-16;M;A;17.5;9.1;1.64;1.27;0.48;0.64;3.36;7.23;52
+Columbina talpacoti;Columbidae;2000-12-16;M;A;17.5;9.4;1.84;1.28;0.49;0.63;3.41;7.14;52
+Columbina talpacoti;Columbidae;2000-12-16;M;A;17.3;9.1;1.73;1.32;0.52;0.65;3.29;7.02;40.9
+Columbina talpacoti;Columbidae;2000-12-16;M;A;16.8;8.9;1.67;1.17;0.45;0.58;3.21;7.13;48.2
+Columbina talpacoti;Columbidae;2000-12-16;F;A;16.2;8.6;1.54;1.21;0.49;0.63;3.29;6.44;52.4
+Columbina talpacoti;Columbidae;2000-12-16;M;J;16.7;9;1.57;1.18;0.43;0.64;3.25;6.62;48.4
+Columbina talpacoti;Columbidae;2000-12-16;M;A;16.7;9.2;1.71;1.35;0.46;0.66;3.47;6.14;56
+Columbina talpacoti;Columbidae;2000-12-17;M;A;-;-;-;-;-;-;-;-;44.7
+Columbina talpacoti;Columbidae;2000-12-18;M;J;16;8.5;1.65;1.24;0.5;0.6;3.27;6.55;42
+Columbina talpacoti;Columbidae;2000-12-18;M;A;17.1;8.6;1.72;1.32;0.41;0.59;3.34;6.63;48.2
+Columbina talpacoti;Columbidae;2000-12-18;M;J;15.8;8.9;1.62;1.26;0.47;0.59;3.17;7.04;41.2
+Columbina talpacoti;Columbidae;2000-12-18;F;A;14.2;7.5;1.59;1.13;0.41;0.58;3.02;5.53;28.3
+Columbina talpacoti;Columbidae;2001-01-09;M;A;17;8.9;1.75;1.38;0.5;0.59;3.23;6.54;50.7
+Columbina talpacoti;Columbidae;2001-01-09;M;A;17.5;9.2;1.77;1.23;0.46;0.67;3.48;6.97;46.8
+Columbina talpacoti;Columbidae;2001-01-09;M;A;16.7;8.8;1.61;1.18;0.48;0.6;3.23;6.27;47.3
+Columbina talpacoti;Columbidae;2001-01-29;M;A;18;9;1.9;1.91;0.4;0.7;3.39;6.89;50
+Columbina talpacoti;Columbidae;2001-01-29;M;A;17;8.9;1.9;1.27;0.42;0.64;3.39;6.82;47.7
+Columbina talpacoti;Columbidae;2001-01-29;M;J;17.1;8.9;1.65;1.33;0.46;0.51;3.26;6.59;49.7
+Columbina talpacoti;Columbidae;2001-01-29;F;A;17;8.8;1.47;1.22;0.5;0.63;3.23;6.83;48.2
+Columbina talpacoti;Columbidae;2001-01-30;M;J;16.7;8.7;1.59;1.28;0.39;0.51;3.22;6.5;45
+Columbina talpacoti;Columbidae;2001-03-20;M;A;16;8.6;1.65;1.29;0.49;0.59;3.22;6.77;44.7
+Columbina talpacoti;Columbidae;2001-08-11;F;A;16;9.2;1.65;1.25;0.43;0.46;3.3;6.62;46.7
+Columbina talpacoti;Columbidae;2001-08-19;M;A;-;-;-;-;-;-;-;-;47.4
+Columbina talpacoti;Columbidae;2001-10-13;F;I;-;-;-;-;-;-;-;-;48.7
+Columbina talpacoti;Columbidae;2001-10-13;F;A;-;-;-;-;-;-;-;-;43.9
+Columbina talpacoti;Columbidae;2001-10-13;M;A;16.5;9;1.73;1.2;0.56;0.53;3;6.44;41.4
+Columbina talpacoti;Columbidae;2001-10-13;M;A;17.5;9.3;1.23;1.35;0.24;0.6;3.68;7.67;49.3
+Columbina talpacoti;Columbidae;2001-10-13;F;A;-;-;-;-;-;-;-;-;42.3
+Columbina talpacoti;Columbidae;2001-10-13;M;A;-;-;-;-;-;-;-;-;40.8
+Columbina talpacoti;Columbidae;2001-10-13;M;I;-;-;-;-;-;-;-;-;50.9
+Columbina talpacoti;Columbidae;2001-10-13;M;A;-;-;-;-;-;-;-;-;49.4
+Columbina talpacoti;Columbidae;2001-10-14;F;A;-;-;-;-;-;-;-;-;43.7
+Columbina talpacoti;Columbidae;2001-11-13;M;A;-;-;-;-;-;-;-;-;43.4
+Columbina talpacoti;Columbidae;2001-11-13;M;A;-;-;-;-;-;-;-;-;51.5
+Columbina talpacoti;Columbidae;2001-11-13;M;A;16.1;-;-;-;-;-;-;-;40.5
+Columbina talpacoti;Columbidae;2001-11-13;F;A;13.6;-;-;-;-;-;-;-;54.5
+Columbina talpacoti;Columbidae;2001-11-13;F;A;-;-;-;-;-;-;-;-;56.4
+Columbina talpacoti;Columbidae;2001-11-18;M;A;-;-;-;-;-;-;-;-;55.4
+Columbina talpacoti;Columbidae;2001-11-18;M;A;-;-;-;-;-;-;-;-;51.4
+Columbina talpacoti;Columbidae;2001-11-18;I;A;-;-;-;-;-;-;-;-;52.4
+Columbina talpacoti;Columbidae;2001-11-18;M;A;-;-;-;-;-;-;-;-;47.9
+Columbina talpacoti;Columbidae;2001-11-18;M;A;-;-;-;-;-;-;-;-;48.4
+Columbina talpacoti;Columbidae;2001-12-10;M;A;-;-;-;-;-;-;-;-;50
+Columbina talpacoti;Columbidae;2001-12-11;F;A;-;-;-;-;-;-;-;-;45.4
+Columbina talpacoti;Columbidae;2001-12-11;M;A;-;-;-;-;-;-;-;-;46.4
+Columbina talpacoti;Columbidae;2001-12-11;F;A;-;-;-;-;-;-;-;-;46.4
+Columbina talpacoti;Columbidae;2001-12-11;M;A;-;-;-;-;-;-;-;-;61.4
+Columbina talpacoti;Columbidae;2001-12-11;M;A;-;-;-;-;-;-;-;-;46.6
+Columbina talpacoti;Columbidae;2001-12-11;I;A;-;-;-;-;-;-;-;-;64.4
+Columbina talpacoti;Columbidae;2001-12-11;M;A;-;-;-;-;-;-;-;-;51.5
+Columbina talpacoti;Columbidae;2002-02-06;F;A;-;-;-;-;-;-;-;-;47
+Columbina talpacoti;Columbidae;2002-03-16;F;A;-;-;-;-;-;-;-;-;43
+Columbina talpacoti;Columbidae;2002-03-16;M;A;-;-;-;-;-;-;-;-;53
+Columbina talpacoti;Columbidae;2002-03-16;F;A;-;-;-;-;-;-;-;-;48
+Columbina talpacoti;Columbidae;2002-03-17;M;A;-;-;-;-;-;-;-;-;41
+Columbina talpacoti;Columbidae;2002-03-19;M;A;-;-;-;-;-;-;-;-;45
+Columbina talpacoti;Columbidae;2002-03-19;M;A;-;-;-;-;-;-;-;-;46
+Columbina talpacoti;Columbidae;2002-03-19;M;A;-;-;-;-;-;-;-;-;45
+Columbina talpacoti;Columbidae;2002-04-20;M;A;-;-;-;-;-;-;-;-;49.5
+Columbina talpacoti;Columbidae;2002-05-29;I;A;17;8.8;1.49;1.3;0.49;0.71;3.4;7.15;49.7
+Columbina talpacoti;Columbidae;2002-05-30;M;A;16;8.6;1.74;1.18;0.5;0.49;3.17;7.94;49
+Columbina talpacoti;Columbidae;2002-06-16;M;A;16.7;8.8;1.5;1.24;0.48;0.57;3.31;6.8;44.5
+Columbina talpacoti;Columbidae;2002-06-16;F;A;15.5;8.4;1.73;1.33;0.51;0.54;3.26;6.77;47
+Columbina talpacoti;Columbidae;2002-06-16;M;A;17.5;8.79;1.57;1.29;0.47;0.73;3.28;6.6;45.6
+Columbina talpacoti;Columbidae;2002-07-11;I;A;-;-;-;-;-;-;-;-;41.3
+Columbina talpacoti;Columbidae;2002-11-28;F;I;-;-;-;-;-;-;-;-;43.5
+Columbina talpacoti;Columbidae;2002-11-28;M;A;16;9;2.18;1.45;0.48;0.68;3.3;6.61;48
+Columbina talpacoti;Columbidae;2002-11-28;F;A;17.5;8.9;1.91;1.28;0.66;0.76;3.21;7;41.5
+Columbina talpacoti;Columbidae;2002-11-28;M;I;-;-;-;-;-;-;-;-;45
+Columbina talpacoti;Columbidae;2002-11-28;M;A;17.5;9.5;1.79;1.29;0.47;0.38;3.2;6.2;54.5
+Columbina talpacoti;Columbidae;2002-11-28;F;I;17.5;-;-;-;-;-;-;-;47
+Columbina talpacoti;Columbidae;2002-11-28;I;I;15.5;8.5;-;1.22;0.44;-;-;-;43.5
+Columbina talpacoti;Columbidae;2002-11-28;I;I;-;-;-;-;-;-;-;-;47.5
+Columbina talpacoti;Columbidae;2002-11-28;I;I;-;-;-;-;-;-;-;-;43
+Columbina talpacoti;Columbidae;2002-11-28;I;I;15;-;-;-;-;-;-;-;39
+Columbina talpacoti;Columbidae;2002-11-28;I;I;17;-;-;-;-;-;-;-;45
+Columbina talpacoti;Columbidae;2002-11-28;F;A;16;9;1.87;1.47;0.54;0.41;3.38;5.93;45
+Columbina talpacoti;Columbidae;2002-11-28;F;A;16;8.9;1.9;1.33;0.55;0.4;3.22;6.7;46
+Columbina talpacoti;Columbidae;2002-11-28;F;A;17.3;8.7;2.4;1.26;0.52;0.56;3.27;7.65;51.5
+Columbina talpacoti;Columbidae;2002-11-28;I;I;16.5;-;-;-;-;-;-;-;44.5
+Columbina talpacoti;Columbidae;2002-11-29;F;A;-;-;-;-;-;-;-;-;61.6
+Columbina talpacoti;Columbidae;2005-11-19;F;A;-;-;-;-;-;-;-;-;36
+Columbina talpacoti;Columbidae;2005-11-19;M;A;-;-;-;-;-;-;-;-;46
+Columbina talpacoti;Columbidae;2005-11-19;M;A;-;-;-;-;-;-;-;-;43.7
+Columbina talpacoti;Columbidae;2005-11-19;M;A;-;-;-;-;-;-;-;-;45
+Columbina talpacoti;Columbidae;2005-11-19;M;A;-;-;-;-;-;-;-;-;53.1
+Columbina talpacoti;Columbidae;2006-12-06;I;A;16.9;9.2;1.82;1.32;0.5;0.57;3.41;6.44;-
+Columbina talpacoti;Columbidae;2006-12-20;I;A;17.7;8.9;1.61;1.3;0.48;0.54;3.36;6.09;40.8
+Columbina talpacoti;Columbidae;2006-12-20;F;A;16.9;-;-;-;-;-;-;-;44.3
+Columbina talpacoti;Columbidae;2007-03-31;F;A;16.2;8.7;1.4;1.55;0.64;0.59;3.43;5.89;36.4
+Coryphospingus pileatus;Thraupidae ;1999-02-12;M;A;-;7.4;-;1.45;0.65;-;-;6;14.5
+Coryphospingus pileatus;Thraupidae ;1999-10-23;F;A;13.3;6.8;1.96;1.22;0.67;0.89;2.99;6.04;15.5
+Coryphospingus pileatus;Thraupidae ;1999-10-23;M;A;13.5;6.6;1.91;1.33;0.69;0.78;2.85;6.22;15
+Coryphospingus pileatus;Thraupidae ;2000-02-27;M;A;13.1;6.2;2.36;1.15;0.88;0.89;3;5.64;16
+Coryphospingus pileatus;Thraupidae ;2000-03-19;F;A;13;6.2;1.89;1.22;0.72;0.73;2.93;5.78;15.5
+Coryphospingus pileatus;Thraupidae ;2000-03-19;M;A;14.3;6.2;2.15;1.3;0.62;0.68;3;5.45;16.2
+Coryphospingus pileatus;Thraupidae ;2001-03-20;M;A;12.8;6.5;1.89;1.18;0.63;0.75;2.87;6.03;15.4
+Coryphospingus pileatus;Thraupidae ;2001-03-20;M;A;13;6.3;1.93;1.26;0.67;0.86;2.89;5.99;16.7
+Coryphospingus pileatus;Thraupidae ;2001-03-20;F;A;12.8;5.9;2;1.31;0.68;0.77;2.92;5.76;15.2
+Coryphospingus pileatus;Thraupidae ;2001-03-20;M;A;13.6;6.3;1.99;1.24;0.66;1.78;2.99;6.25;18.2
+Coryphospingus pileatus;Thraupidae ;2001-03-20;F;A;-;-;-;-;-;-;-;-;14.5
+Coryphospingus pileatus;Thraupidae ;2001-03-20;M;A;13;6.5;1.98;1.34;0.66;1.79;3.03;5.98;17.2
+Coryphospingus pileatus;Thraupidae ;2001-03-21;I;J;13.3;6.3;2.04;1.23;0.66;0.9;2.96;6.26;13.9
+Coryphospingus pileatus;Thraupidae ;2001-08-18;I;A;13.5;6.4;1.95;1.29;0.67;0.72;3.01;5.71;14.2
+Coryphospingus pileatus;Thraupidae ;2001-10-13;F;A;12.7;6;2.68;1.6;0.56;0.81;2.1;5.78;17.3
+Coryphospingus pileatus;Thraupidae ;2001-11-13;M;A;13.03;-;-;-;-;-;-;-;14.9
+Coryphospingus pileatus;Thraupidae ;2002-01-21;I;A;13;6.1;2.02;1.28;0.68;0.93;2.99;6.24;24
+Coryphospingus pileatus;Thraupidae ;2002-02-06;F;A;13;6.3;1.98;1.28;0.72;0.87;2.94;6.08;16.6
+Coryphospingus pileatus;Thraupidae ;2002-03-17;M;A;13.1;6.21;1.9;1.13;0.67;0.69;2.85;6.2;16.5
+Coryphospingus pileatus;Thraupidae ;2004-10-16;F;A;13.2;6.02;1.96;1.15;0.73;0.88;3.01;5.94;18
+Coryphospingus pileatus;Thraupidae ;2004-10-16;M;A;13;6.5;1.9;1.11;0.65;0.83;-;5.9;16.5
+Crotophaga ani;Cuculidae;1999-03-06;I;I;-;13.6;3.43;2.54;1.6;-;-;15;-
+Crotophaga ani;Cuculidae;1999-03-06;I;I;30.5;14.3;3.74;2.2;1.59;-;-;15;-
+Crotophaga ani;Cuculidae;1999-03-06;I;I;-;14.6;4.04;3.26;2;-;-;17;-
+Crotophaga ani;Cuculidae;2000-08-20;I;A;30.6;14.9;4.03;3.18;2.32;1.69;5.04;18;-
+Crotophaga ani;Cuculidae;2000-10-21;I;A;30.5;14.5;3.96;3.14;1.9;1.6;4.84;17.5;90
+Cyclarhis gujanensis;Vireonidae;1999-10-23;I;A;16;7.4;2.9;1.99;0.8;1.23;3.44;6.4;25
+Cyclarhis gujanensis;Vireonidae;1999-10-24;I;A;14.3;7.4;2.36;1.35;1;1.31;3.84;6.45;26.5
+Cyclarhis gujanensis;Vireonidae;2000-02-04;I;A;16;7.6;2.39;1.65;1;1.27;3.91;6.42;-
+Cyclarhis gujanensis;Vireonidae;2000-10-21;I;A;15.5;7.5;2.33;1.66;1.04;1.27;3.72;6.77;34.7
+Cyclarhis gujanensis;Vireonidae;2001-03-20;I;A;16;7.5;2.45;1.86;1.03;1.22;3.77;6.73;29.7
+Cyclarhis gujanensis;Vireonidae;2001-11-18;I;A;-;-;-;-;-;-;-;-;30
+Cyclarhis gujanensis;Vireonidae;2006-12-21;I;A;-;-;2.36;1.88;0.95;0.94;-;6.53;-
+Dacnis cayana;Thraupidae ;1999-08-15;M;A;11.6;6.7;1.69;1.23;0.42;0.7;-;4.61;16
+Dacnis cayana;Thraupidae ;1999-08-15;M;A;12;6.8;1.69;1.24;0.39;0.77;-;4.45;17
+Dacnis cayana;Thraupidae ;1999-10-24;M;A;11.4;6.6;1.83;1.28;0.41;0.76;3.08;4;14
+Dacnis cayana;Thraupidae ;1999-10-24;M;A;11.6;7;1.7;1.29;0.53;0.72;3.25;4.48;15.5
+Dacnis cayana;Thraupidae ;2000-02-04;M;A;11.5;6.4;1.56;1.19;0.44;0.84;3.02;4.71;14.5
+Dacnis cayana;Thraupidae ;2000-03-12;F;A;11.3;6.5;1.8;1.28;0.49;0.91;3.08;4.69;15
+Dacnis cayana;Thraupidae ;2000-08-19;F;A;12;6.8;2.2;1.16;0.46;0.72;3.18;4.3;15.7
+Dacnis cayana;Thraupidae ;2000-12-16;F;A;11.6;6.6;1.76;1.49;0.52;0.87;3.12;4.66;16.4
+Dacnis cayana;Thraupidae ;2001-03-20;M;A;11.5;6.8;1.66;1.29;0.47;0.77;3.06;4.6;14
+Dacnis cayana;Thraupidae ;2001-09-08;F;A;12;6.7;1.76;1.4;0.5;0.83;3.05;4.58;15.3
+Dacnis cayana;Thraupidae ;2001-10-13;F;A;11.1;-;-;-;-;-;-;-;15
+Dacnis cayana;Thraupidae ;2001-10-13;M;A;12;6.7;1.23;1.67;1.23;2;2.98;4.8;14.3
+Dacnis cayana;Thraupidae ;2001-10-13;F;A;12;6.6;2.62;1.39;0.43;0.81;3.07;4.6;17.6
+Dacnis cayana;Thraupidae ;2001-10-13;F;A;-;-;-;-;-;-;-;-;16.3
+Dacnis cayana;Thraupidae ;2001-11-13;I;I;-;-;-;-;-;-;-;-;14.1
+Elaenia chilensis;Tyrannidae;2001-10-13;I;A;13.2;6.6;1.83;0.99;0.41;0.87;2.95;6.07;13.1
+Elaenia chiriquensis;Tyrannidae;1999-10-24;I;A;13.5;7.8;1.98;1.44;0.42;1.07;3.05;6.37;14
+Elaenia chiriquensis;Tyrannidae;1999-11-06;I;A;-;-;-;-;-;-;-;-;17
+Elaenia chiriquensis;Tyrannidae;1999-11-06;I;A;14;7.7;1.71;0.96;0.35;1.02;2.95;6.35;16
+Elaenia chiriquensis;Tyrannidae;2000-02-06;I;A;13.5;6.9;1.74;1.15;0.39;1.13;3.02;6.29;16
+Elaenia chiriquensis;Tyrannidae;2000-02-19;I;A;12.5;6.5;1.61;1.11;0.35;0.91;2.93;5.44;12.8
+Elaenia chiriquensis;Tyrannidae;2000-09-16;I;A;13.9;7.5;1.78;1.04;0.38;0.98;3.11;6.55;16.4
+Elaenia chiriquensis;Tyrannidae;2000-10-07;I;A;15;7.8;1.69;1.13;0.42;0.86;3.01;6.59;16.9
+Elaenia chiriquensis;Tyrannidae;2000-10-07;I;A;13.5;7.1;1.75;1.05;0.4;0.92;2.92;6.03;15.2
+Elaenia chiriquensis;Tyrannidae;2000-10-07;I;A;13.2;7;1.69;1;0.4;0.95;2.93;6.03;15.2
+Elaenia chiriquensis;Tyrannidae;2000-10-07;I;A;13;7.1;1.65;1.02;0.43;0.92;2.95;5.99;13.7
+Elaenia chiriquensis;Tyrannidae;2000-11-20;I;A;14;7.4;1.62;0.93;0.43;1.07;3.02;6.24;16.1
+Elaenia chiriquensis;Tyrannidae;2000-12-17;I;A;13.1;-;-;-;-;-;-;-;15.7
+Elaenia chiriquensis;Tyrannidae;2000-12-17;I;A;14.3;-;-;-;-;-;-;-;16
+Elaenia chiriquensis;Tyrannidae;2001-03-21;I;A;14;7.9;1.97;0.98;0.38;0.97;3.06;6.41;14.9
+Elaenia chiriquensis;Tyrannidae;2001-04-08;I;A;13.5;7.4;1.92;1.07;0.39;0.93;3.12;6.32;13.4
+Elaenia chiriquensis;Tyrannidae;2001-10-13;I;A;-;-;-;-;-;-;-;-;15.4
+Elaenia chiriquensis;Tyrannidae;2001-10-13;I;A;-;-;-;-;-;-;-;-;15.5
+Elaenia chiriquensis;Tyrannidae;2001-10-13;I;A;14;7.5;1.72;1;0.37;0.93;2.97;5.92;15.05
+Elaenia chiriquensis;Tyrannidae;2001-11-18;I;A;14;-;-;-;-;-;-;-;15
+Elaenia chiriquensis;Tyrannidae;2001-11-18;I;A;14;-;-;-;-;-;-;-;15
+Elaenia chiriquensis;Tyrannidae;2001-12-10;I;A;14;7.4;1.66;1.03;0.43;0.9;3.15;6.31;15.4
+Elaenia chiriquensis;Tyrannidae;2001-12-11;I;A;13;-;-;-;-;-;-;-;14
+Elaenia chiriquensis;Tyrannidae;2001-12-11;I;A;13.5;-;-;-;-;-;-;-;15.9
+Elaenia chiriquensis;Tyrannidae;2001-12-11;I;A;12.5;-;-;-;-;-;-;-;14.1
+Elaenia chiriquensis;Tyrannidae;2001-12-11;I;A;13;-;-;-;-;-;-;-;14.9
+Elaenia chiriquensis;Tyrannidae;2001-12-11;I;A;13.5;-;-;-;-;-;-;-;16.7
+Elaenia chiriquensis;Tyrannidae;2002-03-16;I;A;13;7.5;1.98;1.03;0.46;1.01;3.13;6.42;15
+Elaenia chiriquensis;Tyrannidae;2002-03-17;I;A;10;7.5;2.11;0.87;0.36;0.82;3.08;-;15
+Elaenia chiriquensis;Tyrannidae;2002-03-17;I;A;14.4;7.2;-;0.9;0.4;1;2.94;6.13;15
+Elaenia chiriquensis;Tyrannidae;2002-03-17;I;A;14.5;7.6;1.89;0.88;0.39;1;3.13;6.57;15.5
+Elaenia chiriquensis;Tyrannidae;2002-04-20;I;A;13.5;7.1;1.94;0.94;0.4;0.78;3.05;5.7;15.5
+Elaenia chiriquensis;Tyrannidae;2002-06-17;I;A;14.5;7.6;1.94;0.78;0.34;1;3.13;6.68;13.1
+Elaenia chiriquensis;Tyrannidae;2002-11-28;I;A;15.8;9;2.02;1.45;0.48;0.87;3.02;7.07;14.7
+Elaenia chiriquensis;Tyrannidae;2002-11-28;I;A;14.5;6.6;1.7;1.25;0.46;1.15;2.76;5.66;15.7
+Elaenia chiriquensis;Tyrannidae;2002-11-28;I;A;13.5;6.1;1.66;0.88;0.48;0.72;2.92;5.97;15
+Elaenia chiriquensis;Tyrannidae;2006-12-05;I;A;12.7;7.2;1.67;1.16;0.58;0.83;3.06;6.44;17.1
+Elaenia chiriquensis;Tyrannidae;2006-12-05;I;A;13;7.5;1.73;1.32;0.65;0.91;3.15;5.84;16.1
+Elaenia chiriquensis;Tyrannidae;2006-12-05;I;A;13.5;7.6;1.89;1.34;0.58;0.84;3.02;6.99;17.3
+Elaenia chiriquensis;Tyrannidae;2006-12-06;I;J;13.5;6.9;1.78;1.14;0.59;0.94;3.03;5.89;15.1
+Elaenia chiriquensis;Tyrannidae;2006-12-09;I;I;13.3;6.8;1.72;1.24;0.46;0.69;3.02;5.27;13.3
+Elaenia chiriquensis;Tyrannidae;2006-12-21;I;A;13.4;7.2;1.67;1.22;0.44;0.91;3.02;6.64;17.3
+Elaenia cristata;Tyrannidae;1999-05-01;I;A;15.5;7;1.93;1.43;0.45;-;-;6.3;19.5
+Elaenia cristata;Tyrannidae;1999-05-01;I;A;15.2;-;-;1.21;0.41;-;-;6.56;18
+Elaenia cristata;Tyrannidae;1999-05-01;I;I;13.6;7.2;2.96;1.25;0.45;-;-;6.13;20.5
+Elaenia cristata;Tyrannidae;1999-05-01;I;A;14.5;-;-;1.18;0.49;-;-;5.89;-
+Elaenia cristata;Tyrannidae;1999-05-01;I;A;13;6.7;2.03;1.12;0.43;-;-;5.72;18
+Elaenia cristata;Tyrannidae;1999-05-01;I;A;14.7;7.1;2.25;1.11;0.44;-;-;6.23;18
+Elaenia cristata;Tyrannidae;1999-10-24;I;A;14.3;7.3;2;1.11;0.44;1.14;3.18;6.65;18
+Elaenia cristata;Tyrannidae;2000-02-19;I;A;14;6.8;1.87;1.19;0.45;1.21;3.19;5.95;17.9
+Elaenia cristata;Tyrannidae;2000-03-18;I;A;14;6.9;2.72;1.15;0.47;0.96;3.28;6.62;18.2
+Elaenia cristata;Tyrannidae;2000-10-07;I;A;13.1;6.8;1.89;1.16;0.49;1.03;3.16;6.7;17.8
+Elaenia cristata;Tyrannidae;2000-10-07;I;A;14.5;7.2;1.91;1.16;0.47;1.07;3.18;6.57;20.7
+Elaenia cristata;Tyrannidae;2000-10-08;I;A;14.1;7.5;1.77;1.12;0.46;1.11;3.2;6.77;20
+Elaenia cristata;Tyrannidae;2000-10-21;I;A;14;6.8;2.08;1.4;0.38;1.11;3.16;6.48;17
+Elaenia cristata;Tyrannidae;2000-10-22;I;A;14.7;7.7;2.08;1.04;0.49;0.91;3.31;6.58;21
+Elaenia cristata;Tyrannidae;2000-12-13;I;A;14;7;1.92;1.23;0.47;1.07;3.19;6.26;18.2
+Elaenia cristata;Tyrannidae;2001-01-09;I;A;14.5;7.4;2.02;1.22;0.38;1.29;3.2;6.29;18.8
+Elaenia cristata;Tyrannidae;2001-01-29;I;A;14.2;7;1.93;1.33;0.43;1.07;3.13;6.73;17
+Elaenia cristata;Tyrannidae;2001-01-29;I;A;15;7.8;1.98;1.25;0.49;1.28;3.22;6.9;23
+Elaenia cristata;Tyrannidae;2001-03-06;I;A;13.8;6.9;1.81;1.15;0.42;1.18;3.11;6.21;16.8
+Elaenia cristata;Tyrannidae;2001-07-12;I;A;14.5;7.3;2.09;1.05;0.41;1.13;3.23;5.66;20
+Elaenia cristata;Tyrannidae;2001-07-17;I;A;14;7.2;2;1.04;0.4;0.95;3.16;6.52;19
+Elaenia cristata;Tyrannidae;2001-08-11;I;A;14.5;7.1;2.7;1.5;0.4;1.75;3.29;6.37;16.7
+Elaenia cristata;Tyrannidae;2001-08-12;I;A;14.5;7;2.04;1.5;0.38;1.22;3.15;2.57;18.4
+Elaenia cristata;Tyrannidae;2001-08-18;I;A;13.5;6.8;1.92;1.05;0.45;1.03;3.12;5.98;17.9
+Elaenia cristata;Tyrannidae;2001-08-18;I;A;14.5;7.5;1.98;1.1;0.45;1.03;3.06;6.48;19.6
+Elaenia cristata;Tyrannidae;2001-11-13;I;A;15.5;8.2;1.92;1.18;0.42;0.9;3.14;6.53;22.4
+Elaenia cristata;Tyrannidae;2001-12-11;I;A;-;-;-;-;-;-;-;-;14.7
+Elaenia cristata;Tyrannidae;2002-01-21;I;A;15;7.42;2.1;0.98;0.44;1.23;3.14;6.64;21.4
+Elaenia cristata;Tyrannidae;2002-02-05;I;A;14;6.46;1.85;1.05;0.45;1.03;3.2;6.23;16
+Elaenia cristata;Tyrannidae;2002-05-29;I;A;15;7.5;2;1.09;0.42;1;3.07;6.93;17.6
+Elaenia cristata;Tyrannidae;2002-05-30;I;A;14.5;6.7;1.13;1.26;0.44;0.71;3.08;6.13;15.2
+Elaenia cristata;Tyrannidae;2002-11-28;I;I;14;-;-;-;-;-;-;-;19
+Elaenia cristata;Tyrannidae;2004-10-16;I;A;-;7.7;2.31;1.5;0.51;1.28;3.15;7.09;30
+Elaenia cristata;Tyrannidae;2005-11-19;I;A;-;-;-;-;-;-;-;-;24
+Elaenia cristata;Tyrannidae;2006-12-06;I;A;14;7.3;1.91;1.16;0.41;0.99;3.19;7.09;17.6
+Elaenia cristata;Tyrannidae;2006-12-06;I;J;14;7.1;2.01;1.26;0.59;0.71;2.93;7.1;20
+Elaenia cristata;Tyrannidae;2006-12-06;I;J;14.6;8;1.91;1.24;0.55;0.96;3.22;7.55;21.1
+Elaenia cristata;Tyrannidae;2006-12-09;I;J;13.3;6.9;1.85;1.22;0.53;0.94;2.95;6.04;17.8
+Elaenia cristata;Tyrannidae;2006-12-09;I;A;-;-;1.88;1.19;0.41;0.89;3.01;-;-
+Elaenia cristata;Tyrannidae;2006-12-10;I;I;13.7;7.1;1.96;1.17;0.48;0.87;3.11;6.66;19.7
+Elaenia cristata;Tyrannidae;2006-12-10;I;J;14;7.7;1.99;0.96;0.43;0.77;3.11;6.93;23.3
+Elaenia cristata;Tyrannidae;2006-12-10;I;I;13.5;7.1;1.95;1.22;0.42;1.01;3.34;6.44;22.2
+Elaenia cristata;Tyrannidae;2006-12-20;I;J;-;-;-;1.35;-;-;3.39;-;-
+Elaenia cristata;Tyrannidae;2006-12-20;I;J;13.5;9.5;2.1;1.18;0.47;0.91;3.01;6633;19.2
+Elaenia cristata;Tyrannidae;2006-12-20;I;A;13.5;7.6;1.99;1.07;0.46;0.97;3.05;6.51;18.8
+Elaenia cristata;Tyrannidae;2006-12-20;I;A;13.7;6.9;1.87;1.12;0.48;1.15;3.19;6.61;-
+Elaenia cristata;Tyrannidae;2006-12-21;I;A;14.4;7.3;2.01;0.99;0.59;0.97;3.29;6.84;-
+Elaenia cristata;Tyrannidae;2009-10-24;I;A;14.8;8;2.94;1.84;0.56;1.16;3.18;6.81;23
+Elaenia flavogaster;Tyrannidae;1999-02-12;I;A;15.5;-;1.96;1.43;0.57;1.1;-;7.42;22.5
+Elaenia flavogaster;Tyrannidae;1999-02-12;I;A;-;7.8;-;1.05;0.4;-;-;-;19.5
+Elaenia flavogaster;Tyrannidae;1999-02-12;I;A;15.6;-;-;1.11;0.4;1.05;-;6.9;19
+Elaenia flavogaster;Tyrannidae;1999-02-12;I;A;-;-;-;1.38;0.43;-;-;6.5;-
+Elaenia flavogaster;Tyrannidae;1999-02-12;I;A;16;8;-;1.12;0.41;1.15;-;7.31;26
+Elaenia flavogaster;Tyrannidae;1999-03-23;I;A;15.8;8.3;2.13;1.19;0.4;-;-;6.85;24
+Elaenia flavogaster;Tyrannidae;1999-03-23;I;A;15.8;7.8;1.94;1.06;0.41;-;-;7.02;22
+Elaenia flavogaster;Tyrannidae;1999-08-14;I;A;15.5;8.2;1.91;0.99;0.46;0.92;-;7.52;22.5
+Elaenia flavogaster;Tyrannidae;1999-08-14;I;A;15.6;8;2.09;1.03;0.43;1.1;-;7.2;23
+Elaenia flavogaster;Tyrannidae;1999-08-14;I;A;15;8.1;2.11;1.01;0.4;1.13;-;7.2;25
+Elaenia flavogaster;Tyrannidae;1999-08-28;I;A;15.2;8.3;2.1;1;0.39;0.96;3.11;7.56;24.5
+Elaenia flavogaster;Tyrannidae;1999-08-28;I;A;13.6;8;2.03;1.08;0.41;0.97;3.08;6.2;22.5
+Elaenia flavogaster;Tyrannidae;1999-08-28;I;A;15.5;7.9;2;1.14;0.5;0.8;3.16;6.6;24.5
+Elaenia flavogaster;Tyrannidae;1999-08-28;I;A;16;8.2;2.16;1.12;0.49;1.23;3.18;7.53;24
+Elaenia flavogaster;Tyrannidae;1999-08-28;I;A;16;8.4;2.2;1.06;0.42;1.03;3.17;7.49;28
+Elaenia flavogaster;Tyrannidae;1999-08-28;I;A;16.1;8.5;2.14;1.14;0.46;1.07;3.32;7.32;24
+Elaenia flavogaster;Tyrannidae;1999-08-28;I;A;14.5;7.9;2;1.24;0.49;1.16;3.3;7;23
+Elaenia flavogaster;Tyrannidae;1999-08-29;I;A;14.7;8.2;2.2;1.12;0.48;0.97;3.14;6.96;25
+Elaenia flavogaster;Tyrannidae;1999-09-18;I;A;15.6;8.3;1.92;1.29;0.41;0.98;3.09;7.13;25
+Elaenia flavogaster;Tyrannidae;1999-09-19;I;A;15;8;2.11;1.02;0.43;1.06;3.21;6.68;21.5
+Elaenia flavogaster;Tyrannidae;1999-09-19;I;A;15.6;8.3;2.04;1.15;0.43;1.09;3.36;7.09;24
+Elaenia flavogaster;Tyrannidae;1999-09-19;I;A;14.5;7.6;2;1.19;0.46;1.03;3.31;7.19;20.5
+Elaenia flavogaster;Tyrannidae;1999-09-19;I;A;15;8;1.98;1.31;0.45;1;3.13;6.97;24
+Elaenia flavogaster;Tyrannidae;1999-09-25;I;A;15.5;7.9;2.22;1.33;0.43;1.32;3.23;7.09;27
+Elaenia flavogaster;Tyrannidae;1999-09-25;I;A;16.7;8.6;2.09;0.9;0.5;1;3.27;7.82;23.5
+Elaenia flavogaster;Tyrannidae;1999-09-25;I;A;15.6;8;2.06;1.18;0.44;1.3;3.21;7.55;22
+Elaenia flavogaster;Tyrannidae;1999-09-26;I;A;15.1;7.8;2.03;0.98;0.42;0.99;3.19;6.94;28.5
+Elaenia flavogaster;Tyrannidae;1999-09-26;I;A;16.5;7.9;2.53;1.47;0.47;1.26;3.34;7.09;26
+Elaenia flavogaster;Tyrannidae;1999-09-26;I;A;16;7.9;2.29;1.42;0.43;1.15;3.08;7.24;21
+Elaenia flavogaster;Tyrannidae;1999-09-26;I;A;16;8.4;2.14;1.4;0.59;1.45;3.21;7.65;24
+Elaenia flavogaster;Tyrannidae;1999-10-23;I;A;14.6;7.7;1.73;0.93;0.39;0.93;2.98;6.69;16
+Elaenia flavogaster;Tyrannidae;1999-10-23;I;A;14.7;7.8;2;1.03;0.48;1.08;3.08;6.76;20.5
+Elaenia flavogaster;Tyrannidae;1999-10-23;I;A;15;7.9;2.07;1.36;0.43;0.89;3.27;7.18;22.5
+Elaenia flavogaster;Tyrannidae;1999-10-23;I;A;19;8.5;1.91;1.58;0.49;0.91;3.45;7.7;27
+Elaenia flavogaster;Tyrannidae;1999-10-23;I;A;16.5;7.7;1.92;1.15;0.42;0.75;3.11;6.53;25
+Elaenia flavogaster;Tyrannidae;1999-10-23;I;A;14.8;7.6;1.97;1.01;0.41;1.08;3.17;6.3;24.5
+Elaenia flavogaster;Tyrannidae;1999-10-23;I;I;-;-;-;-;-;-;-;-;22
+Elaenia flavogaster;Tyrannidae;1999-10-24;I;A;17;8;2.53;1.42;0.49;1.2;3.26;7.32;24
+Elaenia flavogaster;Tyrannidae;2000-02-04;I;A;15;7.7;2;1.23;0.44;1.04;3.08;7.24;22.5
+Elaenia flavogaster;Tyrannidae;2000-02-04;I;A;14.8;7.3;1.92;1;0.45;1.12;3.14;5.8;22
+Elaenia flavogaster;Tyrannidae;2000-02-04;I;A;15.5;8.2;2.12;1.24;0.5;1.08;3.25;7.23;25
+Elaenia flavogaster;Tyrannidae;2000-02-06;I;A;16;7.7;2.03;1.07;0.42;1.14;3.25;7.12;23
+Elaenia flavogaster;Tyrannidae;2000-08-04;I;A;15.6;8.4;2.09;1.18;0.47;1.24;3.36;7.95;24.7
+Elaenia flavogaster;Tyrannidae;2000-08-05;I;A;15.3;8;1.98;1.13;0.55;1;3.09;6.95;23.7
+Elaenia flavogaster;Tyrannidae;2000-08-05;I;A;15.6;8;2;1;0.42;1.09;3.16;7.16;24.5
+Elaenia flavogaster;Tyrannidae;2000-08-05;I;A;14.9;8.2;2.15;1.05;0.45;1.11;3.29;6.97;23.6
+Elaenia flavogaster;Tyrannidae;2000-08-05;I;A;14.2;7.5;2.07;1.11;0.43;1;3.05;6.54;23.2
+Elaenia flavogaster;Tyrannidae;2000-08-05;I;A;16.1;8.3;1.99;1.05;0.48;1.24;3.27;7.45;25.1
+Elaenia flavogaster;Tyrannidae;2000-08-19;I;A;15;5.9;2.31;0.91;0.44;0.96;3.2;7.09;24.7
+Elaenia flavogaster;Tyrannidae;2000-08-19;I;A;15.1;8.1;2.06;1.4;0.51;0.84;2.86;7.32;26.2
+Elaenia flavogaster;Tyrannidae;2000-08-19;I;A;14.7;7.6;2.2;0.93;0.45;1.05;3.07;6.62;22.7
+Elaenia flavogaster;Tyrannidae;2000-08-19;I;A;15.2;8.3;2.39;1.03;0.51;0.93;2.94;7.29;22.2
+Elaenia flavogaster;Tyrannidae;2000-08-19;I;A;14.9;8;2.12;1.14;0.46;0.87;2.99;6.85;23.2
+Elaenia flavogaster;Tyrannidae;2000-08-19;I;A;15.5;8.3;2.17;1.09;0.47;0.88;2.92;8.1;26
+Elaenia flavogaster;Tyrannidae;2000-08-19;I;A;15.4;8.2;2.16;1.13;0.35;0.42;3.04;6.94;24.2
+Elaenia flavogaster;Tyrannidae;2000-08-19;I;A;14.6;8.1;2.08;1.16;0.5;1.09;3.17;7.48;23.7
+Elaenia flavogaster;Tyrannidae;2000-08-19;I;A;15;8.45;2.39;1.02;0.45;1.2;3.2;6.4;24.7
+Elaenia flavogaster;Tyrannidae;2000-08-19;I;A;15.4;8.3;2.05;1.23;0.49;1.22;3.34;7.05;21
+Elaenia flavogaster;Tyrannidae;2000-08-19;I;A;16.7;8.4;2.5;0.96;0.49;0.98;3.22;6.94;-
+Elaenia flavogaster;Tyrannidae;2000-08-19;I;A;14.8;7.6;1.91;1.01;0.4;0.85;2.74;7.51;22.8
+Elaenia flavogaster;Tyrannidae;2000-08-19;I;A;15.2;8.2;2.36;1.09;0.46;1.08;3.14;6.99;23.4
+Elaenia flavogaster;Tyrannidae;2000-08-20;I;A;15.3;8.1;2.1;0.96;0.45;1.12;3.13;7.41;23.5
+Elaenia flavogaster;Tyrannidae;2000-08-20;I;A;15;8.1;2.04;1.16;0.71;0.99;3.16;7;24.7
+Elaenia flavogaster;Tyrannidae;2000-08-20;I;A;15.5;8;2.02;1.1;0.4;1.21;3.23;7.31;24.6
+Elaenia flavogaster;Tyrannidae;2000-08-20;I;A;15;7.8;2.06;1.05;0.47;1.21;3.21;6.95;21.7
+Elaenia flavogaster;Tyrannidae;2000-08-20;I;A;15;8.1;2.01;1.13;0.48;0.97;3.02;7.11;24.2
+Elaenia flavogaster;Tyrannidae;2000-09-17;I;A;15;8;1.94;1.15;0.48;1.17;3.2;6.9;23.3
+Elaenia flavogaster;Tyrannidae;2000-10-21;I;A;15.7;8.3;2.17;0.97;0.43;0.85;2.97;6.77;24.2
+Elaenia flavogaster;Tyrannidae;2001-01-09;I;A;14.9;8;2.02;1.16;0.46;1.18;3.21;7.02;23.2
+Elaenia flavogaster;Tyrannidae;2001-01-09;I;A;15.1;8.1;2.05;1.13;0.47;1.22;3.19;7.14;25.4
+Elaenia flavogaster;Tyrannidae;2001-01-09;I;A;15.2;7.9;1.98;1.14;0.49;1.12;3.19;6.47;24.2
+Elaenia flavogaster;Tyrannidae;2001-01-29;I;A;15.9;8.3;2.08;1.19;0.52;1.19;3.25;7.41;23.7
+Elaenia flavogaster;Tyrannidae;2001-01-29;I;A;15;8.2;2.01;1.18;0.45;1.16;3.17;7.19;23.7
+Elaenia flavogaster;Tyrannidae;2001-01-29;I;A;15.1;8.1;2.27;1.2;0.46;1.06;3.31;6.86;25.7
+Elaenia flavogaster;Tyrannidae;2001-01-30;I;A;14.5;7.6;1.96;1.14;0.42;1.16;3.06;6.64;20.9
+Elaenia flavogaster;Tyrannidae;2001-01-30;I;A;15;7.9;2.06;1.13;0.43;1.02;3.12;6.86;24.2
+Elaenia flavogaster;Tyrannidae;2001-03-06;I;A;14.6;7.8;1.94;1.07;0.45;1.19;3.13;6.44;21.2
+Elaenia flavogaster;Tyrannidae;2001-03-06;I;A;-;-;-;-;-;-;-;-;23.9
+Elaenia flavogaster;Tyrannidae;2001-03-06;I;A;15;-;-;-;-;-;-;-;22.2
+Elaenia flavogaster;Tyrannidae;2001-03-20;I;A;16;8.5;2.11;1.1;0.41;0.96;3.19;7.77;25
+Elaenia flavogaster;Tyrannidae;2001-04-08;I;A;16.3;8.5;2.2;1.08;0.49;1.14;3.26;7.57;19.4
+Elaenia flavogaster;Tyrannidae;2001-07-11;I;A;15.5;7.7;2.65;0.96;0.4;0.98;3.12;6.57;23
+Elaenia flavogaster;Tyrannidae;2001-08-11;I;A;14.5;7.5;2.12;1.38;0.5;1.52;3.34;7.06;20.2
+Elaenia flavogaster;Tyrannidae;2001-08-11;I;A;15;8;2.06;1.07;0.46;0.67;3.1;6.58;21.9
+Elaenia flavogaster;Tyrannidae;2001-08-11;I;A;14.08;8;2.29;1.44;0.44;1.07;3.21;6.61;21.4
+Elaenia flavogaster;Tyrannidae;2001-08-12;I;A;16;8;2.04;-;0.41;1.04;3.22;6.8;21.7
+Elaenia flavogaster;Tyrannidae;2001-08-18;I;A;14.5;7.7;1.9;1.11;0.46;0.82;2.81;6.55;14.9
+Elaenia flavogaster;Tyrannidae;2001-08-18;I;A;15.3;7.7;2;1.18;0.37;0.92;3.02;5.8;22
+Elaenia flavogaster;Tyrannidae;2001-09-08;I;A;13.8;7.2;2.32;1.05;0.39;1.05;2.95;6.21;21.5
+Elaenia flavogaster;Tyrannidae;2001-09-08;I;A;15;7.8;2.1;1.01;0.48;0.9;3.35;6.09;23.4
+Elaenia flavogaster;Tyrannidae;2001-09-09;I;A;14.2;7.5;2.08;1;0.49;0.83;2.87;5.89;15
+Elaenia flavogaster;Tyrannidae;2001-09-09;I;A;-;7.9;2.1;0.95;0.39;1.04;3.15;6.67;17
+Elaenia flavogaster;Tyrannidae;2001-09-09;I;A;14.2;7.4;2.15;1.02;0.37;1.11;3.12;6.19;14
+Elaenia flavogaster;Tyrannidae;2001-10-13;I;A;14.9;-;2.06;0.98;0.46;1.02;3.08;7.1;21.7
+Elaenia flavogaster;Tyrannidae;2001-10-13;I;A;15;8;1.99;1.06;0.45;1.11;3.08;6.51;24.5
+Elaenia flavogaster;Tyrannidae;2001-10-13;I;A;-;-;-;-;-;-;-;-;23.1
+Elaenia flavogaster;Tyrannidae;2001-10-13;I;A;-;-;-;-;-;-;-;-;23.3
+Elaenia flavogaster;Tyrannidae;2001-11-13;I;A;16;-;-;-;-;-;-;-;25.9
+Elaenia flavogaster;Tyrannidae;2001-12-11;I;A;14.5;-;-;-;-;-;-;-;21.4
+Elaenia flavogaster;Tyrannidae;2001-12-11;I;A;15;-;-;-;-;-;-;-;22.4
+Elaenia flavogaster;Tyrannidae;2002-01-21;I;A;-;-;-;-;-;-;-;-;24.6
+Elaenia flavogaster;Tyrannidae;2002-01-21;I;A;16.7;7.89;2.16;0.95;0.45;1.13;3.24;7.23;26.5
+Elaenia flavogaster;Tyrannidae;2002-02-06;I;A;15.3;7.4;2;1.21;0.44;1.23;3.17;6.84;23
+Elaenia flavogaster;Tyrannidae;2002-03-16;I;A;15;7.27;2.42;0.94;0.45;1.21;3.27;6.42;24
+Elaenia flavogaster;Tyrannidae;2002-05-31;I;A;-;-;-;-;-;-;-;-;21.5
+Elaenia flavogaster;Tyrannidae;2002-07-11;I;A;-;-;1.89;0.97;0.38;0.78;3;6.6;-
+Elaenia flavogaster;Tyrannidae;2002-07-11;I;A;15.5;-;-;-;-;-;-;-;22
+Elaenia flavogaster;Tyrannidae;2002-07-11;I;A;15;8.3;2;1.09;0.45;0.9;3.2;7.56;25
+Elaenia flavogaster;Tyrannidae;2002-11-28;I;A;15;8.4;2.42;1.64;0.43;0.8;3.19;7.08;24
+Elaenia flavogaster;Tyrannidae;2004-10-16;I;A;15;8.2;2.17;1.14;0.42;0.77;3.14;6.78;24
+Elaenia flavogaster;Tyrannidae;2004-10-16;I;A;15.1;8.3;1.93;1.27;0.63;1.12;3;6.78;22.75
+Elaenia flavogaster;Tyrannidae;2005-02-26;I;A;-;-;-;-;-;-;-;-;24.9
+Elaenia flavogaster;Tyrannidae;2005-02-26;I;A;15.7;-;-;-;-;-;-;-;23.9
+Elaenia flavogaster;Tyrannidae;2005-11-19;I;A;-;-;-;-;-;-;-;-;23
+Elaenia flavogaster;Tyrannidae;2005-11-19;I;A;-;-;-;-;-;-;-;-;24.1
+Elaenia flavogaster;Tyrannidae;2006-12-05;I;A;15.9;7.6;2.29;1.29;0.59;0.98;3.16;7.39;22.5
+Elaenia flavogaster;Tyrannidae;2006-12-05;I;J;16;8.5;2.45;1.42;1.8;1.15;3.31;7.63;26.1
+Elaenia flavogaster;Tyrannidae;2006-12-06;I;A;-;-;-;-;-;-;-;-;24
+Elaenia flavogaster;Tyrannidae;2006-12-06;I;J;15.4;8.3;-;1.29;0.51;-;-;7.21;23.7
+Elaenia flavogaster;Tyrannidae;2006-12-21;I;A;15;8.2;2.04;1.11;0.54;0.89;2.96;7.91;24
+Elaenia flavogaster;Tyrannidae;2007-03-31;I;A;16.5;8;1.98;1.4;0.44;0.68;-;-;-
+Elaenia flavogaster;Tyrannidae;2007-03-31;I;A;14.9;7.4;2.15;1.44;0.55;0.72;3.22;6.43;21.7
+Elaenia flavogaster;Tyrannidae;2009-10-24;I;A;15.3;8;2.06;1.42;0.43;0.87;3.36;6.63;-
+Elaenia flavogaster;Tyrannidae;2009-10-24;I;A;15.8;8;2.17;1.47;1.5;1.06;3.51;6.71;23.7
+Elaenia mesoleuca;Tyrannidae;1999-05-01;I;A;14.5;7.1;1.75;1.02;0.41;-;-;5.73;14
+Elaenia mesoleuca;Tyrannidae;2001-10-16;I;A;14;7.5;1.78;0.98;0.38;1.07;2.95;6.26;15.8
+Elaenia mesoleuca;Tyrannidae;2001-12-11;I;A;13.5;-;-;-;-;-;-;-;16.1
+Elaenia mesoleuca;Tyrannidae;2009-10-24;I;A;15;7.5;1.81;1.41;0.64;1.37;3;6.17;15.6
+Elaenia mesoleuca;Tyrannidae;2009-10-24;I;A;15.7;7.5;1.7;1.13;0.36;1.04;3.08;6.8;13.5
+Elaenia mesoleuca;Tyrannidae;2009-10-24;I;A;14.5;7.5;1.83;1.21;0.42;0.88;3.12;6.46;16.4
+Elaenia obscura;Tyrannidae;1999-02-12;I;I;-;8.1;-;1.65;0.4;-;-;7.2;23
+Elaenia obscura;Tyrannidae;1999-03-07;I;A;16.8;8.1;1.94;1.24;0.44;-;-;7.22;23
+Elaenia obscura;Tyrannidae;1999-09-26;I;A;17;8.6;2.23;1.3;0.46;0.99;3.28;8.51;-
+Elaenia obscura;Tyrannidae;1999-10-23;I;A;18;9.2;2.19;1.19;0.43;0.8;3.67;8.29;29
+Elaenia obscura;Tyrannidae;2000-10-08;I;A;17.5;9.3;2.23;1.23;0.48;1.04;3.39;8.82;32.7
+Elaenia obscura;Tyrannidae;2002-07-11;I;A;17;8.5;2.3;1.7;0.34;0.97;3.19;8.5;29.5
+Elaenia obscura;Tyrannidae;2002-07-11;I;A;-;9.4;2.23;1.13;0.43;1.08;3.41;-;27.2
+Elaenia obscura;Tyrannidae;2002-11-28;I;J;17;8.4;1.76;1.15;0.52;1.19;3.38;14;26.6
+Elaenia obscura;Tyrannidae;2002-11-28;I;A;16.6;8.5;2.29;1.49;0.66;0.76;3.5;7.53;27.2
+Elaenia obscura;Tyrannidae;2004-10-16;I;A;17.2;8.8;2.32;1.25;0.54;1.3;3.48;8.11;28
+Elaenia obscura;Tyrannidae;2004-10-16;I;A;17.5;8.8;2.22;1.13;0.51;1.22;3.2;9.5;30
+Elaenia obscura;Tyrannidae;2005-11-19;I;A;-;-;-;-;-;-;-;-;26
+Elaenia parvirostris;Tyrannidae;2001-11-13;I;I;-;-;-;-;-;-;-;-;21.4
+Elaenia parvirostris;Tyrannidae;2001-11-13;I;A;14.5;-;-;-;-;-;-;-;17.7
+Elaenia parvirostris;Tyrannidae;2002-04-21;I;A;14;6.6;1.96;0.89;0.45;1.05;3.03;5.9;14
+Elaenia parvirostris;Tyrannidae;2006-05-06;I;I;10.5;6.9;1.89;1.17;0.4;1.03;3.03;-;15.4
+Elaenia spectabilis;Tyrannidae;2000-10-08;I;A;16.5;8.3;1.93;1.18;0.48;1.14;3.28;7.99;24.5
+Eupetomena macroura;Trochilidae;1999-08-29;I;I;15;-;-;-;-;-;-;-;-
+Eupetomena macroura;Trochilidae;1999-11-20;M;A;15;6.7;-;2.33;-;-;3.71;7.32;7
+Eupetomena macroura;Trochilidae;2000-10-08;I;A;15.3;7.4;-;2.16;-;-;3.85;8.3;8.7
+Eupetomena macroura;Trochilidae;2000-10-08;I;A;13.5;7.1;-;2.21;-;-;3.82;6.76;7.2
+Eupetomena macroura;Trochilidae;2000-10-21;I;A;12.7;6.6;-;2.26;-;-;3.72;6.8;6.4
+Eupetomena macroura;Trochilidae;2000-10-21;I;A;-;6.6;-;2.58;-;-;4.01;7.24;7.5
+Eupetomena macroura;Trochilidae;2000-10-21;I;A;14;6.9;-;2.51;0.31;1.15;2.16;7.33;7.4
+Eupetomena macroura;Trochilidae;2000-10-21;I;A;15.8;7.1;-;2.03;-;-;3.85;8.41;9.6
+Eupetomena macroura;Trochilidae;2001-01-30;I;A;16.1;7.7;-;2.07;0.28;-;3.81;9.18;8.4
+Eupetomena macroura;Trochilidae;2001-01-30;I;A;15.4;7.7;-;2.11;-;-;3.75;8.38;8.7
+Eupetomena macroura;Trochilidae;2001-08-12;I;A;-;-;-;-;-;-;-;-;9
+Eupetomena macroura;Trochilidae;2001-08-18;M;A;-;-;-;-;-;-;-;-;8.4
+Eupetomena macroura;Trochilidae;2001-12-11;I;A;-;-;-;-;-;-;-;-;13.1
+Eupetomena macroura;Trochilidae;2001-12-11;I;A;-;-;-;-;-;-;-;-;8.6
+Eupetomena macroura;Trochilidae;2002-02-05;I;A;-;-;-;-;-;-;-;-;8.5
+Eupetomena macroura;Trochilidae;2002-04-20;M;A;-;-;-;-;-;-;-;-;8.5
+Eupetomena macroura;Trochilidae;2002-06-16;M;A;-;-;-;-;-;-;-;-;9.1
+Eupetomena macroura;Trochilidae;2002-06-16;M;A;-;-;-;2.5;-;-;3.91;-;8
+Eupetomena macroura;Trochilidae;2002-06-16;M;A;-;-;-;-;-;-;-;-;6.9
+Eupetomena macroura;Trochilidae;2002-06-17;M;A;-;-;-;-;-;-;-;-;8.1
+Eupetomena macroura;Trochilidae;2002-06-17;I;A;-;-;-;-;-;-;-;-;8.1
+Eupetomena macroura;Trochilidae;2002-06-18;I;A;-;-;-;-;-;-;-;-;8
+Eupetomena macroura;Trochilidae;2002-07-11;I;A;-;-;-;-;-;-;-;-;9
+Eupetomena macroura;Trochilidae;2002-07-11;I;J;-;-;-;-;-;-;-;-;8
+Eupetomena macroura;Trochilidae;2002-07-11;F;A;-;-;-;-;-;-;-;-;6.2
+Eupetomena macroura;Trochilidae;2002-07-12;I;A;-;-;-;-;-;-;-;-;9
+Eupetomena macroura;Trochilidae;2002-07-12;F;A;-;-;-;-;-;-;-;-;7
+Eupetomena macroura;Trochilidae;2002-07-12;F;A;-;-;-;-;-;-;-;-;8.8
+Eupetomena macroura;Trochilidae;2002-07-14;F;A;-;-;-;-;-;-;-;-;6.1
+Eupetomena macroura;Trochilidae;2002-07-14;F;A;-;-;-;-;-;-;-;-;7.8
+Eupetomena macroura;Trochilidae;2002-07-14;F;J;-;-;-;-;-;-;-;-;7
+Eupetomena macroura;Trochilidae;2002-11-28;I;I;-;-;-;2.28;-;-;-;-;7.6
+Eupetomena macroura;Trochilidae;2002-11-28;I;A;14.5;7.4;0.75;2.02;-;-;3.85;7.4;8
+Eupetomena macroura;Trochilidae;2002-11-29;I;A;-;-;-;-;-;-;-;-;7
+Eupetomena macroura;Trochilidae;2005-05-07;I;I;-;-;-;-;-;-;-;-;7.7
+Eupetomena macroura;Trochilidae;2006-12-20;I;A;-;-;-;-;-;-;-;-;8.6
+Eupetomena macroura;Trochilidae;2006-12-20;I;A;-;-;-;-;-;-;-;-;8.1
+Euphonia chlorotica;Fringillidae;2002-02-06;M;A;10.3;5.95;1.41;0.83;0.39;0.72;2.34;3.48;12.6
+Fluvicola nengeta;Tyrannidae;1999-09-25;I;A;13.8;7.3;2.29;1.38;0.45;1.28;3.53;6.24;16
+Fluvicola nengeta;Tyrannidae;1999-09-26;I;A;14.2;7;2.45;1.54;0.39;0.87;3.66;6.23;15
+Fluvicola nengeta;Tyrannidae;1999-09-26;I;J;13.9;7.8;2.39;1.67;0.43;0.7;3.53;6.81;16
+Fluvicola nengeta;Tyrannidae;1999-09-26;I;A;15;7.7;2.47;2.65;0.45;0.99;3.68;7.05;15.5
+Fluvicola nengeta;Tyrannidae;1999-09-26;I;A;14.5;7.7;2.43;1.39;0.31;0.84;3.55;6.24;18.5
+Fluvicola nengeta;Tyrannidae;2001-11-13;I;A;-;-;-;-;-;-;-;-;15.9
+Fluvicola nengeta;Tyrannidae;2002-05-31;I;A;14.2;7;2.35;1.28;0.41;0.75;3.41;6.2;14.7
+Fluvicola nengeta;Tyrannidae;2005-11-19;I;A;-;-;-;-;-;-;-;-;19
+Fluvicola nengeta;Tyrannidae;2005-11-19;I;A;-;-;-;-;-;-;-;-;14.5
+Fluvicola nengeta;Tyrannidae;2006-05-06;I;A;14.3;7.5;2.36;1.75;0.36;0.67;3.41;6.35;13
+Fluvicola nengeta;Tyrannidae;2009-10-24;I;A;13.2;7.2;2.68;1.98;0.44;0.94;3.51;6.37;16.4
+Forpus xanthopterygius;Psittacidae;1999-10-24;I;A;12.5;8.4;1.08;1.4;1.35;0.86;2.82;4.38;28
+Forpus xanthopterygius;Psittacidae;1999-10-24;I;A;13.3;8.6;1.15;1.27;1.34;0.89;2.8;4.59;27
+Forpus xanthopterygius;Psittacidae;2000-11-20;I;A;-;-;-;-;-;-;-;-;27
+Forpus xanthopterygius;Psittacidae;2001-04-08;F;A;12.4;8.5;1.23;1.13;1.33;0.88;2.78;4.19;26.4
+Forpus xanthopterygius;Psittacidae;2001-04-08;M;A;12.3;8.8;1.27;1.45;1.38;0.91;2.81;4.45;27.9
+Forpus xanthopterygius;Psittacidae;2002-03-19;F;A;12.9;7.8;1.28;1.28;1.29;0.91;2.85;4.22;26.5
+Forpus xanthopterygius;Psittacidae;2002-03-19;M;A;12.94;7.28;1.28;1.33;1.45;0.91;2.96;3.83;28
+Forpus xanthopterygius;Psittacidae;2002-05-29;I;A;16.2;8.3;0.97;1.2;1.34;0.83;2.36;4.92;24
+Forpus xanthopterygius;Psittacidae;2002-05-29;I;A;13;8.4;1.02;1.22;1.4;0.91;2.7;3.5;27
+Forpus xanthopterygius;Psittacidae;2002-05-31;I;A;-;8.3;0.94;1.27;1.47;0.94;2.87;3.71;26.2
+Forpus xanthopterygius;Psittacidae;2002-05-31;I;A;-;-;-;-;-;-;-;-;27.1
+Forpus xanthopterygius;Psittacidae;2002-05-31;I;A;-;-;-;-;-;-;-;-;23.2
+Forpus xanthopterygius;Psittacidae;2002-06-16;I;A;13;8.3;1.06;1.16;1.38;0.96;2.7;3.96;25.2
+Forpus xanthopterygius;Psittacidae;2002-06-16;I;A;12.2;8.1;1.03;1.13;1.49;0.85;2.65;4.09;26.6
+Furnarius figulus;Furnariidae;1999-07-11;I;A;16;8.1;2.98;2;0.52;1.01;-;5.92;29
+Furnarius figulus;Furnariidae;1999-07-11;I;A;16.2;8.1;2.79;1.88;0.43;0.93;-;5.97;31
+Furnarius figulus;Furnariidae;1999-07-11;I;A;15.8;7.8;2.68;1.84;0.43;0.95;-;5.92;28
+Furnarius figulus;Furnariidae;1999-07-11;I;A;16;8.3;2.59;1.82;0.47;0.87;-;6.26;29
+Furnarius figulus;Furnariidae;2000-12-17;I;A;15.5;8.4;2.93;1.84;0.47;0.94;4.24;6;30.7
+Furnarius figulus;Furnariidae;2001-03-20;I;A;16.5;8.9;2.93;2.11;0.56;1;4.49;6.55;34.8
+Furnarius figulus;Furnariidae;2001-03-20;I;A;16;8.3;2.77;1.96;0.52;0.95;4.38;6.65;31.3
+Furnarius figulus;Furnariidae;2001-08-11;I;A;16;8.7;2.71;1.8;0.52;0.94;4.21;6.43;31.2
+Furnarius figulus;Furnariidae;2001-10-14;I;A;-;-;-;-;-;-;-;-;30.7
+Furnarius figulus;Furnariidae;2001-10-14;I;A;-;-;-;-;-;-;-;-;31.4
+Furnarius figulus;Furnariidae;2001-10-14;I;A;-;-;-;-;-;-;-;-;31.4
+Furnarius figulus;Furnariidae;2002-01-21;I;A;16.3;8.31;2.28;1.71;0.48;0.69;4.09;6.29;-
+Furnarius figulus;Furnariidae;2002-04-20;I;A;15.5;8.1;2.65;1.7;0.5;1;4.12;5.54;27.5
+Furnarius figulus;Furnariidae;2002-06-16;I;A;-;-;-;-;-;-;-;-;31.1
+Furnarius figulus;Furnariidae;2002-11-29;I;A;-;-;-;-;-;-;-;-;29.8
+Furnarius figulus;Furnariidae;2004-04-15;I;A;16.5;8.3;2.78;18.8;-;-;4.34;6.04;30
+Furnarius figulus;Furnariidae;2006-05-06;I;A;16.5;8.4;3.27;1.9;0.56;0.53;4.99;5.89;28.2
+Furnarius figulus;Furnariidae;2009-10-24;I;A;15.6;8.5;2.45;2.11;0.53;-;-;-;-
+Furnarius rufus;Furnariidae;1999-02-28;I;A;20;10;3.25;2.33;0.66;-;-;7.45;-
+Furnarius rufus;Furnariidae;1999-03-06;I;I;19;9.5;3.2;2.15;0.6;-;-;6.73;-
+Furnarius rufus;Furnariidae;1999-03-06;I;I;19;9.6;3.54;2.09;0.51;-;-;7.07;-
+Furnarius rufus;Furnariidae;2000-12-16;I;A;17.9;9.4;3.11;2.02;0.58;1.24;4.59;6.93;50.2
+Furnarius rufus;Furnariidae;2000-12-17;I;A;-;-;-;-;-;-;-;-;55.2
+Furnarius rufus;Furnariidae;2000-12-17;I;A;-;-;-;-;-;-;-;-;52.8
+Furnarius rufus;Furnariidae;2000-12-18;I;A;18.2;9.8;3.15;1.91;0.59;1.25;4.56;6.89;52.2
+Furnarius rufus;Furnariidae;2001-01-29;I;A;17.6;9.4;3.23;1.91;0.51;1.22;4.75;6.85;53.5
+Furnarius rufus;Furnariidae;2001-07-17;I;A;18;9;3.28;2.06;0.5;0.86;4.72;6.64;53.7
+Furnarius rufus;Furnariidae;2001-12-11;I;A;-;-;-;-;-;-;-;-;50.5
+Furnarius rufus;Furnariidae;2002-03-19;I;A;19.5;9.6;3.3;2.19;0.55;1.23;4.81;7.25;52
+Furnarius rufus;Furnariidae;2002-11-28;I;J;17.5;8.95;3.27;2.06;0.68;0.48;4.26;6.77;45
+Furnarius rufus;Furnariidae;2002-11-29;I;A;-;-;-;-;-;-;-;-;52
+Furnarius rufus;Furnariidae;2004-10-16;I;A;-;-;-;-;-;-;-;-;56
+Furnarius rufus;Furnariidae;2005-05-07;I;A;17.2;6.5;3.07;2.24;0.56;1.07;4.73;6.6;50
+Furnarius rufus;Furnariidae;2006-12-05;I;A;16.8;9.1;3.37;2.22;0.78;0.69;4.72;4.87;54.2
+Furnarius rufus;Furnariidae;2007-03-31;I;A;19;9.8;3.8;2.71;0.67;1.24;5.22;7.09;50.2
+Galbula ruficauda;Galbulidae ;1999-05-30;I;A;26.8;8;1.57;5.15;0.69;-;-;-;22.5
+Galbula ruficauda;Galbulidae ;2000-02-04;I;A;21.7;7.8;1.35;4.77;0.63;1.05;6.96;9.06;21.5
+Galbula ruficauda;Galbulidae ;2000-12-17;I;A;20.6;7.6;1.36;4.31;0.71;1.3;6.66;9.05;19.7
+Galbula ruficauda;Galbulidae ;2001-08-19;I;A;22;7.9;1.16;4.51;0.71;1.11;7.33;8.44;22
+Galbula ruficauda;Galbulidae ;2002-11-28;M;A;22.5;8.4;1.62;5.38;0.73;1.31;7.29;9.71;20
+Galbula ruficauda;Galbulidae ;2002-11-28;F;A;21.5;7.57;1.45;4.7;0.65;0.6;2.75;9.15;19.5
+Galbula ruficauda;Galbulidae ;2002-11-28;I;A;-;8;1.31;4.4;0.74;1.03;6.2;7.7;22
+Galbula ruficauda;Galbulidae ;2004-10-16;M;A;-;8.01;-;-;-;-;-;-;22
+Geothlypis aequinoctialis;Parulidae;1999-05-01;F;A;12.2;5.3;2.2;1.29;0.44;-;-;5.17;13
+Geothlypis aequinoctialis;Parulidae;1999-08-28;F;A;12.6;5.7;2.25;1.11;0.39;0.74;3.09;5.72;13
+Geothlypis aequinoctialis;Parulidae;1999-09-25;M;A;12.6;6;2.21;1.11;0.38;0.66;3.21;5.66;12
+Geothlypis aequinoctialis;Parulidae;1999-09-25;M;A;12.5;5.8;2.25;1.17;0.41;0.69;3.18;5.56;13
+Geothlypis aequinoctialis;Parulidae;1999-10-23;M;A;12.1;5.8;2.18;1.51;0.4;0.72;3.09;5.54;12.5
+Geothlypis aequinoctialis;Parulidae;1999-10-23;M;A;12.6;6;2.19;1.43;0.4;0.71;3.08;5.87;13
+Geothlypis aequinoctialis;Parulidae;2000-02-05;F;A;12.4;5.6;2.19;1.33;0.39;0.77;3.24;5.3;13.5
+Geothlypis aequinoctialis;Parulidae;2000-03-18;F;A;12.9;6;2.28;1.15;0.4;0.79;3.17;5.79;-
+Geothlypis aequinoctialis;Parulidae;2000-08-19;M;A;13.1;6.1;2.31;1.16;0.41;0.72;3.05;5.44;13.2
+Geothlypis aequinoctialis;Parulidae;2000-09-17;M;A;12.5;5.4;2.27;1.24;0.41;0.82;3.06;5.17;11.7
+Geothlypis aequinoctialis;Parulidae;2000-10-07;M;A;12.2;6;2.22;1.15;0.44;0.73;3.18;5.6;12.4
+Geothlypis aequinoctialis;Parulidae;2000-12-17;F;A;-;-;-;-;-;-;-;-;14.2
+Geothlypis aequinoctialis;Parulidae;2001-04-08;F;A;12.2;5.9;2.26;1.08;0.48;0.72;3.18;5.32;12.4
+Geothlypis aequinoctialis;Parulidae;2002-02-06;F;A;-;-;-;-;-;-;-;-;14
+Gnorimopsar chopi;Icteridae;2001-08-19;I;A;19.6;12.9;3.04;2.18;0.93;0.96;4.69;9.03;64.3
+Gnorimopsar chopi;Icteridae;2001-08-19;I;A;24.5;12.9;3.3;2.64;1.05;1.2;4.86;10.05;70.4
+Gnorimopsar chopi;Icteridae;2001-08-19;I;A;21;12.9;3.21;2.58;1.1;1.31;4.81;9.17;72.4
+Heliactin bilophus;Trochilidae;2000-08-05;F;A;10.5;4.8;-;1.46;-;-;-;5.48;2.7
+Heliactin bilophus;Trochilidae;2000-08-19;F;A;10.8;5.1;-;1.43;-;-;2.92;5.52;2.9
+Heliactin bilophus;Trochilidae;2000-09-10;F;A;10.4;4.6;-;1.49;-;-;2.77;5.35;2.5
+Heliomaster squamosus;Trochilidae;2000-12-14;F;A;12;5.8;-;3.07;-;-;3.97;4.11;7.7
+Herpsilochmus atricapillus;Thamnophilidae;2001-03-21;F;A;12.3;6.5;2;1.28;0.41;0.83;3.01;6.26;10
+Hirundinea ferruginea;Tyrannidae;2003-05-10;I;A;17;10.9;1.43;1.59;0.47;1.01;3.9;7.44;22.7
+Hydropsalis maculicaudus;Caprimulgidae;2000-09-21;I;A;20.5;13.7;1.44;0.99;0.29;2.12;3.83;10.64;38.4
+Hydropsalis maculicaudus;Caprimulgidae;2001-09-09;I;A;21;15;1.71;1.17;0.41;2.42;3.81;10.94;38.4
+Hydropsalis parvula;Caprimulgidae;1999-10-16;I;I;7.6;4.6;1.31;1.46;0.4;1.46;-;0.94;16
+Hydropsalis parvula;Caprimulgidae;2000-09-21;F;A;19.6;13.8;1.37;1.05;0.32;2.02;3.54;9.2;32.8
+Hydropsalis parvula;Caprimulgidae;2000-11-12;F;A;21.1;14.6;1.39;1.25;0.48;2.09;3.89;10.6;40.7
+Hydropsalis parvula;Caprimulgidae;2000-11-12;I;I;6.7;-;-;-;-;-;-;-;9.7
+Hydropsalis parvula;Caprimulgidae;2000-12-16;F;A;19.7;14.8;1.42;1.01;0.32;1.99;3.66;10.4;30.5
+Hydropsalis parvula;Caprimulgidae;2000-12-17;F;A;19.5;-;-;-;-;-;-;-;32.8
+Hydropsalis parvula;Caprimulgidae;2001-10-15;M;A;20;13.9;1.92;1.03;0.33;2.32;3.54;10.19;42.7
+Hydropsalis torquata;Caprimulgidae;2000-09-08;M;A;38.5;17.6;2.11;1.34;0.41;2.51;4.48;26.3;48.8
+Hydropsalis torquata;Caprimulgidae;2000-09-08;F;A;28;16;2.12;1.38;0.39;2.34;4.58;16.7;57.7
+Hydropsalis torquata;Caprimulgidae;2000-09-15;F;A;25.2;16.1;1.84;1.19;0.42;2.5;4.73;14.3;55
+Hydropsalis torquata;Caprimulgidae;2000-10-06;F;A;26;16.6;1.89;1.48;0.33;2.41;4.73;13.6;46.7
+Hydropsalis torquata;Caprimulgidae;2000-12-15;F;A;28;17.5;1.96;1.18;0.42;2.22;4.43;16.5;50.6
+Lathrotriccus euleri;Tyrannidae;2001-08-12;I;A;12.5;6.6;1.83;1.14;0.41;1.05;2.91;6.27;11.4
+Lathrotriccus euleri;Tyrannidae;2002-01-18;I;J;13.5;6.45;1.88;1.12;0.44;1.09;3.49;6.62;12.8
+Lathrotriccus euleri;Tyrannidae;2002-11-28;I;A;13;6.55;1.39;1.33;0.5;1.06;3.28;5.76;10
+Lathrotriccus euleri;Tyrannidae;2006-05-06;I;A;13.2;6.7;1.83;1.36;0.43;0.7;3.29;6.66;12
+Lathrotriccus euleri;Tyrannidae;2006-05-06;I;I;12;6.5;1.91;1.34;0.43;0.65;3.66;5.59;11.1
+Lepidocolaptes angustirostris;Dendrocolaptidae;1999-09-18;I;A;19.3;10.2;2.01;3.46;0.78;1.03;5.58;8.55;30
+Lepidocolaptes angustirostris;Dendrocolaptidae;1999-10-24;I;A;19.6;9.9;2.06;3.32;0.59;1.25;5.74;8.05;30.5
+Lepidocolaptes angustirostris;Dendrocolaptidae;2000-10-29;I;A;19.2;9.9;2.07;3.38;0.62;1.04;5.83;8.27;29.7
+Lepidocolaptes angustirostris;Dendrocolaptidae;2000-12-18;I;J;18.6;9.5;2.1;2.96;0.59;1.24;5.16;8.28;28.2
+Lepidocolaptes angustirostris;Dendrocolaptidae;2001-01-29;I;A;20.9;10.1;2.08;3.1;0.58;1.26;3.35;8.8;34.7
+Lepidocolaptes angustirostris;Dendrocolaptidae;2001-07-17;I;A;21;10;1.96;3.24;0.55;0.91;5.67;8.08;30
+Leptopogon amaurocephalus;Rhynchocyclidae ;1999-08-14;I;A;12.5;6.7;1.76;1.19;0.4;0.81;-;5.78;12
+Leptopogon amaurocephalus;Rhynchocyclidae ;2002-11-28;I;I;-;-;-;0.9;-;0.67;3.1;-;12
+Leptopogon amaurocephalus;Rhynchocyclidae ;2005-05-07;I;A;14.6;6.9;1.68;1.27;0.44;0.72;3.08;5.76;12.3
+Leptotila rufaxilla;Columbidae;2005-11-19;I;A;23.4;13.5;2.88;2.33;0.76;0.69;4.73;9.8;-
+Leptotila rufaxilla;Columbidae;2006-05-06;I;A;25.5;14.4;2.35;1.8;0.54;0.66;4.67;10.14;148.2
+Leptotila rufaxilla;Columbidae;2006-05-06;I;A;26.5;13.6;2.87;1.9;0.65;0.77;4.61;9.41;138.2
+Leptotila rufaxilla;Columbidae;2006-05-06;I;A;17.3;14.3;3.01;1.81;0.19;0.32;4.25;9.38;145
+Leptotila rufaxilla;Columbidae;2006-12-21;I;A;28;19.64;3.28;2.15;0.61;0.88;4.79;11.21;212
+Leptotila verreauxi;Columbidae;2000-10-21;I;A;27;13.7;3.42;1.6;0.54;0.74;4.82;10.93;163.7
+Leptotila verreauxi;Columbidae;2000-12-16;I;A;27;14;2.86;1.56;0.56;0.83;4.47;11.13;160.7
+Leptotila verreauxi;Columbidae;2000-12-18;I;A;26;14.6;2.75;1.59;0.56;0.83;4.73;11.45;155.7
+Leptotila verreauxi;Columbidae;2000-12-18;I;A;26.2;14.5;2.77;1.71;0.53;0.85;4.81;10.87;148.3
+Leptotila verreauxi;Columbidae;2001-01-29;I;A;27;14.5;2.98;1.67;0.54;0.92;4.68;11.4;160
+Leptotila verreauxi;Columbidae;2001-01-29;I;A;26;14.2;2.12;1.11;0.46;0.89;4.54;10.97;160
+Leptotila verreauxi;Columbidae;2001-03-20;I;A;26.5;14.6;2.89;1.64;0.51;0.9;4.57;11.68;158
+Leptotila verreauxi;Columbidae;2001-08-12;I;J;-;-;2.35;-;0.76;0.84;4.7;7.4;73.4
+Leptotila verreauxi;Columbidae;2001-09-08;I;A;27;14.5;2.42;2.1;0.71;0.95;4.59;11.07;167
+Leptotila verreauxi;Columbidae;2001-10-13;I;A;26.2;13.9;2.58;1.65;0.48;0.78;4.61;10.5;152.4
+Leptotila verreauxi;Columbidae;2002-02-05;I;A;-;-;3.24;1.54;0.53;1;4.4;-;153
+Leptotila verreauxi;Columbidae;2002-02-05;I;A;-;13.56;2.5;1.74;0.56;0.93;4.74;11.23;157
+Leptotila verreauxi;Columbidae;2002-02-06;I;A;26.3;14.1;2.94;1.71;0.58;0.89;4.21;10.4;140
+Leptotila verreauxi;Columbidae;2002-05-29;I;A;24;13.4;2.58;1.6;0.55;0.76;4.73;11.94;140
+Leptotila verreauxi;Columbidae;2002-05-30;I;A;26;14.5;2.42;1.65;0.56;0.95;4.81;12.5;144
+Leptotila verreauxi;Columbidae;2002-07-12;I;A;-;-;-;-;-;-;-;-;153
+Leucochloris albicollis;Trochilidae;2005-05-07;I;A;-;-;-;-;-;-;-;-;6.3
+Machetornis rixosa ;Tyrannidae;2000-09-10;I;A;18;9.6;3.14;2.02;0.61;1.34;4.4;8.07;43.7
+Megarynchus pitangua;Tyrannidae;2001-10-13;I;A;-;-;-;-;1.13;2.09;-;-;54.4
+Megarynchus pitangua;Tyrannidae;2001-12-11;I;J;-;-;-;-;-;-;-;-;60.5
+Megarynchus pitangua;Tyrannidae;2001-12-11;I;A;-;-;-;-;-;-;-;-;58.5
+Megarynchus pitangua;Tyrannidae;2002-05-31;I;A;23.2;12;2.03;2.84;1.13;1.95;5.71;9.06;57.7
+Mimus saturninus;Mimidae;1999-02-07;I;A;-;11.4;3.61;2.46;0.7;-;-;13.52;-
+Mimus saturninus;Mimidae;2000-03-19;I;J;26.5;12.5;3.91;2;0.8;1.29;5.14;12.88;78
+Mimus saturninus;Mimidae;2000-08-06;I;A;24.5;10.8;3.63;1.94;0.67;1.31;5.08;12.35;63.2
+Mimus saturninus;Mimidae;2000-09-17;I;A;25.6;11;3.59;2;0.67;1.3;5.07;10.92;76
+Mimus saturninus;Mimidae;2000-09-17;I;A;24;10.9;3.45;2.16;0.63;1.45;5.06;11.6;70
+Mimus saturninus;Mimidae;2001-03-06;I;J;-;-;-;-;-;-;-;-;75.5
+Mimus saturninus;Mimidae;2001-08-11;I;A;24;10.3;4.13;2.35;0.68;1.44;-;11.84;71
+Mimus saturninus;Mimidae;2001-10-13;I;J;-;-;-;-;-;-;-;-;73.1
+Mimus saturninus;Mimidae;2002-01-21;I;A;25;10.3;3.73;1.68;0.7;1.5;5.04;11.4;71.15
+Mimus saturninus;Mimidae;2002-07-12;I;A;26.5;11;3.47;1.96;0.77;1.14;5.29;12.21;72
+Mimus saturninus;Mimidae;2006-12-05;I;A;24;11.7;3.81;2.49;0.89;1.33;5;12.05;78.7
+Molothrus bonariensis;Icteridae;2000-10-21;I;A;16.1;9.7;2.52;1.62;0.9;0.97;3.51;7.23;40.7
+Molothrus bonariensis;Icteridae;2000-12-17;M;A;-;-;-;-;-;-;-;-;49.3
+Molothrus bonariensis;Icteridae;2001-10-14;M;A;18;11.8;2.8;1.83;0.87;0.9;3.85;7.95;49.7
+Molothrus bonariensis;Icteridae;2001-10-14;F;A;18.4;10.3;2.59;1.18;0.94;0.99;3.69;7.58;49.8
+Molothrus bonariensis;Icteridae;2005-11-19;F;I;-;-;-;-;-;-;-;-;39
+Molothrus bonariensis;Icteridae;2006-12-06;I;A;16.5;9.6;2.56;1.57;0.95;0.97;3.64;7.54;43.2
+Myiarchus ferox;Tyrannidae;1999-09-25;I;A;18;8;2.01;1.9;0.59;1.14;4.3;8.75;24.5
+Myiarchus ferox;Tyrannidae;1999-09-25;I;A;19.1;9.1;2.22;1.09;0.57;1;4.15;7.96;25
+Myiarchus ferox;Tyrannidae;2001-01-30;I;A;19.6;9.6;2.03;1.94;0.64;1.38;4.32;9.7;26
+Myiarchus ferox;Tyrannidae;2001-08-19;I;A;18.7;8.8;2.2;1.82;0.6;1.24;4.2;9.13;23.9
+Myiarchus ferox;Tyrannidae;2001-09-08;I;A;19.5;8.8;2.11;1.79;0.68;1.36;4.4;8.11;37.4
+Myiarchus ferox;Tyrannidae;2001-10-13;I;A;19;9.5;2;1.54;1.59;1.24;4.29;9.16;25
+Myiarchus ferox;Tyrannidae;2001-11-13;I;A;17.5;8.5;2;1.76;0.77;1.08;4.26;8.72;23
+Myiarchus ferox;Tyrannidae;2001-11-18;I;A;-;-;-;-;-;-;-;-;25.6
+Myiarchus ferox;Tyrannidae;2001-11-18;I;A;-;-;-;-;-;-;-;-;27
+Myiarchus ferox;Tyrannidae;2001-12-11;I;A;-;-;-;-;-;-;-;-;28.4
+Myiarchus ferox;Tyrannidae;2002-11-28;I;A;17.5;9.4;2.26;1.73;0.45;0.98;4.05;8.2;24
+Myiarchus ferox;Tyrannidae;2002-11-28;I;I;-;-;2.7;2.2;0.61;1.93;4.21;8.1;-
+Myiarchus tyrannulus;Tyrannidae;2002-01-20;I;A;17;8;1.95;1.79;0.6;1.09;4.14;7.9;23.4
+Myiarchus tyrannulus;Tyrannidae;2002-02-05;I;A;-;-;-;-;-;-;-;-;23
+Myiarchus tyrannulus;Tyrannidae;2002-02-06;I;A;18.3;8.8;2;1.73;0.6;1.23;4.15;8.43;23.7
+Myiodynastes maculatus;Tyrannidae;2004-10-16;I;A;20.8;11.2;2.3;2.37;0.84;1.34;5;9.6;52
+Myiopagis viridicata;Tyrannidae;2001-10-13;I;A;16;5.7;1.64;0.8;0.38;0.28;2.91;5.04;11.3
+Myiophobus fasciatus;Tyrannidae;1999-10-23;M;A;12.5;5.4;1.54;1.26;0.43;0.76;2.91;4.42;9.5
+Myiophobus fasciatus;Tyrannidae;1999-10-23;M;A;11.5;5.6;1.66;1.31;0.39;0.89;2.85;5.18;10
+Myiophobus fasciatus;Tyrannidae;1999-10-23;M;A;12.1;6.6;1.84;1.35;0.4;0.84;2.95;5.86;11
+Myiophobus fasciatus;Tyrannidae;2000-10-21;M;A;12;5.8;1.77;1.36;0.4;0.87;3.1;5.29;9.2
+Myiophobus fasciatus;Tyrannidae;2000-12-17;I;A;-;-;-;-;-;-;-;-;9.9
+Myiophobus fasciatus;Tyrannidae;2000-12-17;I;A;-;-;-;-;-;-;-;-;9.9
+Myiophobus fasciatus;Tyrannidae;2001-01-29;I;A;12;5.9;1.77;1.15;0.4;1;2.91;5.58;11.7
+Myiophobus fasciatus;Tyrannidae;2001-01-30;I;J;11.7;5.8;1.72;1.34;0.41;0.94;3.06;5.53;11
+Myiophobus fasciatus;Tyrannidae;2001-03-08;I;A;12.9;6.3;1.68;1.27;0.37;1.12;3.03;5.82;10.8
+Myiophobus fasciatus;Tyrannidae;2001-07-16;M;A;12.5;6;2.84;0.93;0.34;0.83;2.93;5.51;11.7
+Myiophobus fasciatus;Tyrannidae;2001-09-08;I;A;12.8;6;1.64;0.9;0.35;0.82;3;5.35;13.1
+Myiophobus fasciatus;Tyrannidae;2002-02-05;F;A;-;-;-;-;-;-;-;-;9
+Myiophobus fasciatus;Tyrannidae;2005-02-26;I;A;11.1;-;-;-;-;-;-;-;10.6
+Myiophobus fasciatus;Tyrannidae;2007-03-31;I;A;11.8;5.7;2.07;1.32;0.4;0.9;2.94;5.9;10.7
+Myiophobus fasciatus;Tyrannidae;2007-03-31;I;A;-;-;-;-;-;-;-;-;9.5
+Myiothlypis flaveola;Parulidae;2000-02-04;I;A;13.5;-;-;-;-;-;-;-;14
+Myiothlypis flaveola;Parulidae;2000-02-06;I;A;11;5.8;2.24;1.21;0.4;0.93;3.21;3.63;14
+Myiothlypis flaveola;Parulidae;2001-01-30;I;A;13.9;6.6;2.27;1.17;0.38;0.77;3.14;6.75;13.1
+Myiothlypis flaveola;Parulidae;2001-03-19;I;A;13;6.2;2.19;1.08;0.41;0.69;3.93;6.42;11.5
+Myiothlypis flaveola;Parulidae;2001-03-19;I;A;13.1;5.8;2.19;1.22;0.36;0.77;3.15;5.77;12.2
+Myiothlypis flaveola;Parulidae;2001-03-20;I;A;-;-;-;-;-;-;-;-;14.4
+Myiothlypis flaveola;Parulidae;2001-03-21;I;A;13.5;6.5;2.29;1.22;0.39;0.77;3.02;6.93;12.7
+Myiothlypis flaveola;Parulidae;2001-03-21;I;A;14.8;7.1;2.38;1.19;0.42;0.95;3.2;7.21;14
+Myiothlypis flaveola;Parulidae;2002-01-22;I;A;14.86;6.01;2.36;1.02;0.36;0.65;3.11;6.99;13.4
+Myiothlypis flaveola;Parulidae;2002-06-18;I;A;14;6.5;2.29;1.16;0.42;0.7;3.3;6.66;13
+Myiothlypis flaveola;Parulidae;2002-07-12;I;A;-;-;-;-;-;-;-;-;10
+Myiothlypis flaveola;Parulidae;2002-11-28;I;A;-;-;-;-;-;-;3.38;-;11.4
+Myiothlypis flaveola;Parulidae;2002-11-28;I;A;15;6.5;2.2;1;0.5;0.7;3.02;6.08;14
+Myiothlypis flaveola;Parulidae;2005-05-07;I;A;13.7;6.3;2.63;1.28;0.39;0.62;3.15;7.12;11.55
+Myiothlypis flaveola;Parulidae;2005-05-07;I;A;13.5;6.2;2.62;1.63;0.36;0.92;3.21;6.51;11
+Myiothlypis flaveola;Parulidae;2005-11-19;I;A;14;6.7;2.82;1.59;0.41;0.85;3.34;7.16;14.2
+Myiothlypis flaveola;Parulidae;2007-03-31;I;A;13;6.2;2.26;1.4;0.46;0.75;3.32;6.11;12.2
+Myiothlypis flaveola;Parulidae;2009-10-24;I;A;12.5;-;1.97;1.39;0.4;0.84;3.1;5.5;8.9
+Myiozetetes similis;Tyrannidae;1999-09-19;I;A;17.1;8.9;1.94;1.31;0.48;1.05;3.5;7.66;28
+Myiozetetes similis;Tyrannidae;1999-09-19;I;A;17.2;9.1;1.96;1.51;0.54;1.16;3.65;7.55;29
+Myiozetetes similis;Tyrannidae;1999-09-26;I;A;17.2;10;1.92;1.47;0.52;1.01;3.67;8.36;30
+Myiozetetes similis;Tyrannidae;1999-10-23;I;A;17.6;9;1.26;1.36;0.63;0.9;3.58;6.74;29.5
+Myiozetetes similis;Tyrannidae;2001-08-19;I;I;-;9.4;2.04;1.26;0.53;0.94;3.55;7.64;-
+Myiozetetes similis;Tyrannidae;2002-05-29;I;A;18.2;9.1;1.95;1.38;0.5;0.77;3.66;7.5;26.7
+Myiozetetes similis;Tyrannidae;2002-11-28;I;A;16;8.8;2.4;1.4;0.5;1.25;3.6;6.7;26.2
+Myiozetetes similis;Tyrannidae;2004-10-16;I;A;17.02;8.85;1.96;-;-;-;-;6.62;31
+Myiozetetes similis;Tyrannidae;2005-02-26;I;A;17.4;-;-;-;-;-;-;-;27.9
+Myiozetetes similis;Tyrannidae;2005-11-19;I;A;-;-;-;-;-;-;-;-;31
+Myiozetetes similis;Tyrannidae;2005-11-19;I;A;-;-;-;-;-;-;-;-;19.5
+Myiozetetes similis;Tyrannidae;2006-12-05;I;A;16.2;9.3;2.04;1.68;0.63;1.22;3.71;7.44;27.3
+Nemosia pileata;Thraupidae ;1999-08-29;M;A;12.4;7.5;1.95;1.17;0.58;0.86;3.19;5.04;17
+Nemosia pileata;Thraupidae ;2002-02-05;F;A;12.5;6.89;1.9;1.14;0.55;0.81;3.23;5;18
+Nemosia pileata;Thraupidae ;2002-11-28;M;A;13.5;7.4;2.17;1.23;0.6;0.65;3.26;4.57;19
+Nyctidromus albicollis;Caprimulgidae;2000-10-07;F;A;26;15.8;2.52;1.03;0.33;3.29;4.45;14.2;59.7
+Nyctidromus albicollis;Caprimulgidae;2001-02-02;F;A;27;17.5;2.76;1.35;0.37;2.91;4.54;15.35;62
+Nyctidromus albicollis;Caprimulgidae;2001-03-06;M;A;31;17.7;2.68;1.3;0.36;3.74;4.86;17.5;85
+Nyctidromus albicollis;Caprimulgidae;2001-04-03;M;A;29.5;17.1;3.01;1.15;0.43;2.5;4.55;16.3;84.6
+Nyctidromus albicollis;Caprimulgidae;2001-04-03;M;J;30;18.4;2.94;1.24;0.38;3.03;4.83;16.3;98.6
+Nystalus chacuru;Bucconidae;2000-12-18;I;A;17.3;7.9;2.27;2.29;1.22;1.9;5.45;6.24;48.2
+Pachyramphus polychopterus;Tityridae ;1999-10-23;M;A;15;8.1;2.09;1.54;0.63;1.29;3.83;6.29;20.5
+Pachyramphus polychopterus;Tityridae ;1999-10-23;F;A;14.1;7.3;2.18;1.3;0.59;1.32;3.74;5.72;19
+Pachyramphus polychopterus;Tityridae ;1999-10-23;M;A;15;8;2;1.6;0.61;1.17;3.82;6.38;23
+Pachyramphus polychopterus;Tityridae ;2000-12-14;M;A;15.3;8.6;2.01;1.24;0.65;1.3;3.55;6.59;21.9
+Pachyramphus polychopterus;Tityridae ;2001-11-13;M;A;15.2;7.65;1.96;1.3;0.54;0.75;3.77;6.74;21.2
+Phacellodomus ruber;Furnariidae;2000-08-20;I;A;19;7.3;2.39;1.73;0.67;1.19;4.24;10.29;34.7
+Phacellodomus rufifrons;Furnariidae;1999-02-07;I;A;-;6.3;2;1.35;0.53;-;-;5.83;24
+Phacellodomus rufifrons;Furnariidae;1999-02-07;I;A;-;6.3;2.08;1.39;0.51;-;-;7.07;25
+Phacellodomus rufifrons;Furnariidae;1999-02-07;I;A;-;6.3;2.12;1.38;0.55;-;-;7.55;26
+Phacellodomus rufifrons;Furnariidae;1999-02-07;I;A;-;6.5;2.07;1.41;0.56;-;-;7.4;-
+Phacellodomus rufifrons;Furnariidae;1999-02-07;I;A;-;6.3;2.27;1.47;0.54;-;-;7.7;25
+Phacellodomus rufifrons;Furnariidae;1999-02-28;I;A;15.8;6.1;2.19;1.45;0.53;-;-;7.27;24.5
+Phacellodomus rufifrons;Furnariidae;1999-02-28;I;A;15.5;6.2;2.23;1.5;0.55;-;-;7.2;24
+Phacellodomus rufifrons;Furnariidae;1999-02-28;I;A;15.5;6.2;2.18;1.5;0.52;-;-;7.01;22.5
+Phacellodomus rufifrons;Furnariidae;1999-03-07;I;J;15.5;6;2.25;1.43;0.51;-;-;6.96;24
+Phacellodomus rufifrons;Furnariidae;1999-03-20;I;A;16;6.5;2.09;1.34;0.49;-;-;7.24;-
+Phacellodomus rufifrons;Furnariidae;1999-03-20;I;A;15;6.2;2.27;1.3;0.48;-;-;7.08;23.5
+Phacellodomus rufifrons;Furnariidae;1999-03-20;I;A;14.7;6.1;2.3;1.04;0.57;-;-;5.28;23.5
+Phacellodomus rufifrons;Furnariidae;1999-03-21;I;A;15.2;6.2;2.61;1.38;0.45;-;-;6.01;23
+Phacellodomus rufifrons;Furnariidae;1999-03-22;I;A;17.2;6.2;2.19;1.91;0.55;-;-;7.64;24
+Phacellodomus rufifrons;Furnariidae;1999-03-22;I;A;16.3;5.9;2.17;1.45;0.57;-;-;7.2;25
+Phacellodomus rufifrons;Furnariidae;1999-03-23;I;A;16.3;6.2;2.13;1.23;0.4;-;-;7;22.5
+Phacellodomus rufifrons;Furnariidae;1999-05-01;I;J;15.2;6.7;2.14;1.36;0.46;-;-;6.67;23
+Phacellodomus rufifrons;Furnariidae;1999-05-01;I;J;15.6;6;2.19;1.34;0.48;-;-;6.55;24.5
+Phacellodomus rufifrons;Furnariidae;1999-05-01;I;A;15.2;6.2;2.2;1.41;0.53;-;-;6.93;25
+Phacellodomus rufifrons;Furnariidae;1999-05-01;I;A;15.3;5.9;2.13;1.37;0.5;-;-;7.14;21
+Phacellodomus rufifrons;Furnariidae;1999-08-15;I;A;15;6.2;2.11;1.45;0.59;0.98;-;6.5;23
+Phacellodomus rufifrons;Furnariidae;1999-08-15;I;A;15.2;6.4;2.19;1.51;0.52;0.79;-;7.15;23
+Phacellodomus rufifrons;Furnariidae;1999-08-29;I;A;9;6.2;2.19;1.44;0.53;0.91;3.58;-;22
+Phacellodomus rufifrons;Furnariidae;1999-09-18;I;A;16;6.5;2.19;1.48;0.56;0.91;3.68;7.53;24.5
+Phacellodomus rufifrons;Furnariidae;1999-09-18;I;A;15.6;6.9;2.19;1.51;0.52;0.96;3.22;7.35;23
+Phacellodomus rufifrons;Furnariidae;1999-09-19;I;A;16.5;6.5;2.19;1.49;0.54;0.88;3.74;7.73;25
+Phacellodomus rufifrons;Furnariidae;1999-09-19;I;A;15.2;6.6;2.13;1.32;0.53;0.87;3.52;7.13;22.5
+Phacellodomus rufifrons;Furnariidae;1999-09-19;I;A;15.9;6.6;2.24;1.51;0.54;0.91;3.76;7.02;-
+Phacellodomus rufifrons;Furnariidae;1999-10-23;I;A;16.3;6.7;2.29;1.53;0.51;0.98;3.74;7.17;26
+Phacellodomus rufifrons;Furnariidae;1999-10-23;I;A;15.3;6.2;2.09;1.43;0.55;0.86;3.65;7.03;22.5
+Phacellodomus rufifrons;Furnariidae;1999-11-06;I;A;15;6.5;2.15;1.38;0.54;0.97;3.64;7.56;25
+Phacellodomus rufifrons;Furnariidae;1999-11-06;I;A;16;6.4;2.29;1.3;0.6;0.93;3.64;8.2;27
+Phacellodomus rufifrons;Furnariidae;2000-02-19;I;J;15.5;6.2;2.18;1.47;0.56;1.09;3.61;7.56;24.5
+Phacellodomus rufifrons;Furnariidae;2000-02-19;I;I;15.4;6.3;2.06;1.26;0.58;1.09;3.49;7.39;22.5
+Phacellodomus rufifrons;Furnariidae;2000-02-19;I;I;16.6;6.2;2.24;1.48;0.55;1.01;3.76;7.54;24.4
+Phacellodomus rufifrons;Furnariidae;2000-02-19;I;I;15.3;6;2.16;1.53;0.56;1;3.64;7.57;24.2
+Phacellodomus rufifrons;Furnariidae;2000-02-19;I;I;16.9;6.1;2.22;1.44;0.55;1.04;3.18;7.49;23.8
+Phacellodomus rufifrons;Furnariidae;2000-02-20;I;A;15.8;6.3;2.16;1.42;0.6;1.03;3.73;6.8;25
+Phacellodomus rufifrons;Furnariidae;2000-02-20;I;A;16.2;6.2;2.19;1.35;0.6;1.12;3.65;7.77;26
+Phacellodomus rufifrons;Furnariidae;2000-03-19;I;A;16;6.5;2.12;1.39;0.59;1;3.68;7.65;24.1
+Phacellodomus rufifrons;Furnariidae;2000-03-19;I;A;15.5;6.1;2.03;1.43;0.54;0.93;3.56;6.86;22
+Phacellodomus rufifrons;Furnariidae;2000-04-09;I;A;17.3;6.4;2.26;1.5;0.6;1.09;3.84;7.87;27
+Phacellodomus rufifrons;Furnariidae;2000-08-06;I;A;16.1;6.5;2.24;1.36;0.54;0.45;3.55;8.18;23.1
+Phacellodomus rufifrons;Furnariidae;2000-08-14;I;A;15.6;6.3;2.11;1.37;0.55;1.04;3.69;7.64;24.4
+Phacellodomus rufifrons;Furnariidae;2000-08-19;I;A;16;6.5;2.12;1.46;0.56;0.89;3.63;7.81;23.8
+Phacellodomus rufifrons;Furnariidae;2000-08-20;I;A;15.5;6.4;2.07;1.34;0.53;1.01;3.64;7.82;21.6
+Phacellodomus rufifrons;Furnariidae;2000-09-17;I;A;17;7.5;2.2;1.48;0.48;0.56;3.43;7.5;23.6
+Phacellodomus rufifrons;Furnariidae;2000-09-17;I;A;13.5;6.3;2.06;1.33;0.54;0.96;3.56;-;22.8
+Phacellodomus rufifrons;Furnariidae;2000-10-07;I;A;16.6;6.6;2.13;1.53;0.62;1.19;3.83;7.98;27.7
+Phacellodomus rufifrons;Furnariidae;2000-10-21;I;A;13.6;6.6;2.22;1.38;0.55;1.06;3.62;5.24;24
+Phacellodomus rufifrons;Furnariidae;2000-10-21;I;A;16;6.5;2.22;1.5;0.6;0.91;3.73;7.67;25
+Phacellodomus rufifrons;Furnariidae;2000-11-19;I;A;15;6.4;2.13;1.31;0.55;1.03;3.5;7.43;23
+Phacellodomus rufifrons;Furnariidae;2000-11-20;I;A;16.2;6.2;2.18;1.36;0.55;1;3.36;7.68;27.3
+Phacellodomus rufifrons;Furnariidae;2000-11-20;I;A;16;-;-;-;-;-;-;-;26
+Phacellodomus rufifrons;Furnariidae;2000-12-14;I;A;15.6;6.5;2.13;1.49;0.6;1.01;3.74;7.04;25
+Phacellodomus rufifrons;Furnariidae;2000-12-14;I;J;-;-;-;-;-;-;-;-;25.7
+Phacellodomus rufifrons;Furnariidae;2000-12-14;I;J;-;-;-;-;-;-;-;-;25.7
+Phacellodomus rufifrons;Furnariidae;2001-01-09;I;J;15;6;2.14;1.32;0.68;0.99;3.49;7.04;25
+Phacellodomus rufifrons;Furnariidae;2001-01-09;I;J;15;6.2;2.06;1.19;0.51;1.05;3.33;6.94;22.2
+Phacellodomus rufifrons;Furnariidae;2001-01-12;I;A;15.2;6.1;2.11;1.43;0.59;1.09;3.52;7.2;23.2
+Phacellodomus rufifrons;Furnariidae;2001-03-20;I;A;15.7;6.3;2.06;1.45;0.58;1.01;3.59;7.59;22.9
+Phacellodomus rufifrons;Furnariidae;2001-12-11;I;J;-;-;-;-;-;-;-;-;25.4
+Phacellodomus rufifrons;Furnariidae;2002-01-27;I;J;13.85;6.3;2.4;1.29;0.57;0.62;3.54;5.69;23.5
+Phacellodomus rufifrons;Furnariidae;2002-02-06;I;J;16;6.3;2.17;1.58;0.55;1.05;3.68;7.33;23.9
+Phacellodomus rufifrons;Furnariidae;2002-02-06;I;J;15.3;6.1;2.05;1.46;0.53;1;3.69;7.23;21.3
+Phacellodomus rufifrons;Furnariidae;2002-03-03;I;A;15.6;6.6;2.12;1.42;0.56;1.07;3.71;7.49;27
+Phacellodomus rufifrons;Furnariidae;2002-03-04;I;J;16.2;6.2;2.21;1.39;0.56;1.06;3.75;7.47;23.1
+Phacellodomus rufifrons;Furnariidae;2002-03-04;I;A;16.5;6.3;2.53;1.36;0.56;1.11;3.6;7.49;26
+Phacellodomus rufifrons;Furnariidae;2002-03-05;I;A;16.4;6.6;2.24;1.43;0.54;0.96;3.65;7.36;24
+Phacellodomus rufifrons;Furnariidae;2002-09-22;M;A;15.4;6.3;2.45;1.39;0.58;1.17;3.46;6.74;23
+Phacellodomus rufifrons;Furnariidae;2002-11-10;I;A;-;-;-;-;-;-;-;-;23
+Phacellodomus rufifrons;Furnariidae;2002-12-02;M;J;16;6.2;-;1425;0.532;1225;3.66;7.29;23.5
+Phacellodomus rufifrons;Furnariidae;2002-12-22;M;J;15.6;6.2;2.54;1.35;0.55;1.25;3.23;7.79;24
+Phacellodomus rufifrons;Furnariidae;2002-12-22;F;J;15.8;6.2;2.49;1.3;0.565;1.21;3.46;7.68;23
+Phacellodomus rufifrons;Furnariidae;2002-12-24;M;J;13.9;6.2;2615;1.36;0.57;1165;3.58;4985;24.5
+Phacellodomus rufifrons;Furnariidae;2003-01-25;M;A;-;-;-;-;-;-;-;-;22.5
+Phacellodomus rufifrons;Furnariidae;2003-03-08;F;I;-;-;-;-;-;-;-;-;24
+Phacellodomus rufifrons;Furnariidae;2003-03-08;F;I;14.4;5.6;2.48;1385;0.6;1.16;3.42;6.96;22
+Phacellodomus rufifrons;Furnariidae;2003-03-08;M;I;15.5;5655;2.41;1.35;0.63;1.2;3585;7045;21.5
+Phacellodomus rufifrons;Furnariidae;2003-04-25;M;A;-;-;-;-;-;-;-;-;24
+Phacellodomus rufifrons;Furnariidae;2003-04-27;I;I;15.7;5.9;2.41;1.21;0.56;1215;3425;7.59;24
+Phaeomyias murina;Tyrannidae;1999-10-23;I;A;10.8;5.4;1.7;0.97;0.32;0.66;2.66;4.06;9
+Phaeomyias murina;Tyrannidae;2000-03-18;I;A;10.7;5.4;1.68;1;0.29;0.78;2.74;3.11;7.9
+Phaeomyias murina;Tyrannidae;2000-03-18;I;A;10.02;5.5;2.1;1.41;0.31;0.7;2.56;4.68;5.5
+Phaeomyias murina;Tyrannidae;2000-08-05;I;A;10.1;5.3;1.87;0.89;0.31;0.56;2.34;3.29;6.8
+Phaeomyias murina;Tyrannidae;2000-08-19;I;A;11.4;5.8;1.78;0.83;0.34;0.65;2.65;5.19;9.9
+Phaeomyias murina;Tyrannidae;2000-08-19;I;A;-;-;-;-;-;-;-;-;9.8
+Phaeomyias murina;Tyrannidae;2000-08-20;I;A;-;-;-;-;-;-;-;-;8.3
+Phaeomyias murina;Tyrannidae;2000-08-20;I;A;-;-;-;-;-;-;-;-;9.4
+Phaeomyias murina;Tyrannidae;2000-09-17;I;A;-;-;-;-;-;-;-;-;8.4
+Phaeomyias murina;Tyrannidae;2000-10-21;I;A;-;-;-;-;-;-;-;-;9.9
+Phaeomyias murina;Tyrannidae;2000-10-21;I;A;-;-;-;-;-;-;-;-;10
+Phaeomyias murina;Tyrannidae;2000-12-17;I;A;-;-;-;-;-;-;-;-;10
+Phaeomyias murina;Tyrannidae;2000-12-18;I;A;-;-;-;-;-;-;-;-;9.7
+Phaeomyias murina;Tyrannidae;2000-12-18;I;A;-;-;-;-;-;-;-;-;9.7
+Phaeomyias murina;Tyrannidae;2001-01-29;I;A;-;-;-;-;-;-;-;-;9
+Phaeomyias murina;Tyrannidae;2001-01-29;I;A;12;6;1.85;0.83;0.34;0.78;2.73;5.62;9
+Phaeomyias murina;Tyrannidae;2001-01-29;I;A;10.6;5.6;-;-;-;-;-;-;7.7
+Phaeomyias murina;Tyrannidae;2001-01-30;I;A;-;-;-;-;-;-;-;-;9
+Phaeomyias murina;Tyrannidae;2001-01-30;I;A;13;8;-;-;-;-;-;-;7.7
+Phaeomyias murina;Tyrannidae;2001-03-20;I;A;11.8;5.8;1.71;0.83;0.34;0.44;2.57;5.55;9
+Phaeomyias murina;Tyrannidae;2001-03-20;I;A;10.5;5.5;1.74;0.84;0.32;0.59;2.65;5.1;7
+Phaeomyias murina;Tyrannidae;2001-03-20;I;A;-;-;-;-;-;-;-;-;7
+Phaeomyias murina;Tyrannidae;2001-04-08;I;A;-;-;-;-;-;-;-;-;13
+Phaeomyias murina;Tyrannidae;2001-04-08;I;A;10.7;-;-;-;-;-;-;-;9
+Phaeomyias murina;Tyrannidae;2001-04-08;I;A;10.8;-;-;-;-;-;-;-;10.9
+Phaeomyias murina;Tyrannidae;2001-08-11;I;A;10.6;-;-;-;-;-;-;-;9.4
+Phaeomyias murina;Tyrannidae;2001-08-12;I;A;-;-;-;-;-;-;-;-;8.8
+Phaeomyias murina;Tyrannidae;2001-08-12;I;A;8.4;11.5;5.7;1.47;1.09;0.35;-;2.63;5.1
+Phaeomyias murina;Tyrannidae;2001-08-12;I;J;11.6;5.9;1.94;1.06;0.48;0.62;2.71;5.67;9.2
+Phaeomyias murina;Tyrannidae;2001-08-18;I;A;-;-;-;-;-;-;-;-;7.7
+Phaeomyias murina;Tyrannidae;2001-08-19;I;A;12.3;6;1.56;1.27;0.47;1.03;2.6;5.6;8.4
+Phaeomyias murina;Tyrannidae;2001-08-19;I;A;10.5;5.5;1.6;0.99;0.3;0.71;2.54;5.22;9
+Phaeomyias murina;Tyrannidae;2001-09-08;I;A;12;6.2;1.88;1.05;0.35;0.86;2.55;5.77;9.2
+Phaeomyias murina;Tyrannidae;2001-09-09;I;A;10.7;5.6;1.93;1;0.32;0.69;2.65;4.9;8.45
+Phaeomyias murina;Tyrannidae;2001-10-12;I;A;11.1;6;1.65;0.85;0.32;0.78;2.44;5.49;8.7
+Phaeomyias murina;Tyrannidae;2001-10-13;I;A;12.1;5.7;1.83;0.93;0.35;0.73;2.55;6.14;9.2
+Phaeomyias murina;Tyrannidae;2001-10-13;I;A;14;-;1.95;1.3;0.37;-;2.57;-;-
+Phaeomyias murina;Tyrannidae;2001-11-13;I;A;11.4;6.7;1.75;0.86;0.34;0.91;2.57;5.65;9.6
+Phaeomyias murina;Tyrannidae;2001-11-18;I;A;10.6;5.7;1.98;0.97;0.34;0.75;2.64;5.28;9.2
+Phaeomyias murina;Tyrannidae;2001-12-11;I;A;11.1;5.7;1.61;1.05;0.34;0.78;2.55;5.11;8.1
+Phaeomyias murina;Tyrannidae;2002-02-05;I;A;11.2;5.5;1.61;1.23;0.3;0.62;2.44;4.93;8.2
+Phaeomyias murina;Tyrannidae;2002-02-06;I;A;11.8;5.9;2.02;1.18;0.4;0.96;2.9;5.66;10.8
+Phaeomyias murina;Tyrannidae;2002-02-06;I;A;10.1;5.3;1.61;0.97;0.28;0.82;2.43;4.84;8.1
+Phaeomyias murina;Tyrannidae;2002-02-06;I;A;11.6;6;1.64;1.07;0.36;0.87;2.56;5.51;9.7
+Phaeomyias murina;Tyrannidae;2002-03-16;I;A;11.4;-;1.77;0.93;0.4;0.78;2.18;5.08;10
+Phaeomyias murina;Tyrannidae;2002-04-21;I;A;11;5.7;1.76;1;0.4;0.96;2.74;5.08;10.1
+Phaeomyias murina;Tyrannidae;2002-05-29;I;A;11.3;5.2;1.79;0.94;0.35;0.86;2.63;5.67;9.2
+Phaeomyias murina;Tyrannidae;2002-05-29;I;A;10.5;5.4;1.29;0.8;0.41;0.8;2.49;4.84;8.2
+Phaeomyias murina;Tyrannidae;2002-05-29;I;A;11;6.9;1.75;0.98;0.3;1.81;2.6;4.8;9.7
+Phaeomyias murina;Tyrannidae;2002-05-30;I;A;11.4;5.9;1.61;0.9;0.35;0.76;2.77;5.54;9.2
+Phaeomyias murina;Tyrannidae;2002-07-11;I;A;10.6;5.8;1.72;0.98;0.35;0.75;2.63;5.26;11.4
+Phaeomyias murina;Tyrannidae;2002-07-14;I;A;11.6;5.9;1.78;0.92;0.35;0.79;2.74;5.17;9.4
+Phaeomyias murina;Tyrannidae;2004-10-16;I;A;10.9;5.7;1.65;0.96;0.33;0.83;2.67;5.13;9
+Phaeomyias murina;Tyrannidae;2005-02-26;I;A;11.4;5.8;1.6;0.94;0.38;0.81;2.6;4.98;8.6
+Phaeomyias murina;Tyrannidae;2005-02-26;I;A;11.5;6.2;2.1;0.87;0.8;0.92;2.77;5.1;8.4
+Phaeomyias murina;Tyrannidae;2005-02-26;I;A;11.6;6;1.8;1;0.41;0.89;2.74;5.48;9.5
+Phaeomyias murina;Tyrannidae;2005-05-07;I;A;11.5;5.6;1.46;0.79;0.34;0.64;2.34;5.17;7.2
+Phaeomyias murina;Tyrannidae;2006-05-06;I;A;10.8;5.5;1.76;0.94;0.37;0.88;2.7;5;8.7
+Phaeomyias murina;Tyrannidae;2006-05-06;I;A;11.5;5.5;1.54;0.89;0.37;0.89;2.59;4.86;8.7
+Phaeomyias murina;Tyrannidae;2007-03-31;I;A;11.1;5.9;1.77;1.04;0.34;0.78;2.67;5.35;10.4
+Phaeomyias murina;Tyrannidae;2007-03-31;I;A;12.2;5.52;1.69;0.84;0.29;0.78;2.61;5.43;9.9
+Phaethornis pretrei;Trochilidae;1999-09-26;I;A;15;6;-;3.23;-;-;4.8;7.5;5
+Phaethornis pretrei;Trochilidae;1999-11-20;I;A;15.3;6.1;-;3.51;-;-;4.76;8.04;5.5
+Phaethornis pretrei;Trochilidae;2000-03-18;I;A;15;-;-;3.16;-;-;4.73;7.54;5.1
+Phaethornis pretrei;Trochilidae;2000-08-19;I;A;15.5;7.2;-;3.55;0.28;-;4.9;7.51;8.4
+Phaethornis pretrei;Trochilidae;2000-10-07;I;A;13;5.6;-;3.25;-;-;4.68;5.76;5.3
+Phaethornis pretrei;Trochilidae;2001-01-29;I;A;15.6;6.2;-;3.35;-;-;4.74;7.79;5.7
+Phaethornis pretrei;Trochilidae;2001-01-29;I;A;14.3;6;-;3.29;-;-;4.72;6.89;5.1
+Phaethornis pretrei;Trochilidae;2001-08-11;I;A;-;-;-;-;-;-;-;-;5.6
+Phaethornis pretrei;Trochilidae;2001-10-13;I;A;-;-;-;-;-;-;-;-;6.2
+Phaethornis pretrei;Trochilidae;2001-10-13;I;A;-;-;-;-;-;-;-;-;6.2
+Phaethornis pretrei;Trochilidae;2002-02-05;I;A;-;-;-;-;-;-;-;-;5
+Phaethornis pretrei;Trochilidae;2002-02-06;I;A;-;-;-;-;-;-;-;-;5
+Phaethornis pretrei;Trochilidae;2002-05-29;I;A;-;-;-;-;-;-;-;-;5.1
+Phaethornis pretrei;Trochilidae;2002-05-29;I;A;15.8;5.77;-;-;-;-;-;-;6
+Phaethornis pretrei;Trochilidae;2002-05-31;I;I;16.5;-;-;3.73;-;-;-;-;-
+Phaethornis pretrei;Trochilidae;2002-07-12;I;A;-;-;-;-;-;-;-;-;5
+Phaethornis pretrei;Trochilidae;2002-11-29;I;A;-;-;-;-;-;-;-;-;6
+Phaethornis pretrei;Trochilidae;2005-05-07;I;I;-;-;-;-;-;-;-;-;5.4
+Phyllomyias fasciatus;Tyrannidae;2001-08-11;I;A;11;5.8;1.55;0.83;0.4;0.82;2.56;5.2;9.4
+Phyllomyias fasciatus;Tyrannidae;2001-09-08;I;A;11.5;6;1.61;0.71;0.35;0.67;2.64;5.71;9.1
+Phyllomyias fasciatus;Tyrannidae;2002-07-14;I;A;-;-;-;-;-;-;-;-;8.6
+Phyllomyias fasciatus;Tyrannidae;2002-07-14;I;A;-;-;-;-;-;-;-;-;10
+Piaya cayana;Cuculidae;2002-02-06;I;A;47.5;15.2;3.8;2.63;1.09;1.93;6.22;30.3;-
+Picumnus cirratus;Picidae;1999-08-14;M;A;10;5.7;1.45;1.33;0.52;0.73;-;3.6;13.5
+Picumnus cirratus;Picidae;2000-02-04;M;A;10.5;5.3;1.44;1.18;0.49;0.94;2.85;3.4;12
+Picumnus cirratus;Picidae;2000-10-22;F;A;10.2;5.5;1.57;1.34;0.5;0.9;2.85;3.44;12.7
+Picumnus cirratus;Picidae;2001-09-09;I;A;8.6;5.2;2.23;1.28;0.49;0.78;2.82;3.16;11.2
+Picumnus cirratus;Picidae;2001-10-13;F;A;8.7;-;-;-;-;-;-;-;11.2
+Picumnus cirratus;Picidae;2006-12-21;I;A;9.2;5.8;1.45;1.29;0.5;0.54;2.85;3.3;12
+Piranga flava;Cardinalidae;2000-02-27;F;A;18.6;9.6;2.28;1.86;0.99;1.41;4.45;8.15;43
+Pitangus sulphuratus;Tyrannidae;2000-08-05;I;A;24.3;11.8;2.79;2.96;0.93;1.83;5.93;8.98;65.7
+Pitangus sulphuratus;Tyrannidae;2001-03-07;I;A;-;-;-;-;-;-;-;-;61.6
+Pitangus sulphuratus;Tyrannidae;2001-03-20;I;J;22.5;11.5;2.69;2.74;0.99;1.83;5.57;9.24;56
+Pitangus sulphuratus;Tyrannidae;2001-12-11;I;A;-;-;-;-;-;-;-;-;69.5
+Pitangus sulphuratus;Tyrannidae;2002-02-05;I;A;24;11.5;2.75;2.3;0.91;1.59;5.74;9.21;57.5
+Pitangus sulphuratus;Tyrannidae;2002-05-29;I;A;24.8;12.1;2.73;3.02;0.97;1.77;5.81;10.27;60.7
+Pitangus sulphuratus;Tyrannidae;2005-11-19;I;J;-;-;-;-;-;-;-;-;58.4
+Pitangus sulphuratus;Tyrannidae;2005-11-19;I;A;-;-;-;-;-;-;-;-;49
+Saltator similis;Thraupidae ;2001-09-08;I;A;22;10.2;2.68;1.68;1.2;1.14;4.1;8.65;47.4
+Saltator similis;Thraupidae ;2001-09-09;I;A;21.5;9.7;2.7;1.85;1.21;1.29;3.99;8.66;45.4
+Saltator similis;Thraupidae ;2002-03-16;I;A;-;-;-;-;-;-;-;-;46
+Saltator similis;Thraupidae ;2002-05-29;I;J;-;-;-;-;-;-;-;-;48.7
+Saltator similis;Thraupidae ;2002-05-29;I;A;-;10.6;-;-;-;-;-;-;47.7
+Saltator similis;Thraupidae ;2006-12-06;I;A;20.3;10;2.88;1.9;1.41;1.15;4.11;-;48.2
+Satrapa icterophrys;Tyrannidae;1999-09-18;I;A;15.6;8.6;2.1;1.31;0.44;1;3.61;7.16;21
+Satrapa icterophrys;Tyrannidae;1999-09-19;I;A;16;8.6;1.96;1.29;0.43;0.82;3.47;7.24;20
+Satrapa icterophrys;Tyrannidae;1999-09-25;I;A;15;8.4;1.97;1.23;0.38;0.98;3.52;6.85;21.5
+Satrapa icterophrys;Tyrannidae;1999-09-26;I;A;15;8.6;1.88;1.42;0.42;0.79;3.31;7.22;24
+Satrapa icterophrys;Tyrannidae;1999-10-24;I;A;15.4;8.6;2.18;1.2;0.41;0.82;3.53;6.39;23
+Satrapa icterophrys;Tyrannidae;2004-10-16;I;A;15.4;8.5;2.05;1.49;0.43;1.03;4.05;-;23
+Sicalis citrina;Thraupidae ;1999-09-25;M;A;11.5;6.8;1.49;0.81;0.54;0.69;2.37;4.76;11.5
+Sporophila caerulescens;Thraupidae ;2000-09-19;M;A;11.5;6;1.6;0.88;0.63;0.81;2.33;4.91;11.9
+Sporophila caerulescens;Thraupidae ;2000-09-19;M;J;11.4;5.8;1.58;0.98;0.57;0.77;2.39;4.92;12.1
+Sporophila caerulescens;Thraupidae ;2000-09-19;M;J;11;5.8;1.61;1.02;0.71;0.85;2.42;4.55;11.6
+Sporophila caerulescens;Thraupidae ;2000-09-19;M;A;-;-;-;-;-;-;-;-;11
+Sporophila caerulescens;Thraupidae ;2000-12-13;M;J;10.9;5.9;1.58;1.01;0.66;0.79;2.23;4.64;10.7
+Sporophila caerulescens;Thraupidae ;2001-08-19;M;A;10.8;5.7;1.76;0.53;0.62;0.66;2.03;4.21;9.5
+Sporophila caerulescens;Thraupidae ;2001-10-13;M;A;-;-;-;-;-;-;-;-;10.2
+Sporophila caerulescens;Thraupidae ;2001-10-13;M;A;-;-;-;-;-;-;-;-;11.7
+Sporophila collaris;Thraupidae ;1999-09-25;M;A;12.9;6;2.04;1.09;0.9;1;2.49;4.82;13.5
+Sporophila nigricollis;Thraupidae ;1999-03-07;M;A;10.8;5.8;1.54;0.84;0.64;-;-;4.77;10
+Sporophila nigricollis;Thraupidae ;2000-09-19;M;J;11.9;5.9;1.58;0.94;0.7;0.81;2.28;4.76;10.8
+Sporophila nigricollis;Thraupidae ;2000-12-17;M;A;-;-;-;-;-;-;-;-;9.5
+Sporophila nigricollis;Thraupidae ;2000-12-17;M;A;-;-;-;-;-;-;-;-;9.2
+Sporophila nigricollis;Thraupidae ;2000-12-18;M;A;10.5;5.8;1.59;0.87;0.62;0.75;2.56;4.32;12.1
+Sporophila nigricollis;Thraupidae ;2001-04-08;M;A;10.6;5.2;1.52;0.66;0.63;0.69;2.22;4.1;9.4
+Sporophila nigricollis;Thraupidae ;2001-10-13;F;A;-;-;-;-;-;-;-;-;9.7
+Sporophila nigricollis;Thraupidae ;2001-10-13;M;J;-;-;-;-;-;-;-;-;10.2
+Sporophila nigricollis;Thraupidae ;2001-10-13;F;A;-;-;-;-;-;-;-;-;12.2
+Sporophila nigricollis;Thraupidae ;2001-10-13;M;A;-;-;-;-;-;-;-;-;7
+Sporophila nigricollis;Thraupidae ;2001-10-13;M;A;-;-;-;-;-;-;-;-;11
+Sporophila nigricollis;Thraupidae ;2001-10-13;F;A;-;-;-;-;-;-;-;-;10.2
+Sporophila nigricollis;Thraupidae ;2001-10-13;I;A;-;-;-;-;-;-;-;-;10
+Sporophila nigricollis;Thraupidae ;2001-11-18;M;A;-;-;-;-;-;-;-;-;10.4
+Sporophila nigricollis;Thraupidae ;2001-12-10;M;A;-;5.3;1.67;0.78;0.67;0.68;2.29;4.8;-
+Sporophila nigricollis;Thraupidae ;2001-12-11;M;A;-;-;-;-;-;-;-;-;10.3
+Stelgidopteryx ruficollis;Hirundinidae;1999-05-01;I;A;12.8;11.6;1.12;0.77;0.31;-;-;5.3;15.5
+Stelgidopteryx ruficollis;Hirundinidae;1999-08-15;I;A;13.5;11.5;1.01;0.68;0.31;1.08;-;5.88;16.5
+Stelgidopteryx ruficollis;Hirundinidae;1999-08-28;I;A;12.08;10.3;1.31;0.71;0.36;0.94;2.79;5.02;14
+Stelgidopteryx ruficollis;Hirundinidae;1999-08-28;I;A;12.5;10.5;-;0.87;0.33;1.29;2.8;-;-
+Stelgidopteryx ruficollis;Hirundinidae;1999-08-29;I;A;12.1;10.4;1.24;0.77;0.28;0.81;2.68;5.36;14
+Stelgidopteryx ruficollis;Hirundinidae;1999-09-18;I;A;13;11.4;1.03;0.86;0.29;1.03;2.81;5.03;17
+Stelgidopteryx ruficollis;Hirundinidae;1999-09-18;I;A;13;11;1.11;0.69;0.3;1.12;2.85;5.08;16
+Stelgidopteryx ruficollis;Hirundinidae;1999-09-19;I;A;13;11.7;1.22;0.81;0.29;1.15;2.67;6.08;15
+Stelgidopteryx ruficollis;Hirundinidae;1999-09-19;I;A;12.5;10.5;1.16;0.73;0.33;1.14;2.81;5.22;14
+Stelgidopteryx ruficollis;Hirundinidae;1999-09-19;I;A;12.5;11.3;1.08;0.65;0.29;1.09;2.75;5.3;14.5
+Stelgidopteryx ruficollis;Hirundinidae;1999-09-25;I;A;12.9;10.9;1.07;0.69;0.3;1.14;2.77;5.45;14
+Stelgidopteryx ruficollis;Hirundinidae;1999-09-26;I;A;12.1;10;1.1;0.89;0.31;1.03;2.69;5.19;16
+Stelgidopteryx ruficollis;Hirundinidae;1999-10-23;I;A;12.7;11;1.05;0.82;0.33;1.07;2.8;5.16;16.5
+Stelgidopteryx ruficollis;Hirundinidae;2000-08-05;I;A;12.7;11.2;1.04;0.69;0.27;1.21;2.72;5.76;14.7
+Stelgidopteryx ruficollis;Hirundinidae;2000-08-05;I;A;12.2;10.9;1.14;0.88;0.29;1.12;2.76;4.93;14.7
+Stelgidopteryx ruficollis;Hirundinidae;2000-08-19;I;A;12.2;10.6;1.13;0.78;0.33;1.21;2.79;5.63;15.2
+Stelgidopteryx ruficollis;Hirundinidae;2000-08-19;I;A;13.5;11.9;1.13;0.69;0.32;1.19;2.66;5.76;17.75
+Stelgidopteryx ruficollis;Hirundinidae;2000-08-19;I;A;12.9;11.5;1.26;0.68;0.27;0.99;2.91;5.15;16.7
+Stelgidopteryx ruficollis;Hirundinidae;2000-08-19;I;A;13.35;11.5;1.24;0.89;0.39;0.46;2.67;5.24;15.7
+Stelgidopteryx ruficollis;Hirundinidae;2000-08-20;I;A;13.7;11.9;1.24;0.64;0.27;1.27;2.69;5.32;15.2
+Stelgidopteryx ruficollis;Hirundinidae;2000-08-20;I;A;13;10.9;1.08;0.64;0.31;1.06;2.64;5.6;14.2
+Stelgidopteryx ruficollis;Hirundinidae;2000-08-20;I;A;13.2;12;1.14;0.65;0.26;1.1;2.61;5.71;14.2
+Stelgidopteryx ruficollis;Hirundinidae;2000-08-20;I;A;12.6;10.8;1.09;0.75;0.28;1.09;2.74;5.4;14.7
+Stelgidopteryx ruficollis;Hirundinidae;2000-09-10;I;A;13;10.7;1.16;0.71;0.32;1.28;2.75;5.11;16.1
+Stelgidopteryx ruficollis;Hirundinidae;2000-10-21;I;A;13;11.3;1.28;0.74;0.74;1.2;3.14;6.35;15.7
+Stelgidopteryx ruficollis;Hirundinidae;2000-11-20;I;A;-;-;-;-;-;-;-;-;16
+Stelgidopteryx ruficollis;Hirundinidae;2001-03-06;I;A;12.8;10.1;1.08;0.68;0.3;1.24;2.75;5.4;15
+Stelgidopteryx ruficollis;Hirundinidae;2001-04-08;I;A;12.5;10.51;1.82;0.66;0.28;0.92;2.72;5.28;13.4
+Stelgidopteryx ruficollis;Hirundinidae;2001-08-11;I;A;12.5;11.2;0.87;0.56;0.29;0.78;2.7;4.8;13.7
+Stelgidopteryx ruficollis;Hirundinidae;2001-08-12;I;A;12.5;11.9;-;0.77;0.26;1.21;1.87;5.95;12.1
+Stelgidopteryx ruficollis;Hirundinidae;2001-08-18;I;A;14.5;11.1;1.05;0.71;0.29;1.24;2.66;5.48;14.6
+Stelgidopteryx ruficollis;Hirundinidae;2001-09-08;I;A;12.8;11.2;1.88;1.36;0.27;1.15;2.56;4.78;11.7
+Stelgidopteryx ruficollis;Hirundinidae;2001-10-13;I;A;11.8;11.2;1.28;0.71;0.3;1.02;-;5.3;15.9
+Stelgidopteryx ruficollis;Hirundinidae;2001-10-13;I;A;12.5;10.2;-;-;-;-;2.69;-;19.4
+Stelgidopteryx ruficollis;Hirundinidae;2001-10-13;I;A;13;11.2;1.07;0.67;0.29;1.2;2.75;5.54;15
+Stelgidopteryx ruficollis;Hirundinidae;2001-12-11;I;A;-;-;-;-;-;-;-;-;15.9
+Stelgidopteryx ruficollis;Hirundinidae;2002-02-06;I;A;13;11.35;1.15;0.82;0.27;1.08;2.81;5.99;16.8
+Stelgidopteryx ruficollis;Hirundinidae;2002-03-03;I;A;12.5;-;-;-;-;-;-;-;14.5
+Stelgidopteryx ruficollis;Hirundinidae;2002-11-29;I;A;12;11;-;-;-;-;-;-;15.5
+Stelgidopteryx ruficollis;Hirundinidae;2004-10-16;I;A;13;11.3;1.43;1.74;0.3;1.39;2.84;6.07;16.09
+Stelgidopteryx ruficollis;Hirundinidae;2004-10-16;I;A;14;11;1.35;0.94;0.37;0.88;2.79;5.74;17.5
+Stelgidopteryx ruficollis;Hirundinidae;2006-12-20;I;A;11.1;10.5;0.95;0.74;0.38;1.02;2.77;5.01;13.9
+Stelgidopteryx ruficollis;Hirundinidae;2006-12-20;I;J;13;10.6;1.29;0.81;0.38;1.76;2.73;4.88;15.3
+Stelgidopteryx ruficollis;Hirundinidae;2006-12-21;I;J;12.8;10.8;1.35;0.77;0.3;0.62;2.57;4.59;16.9
+Stilpnia cayana;Thraupidae ;1999-08-14;M;A;13.3;7.7;1.65;1.01;0.62;0.75;3.12;5.56;21
+Stilpnia cayana;Thraupidae ;1999-08-14;M;A;14;7.2;2.29;1.2;0.57;0.8;3;5.68;19.7
+Stilpnia cayana;Thraupidae ;1999-08-15;M;A;-;-;-;-;-;-;-;-;20.5
+Stilpnia cayana;Thraupidae ;1999-08-15;M;A;13;7.4;1.95;1.19;0.59;0.94;3.23;5.57;21
+Stilpnia cayana;Thraupidae ;1999-08-15;F;A;14;7.6;2.19;1.18;0.68;0.88;3.03;4.22;24.7
+Stilpnia cayana;Thraupidae ;1999-08-15;M;A;-;-;-;-;-;-;-;-;22
+Stilpnia cayana;Thraupidae ;1999-10-23;M;A;-;-;2.74;1.2;0.53;1.34;-;-;-
+Stilpnia cayana;Thraupidae ;1999-10-23;F;A;13.5;7.5;2.22;1.1;0.6;0.81;3.2;5.2;19.4
+Stilpnia cayana;Thraupidae ;1999-10-24;M;A;14;7.5;2.15;0.98;0.56;1.11;3;5.27;18
+Stilpnia cayana;Thraupidae ;2000-03-18;I;I;-;-;-;-;-;-;-;-;18.7
+Stilpnia cayana;Thraupidae ;2000-08-19;M;A;13.6;7;1.99;1.4;0.67;1.29;2.9;5.9;17.8
+Stilpnia cayana;Thraupidae ;2000-09-19;F;A;-;-;-;-;-;-;-;-;18.2
+Stilpnia cayana;Thraupidae ;2000-10-21;F;A;-;-;-;-;-;-;-;-;18
+Stilpnia cayana;Thraupidae ;2000-10-21;I;I;12.65;7.3;1.88;1.04;1.02;1.19;3.05;5.92;18.9
+Stilpnia cayana;Thraupidae ;2000-12-17;F;A;13.2;7.28;2.14;1.11;0.7;1.16;3.35;5.41;26
+Stilpnia cayana;Thraupidae ;2000-12-18;M;A;-;7.3;1.96;1;0.58;0.93;3.05;5.81;23
+Stilpnia cayana;Thraupidae ;2001-01-29;M;A;14;7.4;1.94;0.86;0.55;0.96;3.1;6.14;21
+Stilpnia cayana;Thraupidae ;2001-03-07;M;A;13.5;7.5;-;-;-;-;3.27;-;21.7
+Stilpnia cayana;Thraupidae ;2001-08-11;M;A;14.5;7.5;2.05;1.5;0.58;0.95;3.01;5.16;21.1
+Stilpnia cayana;Thraupidae ;2001-08-19;I;J;-;-;-;-;-;-;-;-;19.1
+Stilpnia cayana;Thraupidae ;2001-09-09;I;J;-;-;-;-;-;-;-;-;23.1
+Stilpnia cayana;Thraupidae ;2001-10-13;M;A;-;-;-;-;-;-;-;-;19.4
+Stilpnia cayana;Thraupidae ;2001-10-13;F;A;15.3;7.4;1.8;1.27;0.61;1.07;3.08;5.28;20.3
+Stilpnia cayana;Thraupidae ;2001-10-14;M;A;-;-;-;-;-;-;-;-;20
+Stilpnia cayana;Thraupidae ;2001-10-16;F;A;-;-;-;-;-;-;-;-;28
+Stilpnia cayana;Thraupidae ;2001-11-13;M;A;15;7.1;1.86;1.15;0.6;-;3.04;5.24;22
+Stilpnia cayana;Thraupidae ;2002-02-05;M;J;13.2;7.2;1.78;1.21;0.53;0.87;-;5.35;19
+Stilpnia cayana;Thraupidae ;2002-02-05;M;A;13.2;7.7;1.78;1.03;0.58;0.83;-;5.67;20
+Stilpnia cayana;Thraupidae ;2002-03-19;F;A;14;7.8;1.89;1.09;0.58;0.9;-;6.37;23
+Stilpnia cayana;Thraupidae ;2002-05-31;M;A;14;7.8;1.91;1.01;0.51;0.85;-;5.88;20.5
+Stilpnia cayana;Thraupidae ;2002-06-16;M;J;13;7.8;1.99;1.04;0.6;0.89;-;5.43;22
+Stilpnia cayana;Thraupidae ;2002-06-16;F;A;13.3;7.4;1.95;1.1;0.57;0.97;-;5.48;23.5
+Stilpnia cayana;Thraupidae ;2002-06-16;M;A;14.3;7.4;2.04;1.2;0.64;0.85;3.03;5.13;20
+Stilpnia cayana;Thraupidae ;2002-07-11;M;A;13.2;7;1.97;1.95;0.61;0.72;2.97;4.46;19
+Stilpnia cayana;Thraupidae ;2005-05-07;F;A;13.9;7.3;1.9;1.03;0.56;0.82;3.17;4.87;19.5
+Stilpnia cayana;Thraupidae ;2005-11-19;M;A;14;7.9;2.01;1.21;0.6;0.86;3.1;5.86;20.2
+Stilpnia cayana;Thraupidae ;2005-11-19;M;A;13.1;-;-;-;-;-;-;-;-
+Stilpnia cayana;Thraupidae ;2009-10-24;F;A;13.6;7.9;2.07;1.13;0.64;1.03;3.22;4.94;23.6
+Synallaxis albescens;Furnariidae;1999-03-06;I;A;16;5.5;1.87;0.92;0.39;-;-;7.61;12
+Synallaxis frontalis;Furnariidae;2000-02-27;I;J;14;5.2;2.17;1.44;0.36;0.56;3.04;7.42;13
+Synallaxis frontalis;Furnariidae;2000-03-18;I;J;14.9;5.5;2.12;1.23;0.41;0.99;3.11;7.7;13.45
+Synallaxis frontalis;Furnariidae;2001-01-09;I;A;15.1;5.5;2.29;1.13;0.43;0.89;3.11;8.16;14
+Synallaxis frontalis;Furnariidae;2001-01-11;I;A;15.1;5.5;2.08;1.17;0.42;0.94;3.13;8.16;13.6
+Synallaxis frontalis;Furnariidae;2001-01-29;I;A;13.4;5.7;2.45;1.08;0.39;0.66;3.16;7.25;13.2
+Synallaxis frontalis;Furnariidae;2001-03-20;I;A;14.6;5.5;2.14;1.06;0.41;0.89;3.11;8.12;-
+Synallaxis frontalis;Furnariidae;2001-08-12;I;A;16.3;5.6;2.02;0.85;0.4;0.57;3;8.36;-
+Synallaxis frontalis;Furnariidae;2003-05-10;I;A;14.4;5.4;2.02;1.04;0.37;0.93;3.08;7.33;13.6
+Synallaxis frontalis;Furnariidae;2005-05-07;I;A;-;-;-;-;-;-;-;-;13
+Synallaxis frontalis;Furnariidae;2006-05-06;I;J;14;5.7;2.05;1.35;0.43;0.67;3.14;6.85;14
+Synallaxis frontalis;Furnariidae;2009-10-24;I;A;14.1;5.4;1.98;1.39;1.37;1.27;3.15;7.8;14.5
+Tachycineta leucorrhoa;Hirundinidae;1999-08-28;I;A;13.5;11.9;0.89;0.79;0.35;0.97;2.76;4.47;19
+Tachycineta leucorrhoa;Hirundinidae;1999-08-28;I;A;14;11.1;1.32;0.86;0.35;0.97;2.98;5.34;20
+Tachycineta leucorrhoa;Hirundinidae;2000-08-19;I;A;12.6;10.4;1.28;0.33;0.38;1.29;2.95;4.4;21
+Tapera naevia;Cuculidae;2000-12-17;I;A;26.5;10.8;3.01;1.79;0.84;1.36;4.01;13.9;52.3
+Tapera naevia;Cuculidae;2006-12-09;I;J;28.9;11.9;3.29;2.12;0.89;1.16;4.09;17;25
+Taraba major;Thamnophilidae;2000-08-15;F;A;21.5;9.3;3.71;2.33;1.24;1.7;5.18;9.72;62.8
+Taraba major;Thamnophilidae;2001-01-30;M;A;23;9.5;3.84;2.81;1.19;1.71;5.53;9.13;65.8
+Taraba major;Thamnophilidae;2001-07-17;F;A;21;10.9;3.79;2.27;0.98;1.31;5.18;8.67;-
+Taraba major;Thamnophilidae;2001-08-12;M;A;20.6;9.5;3.94;2.02;3.12;1.66;5.1;8.65;62.4
+Taraba major;Thamnophilidae;2004-10-16;M;A;23.6;9.6;3.57;2.46;1.1;1.66;5.11;9.11;39
+Tersina viridis;Thraupidae ;2001-08-11;M;A;14.3;8.5;2.16;1.22;0.56;1.65;3.34;5.99;29.2
+Tersina viridis;Thraupidae ;2001-08-11;F;A;-;8.8;2.2;1.13;0.62;1.52;3.07;5.69;34.7
+Tersina viridis;Thraupidae ;2001-11-13;F;A;15.2;8.6;1.82;1.15;0.62;0.95;3.27;5.82;37.4
+Tersina viridis;Thraupidae ;2002-05-30;M;A;16;9.2;1.72;1.1;0.65;1.83;3.56;5.98;32.7
+Tersina viridis;Thraupidae ;2002-05-31;F;A;15.5;9.1;1.73;1.06;0.7;1.59;3.6;5.72;31.7
+Thalurania furcata;Trochilidae;2000-02-26;M;A;11;-;-;1.85;-;-;3.46;4.36;4.8
+Thalurania furcata;Trochilidae;2000-02-27;F;A;9.8;-;-;2.04;-;-;3.63;3.34;4
+Thalurania furcata;Trochilidae;2000-03-18;M;A;11;-;-;1.96;-;-;3.54;4.88;5.5
+Thalurania furcata;Trochilidae;2000-10-21;M;A;10.6;6;-;1.87;-;-;3.28;4.38;5
+Thalurania furcata;Trochilidae;2000-12-13;M;A;10.5;5.9;-;1.97;-;-;3.46;4.15;5.7
+Thalurania furcata;Trochilidae;2001-01-30;F;A;9.3;5.4;-;1.93;-;-;3.36;3.32;4.2
+Thalurania furcata;Trochilidae;2001-08-12;M;A;-;-;-;-;-;-;-;-;4.7
+Thalurania furcata;Trochilidae;2001-10-12;F;A;9.2;5.5;-;-;-;-;-;-;4.4
+Thalurania furcata;Trochilidae;2001-10-13;M;A;-;-;-;-;-;-;-;-;4.3
+Thalurania furcata;Trochilidae;2002-03-16;M;A;-;-;-;-;-;-;-;-;5
+Thalurania furcata;Trochilidae;2002-11-28;I;J;-;-;-;-;-;-;-;-;4.95
+Thalurania furcata;Trochilidae;2002-11-29;I;A;-;-;-;-;-;-;-;-;5.1
+Thalurania furcata;Trochilidae;2002-11-29;I;J;-;-;-;-;-;-;-;-;4
+Thalurania furcata;Trochilidae;2005-05-07;F;I;-;-;-;-;-;-;-;-;4.2
+Thalurania glaucopis;Trochilidae;2002-05-29;F;A;-;-;-;-;-;-;-;-;3.3
+Thamnophilus caerulescens;Thamnophilidae;2001-03-21;M;A;14;6.8;2.37;1.57;0.64;1.29;3.73;6.46;20.3
+Thamnophilus caerulescens;Thamnophilidae;2004-10-16;F;A;16;7.3;2.75;1.68;0.65;1.53;4.02;6.9;21
+Thlypopsis sordida;Thraupidae ;2001-03-21;F;A;12.6;6.1;2.1;1.11;0.49;0.77;3.01;6;12.3
+Thraupis palmarum;Thraupidae ;2000-12-17;I;A;-;-;-;-;-;-;-;-;40.4
+Thraupis palmarum;Thraupidae ;2001-12-11;I;A;-;-;-;-;-;-;-;-;42.5
+Thraupis palmarum ;Thraupidae ;2005-02-26;I;A;17.5;-;-;-;-;-;-;-;42.4
+Thraupis sayaca;Thraupidae ;2001-11-13;I;A;16;-;-;-;-;-;-;-;-
+Thraupis sayaca;Thraupidae ;2001-11-18;I;A;-;-;-;-;-;-;-;-;37.4
+Thraupis sayaca;Thraupidae ;2001-11-18;I;A;-;-;-;-;-;-;-;-;38.4
+Thraupis sayaca;Thraupidae ;2001-11-18;I;A;15.5;-;-;-;-;-;-;-;34.6
+Thraupis sayaca;Thraupidae ;2001-11-18;I;A;16.5;-;-;-;-;-;-;-;38.6
+Thraupis sayaca;Thraupidae ;2002-02-05;I;A;-;-;-;-;-;-;-;-;40
+Thraupis sayaca;Thraupidae ;2002-05-29;I;A;17;9;2.07;1.4;0.75;1.06;3.65;6.34;33
+Thraupis sayaca;Thraupidae ;2002-05-29;I;A;17.3;9.4;2.04;1.35;0.7;0.75;3.56;7.17;34.2
+Thraupis sayaca;Thraupidae ;2002-05-29;I;A;15.1;4.2;2.07;1.44;0.88;0.87;3.63;6.93;-
+Thraupis sayaca;Thraupidae ;2002-07-12;I;A;-;-;-;-;-;-;-;-;37
+Thraupis sayaca;Thraupidae ;2002-07-12;I;A;-;-;-;-;-;-;-;-;36
+Thraupis sayaca;Thraupidae ;2002-11-28;I;A;18;9.8;2;1.3;1.4;0.92;4.5;6.7;31.2
+Thraupis sayaca;Thraupidae ;2002-11-28;I;A;17.5;9.2;2.24;1.46;0.93;1.11;3.05;6.59;41
+Thraupis sayaca;Thraupidae ;2003-05-10;I;A;16.5;9.6;2.69;1.77;0.78;1.32;3.66;7.27;34.5
+Thraupis sayaca;Thraupidae ;2005-02-26;I;A;16;-;-;-;-;-;-;-;34.4
+Thraupis sayaca;Thraupidae ;2005-02-26;I;A;18.6;-;-;-;-;-;-;-;34.4
+Thraupis sayaca;Thraupidae ;2005-02-26;I;A;16.7;-;-;-;-;-;-;-;37.4
+Thraupis sayaca;Thraupidae ;2006-12-05;I;J;16.8;9;2.13;1.59;0.77;1.25;3.83;6.99;33.2
+Troglodytes musculus;Troglodytidae;2000-12-17;I;A;11.5;5.2;1.75;1.38;0.35;0.78;3.35;4.82;11
+Troglodytes musculus;Troglodytidae;2001-03-20;I;A;11;5.7;1.88;1.4;0.34;0.9;3.28;4.73;12
+Troglodytes musculus;Troglodytidae;2001-04-09;I;A;11.4;5.2;1.87;1.33;0.37;0.8;3.38;4.5;11.8
+Troglodytes musculus;Troglodytidae;2001-08-11;I;A;11;5;2.03;1.61;0.32;0.97;3.25;5;11.7
+Troglodytes musculus;Troglodytidae;2001-10-14;I;A;15;5.3;1.98;1.3;0.38;0.84;3.35;4.12;13.7
+Turdus amaurochalinus;Turdidae;2000-10-08;M;A;21.5;11.5;3.45;2.19;0.71;1.41;4.84;9.25;52.2
+Turdus amaurochalinus;Turdidae;2000-10-21;M;A;32;12.1;3.15;1.82;0.74;1.13;4.74;10.61;54
+Turdus amaurochalinus;Turdidae;2000-10-21;M;A;22.3;11.9;3.72;2.05;0.7;1.52;4.77;9.67;66
+Turdus amaurochalinus;Turdidae;2000-10-21;M;A;22;11.7;3.28;1.84;0.7;1.31;4.8;9.48;-
+Turdus amaurochalinus;Turdidae;2000-10-21;M;A;21.9;11.6;3.74;2.05;0.6;1.44;4.92;9.5;60.7
+Turdus amaurochalinus;Turdidae;2000-10-21;M;A;21.9;11.7;3.5;2.04;0.83;1.23;4.7;9.81;-
+Turdus amaurochalinus;Turdidae;2000-10-29;M;A;21.2;10.8;3.39;2;0.67;1.49;4.74;9.78;63.1
+Turdus amaurochalinus;Turdidae;2000-12-13;M;A;21.5;11.4;3.14;2.05;0.74;1.36;4.87;9.62;68
+Turdus amaurochalinus;Turdidae;2000-12-16;I;A;21.3;11.5;3.31;2.07;0.67;1.25;4.78;9.26;59.7
+Turdus amaurochalinus;Turdidae;2000-12-16;I;J;21;11.3;3.07;1.82;0.64;1.39;4.55;9.74;56
+Turdus amaurochalinus;Turdidae;2000-12-16;I;J;-;-;-;-;-;-;-;-;56
+Turdus amaurochalinus;Turdidae;2001-01-30;I;A;21.3;12;3.45;1.59;0.65;1.18;4.58;7.99;66.7
+Turdus amaurochalinus;Turdidae;2001-03-06;I;A;22;11.7;3.44;1.91;0.65;1.4;5.04;9.95;61
+Turdus amaurochalinus;Turdidae;2001-07-12;I;A;21.5;11.13;3;1.68;0.67;1.13;4.51;8;58.7
+Turdus amaurochalinus;Turdidae;2001-07-17;I;A;22;12.1;3.06;1.98;0.69;1.16;4.84;8.59;62.7
+Turdus amaurochalinus;Turdidae;2001-08-11;I;A;20.3;11;3.42;2.16;0.71;1.6;4.77;9.5;61.7
+Turdus amaurochalinus;Turdidae;2001-08-11;I;A;21;10.9;3.28;2.11;0.67;1.44;4.67;8;62.7
+Turdus amaurochalinus;Turdidae;2001-08-11;I;A;22;11.5;-;-;-;0.88;-;-;-
+Turdus amaurochalinus;Turdidae;2001-08-11;I;A;-;-;-;1.98;0.72;0.97;4.64;-;-
+Turdus amaurochalinus;Turdidae;2001-08-11;I;A;23;11.3;3.62;1.7;0.6;0.83;4.96;9.1;-
+Turdus amaurochalinus;Turdidae;2001-08-12;I;I;31;11.7;4.01;2.31;0.7;1.5;4.74;9.88;-
+Turdus amaurochalinus;Turdidae;2001-08-12;I;A;23.5;11.5;3.76;1.96;0.77;1.27;4.92;9.04;57.4
+Turdus amaurochalinus;Turdidae;2001-08-12;I;A;21;11;3.37;2.06;0.75;1.25;4.64;8.73;60.4
+Turdus amaurochalinus;Turdidae;2001-08-12;I;A;22;11;3.36;1.95;0.21;1.34;4.56;8.32;56.4
+Turdus amaurochalinus;Turdidae;2001-08-12;I;A;21.8;11.1;3.36;1.9;0.62;1.3;4.62;8.64;63.4
+Turdus amaurochalinus;Turdidae;2001-08-12;I;A;22.5;11.5;3.35;1.93;0.65;1.15;4.64;9.24;67.4
+Turdus amaurochalinus;Turdidae;2001-08-18;I;A;23.8;10;3.4;0.81;0.74;1.02;4.94;9.42;61.4
+Turdus amaurochalinus;Turdidae;2001-08-18;I;A;23;11;3.5;2.03;0.66;1.17;4.65;9.37;63.4
+Turdus amaurochalinus;Turdidae;2001-08-18;I;A;21.5;11.4;3.26;2.06;0.64;1.06;4.94;8.7;76.4
+Turdus amaurochalinus;Turdidae;2001-08-18;I;A;-;-;3.47;1.9;0.68;1.12;5.16;19.67;62.4
+Turdus amaurochalinus;Turdidae;2001-08-19;I;A;21.5;10.5;2.84;2.11;0.74;1.55;4.71;8.55;55.4
+Turdus amaurochalinus;Turdidae;2001-08-19;I;A;22.3;12;3.63;1.85;0.73;0.95;4.65;9.62;65.5
+Turdus amaurochalinus;Turdidae;2001-08-19;I;A;21.5;10;3.64;1.96;0.62;1.2;4.77;8.7;56.4
+Turdus amaurochalinus;Turdidae;2001-08-19;I;A;-;-;-;-;-;-;-;-;64.4
+Turdus amaurochalinus;Turdidae;2001-09-08;M;A;22;12;3.67;2.22;0.68;1.33;4.21;9.51;54.4
+Turdus amaurochalinus;Turdidae;2001-09-08;I;A;22.2;11.6;3.63;1.9;0.66;1.08;4.4;10.1;51.4
+Turdus amaurochalinus;Turdidae;2001-09-08;M;A;21.6;10.9;3.65;2.04;0.59;1.41;4.6;8.83;68.4
+Turdus amaurochalinus;Turdidae;2001-09-08;I;A;21;10.6;3.07;1.89;0.79;1.29;4.88;7.54;63.4
+Turdus amaurochalinus;Turdidae;2001-09-09;I;A;22;11.1;3.47;2.1;0.63;1.13;4.48;8.08;56.4
+Turdus amaurochalinus;Turdidae;2001-09-09;I;A;21;11.3;3.24;1.83;0.62;1.34;4.22;8.06;50
+Turdus amaurochalinus;Turdidae;2001-10-13;I;A;-;-;-;-;-;-;-;-;61.2
+Turdus amaurochalinus;Turdidae;2001-10-13;M;A;-;-;-;-;-;-;-;-;61.7
+Turdus amaurochalinus;Turdidae;2001-10-13;M;A;-;-;-;-;-;-;-;-;60
+Turdus amaurochalinus;Turdidae;2001-10-13;M;A;-;-;-;-;-;-;-;-;58.9
+Turdus amaurochalinus;Turdidae;2001-10-13;M;A;-;-;-;-;-;-;-;-;59
+Turdus amaurochalinus;Turdidae;2001-10-13;M;A;22.7;11;3.43;1.89;0.75;1.35;4.76;8.44;64.3
+Turdus amaurochalinus;Turdidae;2001-10-13;I;A;22;11.7;3.19;1.71;0.71;1.26;4.68;10.26;63.3
+Turdus amaurochalinus;Turdidae;2001-10-13;M;A;22.5;11.5;3.9;1.8;0.75;1.75;4.6;9.46;61.4
+Turdus amaurochalinus;Turdidae;2001-10-13;M;A;-;-;-;-;-;-;-;-;57.4
+Turdus amaurochalinus;Turdidae;2001-10-14;F;A;-;-;-;-;-;-;-;-;70
+Turdus amaurochalinus;Turdidae;2001-10-14;F;A;-;-;-;-;-;-;-;-;69.7
+Turdus amaurochalinus;Turdidae;2001-11-13;I;A;22.2;11;3.33;2.16;0.67;0.7;4.64;11.31;60.5
+Turdus amaurochalinus;Turdidae;2001-11-18;M;A;-;-;-;-;-;-;-;-;61.4
+Turdus amaurochalinus;Turdidae;2001-11-18;I;A;-;-;-;-;-;-;-;-;58.4
+Turdus amaurochalinus;Turdidae;2001-12-11;I;J;-;-;-;-;-;-;-;-;58.5
+Turdus amaurochalinus;Turdidae;2002-01-21;I;A;20.8;10.39;3.12;1.64;0.61;1.1;4.65;9.51;60.5
+Turdus amaurochalinus;Turdidae;2002-01-21;I;A;-;-;-;-;-;-;-;-;58.5
+Turdus amaurochalinus;Turdidae;2002-01-21;I;J;-;-;-;-;-;-;-;-;52.5
+Turdus amaurochalinus;Turdidae;2002-01-21;I;A;-;-;-;-;-;-;-;-;62.5
+Turdus amaurochalinus;Turdidae;2002-01-21;I;A;-;-;-;-;-;-;-;-;60.4
+Turdus amaurochalinus;Turdidae;2002-01-21;I;A;-;-;-;-;-;-;-;-;56.5
+Turdus amaurochalinus;Turdidae;2002-01-22;I;J;-;-;-;-;-;-;-;-;54.4
+Turdus amaurochalinus;Turdidae;2002-01-22;I;J;-;-;-;-;-;-;-;-;57.4
+Turdus amaurochalinus;Turdidae;2002-03-16;M;A;-;-;-;-;-;-;-;-;57
+Turdus amaurochalinus;Turdidae;2002-03-16;I;J;22.8;12;3.44;1.59;0.55;1.12;4.5;9.98;63
+Turdus amaurochalinus;Turdidae;2002-03-19;I;J;-;-;-;-;-;-;-;-;52.5
+Turdus amaurochalinus;Turdidae;2002-03-19;M;A;-;-;-;-;-;-;-;-;52
+Turdus amaurochalinus;Turdidae;2002-03-19;F;A;-;-;-;-;-;-;-;-;60
+Turdus amaurochalinus;Turdidae;2002-03-19;M;A;23.6;11.53;3.52;1.69;0.63;1.2;4.69;9.77;55
+Turdus amaurochalinus;Turdidae;2002-04-20;I;A;21.6;11.5;3.34;1.66;0.64;1.09;4.6;9.63;59.6
+Turdus amaurochalinus;Turdidae;2002-04-20;I;A;-;-;-;-;-;-;-;-;60.5
+Turdus amaurochalinus;Turdidae;2002-05-29;I;A;-;11.1;-;-;-;-;-;-;60.7
+Turdus amaurochalinus;Turdidae;2002-05-30;I;A;22;11.5;3.21;1.71;0.66;1.15;4.71;8.22;64.7
+Turdus amaurochalinus;Turdidae;2002-05-30;I;J;14.7;10.6;3.32;1.84;0.81;0.98;4.45;-;50.7
+Turdus amaurochalinus;Turdidae;2002-06-17;I;A;21.8;12.1;3.24;1.72;0.6;1.26;4.62;9;64
+Turdus amaurochalinus;Turdidae;2002-07-11;M;A;-;-;-;-;-;-;-;-;64
+Turdus amaurochalinus;Turdidae;2002-07-12;I;A;-;-;-;-;-;-;-;-;62
+Turdus amaurochalinus;Turdidae;2002-07-12;I;A;-;-;-;-;-;-;-;-;61
+Turdus amaurochalinus;Turdidae;2002-07-12;I;A;-;-;-;-;-;-;-;-;50
+Turdus amaurochalinus;Turdidae;2002-07-12;I;A;-;-;-;-;-;-;-;-;61.8
+Turdus amaurochalinus;Turdidae;2002-07-14;M;A;-;-;-;-;-;-;-;-;62.8
+Turdus amaurochalinus;Turdidae;2002-11-28;M;A;21.5;11;3.2;1.82;0.78;1.2;4.75;9;62.6
+Turdus amaurochalinus;Turdidae;2002-11-28;I;J;-;-;-;-;-;-;-;-;54
+Turdus amaurochalinus;Turdidae;2002-11-28;I;A;22;10.05;4.07;2.53;0.62;1.39;4.72;9.03;60
+Turdus amaurochalinus;Turdidae;2002-11-28;M;A;21.5;11;2.91;1.95;0.62;1.36;4.87;9.45;55
+Turdus amaurochalinus;Turdidae;2003-05-10;I;J;19.8;10.7;2.97;1.79;0.58;0.4;4.83;8.44;49.5
+Turdus amaurochalinus;Turdidae;2004-10-16;F;A;20.5;11.5;2.95;2.08;0.7;1.33;7;8.38;68
+Turdus amaurochalinus;Turdidae;2004-10-16;M;A;-;-;-;-;-;-;-;-;61
+Turdus amaurochalinus;Turdidae;2004-10-16;I;A;-;-;-;-;-;-;-;-;56
+Turdus amaurochalinus;Turdidae;2005-11-19;I;A;-;-;-;-;-;-;-;-;68
+Turdus amaurochalinus;Turdidae;2006-12-20;I;A;22;11.5;2.99;1.84;0.34;0.73;4.4;8.98;61.3
+Turdus amaurochalinus;Turdidae;2009-10-24;I;A;23;11.5;3.33;2.5;0.83;1.42;4.82;9.78;60.4
+Turdus amaurochalinus;Turdidae;2009-10-24;I;A;22.1;11.5;3.41;2.56;0.72;1.27;4.67;8.68;58.5
+Turdus leucomelas;Turdidae;2000-02-27;I;A;25.4;12;3.7;1.98;0.63;1.1;4.96;9.94;70
+Turdus leucomelas;Turdidae;2000-08-05;I;A;20.5;12.3;3.42;2.01;0.72;1.29;4.83;9.66;59.1
+Turdus leucomelas;Turdidae;2000-08-15;I;A;23.5;12.5;3.39;1.26;0.69;1.46;4.93;10.66;69
+Turdus leucomelas;Turdidae;2000-08-19;I;A;18.5;11.5;3.63;1.72;0.7;0.22;4.98;9.24;-
+Turdus leucomelas;Turdidae;2000-08-19;I;A;-;-;3.3;2.46;0.9;1.32;5.52;9.75;64.7
+Turdus leucomelas;Turdidae;2000-10-21;I;A;22.5;12;3.5;1.9;0.7;1.65;5.4;10.3;77
+Turdus leucomelas;Turdidae;2000-10-29;I;A;23.1;12.3;3.35;2.36;0.76;1.41;5.14;10.7;68.8
+Turdus leucomelas;Turdidae;2001-08-11;I;A;22.8;12;3.44;2.13;0.64;1.15;5.04;10.3;66.2
+Turdus leucomelas;Turdidae;2001-08-12;I;A;24;12.4;3.03;1.9;0.67;1.24;4.84;10.06;67.4
+Turdus leucomelas;Turdidae;2001-08-18;I;A;23;12.1;3.3;1.82;0.67;1.23;5.02;12;71.4
+Turdus leucomelas;Turdidae;2001-09-09;I;A;23.5;11.5;3.35;2.86;0.68;1.22;5;9.45;62.4
+Turdus leucomelas;Turdidae;2001-10-13;I;A;25.5;14.5;3.51;1.92;0.62;1.06;5.6;10.82;32.3
+Turdus leucomelas;Turdidae;2001-10-13;I;A;25;12;3.47;1.96;0.77;1.15;5.04;9.76;63.4
+Turdus leucomelas;Turdidae;2001-11-13;I;I;23.5;12.3;3.23;2.18;0.65;0.76;5.02;10.88;67.5
+Turdus leucomelas;Turdidae;2002-01-20;I;J;18;11;3.15;1.76;0.67;1.85;4.55;-;61
+Turdus leucomelas;Turdidae;2002-01-21;I;J;19;9.2;3.4;1.85;0.65;1.53;4.6;5.5;60
+Turdus leucomelas;Turdidae;2002-01-21;I;J;21;10.5;3.19;1.67;0.63;1.34;4.55;8.73;58.6
+Turdus leucomelas;Turdidae;2002-01-22;I;J;-;-;-;-;-;-;-;-;61
+Turdus leucomelas;Turdidae;2002-02-07;I;J;-;-;-;-;-;-;-;-;58
+Turdus leucomelas;Turdidae;2002-04-20;I;A;22.5;12;3.34;1.76;0.66;1.37;5;9.77;68.5
+Turdus leucomelas;Turdidae;2002-04-21;I;A;24;12;3.48;1.7;0.66;1.43;4.74;9.92;70
+Turdus leucomelas;Turdidae;2002-04-21;I;J;21.5;10.5;3.11;1.76;0.66;1.43;4.74;8.63;61.5
+Turdus leucomelas;Turdidae;2002-06-16;I;A;24;12;3.24;1.94;0.71;1.42;5.12;10.9;68.1
+Turdus leucomelas;Turdidae;2002-07-11;I;A;-;-;-;-;-;-;-;-;64
+Turdus leucomelas;Turdidae;2002-07-11;I;A;-;-;-;-;-;-;-;-;70
+Turdus leucomelas;Turdidae;2002-07-14;I;A;-;-;-;-;-;-;-;-;71.8
+Turdus leucomelas;Turdidae;2002-11-28;I;I;-;-;3.86;1.87;0.68;-;4.82;8.96;-
+Turdus leucomelas;Turdidae;2002-11-29;I;A;-;-;-;-;-;-;-;-;70.6
+Turdus leucomelas;Turdidae;2002-11-29;I;J;-;-;-;-;-;-;-;-;59
+Turdus leucomelas;Turdidae;2004-10-16;I;A;-;-;-;-;-;-;-;-;52
+Turdus leucomelas;Turdidae;2004-10-16;I;A;23;12.5;3.95;2.2;0.7;1.44;5.08;11.2;61
+Turdus leucomelas;Turdidae;2005-05-07;I;A;23.1;11.9;3.41;1.84;0.6;0.96;4.79;7.5;63
+Turdus leucomelas;Turdidae;2005-05-07;I;A;24.1;12.2;3.97;2.72;1.78;1.66;5.21;10.49;68
+Turdus rufiventris;Turdidae;1999-05-29;I;A;24.5;11.9;3.57;1.86;0.63;-;-;10.6;-
+Turdus rufiventris;Turdidae;2000-10-21;I;A;23.8;11.4;4.17;2.4;0.67;1.63;5.13;10.82;64.7
+Turdus rufiventris;Turdidae;2001-07-17;I;A;26;11.6;3.64;1.94;0.76;1.35;4.98;10.64;71
+Turdus rufiventris;Turdidae;2001-08-18;I;A;23.5;12.8;3.28;1.85;0.76;1.79;5.27;10.51;72.4
+Turdus rufiventris;Turdidae;2001-10-14;I;A;-;-;-;-;-;-;-;-;68.7
+Turdus rufiventris;Turdidae;2001-11-18;I;A;-;-;-;-;-;-;-;-;80.4
+Turdus rufiventris;Turdidae;2002-03-03;I;A;-;12.1;3.71;1.41;0.59;1.52;-;-;80.5
+Turdus rufiventris;Turdidae;2002-03-03;I;A;-;-;-;-;-;-;-;-;78.5
+Turdus rufiventris;Turdidae;2005-05-07;I;A;22.6;11.3;3.21;2.57;0.66;1.54;5.24;9.66;68
+Turdus rufiventris;Turdidae;2006-05-06;I;A;23;11.5;3.22;1.91;0.51;1.33;4.85;9.59;69.2
+Turdus rufiventris;Turdidae;2009-10-24;I;A;26;12.5;1.2;2.46;0.78;1.45;5.46;11.85;79
+Tyrannus albogularis;Tyrannidae;2000-09-10;I;A;20;10.6;1.78;1.91;0.68;1.55;4.28;9.27;36.2
+Tyrannus albogularis;Tyrannidae;2000-12-18;I;A;20.6;10.7;1.83;2;0.75;1.58;4.52;8.95;39.1
+Tyrannus melancholicus;Tyrannidae;2000-09-09;I;A;20.7;11;1.81;2.01;0.77;1.35;4.63;9.42;38.7
+Tyrannus melancholicus;Tyrannidae;2000-09-09;I;A;21.3;11;1.86;2.04;0.76;1.42;4.53;9.59;39.7
+Tyrannus melancholicus;Tyrannidae;2000-09-09;I;A;21.6;11.2;1.84;2.23;0.81;1.54;4.77;9.66;40
+Tyrannus melancholicus;Tyrannidae;2000-09-09;I;A;20.5;11.6;1.87;2.17;0.75;1.39;4.7;9.75;39.2
+Tyrannus melancholicus;Tyrannidae;2000-09-09;I;A;20;10.8;1.84;2.29;0.82;1.6;4.85;9.9;39.1
+Tyrannus melancholicus;Tyrannidae;2000-12-17;I;A;-;-;-;-;-;-;-;-;42.7
+Tyrannus melancholicus;Tyrannidae;2001-11-13;I;A;-;-;-;-;-;-;-;-;41
+Tyrannus melancholicus;Tyrannidae;2001-11-18;I;A;-;-;-;-;-;-;-;-;39.4
+Tyrannus melancholicus;Tyrannidae;2001-12-11;I;A;-;-;-;-;-;-;-;-;39.5
+Tyrannus melancholicus;Tyrannidae;2002-01-21;I;A;20.3;10.4;1.74;2.1;0.74;1.69;4.77;8.85;35.5
+Tyrannus melancholicus;Tyrannidae;2002-02-06;I;J;-;10.5;2.08;1.86;0.89;1.5;4.74;8;35.7
+Tyrannus melancholicus;Tyrannidae;2002-02-07;I;J;-;-;-;-;-;-;-;-;36.1
+Tyrannus melancholicus;Tyrannidae;2004-10-16;I;A;21.3;11.2;2.18;2.09;1.35;1.31;4.98;9.9;39
+Tyrannus melancholicus;Tyrannidae;2004-10-16;I;A;21.01;11;1.31;2.29;0.83;1.42;4.62;9.27;41
+Tyrannus melancholicus;Tyrannidae;2005-02-26;I;A;19;-;-;-;-;-;-;-;37.9
+Tyrannus melancholicus;Tyrannidae;2005-11-19;I;A;-;-;-;-;-;-;-;-;39.2
+Tyrannus melancholicus;Tyrannidae;2005-11-19;I;A;-;-;-;-;-;-;-;-;40
+Tyrannus melancholicus;Tyrannidae;2005-11-19;I;A;-;-;-;-;-;-;-;-;42
+Tyrannus savana;Tyrannidae;1999-10-24;F;I;28;10.4;-;-;-;-;-;-;-
+Tyrannus savana;Tyrannidae;2000-09-09;M;A;38;11.4;1.82;1.52;0.62;1.42;3.95;27;38.2
+Volatinia jacarina;Thraupidae ;1999-03-06;F;I;11.5;5;1.6;1.18;0.67;-;-;4.12;10
+Volatinia jacarina;Thraupidae ;1999-03-07;M;A;12;5.4;1.67;1.21;0.64;-;-;4.87;12
+Volatinia jacarina;Thraupidae ;1999-03-07;F;I;11;5;1.6;1.14;0.62;-;-;4.46;10.5
+Volatinia jacarina;Thraupidae ;1999-03-21;M;A;10.3;4.8;1.65;0.94;0.59;-;-;4.4;11
+Volatinia jacarina;Thraupidae ;1999-03-22;F;A;10.5;5.1;1.65;1.05;0.52;-;-;4.06;11
+Volatinia jacarina;Thraupidae ;1999-03-22;M;A;10.6;5.1;1.54;0.99;0.58;-;-;4.23;11
+Volatinia jacarina;Thraupidae ;1999-03-22;F;A;10.3;4.8;1.22;1.05;0.69;-;-;4.21;11
+Volatinia jacarina;Thraupidae ;1999-03-22;M;A;10.7;5;1.55;0.95;0.62;-;-;4.47;10
+Volatinia jacarina;Thraupidae ;1999-03-22;F;A;10.4;4.9;1.14;1;0.62;-;-;4.1;10
+Volatinia jacarina;Thraupidae ;1999-03-22;F;A;10.6;4.9;1.56;0.93;0.59;-;-;4.74;10
+Volatinia jacarina;Thraupidae ;1999-03-23;M;A;10.8;5.2;1.68;0.96;0.6;-;-;4.45;11
+Volatinia jacarina;Thraupidae ;1999-05-01;F;I;-;-;1.37;1.3;0.55;-;-;3.96;-
+Volatinia jacarina;Thraupidae ;1999-08-28;F;A;10;5.36;1.66;1.1;0.58;0.65;2.47;4.2;8.5
+Volatinia jacarina;Thraupidae ;1999-09-25;M;J;10.5;5.2;1.59;0.98;0.55;0.68;2.47;4.71;9
+Volatinia jacarina;Thraupidae ;1999-09-25;F;A;10.7;5.2;1.57;0.93;0.61;0.71;2.42;4.64;9
+Volatinia jacarina;Thraupidae ;1999-10-23;I;A;-;5;-;1.15;-;-;-;-;10
+Volatinia jacarina;Thraupidae ;1999-10-23;M;J;7.2;5.1;1.7;0.89;0.62;0.71;2.38;-;10
+Volatinia jacarina;Thraupidae ;1999-10-23;M;A;10.4;5.3;1.68;0.93;0.58;0.66;2.44;4.89;10
+Volatinia jacarina;Thraupidae ;1999-10-23;M;A;12;5.2;1.83;1.2;0.6;0.81;2.49;5.04;10
+Volatinia jacarina;Thraupidae ;1999-10-24;M;J;10.4;5.3;0.57;0.98;0.61;0.69;2.49;4.75;9.5
+Volatinia jacarina;Thraupidae ;1999-10-24;M;J;10.9;5.2;1.23;0.96;0.67;0.71;2.45;4.58;10
+Volatinia jacarina;Thraupidae ;1999-10-24;M;J;10.8;5.2;1.9;1.01;0.58;0.7;2.51;4.71;10
+Volatinia jacarina;Thraupidae ;2000-08-19;F;A;-;-;-;1.22;0.56;0.43;2.93;7.32;-
+Volatinia jacarina;Thraupidae ;2000-09-17;F;A;10.7;5.1;1.77;1.06;0.55;0.59;3;4.54;9.7
+Volatinia jacarina;Thraupidae ;2000-10-07;F;A;10.1;5;1.59;1.1;0.63;0.72;2.4;4.66;9
+Volatinia jacarina;Thraupidae ;2000-10-07;M;J;10.9;5.2;1.66;0.99;0.63;0.74;2.43;4.66;10.1
+Volatinia jacarina;Thraupidae ;2000-10-21;M;J;11.1;5.3;1.79;0.95;0.62;0.73;2.41;4.95;9.6
+Volatinia jacarina;Thraupidae ;2000-10-21;M;J;10.3;5.2;1.92;1.05;0.65;0.84;2.5;4.41;9
+Volatinia jacarina;Thraupidae ;2000-10-21;M;J;10.8;5.3;1.52;0.94;0.68;0.66;2.43;4.93;9
+Volatinia jacarina;Thraupidae ;2000-10-29;F;A;10;5;1.56;1.06;0.56;0.69;2.36;4.6;8.7
+Volatinia jacarina;Thraupidae ;2000-11-20;M;J;-;-;-;-;-;-;-;-;9.6
+Volatinia jacarina;Thraupidae ;2000-12-13;F;A;10;4.9;1.61;1.01;0.57;0.76;2.51;4.59;10.2
+Volatinia jacarina;Thraupidae ;2000-12-14;M;J;10.1;5.1;1.68;1.11;0.59;0.71;2.47;4.36;9.7
+Volatinia jacarina;Thraupidae ;2000-12-14;F;A;10.9;4.9;1.58;1.03;0.64;0.72;2.38;4.75;10.7
+Volatinia jacarina;Thraupidae ;2000-12-16;M;J;10;5.1;1.72;1.07;0.56;0.74;2.49;4.4;9.7
+Volatinia jacarina;Thraupidae ;2000-12-16;F;A;11;5;1.67;0.96;0.63;0.75;2.48;4.2;10.6
+Volatinia jacarina;Thraupidae ;2000-12-16;M;J;10.7;5.2;1.61;1;0.61;0.75;2.51;5.19;11
+Volatinia jacarina;Thraupidae ;2000-12-16;M;A;11.1;5.2;1.61;1.12;0.63;0.78;2.64;4.6;10.7
+Volatinia jacarina;Thraupidae ;2000-12-16;F;A;10.7;4.9;1.61;0.98;0.6;0.73;2.47;4.23;10.1
+Volatinia jacarina;Thraupidae ;2000-12-16;M;J;10.9;5.2;1.62;1;0.61;0.76;2.48;4.62;11.2
+Volatinia jacarina;Thraupidae ;2000-12-16;M;J;10.5;5.2;1.59;1.09;0.69;0.75;2.57;4.49;10.6
+Volatinia jacarina;Thraupidae ;2000-12-16;F;A;10.2;5.1;1.73;1.14;0.61;0.79;2.41;4.49;10
+Volatinia jacarina;Thraupidae ;2000-12-16;M;J;10.7;5.5;1.57;1.07;0.6;0.74;2.47;4.96;10.4
+Volatinia jacarina;Thraupidae ;2000-12-16;M;J;10.4;5;1.63;1.11;0.59;0.79;2.53;4.44;10.7
+Volatinia jacarina;Thraupidae ;2000-12-16;M;A;10.7;5.4;1.62;1.1;0.58;1.76;2.52;4.89;10
+Volatinia jacarina;Thraupidae ;2000-12-17;M;J;10.8;5.1;1.51;1.05;0.53;0.87;2.43;4.66;10
+Volatinia jacarina;Thraupidae ;2000-12-17;M;J;10.1;4.8;1.56;1.09;0.58;0.67;2.31;4.24;8.5
+Volatinia jacarina;Thraupidae ;2000-12-17;F;A;10;4.7;1.68;1.07;0.59;0.81;2.47;4.72;9.5
+Volatinia jacarina;Thraupidae ;2000-12-17;M;J;10.5;5.2;1.69;0.98;0.68;0.74;2.44;4.51;10.5
+Volatinia jacarina;Thraupidae ;2000-12-17;F;A;10.4;5.1;1.66;1.12;0.61;0.75;2.46;4.69;9.7
+Volatinia jacarina;Thraupidae ;2000-12-17;M;J;-;-;-;-;-;-;-;-;12.7
+Volatinia jacarina;Thraupidae ;2000-12-17;M;J;-;-;-;-;-;-;-;-;9.7
+Volatinia jacarina;Thraupidae ;2000-12-18;F;A;10;5;1.69;1.14;0.6;0.75;2.46;4.42;8.7
+Volatinia jacarina;Thraupidae ;2000-12-18;M;J;10.3;5.2;1.6;0.99;0.62;0.73;2.53;4.89;9.6
+Volatinia jacarina;Thraupidae ;2000-12-18;F;A;11;5.1;1.61;1.14;0.61;0.68;2.41;4.79;9
+Volatinia jacarina;Thraupidae ;2000-12-18;F;A;10.5;4.9;1.67;1.03;0.6;0.68;2.4;4.16;9.2
+Volatinia jacarina;Thraupidae ;2000-12-18;M;J;10;4.9;1.52;0.93;0.61;0.69;2.38;4.21;8.7
+Volatinia jacarina;Thraupidae ;2001-01-09;M;J;10.1;4.9;1.69;1.09;0.6;0.84;2.42;4.35;9.7
+Volatinia jacarina;Thraupidae ;2001-01-29;M;A;11;5;1.75;0.93;0.59;0.74;2.41;4.57;11
+Volatinia jacarina;Thraupidae ;2001-01-29;M;A;10.5;4.9;1.8;0.88;0.56;0.69;2.43;3.98;9
+Volatinia jacarina;Thraupidae ;2001-01-29;F;A;10.5;5.3;1.65;1.01;0.62;0.7;2.55;4.81;10.7
+Volatinia jacarina;Thraupidae ;2001-01-29;F;A;10.1;5;1.59;1.01;0.58;0.73;2.47;4.5;10.2
+Volatinia jacarina;Thraupidae ;2001-01-29;M;A;9.7;5.4;1.59;0.84;0.59;0.64;2.38;4.1;8.7
+Volatinia jacarina;Thraupidae ;2001-01-29;F;A;11;5.1;1.54;1.04;0.61;0.69;2.35;4.79;10
+Volatinia jacarina;Thraupidae ;2001-01-29;M;A;10.4;5;1.63;1.07;1.05;0.73;2.38;4.48;9.2
+Volatinia jacarina;Thraupidae ;2001-01-29;F;A;10.2;5;1.69;1;0.67;0.75;2.48;4.27;10.4
+Volatinia jacarina;Thraupidae ;2001-01-30;M;A;11;4.9;1.63;1.12;0.61;0.75;2.45;4.58;9.7
+Volatinia jacarina;Thraupidae ;2001-03-21;M;A;10.4;4.9;1.55;1.03;0.59;0.63;2.28;4.54;8.7
+Volatinia jacarina;Thraupidae ;2001-04-08;F;A;-;4.8;-;0.98;-;1.05;2.57;-;11.3
+Volatinia jacarina;Thraupidae ;2001-04-08;F;A;9.9;5.2;1.7;1.09;0.62;0.78;2.39;4.43;11.4
+Volatinia jacarina;Thraupidae ;2001-04-08;M;A;10.5;5.3;1.62;1.09;0.61;0.76;-;4.56;10.4
+Volatinia jacarina;Thraupidae ;2001-04-09;M;A;10.4;5.1;1.61;1.16;0.58;0.71;2.45;4.51;10
+Volatinia jacarina;Thraupidae ;2001-04-09;F;A;10.7;5;1.63;1.03;0.57;0.71;2.43;4.23;11.4
+Volatinia jacarina;Thraupidae ;2001-04-09;F;A;10.7;5.1;1.64;1.18;0.69;0.87;2.54;4.65;12.4
+Volatinia jacarina;Thraupidae ;2001-04-09;M;A;10.7;5.1;1.58;1.02;0.6;0.81;2.45;4.66;10.6
+Volatinia jacarina;Thraupidae ;2001-04-09;M;A;10.8;5.2;1.58;1.1;0.58;0.7;2.44;4.73;11.4
+Volatinia jacarina;Thraupidae ;2001-07-12;M;J;10.4;5.2;1.7;0.92;0.65;0.65;2.49;4.62;10
+Volatinia jacarina;Thraupidae ;2001-07-12;F;A;-;5;1.53;1;0.61;0.7;2.46;4.41;-
+Volatinia jacarina;Thraupidae ;2001-07-17;M;J;11;5.3;1.64;0.95;0.67;0.69;2.47;4.45;10
+Volatinia jacarina;Thraupidae ;2001-07-17;F;A;10.8;5;1.73;1.01;0.6;0.75;2.51;4.67;10.1
+Volatinia jacarina;Thraupidae ;2001-08-11;M;A;10.1;5;1.74;1.03;0.63;0.7;2.4;4.21;10
+Volatinia jacarina;Thraupidae ;2001-08-18;M;A;9.6;4.9;1.8;0.8;0.4;0.5;2.2;4;9.4
+Volatinia jacarina;Thraupidae ;2001-08-18;F;A;10.8;5;1.52;0.91;0.64;1.06;2.38;4.08;-
+Volatinia jacarina;Thraupidae ;2001-08-18;F;A;10.1;5.1;2;0.98;0.62;0.68;2.43;4.14;9.4
+Volatinia jacarina;Thraupidae ;2001-08-18;F;A;9.7;5;1.8;1.04;0.54;0.75;2.54;4.24;8.9
+Volatinia jacarina;Thraupidae ;2001-08-19;M;A;11.8;5.11;1.61;0.72;0.66;0.76;2.42;4.53;9.9
+Volatinia jacarina;Thraupidae ;2001-09-08;M;A;10.01;5.2;1.9;1.15;0.59;0.7;2.34;4.97;4.3
+Volatinia jacarina;Thraupidae ;2001-09-08;M;A;10;4.9;1.88;1.09;0.68;0.72;2.3;4.11;8.6
+Volatinia jacarina;Thraupidae ;2001-09-08;M;A;11;5.3;1.62;1.05;0.63;0.71;2.48;4.56;10
+Volatinia jacarina;Thraupidae ;2001-09-08;M;A;10.8;5;1.65;0.92;1.58;0.69;2.46;4.2;8.7
+Volatinia jacarina;Thraupidae ;2001-09-09;M;A;10;5.1;1.73;1.01;0.62;0.75;2.46;4.1;10
+Volatinia jacarina;Thraupidae ;2001-09-09;F;A;9.9;5;1.88;1.03;0.64;0.67;2.34;4.32;9.8
+Volatinia jacarina;Thraupidae ;2001-10-13;M;A;-;-;-;-;-;-;-;-;9.7
+Volatinia jacarina;Thraupidae ;2001-10-13;F;A;-;-;-;-;-;-;-;-;9.95
+Volatinia jacarina;Thraupidae ;2001-10-13;M;A;-;-;-;-;-;-;-;-;9.5
+Volatinia jacarina;Thraupidae ;2001-10-13;F;A;-;-;-;-;-;-;-;-;8.2
+Volatinia jacarina;Thraupidae ;2001-10-13;M;A;10.7;-;-;-;-;-;-;-;9.4
+Volatinia jacarina;Thraupidae ;2001-10-13;M;A;10.8;5.2;1.64;1.09;0.66;0.73;2.55;4.71;10.8
+Volatinia jacarina;Thraupidae ;2001-10-13;M;A;10.5;-;-;-;-;-;-;-;10.05
+Volatinia jacarina;Thraupidae ;2001-10-13;F;A;10.3;5.2;1.7;1.06;0.63;0.62;2.46;4.3;10.15
+Volatinia jacarina;Thraupidae ;2001-10-13;M;A;-;-;-;0.97;0.69;0.71;-;-;-
+Volatinia jacarina;Thraupidae ;2001-10-13;F;A;10.5;5.2;1.64;1;0.7;0.82;2.47;4.59;10.5
+Volatinia jacarina;Thraupidae ;2001-10-13;M;A;-;-;-;-;-;-;-;-;10.3
+Volatinia jacarina;Thraupidae ;2001-10-13;M;A;10.8;5.4;1.74;0.97;0.62;0.7;2.44;4.9;9.9
+Volatinia jacarina;Thraupidae ;2001-10-13;M;A;-;-;-;-;-;-;-;-;9.3
+Volatinia jacarina;Thraupidae ;2001-10-13;M;A;-;-;-;-;-;-;-;-;9.4
+Volatinia jacarina;Thraupidae ;2001-10-14;F;A;-;-;-;-;-;-;-;-;8.9
+Volatinia jacarina;Thraupidae ;2001-10-14;F;A;-;-;-;-;-;-;-;-;9.7
+Volatinia jacarina;Thraupidae ;2001-11-13;M;A;10.5;4.92;1.83;1;0.63;0.63;2.55;4.26;10.9
+Volatinia jacarina;Thraupidae ;2001-11-13;F;A;-;-;-;-;-;-;-;-;9.9
+Volatinia jacarina;Thraupidae ;2001-11-13;M;J;14.5;5.35;1.6;0.93;0.56;0.47;2.37;4.55;9.4
+Volatinia jacarina;Thraupidae ;2001-11-13;F;I;-;-;1.75;-;-;-;-;-;-
+Volatinia jacarina;Thraupidae ;2001-11-13;M;J;-;-;-;-;-;-;-;-;10
+Volatinia jacarina;Thraupidae ;2001-11-13;M;J;-;-;-;-;-;-;-;-;10.4
+Volatinia jacarina;Thraupidae ;2001-11-13;M;I;11.3;-;-;-;-;-;-;-;10
+Volatinia jacarina;Thraupidae ;2001-11-13;M;I;-;-;-;-;-;-;-;-;9.4
+Volatinia jacarina;Thraupidae ;2001-11-13;F;A;-;4.85;1.8;0.9;0.57;0.52;2.37;-;9.4
+Volatinia jacarina;Thraupidae ;2001-11-18;M;A;-;-;-;-;-;-;-;-;10.9
+Volatinia jacarina;Thraupidae ;2001-11-18;M;A;-;-;-;-;-;-;-;-;11.4
+Volatinia jacarina;Thraupidae ;2001-11-18;F;A;-;-;-;-;-;-;-;-;10.4
+Volatinia jacarina;Thraupidae ;2001-11-18;M;A;-;-;-;-;-;-;-;-;10.9
+Volatinia jacarina;Thraupidae ;2001-11-18;M;A;-;-;-;-;-;-;-;-;11.1
+Volatinia jacarina;Thraupidae ;2001-11-18;F;A;-;-;-;-;-;-;-;-;11.9
+Volatinia jacarina;Thraupidae ;2001-11-18;M;A;-;-;-;-;-;-;-;-;11.4
+Volatinia jacarina;Thraupidae ;2001-11-18;F;A;-;-;-;-;-;-;-;-;10.4
+Volatinia jacarina;Thraupidae ;2001-11-18;F;A;-;-;-;-;-;-;-;-;10.4
+Volatinia jacarina;Thraupidae ;2001-11-18;F;J;-;-;-;-;-;-;-;-;10.4
+Volatinia jacarina;Thraupidae ;2001-11-18;F;A;-;-;-;-;-;-;-;-;9.4
+Volatinia jacarina;Thraupidae ;2001-11-18;F;A;-;-;-;-;-;-;-;-;9.1
+Volatinia jacarina;Thraupidae ;2001-11-18;F;A;-;-;-;-;-;-;-;-;11.4
+Volatinia jacarina;Thraupidae ;2001-12-10;F;A;-;-;-;-;-;-;-;-;9.9
+Volatinia jacarina;Thraupidae ;2001-12-10;M;A;-;-;-;-;-;-;-;-;10.9
+Volatinia jacarina;Thraupidae ;2001-12-10;F;A;-;-;-;-;-;-;-;-;10.4
+Volatinia jacarina;Thraupidae ;2001-12-10;F;A;-;-;-;-;-;-;-;-;9.9
+Volatinia jacarina;Thraupidae ;2001-12-11;F;A;-;-;-;-;-;-;-;-;10.3
+Volatinia jacarina;Thraupidae ;2001-12-11;M;A;-;-;-;-;-;-;-;-;10.9
+Volatinia jacarina;Thraupidae ;2002-02-06;M;A;-;-;-;-;-;-;-;-;12.1
+Volatinia jacarina;Thraupidae ;2002-03-17;F;A;11.2;5.2;1.83;0.96;0.62;0.71;2.4;4.35;9.5
+Volatinia jacarina;Thraupidae ;2002-05-29;M;A;10.7;5;1.59;1.2;0.49;0.43;2.24;4.33;9.7
+Volatinia jacarina;Thraupidae ;2002-06-17;F;A;11.1;5.3;1.71;0.96;0.61;0.68;2.45;4.71;10
+Volatinia jacarina;Thraupidae ;2002-06-18;F;A;10.5;4.5;1.48;0.98;0.64;0.77;2.44;4.47;9
+Volatinia jacarina;Thraupidae ;2002-07-12;M;I;-;-;-;-;-;-;-;-;10
+Volatinia jacarina;Thraupidae ;2002-07-12;M;I;-;-;-;-;-;-;-;-;9.5
+Volatinia jacarina;Thraupidae ;2002-07-12;F;I;-;-;-;-;-;-;-;-;8
+Volatinia jacarina;Thraupidae ;2002-07-14;F;A;-;-;-;-;-;-;-;-;8.3
+Volatinia jacarina;Thraupidae ;2002-11-28;I;I;-;-;-;-;0.55;-;-;-;-
+Volatinia jacarina;Thraupidae ;2002-11-28;F;A;11;4.9;1.65;0.98;0.4;0.29;2.21;4.58;9.59
+Volatinia jacarina;Thraupidae ;2002-11-28;M;J;10.6;5.6;1.56;1.05;0.74;0.77;2.31;5.07;8.5
+Volatinia jacarina;Thraupidae ;2002-11-28;F;A;9.8;4.8;1.83;1.04;0.6;0.63;2.35;4.28;10
+Volatinia jacarina;Thraupidae ;2002-11-28;F;I;-;-;1.6;1.08;0.59;0.62;2.51;-;-
+Volatinia jacarina;Thraupidae ;2002-11-28;F;A;11;5.1;1.6;0.74;0.33;0.43;2.19;3.3;9.5
+Volatinia jacarina;Thraupidae ;2002-11-28;I;I;-;5.2;1.51;1.3;0.56;0.54;2.42;3.85;-
+Volatinia jacarina;Thraupidae ;2002-11-28;I;A;11.5;5;1.01;1.28;0.6;0.65;2.37;4.33;11
+Volatinia jacarina;Thraupidae ;2002-11-29;M;J;10.5;-;-;-;-;-;-;-;10
+Volatinia jacarina;Thraupidae ;2002-11-29;M;J;-;-;-;-;-;-;-;-;7
+Volatinia jacarina;Thraupidae ;2004-10-16;M;J;7;5.3;-;1.09;-;-;-;-;11
+Volatinia jacarina;Thraupidae ;2004-10-16;F;A;-;-;-;-;-;-;-;-;12
+Volatinia jacarina;Thraupidae ;2004-10-16;M;J;-;-;-;-;-;-;-;-;10.5
+Volatinia jacarina;Thraupidae ;2005-02-26;F;A;10.3;-;-;-;-;-;-;-;11.9
+Volatinia jacarina;Thraupidae ;2005-02-26;M;A;9.9;-;-;-;-;-;-;-;10.4
+Volatinia jacarina;Thraupidae ;2005-05-07;I;A;-;3;-;-;-;-;-;-;-
+Volatinia jacarina;Thraupidae ;2005-05-07;F;I;-;-;-;-;-;-;-;-;11
+Volatinia jacarina;Thraupidae ;2005-11-19;F;A;-;-;-;-;-;-;-;-;12
+Volatinia jacarina;Thraupidae ;2005-11-19;M;J;-;-;-;-;-;-;-;-;13
+Volatinia jacarina;Thraupidae ;2005-11-19;M;J;-;-;-;-;-;-;-;-;12.1
+Volatinia jacarina;Thraupidae ;2005-11-19;F;A;-;-;-;-;-;-;-;-;11.5
+Volatinia jacarina;Thraupidae ;2005-11-19;F;I;-;-;-;-;-;-;-;-;12.7
+Volatinia jacarina;Thraupidae ;2005-11-19;M;I;-;-;-;-;-;-;-;-;11.2
+Volatinia jacarina;Thraupidae ;2005-11-19;M;J;-;-;-;-;-;-;-;-;14
+Volatinia jacarina;Thraupidae ;2005-11-19;F;A;-;-;-;-;-;-;-;-;13
+Volatinia jacarina;Thraupidae ;2006-12-20;F;A;10.5;4.9;1.65;0.98;0.75;0.81;2.45;3.85;8.3
+Volatinia jacarina;Thraupidae ;2006-12-20;F;A;10.1;5.1;1.75;1.05;0.58;0.67;2.52;4.52;10.1
+Volatinia jacarina;Thraupidae ;2006-12-21;M;J;-;-;1.79;1.17;0.69;0.67;2.46;4.97;-
+Volatinia jacarina;Thraupidae ;2006-12-21;M;J;9.9;4.9;1.87;1.17;0.59;0.89;2.44;4.49;9.9
+Volatinia jacarina;Thraupidae ;2006-12-21;F;A;11;5.1;1.63;0.64;0.58;0.55;2.36;4.33;10.8
+Volatinia jacarina;Thraupidae ;2007-03-31;F;A;-;-;-;-;-;-;-;-;13.2
+Xolmis velatus;Tyrannidae;1999-02-28;I;A;21;-;2.55;2.07;0.67;-;-;9.3;-
+Zonotrichia capensis;Passerellidae;1999-02-12;I;A;-;6.8;-;1.2;0.7;-;-;5.6;22.5
+Zonotrichia capensis;Passerellidae;1999-02-28;I;A;12.5;6;-;1.17;0.65;-;-;3.41;19.5
+Zonotrichia capensis;Passerellidae;1999-03-06;M;A;14;6.6;2.19;1.08;0.65;-;-;5.71;20.5
+Zonotrichia capensis;Passerellidae;1999-05-01;M;A;14.5;6.7;2.03;1.35;0.76;-;-;6.92;18.5
+Zonotrichia capensis;Passerellidae;1999-05-01;I;A;-;-;-;1.13;0.62;-;-;-;-
+Zonotrichia capensis;Passerellidae;1999-05-01;M;A;12.9;6.1;1.96;1.19;-;-;-;5.4;20.5
+Zonotrichia capensis;Passerellidae;1999-07-10;I;A;14.5;7;2.33;1.28;0.59;0.68;-;6.64;20.5
+Zonotrichia capensis;Passerellidae;1999-07-11;M;A;13.2;6.2;1.99;1.32;0.69;0.84;-;5.71;20
+Zonotrichia capensis;Passerellidae;1999-07-11;I;A;14;6.5;2.17;1.23;0.7;0.73;-;6.3;21
+Zonotrichia capensis;Passerellidae;1999-07-11;I;A;14;6.8;2.23;1.14;0.65;0.81;-;6.15;-
+Zonotrichia capensis;Passerellidae;1999-07-11;I;A;13.5;6.4;2.15;1.25;0.67;0.76;-;5.66;20
+Zonotrichia capensis;Passerellidae;1999-08-15;I;A;14.4;6.7;2.28;1.23;0.71;0.66;-;6.15;21
+Zonotrichia capensis;Passerellidae;1999-08-28;I;A;14.3;6.1;2.22;1.18;0.7;0.59;3.04;5.87;19
+Zonotrichia capensis;Passerellidae;1999-09-25;I;A;13.7;6.5;2.3;1.31;0.65;0.91;3.06;6.02;20
+Zonotrichia capensis;Passerellidae;1999-09-26;I;A;13.8;6.7;2.13;1.31;0.68;0.83;3.01;6.25;20
+Zonotrichia capensis;Passerellidae;1999-09-26;I;A;14.3;6.5;2.13;1.22;0.66;0.72;3.04;6.37;20
+Zonotrichia capensis;Passerellidae;1999-09-26;I;A;13.8;6.6;2.16;1.21;0.69;0.76;3.22;6.06;20
+Zonotrichia capensis;Passerellidae;2000-12-18;I;A;13.9;6.5;2.27;1.16;0.69;0.91;3.03;6.62;19.7
+Zonotrichia capensis;Passerellidae;2001-01-11;I;A;14.3;6.9;2.25;1.32;0.69;0.92;3.19;7;22.4
+Zonotrichia capensis;Passerellidae;2001-01-29;I;J;14;7.3;2.51;1.19;0.66;0.63;3.15;6.29;20.7
+Zonotrichia capensis;Passerellidae;2001-01-29;I;J;13.7;6.4;2.21;1.18;0.69;0.74;3;5.3;19.7
+Zonotrichia capensis;Passerellidae;2001-01-29;I;J;13.9;6.3;2.22;1.35;0.68;0.83;3.03;6.18;20.7
+Zonotrichia capensis;Passerellidae;2001-01-29;I;A;13.1;6.1;2.39;1.26;0.65;0.66;3.06;5.68;19
+Zonotrichia capensis;Passerellidae;2001-01-29;I;J;13.8;7;2.61;1.12;0.66;0.74;3.08;5.56;19.5
+Zonotrichia capensis;Passerellidae;2001-03-20;I;A;14;6.6;2.18;1.26;0.63;0.78;3.12;6.32;21.7
+Zonotrichia capensis;Passerellidae;2001-03-20;I;A;-;-;-;-;-;-;-;-;22.5
+Zonotrichia capensis;Passerellidae;2001-03-20;I;A;-;-;-;-;-;-;-;-;19.4
+Zonotrichia capensis;Passerellidae;2001-03-20;I;J;-;-;-;-;-;-;-;-;18
+Zonotrichia capensis;Passerellidae;2001-03-20;I;A;-;-;-;-;-;-;-;-;19.3
+Zonotrichia capensis;Passerellidae;2001-04-09;I;A;14.1;6.7;2.27;1.35;0.67;0.86;3.22;6;22.4
+Zonotrichia capensis;Passerellidae;2001-08-11;I;A;13.2;6.5;2.37;1.05;0.66;0.6;3.05;5.7;20.04
+Zonotrichia capensis;Passerellidae;2001-08-11;I;A;-;2.2;-;1.2;0.67;0.62;-;-;-
+Zonotrichia capensis;Passerellidae;2001-08-11;I;A;-;6.6;2.21;0.64;-;-;3.05;3.82;-
+Zonotrichia capensis;Passerellidae;2001-08-11;I;A;-;-;2.46;1.06;0.68;0.62;3.06;5.2;18
+Zonotrichia capensis;Passerellidae;2001-09-08;I;A;13.6;6.7;2.16;1.17;0.69;0.76;3.08;5.19;20
+Zonotrichia capensis;Passerellidae;2001-09-08;I;A;13;6.3;2.14;1.09;0.63;0.76;3.09;5.5;18
+Zonotrichia capensis;Passerellidae;2001-12-11;I;A;-;-;-;-;-;-;-;-;23.4
+Zonotrichia capensis;Passerellidae;2001-12-11;I;J;-;-;-;-;-;-;-;-;19.7
+Zonotrichia capensis;Passerellidae;2002-05-31;I;I;13;-;-;-;-;-;-;-;-
+Zonotrichia capensis;Passerellidae;2005-05-07;I;A;14.2;6.2;2.94;1.6;1.19;1.21;3.57;6.24;18.8
+Zonotrichia capensis;Passerellidae;2006-05-06;I;A;14;6.7;2.33;1.14;0.65;0.78;3.09;5.64;20
+;;;;;;;;;;;;;
