@@ -21,7 +21,7 @@ bibliography: references.bib
 
 <!--% Rédigez une courte introduction de 3 ou 5 phrases qui présente vos données. Ajoutez une phrase de but (que vous remanierez éventuellement en fonction des modèles que vous ajouterez plus tard). Vous pouvez citer la bibliographie en utilisant le formatage Markdown ad hoc et en incluant votre référence au format bibtex dans le fichier references.bib. -->
 
-... Introduction et but...
+... Introduction et but...[@bhakti2022]
 
 ## Matériel et méthodes
 
@@ -47,9 +47,9 @@ SciViews::R("model")
 
 ```{r import}
 # Lecture des données
-___ <- ___
+thraupidae <- read("data/thraupidae.rds")
 # Tableau des premières et dernières lignes
-tabularise$headtail(___)
+tabularise$headtail(thraupidae)
 ```
 
 ### Description des données
