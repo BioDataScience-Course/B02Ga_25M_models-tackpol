@@ -52,12 +52,19 @@ thraupidae <- read("data/thraupidae.rds")
 tabularise$headtail(thraupidae)
 ```
 
+```{r skim}
+skimr::skim(thraupidae)
+
+```
+
+
 ### Description des données
 
 <!--% Chaque étudiant réalise et interprète un graphique pertinent en lien avec le but fixé et les modèles qui seront réalisés. Graphique et interprétation de l'étudiant #1 ci-dessous. -->
 
 ```{r chart1}
-
+chart(data=thraupidae, length~rwing %col=%taxon_name)+
+  geom_point()
 ```
 
 ... interprétation #1...

@@ -28,6 +28,8 @@ thraupidae[, 6:14] <- lapply(thraupidae[, 6:14], as.numeric)
 
 thraupidae[, c(1:2, 4:5)] <- lapply(thraupidae[, c(1:2, 4:5)], as.factor)
 
+thraupidae$date <- as.Date(thraupidae$date)
+
 levels(thraupidae$sex)[levels(thraupidae$sex) == "F"] <- "Femelle"
 levels(thraupidae$sex)[levels(thraupidae$sex) == "M"] <- "Mâle"
 levels(thraupidae$age)[levels(thraupidae$age) == "A"] <- "Adulte"
