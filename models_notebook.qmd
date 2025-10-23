@@ -47,16 +47,15 @@ SciViews::R("model")
 
 ```{r import}
 # Lecture des données
-___ <- read(___)
+tyrannus <- read("data/tyrannus.rds")
 # Tableau des premières et dernières lignes
-tabularise$headtail(___)
+tabularise$headtail(tyrannus)
 ```
 
 ```{r skim}
-skimr::skim(___)
+skimr::skim(tyrannus)
 
 ```
-
 
 ### Description des données
 
