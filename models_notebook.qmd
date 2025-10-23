@@ -21,7 +21,7 @@ bibliography: references.bib
 
 <!--% Rédigez une courte introduction de 3 ou 5 phrases qui présente vos données. Ajoutez une phrase de but (que vous remanierez éventuellement en fonction des modèles que vous ajouterez plus tard). Vous pouvez citer la bibliographie en utilisant le formatage Markdown ad hoc et en incluant votre référence au format bibtex dans le fichier references.bib. -->
 
-... Introduction et but...[@bhakti2022]
+... Introduction et but...
 
 ## Matériel et méthodes
 
@@ -47,13 +47,13 @@ SciViews::R("model")
 
 ```{r import}
 # Lecture des données
-thraupidae <- read("data/thraupidae.rds")
+___ <- read(___)
 # Tableau des premières et dernières lignes
-tabularise$headtail(thraupidae)
+tabularise$headtail(___)
 ```
 
 ```{r skim}
-skimr::skim(thraupidae)
+skimr::skim(___)
 
 ```
 
@@ -62,16 +62,16 @@ skimr::skim(thraupidae)
 
 <!--% Chaque étudiant réalise et interprète un graphique pertinent en lien avec le but fixé et les modèles qui seront réalisés. Graphique et interprétation de l'étudiant #1 ci-dessous. -->
 
-```{r chart1}
-chart(data=thraupidae, length~rwing %col=%taxon_name)+
-  geom_point()
+```{r chart1 Louis}
+
+
 ```
 
 ... interprétation #1...
 
 <!--% Graphique et interprétation de l'étudiant #2 ci-dessous. -->
 
-```{r chart2}
+```{r chart2 Eva}
 
 ```
 
@@ -79,7 +79,7 @@ chart(data=thraupidae, length~rwing %col=%taxon_name)+
 
 <!--% Graphique et interprétation de l'étudiant #3 ci-dessous. -->
 
-```{r chart3}
+```{r chart3 Sam}
 
 ```
 
@@ -87,7 +87,7 @@ chart(data=thraupidae, length~rwing %col=%taxon_name)+
 
 <!--% Graphique et interprétation de l'étudiant #4 ci-dessous. -->
 
-```{r chart4}
+```{r chart4 JC}
 
 ```
 
