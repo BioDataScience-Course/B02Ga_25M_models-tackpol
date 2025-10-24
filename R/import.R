@@ -29,6 +29,35 @@ names(tyrannus1)[names(tyrannus1) == "Tail"] <- "tail"
 names(tyrannus1)[names(tyrannus1) == "Age"] <- "age"
 names(tyrannus1)[names(tyrannus1) == "Sex"] <- "sex"
 
+
+
+tyrannus1[tyrannus1 == "null"] <- NA
+
+
+
+
+levels(tyrannus1$sex)[levels(tyrannus1$sex) == "Female"] <- "Femelle"
+levels(tyrannus1$sex)[levels(tyrannus1$sex) == "Male"] <- "Mâle"
+levels(tyrannus1$sex)[levels(tyrannus1$sex) == "Unknown"] <- NA
+
+levels(tyrannus1$age)[levels(tyrannus1$age) == "Adult"]       <- "Adulte"
+levels(tyrannus1$age)[levels(tyrannus1$age) == "Fledgling"]   <- "Oisillon volant"
+levels(tyrannus1$age)[levels(tyrannus1$age) == "HatchYear"]   <- "Jeune de l'année"
+levels(tyrannus1$age)[levels(tyrannus1$age) == "Juvenile"]    <- "Juvénile"
+levels(tyrannus1$age)[levels(tyrannus1$age) == "Nestling"]    <- "Oisillon au nid"
+levels(tyrannus1$age)[levels(tyrannus1$age) == "SecondYear"]  <- "Deuxième année"
+levels(tyrannus1$age)[levels(tyrannus1$age) == "Unknown"]     <- NA
+
+
+tyrannus1$full_sp <- paste(tyrannus1$species, tyrannus1$subspecies, sep = " ")
+label(tyrannus1$full_sp) <- "Nom complet"
+units(tyrannus1$full_sp) <- NA
+
+
+tyrannus1[, c(3,5:11)] <- lapply(tyrannus1[, c(3,5:11)], as.numeric)
+tyrannus1[, c(1:2,12:14)] <- lapply(tyrannus1[, c(1:2,12:14)], as.factor)
+
+
 tyrannus1 <- labelise(tyrannus1,
   label = list(
     species       = "Espèce",
@@ -61,24 +90,13 @@ tyrannus1 <- labelise(tyrannus1,
     sex           = NA
   )
 )
+label(tyrannus1$full_sp) <- "Nom complet"
+units(tyrannus1$full_sp) <- NA
 
-tyrannus1[tyrannus1 == "null"] <- NA
-
-
-tyrannus1[, c(3,5:11)] <- lapply(tyrannus1[, c(3,5:11)], as.numeric)
-tyrannus1[, c(1:2,12:13)] <- lapply(tyrannus1[, c(1:2,12:13)], as.factor)
-
-levels(tyrannus1$sex)[levels(tyrannus1$sex) == "Female"] <- "Femelle"
-levels(tyrannus1$sex)[levels(tyrannus1$sex) == "Male"] <- "Mâle"
-levels(tyrannus1$sex)[levels(tyrannus1$sex) == "Unknown"] <- NA
-
-levels(tyrannus1$age)[levels(tyrannus1$age) == "Adult"]       <- "Adulte"
-levels(tyrannus1$age)[levels(tyrannus1$age) == "Fledgling"]   <- "Oisillon volant"
-levels(tyrannus1$age)[levels(tyrannus1$age) == "HatchYear"]   <- "Jeune de l'année"
-levels(tyrannus1$age)[levels(tyrannus1$age) == "Juvenile"]    <- "Juvénile"
-levels(tyrannus1$age)[levels(tyrannus1$age) == "Nestling"]    <- "Oisillon au nid"
-levels(tyrannus1$age)[levels(tyrannus1$age) == "SecondYear"]  <- "Deuxième année"
-levels(tyrannus1$age)[levels(tyrannus1$age) == "Unknown"]     <- NA
+caudi<-sfilter(tyrannus1, species=="Tyrannus caudifasciatus")
+melan<-sfilter(tyrannus1, species=="Tyrannus melancholicus")
+savana<-sfilter(tyrannus1, species=="Tyrannus savana")
+vocif<-sfilter(tyrannus1, species=="Tyrannus vociferans")
 
 
 # Etape 5 : Sauvegarde locale des données retravaillées -------------------
