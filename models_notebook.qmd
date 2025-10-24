@@ -27,7 +27,7 @@ bibliography: references.bib
 
 <!--% Indiquez ici d'où viennent les données et aussi quel logiciel (et version) vous utilisez pour les analyses. Inspirez-vous des projets du premier module de SDD II. -->
 
-...Matériel et méthodes...
+...Matériel et méthodes...[@macpherson2021]
 
 ## Analyses
 
@@ -62,7 +62,11 @@ skimr::skim(tyrannus)
 <!--% Chaque étudiant réalise et interprète un graphique pertinent en lien avec le but fixé et les modèles qui seront réalisés. Graphique et interprétation de l'étudiant #1 ci-dessous. -->
 
 ```{r chart1 Louis}
+chart(melan, bill_length~bill_width %col=%full_sp |full_sp)+
+  geom_point(alpha=0.5, show.legend= FALSE)
 
+chart(tyrannus1, tarsus~kipp %col=%full_sp |full_sp)+
+  geom_point(alpha=0.5, show.legend= FALSE)
 
 ```
 
@@ -99,27 +103,39 @@ skimr::skim(tyrannus)
 #### Régression linéaire 1
 
 <!--% Ajustez une régression linéaire simple, multiple ou polynomiale par paire d'étudiants dans cette section (donc, deux modèles pour l'équipe de quatre). -->
+```{r régresssion 1}
 
+```
 #### Régression linéaire 2
 
 <!--% Ajustez une régression linéaire simple, multiple ou polynomiale par paire d'étudiants dans cette section (donc, deux modèles pour l'équipe de quatre). -->
+```{r régresssion 2}
 
+```
 #### Modèle linéaire 1
 
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
+```{r Modèle linéaire 1}
 
+```
 #### Modèle linéaire 2
 
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
+```{r Modèle linéaire 2}
 
+```
 #### Modèle linéaire généralisé et/ou mixte 1
 
 <!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
+```{r Modèle linéaire gén 1}
 
+```
 #### Modèle linéaire généralisé et/ou mixte 2
 
 <!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
+```{r Modèle linéaire gén 2}
 
+```
 ## Conclusion
 
 <!--% Lorsque toutes les analyses sont réalisées, terminez ce bloc-notes avec 3 à 6 phrases de conclusion en rapport avec ce que vous avez observé dans vos analyses. Quels sont les modèles les plus pertinents que vous retenez ? -->

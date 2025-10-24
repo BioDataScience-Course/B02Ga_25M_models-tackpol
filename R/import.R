@@ -8,7 +8,9 @@ tyrannus1<-sfilter(tyrannus, Species %in% c("Tyrannus caudifasciatus","Tyrannus 
 select(., -Measurer, -contains("Collection"),-State.province, -County.District,-Locality, -Elevation)
 # Etape 2 : Description brève des données ---------------------------------
 
-
+sgroup_by(tyrannus1, full_sp)%>.%
+  ssummarise(., "n"=fn(species))%>.%
+  tabularise(.)
 
 # Etape 3 : Nettoyage des données  ----------------------------------------
 
