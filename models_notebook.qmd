@@ -1,6 +1,6 @@
 ---
 title: "___"
-author: "___, ___, ___, ___"
+author: "Louis Carlier, Eva Dupont, Samuel Aragona, Julien-Camille Tack"
 format:
   html:
     code-fold: true
