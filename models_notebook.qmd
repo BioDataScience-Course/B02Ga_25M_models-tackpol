@@ -91,6 +91,17 @@ chart(tyrannus1, tarsus~kipp %col=%full_sp |full_sp)+
 <!--% Graphique et interprétation de l'étudiant #4 ci-dessous. -->
 
 ```{r chart4 JC}
+tyrannus %>.%
+  sselect(., species, subspecies, bill_length, full_sp) %>.%
+  sgroup_by(., full_sp, subspecies,species) %>.%
+  ssummarise(., moyenne = fmean(bill_length)) ->
+  trex2
+chart(data = trex2, ~subspecies %y=% moyenne %fill=% full_sp )  +
+  geom_bar(stat = "identity", position = "dodge") +
+  xlab("Longueur moyenne du bec [mm]") +
+  ylab("Sous-espèce de Tyrannus") 
+  
+ 
 
 ```
 
@@ -103,39 +114,51 @@ chart(tyrannus1, tarsus~kipp %col=%full_sp |full_sp)+
 #### Régression linéaire 1
 
 <!--% Ajustez une régression linéaire simple, multiple ou polynomiale par paire d'étudiants dans cette section (donc, deux modèles pour l'équipe de quatre). -->
+
 ```{r régresssion 1}
 
 ```
+
 #### Régression linéaire 2
 
 <!--% Ajustez une régression linéaire simple, multiple ou polynomiale par paire d'étudiants dans cette section (donc, deux modèles pour l'équipe de quatre). -->
+
 ```{r régresssion 2}
 
 ```
+
 #### Modèle linéaire 1
 
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
+
 ```{r Modèle linéaire 1}
 
 ```
+
 #### Modèle linéaire 2
 
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
+
 ```{r Modèle linéaire 2}
 
 ```
+
 #### Modèle linéaire généralisé et/ou mixte 1
 
 <!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
+
 ```{r Modèle linéaire gén 1}
 
 ```
+
 #### Modèle linéaire généralisé et/ou mixte 2
 
 <!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
+
 ```{r Modèle linéaire gén 2}
 
 ```
+
 ## Conclusion
 
 <!--% Lorsque toutes les analyses sont réalisées, terminez ce bloc-notes avec 3 à 6 phrases de conclusion en rapport avec ce que vous avez observé dans vos analyses. Quels sont les modèles les plus pertinents que vous retenez ? -->
