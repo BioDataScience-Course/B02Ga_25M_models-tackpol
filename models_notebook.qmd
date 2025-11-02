@@ -83,7 +83,9 @@ chart(tyrannus1, tarsus~kipp %col=%full_sp |full_sp)+
 <!--% Graphique et interprétation de l'étudiant #3 ci-dessous. -->
 
 ```{r chart3 Sam}
-
+#regarder pour regrouper les pays en continents américains
+chart(tyrannus, bill_length ~ country) +
+  geom_boxplot()
 ```
 
 ... interprétation #3...
