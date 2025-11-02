@@ -92,17 +92,33 @@ chart(tyrannus1, tarsus~kipp %col=%full_sp |full_sp)+
 
 ```{r chart4 JC}
 tyrannus %>.%
-  sselect(., species, subspecies, bill_length, full_sp) %>.%
-  sgroup_by(., full_sp, subspecies,species) %>.%
-  ssummarise(., moyenne = fmean(bill_length)) ->
-  trex2
-chart(data = trex2, ~subspecies %y=% moyenne %fill=% full_sp )  +
-  geom_bar(stat = "identity", position = "dodge") +
-  xlab("Longueur moyenne du bec [mm]") +
-  ylab("Sous-espèce de Tyrannus") 
-  
- 
+  sdrop_na(.)%>.%
+  sselect(.,species, subspecies, full_sp, bill_depth) %>.%
+  sgroup_by(.,full_sp,species, subspecies, bill_depth)%>.%
+  ssummarise(.,
+    moyenne = fmean(bill_depth))->
+  trex
+nbins = 15
+chart(data = trex,~ moyenne %fill=% subspecies| species ) + 
+  geom_histogram(data = select_(trex, ~-species ),
+    fill = "grey", bins = nbins)+ 
+  geom_histogram(show.legend = TRUE, bins = nbins) +
+  ylab("Effectifs") +
+  scale_fill_viridis_d()
 
+chart(data = trex, ~ bill_depth %fill=% subspecies | species ) +
+  geom_boxplot( show.legend = TRUE) +
+  ylab("Profondeur du bec") +
+  xlab("Sous-espèce") +
+  scale_fill_viridis_d()
+
+
+chart(data = trex, ~ subspecies %fill=% subspecies ) +
+  geom_violin(aes(y = bill_depth), trim = FALSE, alpha = 0.7) +
+  stat_summary(aes(y = bill_depth), fun = mean, geom = "point", shape = 20, size = 2, color = "black") +
+  ylab("Profondeur du bec") +
+  xlab("Sous-espèce") +
+  scale_fill_viridis_d()
 ```
 
 ... interprétation #4...
