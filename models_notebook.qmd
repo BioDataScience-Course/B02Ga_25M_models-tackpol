@@ -84,8 +84,23 @@ chart(tyrannus1, tarsus~kipp %col=%full_sp |full_sp)+
 
 ```{r chart3 Sam}
 #regarder pour regrouper les pays en continents américains
-chart(tyrannus, bill_length ~ country) +
+library(dplyr)
+
+tyrcontinent <- tyrannus %>%
+  filter(!is.na(country)) %>%
+  mutate(continent = case_when(
+    country %in% c("Argentina","Bolivia","Brazil","Colombia","Ecuador",
+                "Paraguay","Peru","Suriname","Uruguay","Venezuela") ~ "Amérique du Sud",
+    country %in% c("Bahamas","Belize","Cayman Islands","Costa Rica","Cuba",
+                "Dominican Republic","Dominican Republican","El Salvador","El Salvardor",
+                "Guatemala","Guyana","Haiti","Honduras","Jamaica","Mexico",
+                "Nicaragua","Panama","Puerto Rico","Trinidad and Tobago") ~ "Amérique Centrale",
+    country %in% c("Canada","United States","United States of America") ~ "Amérique du Nord"
+  ))
+
+chart(tyrcontinent, continent ~ bill_length %fill=% species) +
   geom_boxplot()
+
 ```
 
 ... interprétation #3...
