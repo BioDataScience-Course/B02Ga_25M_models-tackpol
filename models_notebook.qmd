@@ -72,8 +72,8 @@ chart(tyrannus, bill_length~bill_width %col=%sex |full_sp)+
 chart(tyrannus, tarsus ~bill_length %col=%sex )+
   geom_point(alpha=0.5, show.legend= FALSE)
 
-a<-sselect(tyrannus, -species, -subspecies, -specimen, -country, -age, -sex, -full_sp)
-b<- correlation(a)
+a<-sselect(tyrannus, -species, -subspecies, -specimen, -country, -age, -sex, -full_sp,-abbr_sp)
+b<- correlation(a, type = "lower")
 plot(b)
 
 ```
@@ -187,6 +187,15 @@ tabularise(summary_(lm3))
 chart(data = tyrannus, tarsus ~ kipp %col=% full_sp) +
   geom_point() +
   stat_smooth(method = "lm", formula = y ~ x)
+
+
+#despotes est à part des autres
+#lm31<-lm(data=tyrannus, bill_depth~tarsus*subspecies)
+#tabularise(summary_(lm31))
+
+#chart(data = tyrannus, bill_depth~tarsus %col=% full_sp) +
+#  geom_point() +
+#  stat_smooth(method = "lm", formula = y ~ x)
 ```
 
 #### Modèle linéaire 2
