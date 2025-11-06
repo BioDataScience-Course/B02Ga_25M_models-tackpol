@@ -50,12 +50,12 @@ SciViews::R("model")
 #tyrannus_ancien <- read("data/tyrannus.rds")
 tyrannus <- read("data/melancholicus.rds")
 # Tableau des premières et dernières lignes
-tabularise$headtail(melan)
+tabularise$headtail(tyrannus)
 ```
 
 ```{r skim}
 
-skimr::skim(melan)
+skimr::skim(tyrannus)
 ```
 
 ### Description des données
@@ -63,12 +63,18 @@ skimr::skim(melan)
 <!--% Chaque étudiant réalise et interprète un graphique pertinent en lien avec le but fixé et les modèles qui seront réalisés. Graphique et interprétation de l'étudiant #1 ci-dessous. -->
 
 ```{r chart1 Louis}
-chart(melan, bill_length~bill_width %col=%full_sp |full_sp)+
+chart(tyrannus , bill_length~bill_width %col=%full_sp |full_sp)+
   geom_point(alpha=0.5, show.legend= FALSE)
 
-chart(melan, bill_length~bill_width %col=%sex |full_sp)+
+chart(tyrannus, bill_length~bill_width %col=%sex |full_sp)+
   geom_point(alpha=0.5, show.legend= FALSE)
 
+chart(tyrannus, tarsus ~bill_length %col=%sex )+
+  geom_point(alpha=0.5, show.legend= FALSE)
+
+a<-sselect(tyrannus, -species, -subspecies, -specimen, -country, -age, -sex, -full_sp)
+b<- correlation(a)
+plot(b)
 
 ```
 
@@ -172,7 +178,12 @@ chart(data = trex, ~ subspecies %fill=% subspecies ) +
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire 1}
-lm3<-lm(data=tyrannus, )
+lm3<-lm(data=tyrannus, tarsus~kipp*subspecies)
+tabularise(summary_(lm3))
+
+chart(data = tyrannus, tarsus ~ kipp %col=% full_sp) +
+  geom_point() +
+  stat_smooth(method = "lm", formula = y ~ x)
 ```
 
 #### Modèle linéaire 2

@@ -104,7 +104,11 @@ melan<-sfilter(tyrannus1, species=="Tyrannus melancholicus")
 #savana<-sfilter(tyrannus1, species=="Tyrannus savana")
 #vocif<-sfilter(tyrannus1, species=="Tyrannus vociferans")
 
+
 melan <- droplevels(melan)
+melan$subspecies <- factor(melan$subspecies,
+  levels = c("melancholicus", "satrapa", "despotes"))
+
 
 # Etape 5 : Sauvegarde locale des données retravaillées -------------------
 
