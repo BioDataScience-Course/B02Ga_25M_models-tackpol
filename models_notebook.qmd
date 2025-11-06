@@ -90,20 +90,25 @@ tyrcontinent <- tyrannus %>%
   filter(!is.na(country)) %>%
   mutate(continent = case_when(
     country %in% c("Argentina","Bolivia","Brazil","Colombia","Ecuador",
-                "Paraguay","Peru","Suriname","Uruguay","Venezuela") ~ "Amérique du Sud",
+                "Paraguay","Peru","Suriname","Uruguay","Venezuela") ~ "A.du Sud",
     country %in% c("Bahamas","Belize","Cayman Islands","Costa Rica","Cuba",
                 "Dominican Republic","Dominican Republican","El Salvador","El Salvardor",
                 "Guatemala","Guyana","Haiti","Honduras","Jamaica","Mexico",
-                "Nicaragua","Panama","Puerto Rico","Trinidad and Tobago") ~ "Amérique Centrale",
-    country %in% c("Canada","United States","United States of America") ~ "Amérique du Nord"
+                "Nicaragua","Panama","Puerto Rico","Trinidad and Tobago") ~ "A.Centrale",
+    country %in% c("Canada","United States","United States of America") ~ "A.du Nord"
   ))
 
-chart(tyrcontinent, continent ~ bill_length %fill=% species) +
-  geom_boxplot()
+chart(tyrcontinent, bill_length ~ continent) +
+  geom_boxplot() + labs(title = "Variation de la longueur du bec chez Tyrannus par continent")
+
+chart(tyrcontinent, bill_length ~ continent %fill=% species) +
+  geom_boxplot() + labs(title = "Variation de la longueur du bec chez Tyrannus par continent")
 
 ```
 
-... interprétation #3...
+Le premier graphique indique une longueur de bec moyenne plus élevée en Amérique Centrale que sur les autres continents. La moyenne de l'Amérique du Sud est légèrement plus élevée que celle d'Amérique du Nord mais pas assez pour être relevée.
+
+Le second graphique indique que l'Amérique Centrale possède une espèce que les autres n'ont pas avec un plus long bec (Tyrannus caudifasciatus). Les autres espèces que les continents ont en commun possèdent une longueur de bec similaire. Ce n'est donc pas confirmé que les Tyrannus d'Amérique centrale ont tous des becs en moyenne plus longs.
 
 <!--% Graphique et interprétation de l'étudiant #4 ci-dessous. -->
 
