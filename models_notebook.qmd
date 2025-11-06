@@ -47,8 +47,8 @@ SciViews::R("model")
 
 ```{r import}
 # Lecture des données
-tyrannus <- read("data/tyrannus.rds")
-melan <- read("data/melancholicus.rds")
+#tyrannus_ancien <- read("data/tyrannus.rds")
+tyrannus <- read("data/melancholicus.rds")
 # Tableau des premières et dernières lignes
 tabularise$headtail(melan)
 ```
