@@ -48,13 +48,14 @@ SciViews::R("model")
 ```{r import}
 # Lecture des données
 tyrannus <- read("data/tyrannus.rds")
+melan <- read("data/melancholicus.rds")
 # Tableau des premières et dernières lignes
-tabularise$headtail(tyrannus)
+tabularise$headtail(melan)
 ```
 
 ```{r skim}
-skimr::skim(tyrannus)
 
+skimr::skim(melan)
 ```
 
 ### Description des données
@@ -65,7 +66,7 @@ skimr::skim(tyrannus)
 chart(melan, bill_length~bill_width %col=%full_sp |full_sp)+
   geom_point(alpha=0.5, show.legend= FALSE)
 
-chart(tyrannus1, tarsus~kipp %col=%full_sp |full_sp)+
+chart(melan, bill_length~bill_width %col=%sex |full_sp)+
   geom_point(alpha=0.5, show.legend= FALSE)
 
 ```
