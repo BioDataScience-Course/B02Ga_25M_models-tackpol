@@ -85,31 +85,34 @@ chart(melan, bill_length~bill_width %col=%sex |full_sp)+
 
 ```{r chart3 Sam}
 #regarder pour regrouper les pays en continents américains
+
 library(dplyr)
 
 tyrcontinent <- tyrannus %>%
   filter(!is.na(country)) %>%
   mutate(continent = case_when(
     country %in% c("Argentina","Bolivia","Brazil","Colombia","Ecuador",
-                "Paraguay","Peru","Suriname","Uruguay","Venezuela") ~ "A.du Sud",
+                   "Paraguay","Peru","Suriname","Uruguay","Venezuela") ~ "A.du Sud",
     country %in% c("Bahamas","Belize","Cayman Islands","Costa Rica","Cuba",
-                "Dominican Republic","Dominican Republican","El Salvador","El Salvardor",
-                "Guatemala","Guyana","Haiti","Honduras","Jamaica","Mexico",
-                "Nicaragua","Panama","Puerto Rico","Trinidad and Tobago") ~ "A.Centrale",
+                   "Dominican Republic","Dominican Republican","El Salvador","El Salvardor",
+                   "Guatemala","Guyana","Haiti","Honduras","Jamaica","Mexico",
+                   "Nicaragua","Panama","Puerto Rico","Trinidad and Tobago") ~ "A.Centrale",
     country %in% c("Canada","United States","United States of America") ~ "A.du Nord"
-  ))
+  )) %>%
+  filter(continent != "A.du Nord")   
 
-chart(tyrcontinent, bill_length ~ continent) +
-  geom_boxplot() + labs(title = "Variation de la longueur du bec chez Tyrannus par continent")
 
-chart(tyrcontinent, bill_length ~ continent %fill=% species) +
-  geom_boxplot() + labs(title = "Variation de la longueur du bec chez Tyrannus par continent")
+chart(tyrcontinent, tarsus ~ continent) +
+  geom_boxplot() + labs(title = "Variation de la longueur du tarse chez Tyrannus par continent")
+
+chart(tyrcontinent, tarsus ~ continent %fill=% subspecies) +
+  geom_boxplot() + labs(title = "Variation de la longueur du tarse chez Tyrannus par continent")
 
 ```
 
-Le premier graphique indique une longueur de bec moyenne plus élevée en Amérique Centrale que sur les autres continents. La moyenne de l'Amérique du Sud est légèrement plus élevée que celle d'Amérique du Nord mais pas assez pour être relevée.
+Le premier graphique indique que la moyenne de la longueur des tarses est plus grande en Amérique Centrale qu'en Amérique du Sud.
 
-Le second graphique indique que l'Amérique Centrale possède une espèce que les autres n'ont pas avec un plus long bec (Tyrannus caudifasciatus). Les autres espèces que les continents ont en commun possèdent une longueur de bec similaire. Ce n'est donc pas confirmé que les Tyrannus d'Amérique centrale ont tous des becs en moyenne plus longs.
+Le deuxième graphique précise que cette différence se trouve chez la sous-espèce satrapa qui possède une longueur de tarse moyenne plus longue en Amérique Centrale.
 
 <!--% Graphique et interprétation de l'étudiant #4 ci-dessous. -->
 
@@ -171,7 +174,8 @@ chart(data = trex, ~ subspecies %fill=% subspecies ) +
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire 1}
-
+contlm <- lm(data = tyrcontinent, tarsus ~ continent*subspecies)
+summary(contlm) |> tabularise()
 ```
 
 #### Modèle linéaire 2
