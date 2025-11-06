@@ -34,7 +34,7 @@ names(tyrannus1)[names(tyrannus1) == "Sex"] <- "sex"
 
 
 tyrannus1[tyrannus1 == "null"] <- NA
-
+tyrannus1[tyrannus1 == "unknown"] <- NA
 
 
 
@@ -94,13 +94,20 @@ tyrannus1 <- labelise(tyrannus1,
 )
 label(tyrannus1$full_sp) <- "Nom complet"
 units(tyrannus1$full_sp) <- NA
+levels(tyrannus1$full_sp)[levels(tyrannus1$full_sp) == "Tyrannus melancholicus NA"]     <- NA
+tyrannus1 <- filter(tyrannus1, !is.na(full_sp))
 
-caudi<-sfilter(tyrannus1, species=="Tyrannus caudifasciatus")
+
+
+#caudi<-sfilter(tyrannus1, species=="Tyrannus caudifasciatus")
 melan<-sfilter(tyrannus1, species=="Tyrannus melancholicus")
-savana<-sfilter(tyrannus1, species=="Tyrannus savana")
-vocif<-sfilter(tyrannus1, species=="Tyrannus vociferans")
+#savana<-sfilter(tyrannus1, species=="Tyrannus savana")
+#vocif<-sfilter(tyrannus1, species=="Tyrannus vociferans")
 
+melan <- droplevels(melan)
 
 # Etape 5 : Sauvegarde locale des données retravaillées -------------------
 
 write$rds(tyrannus1, "data/tyrannus.rds")
+write$rds(melan, "data/melancholicus.rds")
+
