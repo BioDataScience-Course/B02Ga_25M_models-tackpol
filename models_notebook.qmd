@@ -69,6 +69,7 @@ chart(melan, bill_length~bill_width %col=%full_sp |full_sp)+
 chart(melan, bill_length~bill_width %col=%sex |full_sp)+
   geom_point(alpha=0.5, show.legend= FALSE)
 
+
 ```
 
 ... interprétation #1...
@@ -174,8 +175,7 @@ chart(data = trex, ~ subspecies %fill=% subspecies ) +
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire 1}
-contlm <- lm(data = tyrcontinent, tarsus ~ continent*subspecies)
-summary(contlm) |> tabularise()
+lm3<-lm(data=tyrannus, )
 ```
 
 #### Modèle linéaire 2
