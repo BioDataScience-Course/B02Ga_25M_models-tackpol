@@ -31,16 +31,19 @@ names(tyrannus1)[names(tyrannus1) == "Tail"] <- "tail"
 names(tyrannus1)[names(tyrannus1) == "Age"] <- "age"
 names(tyrannus1)[names(tyrannus1) == "Sex"] <- "sex"
 
-
-
+tyrannus1$full_sp <- paste(tyrannus1$species, tyrannus1$subspecies, sep = " ")
 tyrannus1[tyrannus1 == "null"] <- NA
 tyrannus1[tyrannus1 == "unknown"] <- NA
 
-
+tyrannus1[, c(3,5:11)] <- lapply(tyrannus1[, c(3,5:11)], as.numeric)
+tyrannus1[, c(1:2,12:14)] <- lapply(tyrannus1[, c(1:2,12:14)], as.factor)
 
 levels(tyrannus1$sex)[levels(tyrannus1$sex) == "Female"] <- "Femelle"
 levels(tyrannus1$sex)[levels(tyrannus1$sex) == "Male"] <- "Mâle"
 levels(tyrannus1$sex)[levels(tyrannus1$sex) == "Unknown"] <- NA
+
+
+
 
 levels(tyrannus1$age)[levels(tyrannus1$age) == "Adult"]       <- "Adulte"
 levels(tyrannus1$age)[levels(tyrannus1$age) == "Fledgling"]   <- "Oisillon volant"
@@ -50,17 +53,42 @@ levels(tyrannus1$age)[levels(tyrannus1$age) == "Nestling"]    <- "Oisillon au ni
 levels(tyrannus1$age)[levels(tyrannus1$age) == "SecondYear"]  <- "Deuxième année"
 levels(tyrannus1$age)[levels(tyrannus1$age) == "Unknown"]     <- NA
 
+levels(tyrannus1$full_sp)[levels(tyrannus1$full_sp) == "Tyrannus melancholicus NA"]     <- NA
 
-tyrannus1$full_sp <- paste(tyrannus1$species, tyrannus1$subspecies, sep = " ")
+
+
+
 label(tyrannus1$full_sp) <- "Nom complet"
 units(tyrannus1$full_sp) <- NA
+label(tyrannus1$full_sp) <- "Nom complet"
+units(tyrannus1$full_sp) <- NA
+tyrannus1 <- filter(tyrannus1, !is.na(full_sp))
 
 
-tyrannus1[, c(3,5:11)] <- lapply(tyrannus1[, c(3,5:11)], as.numeric)
-tyrannus1[, c(1:2,12:14)] <- lapply(tyrannus1[, c(1:2,12:14)], as.factor)
+
+#caudi<-sfilter(tyrannus1, species=="Tyrannus caudifasciatus")
+melan<-sfilter(tyrannus1, species=="Tyrannus melancholicus")
+#savana<-sfilter(tyrannus1, species=="Tyrannus savana")
+#vocif<-sfilter(tyrannus1, species=="Tyrannus vociferans")
 
 
-tyrannus1 <- labelise(tyrannus1,
+melan <- droplevels(melan)
+
+melan$abbr_sp <- NA  # Crée une colonne vide
+
+melan$abbr_sp[melan$subspecies == "melancholicus"] <- "T. m. melancholicus"
+melan$abbr_sp[melan$subspecies == "satrapa"]       <- "T. m. satrapa"
+melan$abbr_sp[melan$subspecies == "despotes"]      <- "T. m. despotes"
+
+melan$subspecies <- factor(melan$subspecies,
+  levels = c("melancholicus", "satrapa", "despotes"))
+melan$abbr_sp <- factor(melan$abbr_sp,
+  levels = c("T. m. melancholicus", "T. m. satrapa", "T. m. despotes"))
+melan$full_sp <- factor(melan$full_sp,
+  levels = c("Tyrannus melancholicus melancholicus", "Tyrannus melancholicus satrapa", "Tyrannus melancholicus despotes"))
+
+
+melan <- labelise(melan,
   label = list(
     species       = "Espèce",
     subspecies    = "Sous-espèce",
@@ -92,22 +120,12 @@ tyrannus1 <- labelise(tyrannus1,
     sex           = NA
   )
 )
-label(tyrannus1$full_sp) <- "Nom complet"
-units(tyrannus1$full_sp) <- NA
-levels(tyrannus1$full_sp)[levels(tyrannus1$full_sp) == "Tyrannus melancholicus NA"]     <- NA
-tyrannus1 <- filter(tyrannus1, !is.na(full_sp))
+label(melan$full_sp) <- "Nom complet"
+units(melan$full_sp) <- NA
 
+label(melan$abbr_sp) <- "Espèce"
+units(melan$abbr_sp) <- NA
 
-
-#caudi<-sfilter(tyrannus1, species=="Tyrannus caudifasciatus")
-melan<-sfilter(tyrannus1, species=="Tyrannus melancholicus")
-#savana<-sfilter(tyrannus1, species=="Tyrannus savana")
-#vocif<-sfilter(tyrannus1, species=="Tyrannus vociferans")
-
-
-melan <- droplevels(melan)
-melan$subspecies <- factor(melan$subspecies,
-  levels = c("melancholicus", "satrapa", "despotes"))
 
 
 # Etape 5 : Sauvegarde locale des données retravaillées -------------------
