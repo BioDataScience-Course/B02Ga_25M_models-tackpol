@@ -125,13 +125,21 @@ Le deuxième graphique précise que cette différence se trouve chez la sous-esp
 
 ```{r chart4 JC}
 tyrcontinent %>.%
-  sdrop_na(.,subspecies,bill_depth, sex)->
+  sdrop_na(.,subspecies,bill_depth)->
   tyr1
-chart(data = tyr1,bill_depth ~ subspecies %fill=% sex | continent  ) + 
-  geom_boxplot()
+chart(data = tyr1, bill_depth ~ subspecies %fill=% continent) +
+  geom_boxplot() +
+  labs(
+    title = "Profondeur du bec selon le sexe, la sous-espèce et le continent",
+    x = "Sous-espèce",
+    y = "Profondeur du bec (mm)",
+    fill = "Sexe"
+  )
+table(tyrcontinent$subspecies, tyrcontinent$continent)
+
 ```
 
-... interprétation #4...
+On peut remarquer qu'il y a chez la sous-espèce melancholicus une profondeur moyenne du bec légèrement plus importantes en A.Sud qu'en A.Centrale dû à une plus grande variabilité des données. Chez la sous espèces satrapa, il y a une différence plus net entre les continents.
 
 ### Modélisation
 
