@@ -126,7 +126,7 @@ units(melan$full_sp) <- NA
 label(melan$abbr_sp) <- "Espèce"
 units(melan$abbr_sp) <- NA
 
-
+melan<-drop_na(melan, subspecies)
 
 # Etape 5 : Sauvegarde locale des données retravaillées -------------------
 
