@@ -21,12 +21,11 @@ bibliography: references.bib
 
 <!--% Rédigez une courte introduction de 3 ou 5 phrases qui présente vos données. Ajoutez une phrase de but (que vous remanierez éventuellement en fonction des modèles que vous ajouterez plus tard). Vous pouvez citer la bibliographie en utilisant le formatage Markdown ad hoc et en incluant votre référence au format bibtex dans le fichier references.bib. -->
 
-Notre jeu de données reprends des mesures réalisées par @macpherson2021 sur 2108 individus appartenant à 28 OTUs, tous du genre *Tyrannus*. Pour ce travail, nous avons choisi de ne conserver que les données relatives aux sous-espèces de *Tyrannus melancholicus* afin de réduire le nombre d'individus. Les données reprennent différentes mesures du bec, de la queue, du tarse et de la distance de Kipp (distance entre l’extrémité de la première rémige secondaire et l’extrémité de la plus longue rémige primaire [@kipp1942flugelbau]). L'âge, le sexe et le pays d'origine sont aussi connus. L'objectif de notre analyse est de tenter des déterminer quels critères morphologiques peuvent permettre d'identifier les sous espèces chez *Tyrannus melancholicus*.  
+Notre jeu de données reprends des mesures réalisées par @macpherson2021 sur 2108 individus appartenant à 28 OTUs, tous du genre *Tyrannus*. Pour ce travail, nous avons choisi de ne conserver que les données relatives aux sous-espèces de *Tyrannus melancholicus* afin de réduire le nombre d'individus. Les données reprennent différentes mesures du bec, de la queue, du tarse et de la distance de Kipp (distance entre l’extrémité de la première rémige secondaire et l’extrémité de la plus longue rémige primaire [@kipp1942flugelbau]). L'âge, le sexe et le pays d'origine sont aussi connus. L'objectif de notre analyse est de tenter des déterminer quels critères morphologiques peuvent permettre d'identifier les sous espèces chez *Tyrannus melancholicus*.
 
 ## Matériel et méthodes
 
 <!--% Indiquez ici d'où viennent les données et aussi quel logiciel (et version) vous utilisez pour les analyses. Inspirez-vous des projets du premier module de SDD II. -->
-
 
 Les données sont issues de @macpherson2021. Les analyses sont réalisées dans `r R.version.string` et plus précisément en utilisant la [SciViews Box 2025](https://www.sciviews.org/svbox/) dans [Saturn Cloud](https://saturncloud.io).
 
@@ -90,7 +89,7 @@ geom_histogram(bins = 30)+
 ylab("Effectifs")
 ```
 
-... interprétation #2...
+Les adultes présentent une forte variabilité dans la longueur de leur queue, et le graphique n’indique pas qu’une sous-espèce ait tendance à posséder une queue plus longue que les autres. Les jeunes de l’année ont généralement des queues plus courtes que les adultes (jeunes : \< 90 mm ; adultes : 70–110 mm). Les individus de deuxième année sont peu nombreux, mais le graphique montre que leurs longueurs de queue varient entre 80 et 100 mm, alors que celles des jeunes ne dépassent pas 90 mm. Enfin, les oisillons au nid et les oisillons volant ne présentent pas encore de queue.
 
 <!--% Graphique et interprétation de l'étudiant #3 ci-dessous. -->
 
