@@ -83,7 +83,10 @@ plot(b)
 <!--% Graphique et interprétation de l'étudiant #2 ci-dessous. -->
 
 ```{r chart2 Eva}
-
+tyreva<-sdrop_na(tyrannus, age)
+chart(tyreva, ~tail %fill=% subspecies|age)+
+geom_histogram(bins = 30)+
+ylab("Effectifs")
 ```
 
 ... interprétation #2...
