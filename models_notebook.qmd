@@ -191,8 +191,10 @@ chart(data = tyrannus, tarsus ~ kipp %col=% full_sp) +
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire 2}
-contlm <- lm(data = tyrcontinent, tarsus ~ continent*subspecies)
+contlm <- lm(data = tyrcontinent, tarsus ~ continent* subspecies)
 summary(contlm) |> tabularise()
+
+
 ```
 
 #### Modèle linéaire généralisé et/ou mixte 1
