@@ -1,6 +1,6 @@
 ---
 title: "___"
-author: "___, ___, ___, ___"
+author: "Carlier Louis, Dupont Eva, Aragona Samuel, Julien-Camille Tack"
 format:
   pdf:
     documentclass: report
@@ -19,6 +19,8 @@ bibliography: references.bib
 ## But
 
 <!--% Rédigez le but de ce rapport en 2 phrases.-->
+
+Vérifier l'appartenance à une sous-espèce de *Tyrannus melancholicus* en fonction de différents paramètres morphomètriques.
 
 ## Matériel et méthodes
 
