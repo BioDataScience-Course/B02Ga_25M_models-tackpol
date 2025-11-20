@@ -76,8 +76,8 @@ chart(tyrannus, bill_length~bill_width %col=%sex |abbr_sp)+
 #plot(b)
 
 ```
-Au sein de chacune des sous-espèces, le sexe ne semble pas varier en fonction de la longueur la largeur de bec 
-... interprétation #1...
+
+Au sein de chacune des sous-espèces, le sexe ne semble pas varier en fonction de la longueur la largeur de bec ... interprétation #1...
 
 <!--% Graphique et interprétation de l'étudiant #2 ci-dessous. -->
 
@@ -177,12 +177,14 @@ Le modèle montre qu'il y a un rapport entre la longueur de la queue et la longu
 <!--% Ajustez une régression linéaire simple, multiple ou polynomiale par paire d'étudiants dans cette section (donc, deux modèles pour l'équipe de quatre). -->
 
 ```{r régresssion 2}
-lmbis2<-lm(data = tyrcontinentfilt,  wing_cord ~ tarsus)
+tyr <-subset(tyrcontinent, wing_cord < 120)
+lmbis2<-lm(data = tyr, kipp ~ wing_cord)
 summary_(lmbis2) |> tabularise()
 chart$residuals(lmbis2)
 chart(lmbis2)
-
 ```
+
+Nous avons du supprimer les données au dessus de 120 car il n'y avait que un point très aberrant
 
 #### Modèle linéaire 1
 
@@ -247,15 +249,13 @@ AIC(lm3b)
 #  stat_smooth(method = "lm", formula = y ~ x)
 ```
 
-1er modèle : La pente de référence n'est pas significativement différente de 0 au seuil alpha de 5%. Toutefois, les termes d'interaction montrent un décalage de pente pour les sous-espèces satrapa et despotes. Le décalage d'ordonnée à l'origine n'est pas significatif pour la sous-espèce satrapa.
-L'analyse des résidus , n'est pas parfaite, mais peut s'expliquer par la forme de notre nuage de points
+1er modèle : La pente de référence n'est pas significativement différente de 0 au seuil alpha de 5%. Toutefois, les termes d'interaction montrent un décalage de pente pour les sous-espèces satrapa et despotes. Le décalage d'ordonnée à l'origine n'est pas significatif pour la sous-espèce satrapa. L'analyse des résidus , n'est pas parfaite, mais peut s'expliquer par la forme de notre nuage de points
 
 Le nuage de points de T.m.melancholicus ne montre pas une belle relation, nous tentons alors de forcer les pentes à être identiques.
 
-2ème modèle : En forcant la pente  tous les termes sont significativement différents au seuil alpha de 5%. 
+2ème modèle : En forcant la pente tous les termes sont significativement différents au seuil alpha de 5%.
 
-L'anova entre les deux modèles montre une différence significative entre les deux modèles. L'AIC est en faveur du premier modèle (=le plus complexe), c'est donc ce dernier que nous garderons.
-#### Modèle linéaire 2
+L'anova entre les deux modèles montre une différence significative entre les deux modèles. L'AIC est en faveur du premier modèle (=le plus complexe), c'est donc ce dernier que nous garderons. \#### Modèle linéaire 2
 
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
 
@@ -292,8 +292,8 @@ chart(melan,sex_bin~tail)+
   ylab("Probabilité d'être un mâle")+
   stat_smooth(method="glm", method.args=list(family=binomial), formula=y~x, se=FALSE)
 ```
-La courbe augmente avec la longeur de la queue, indiquant que les mâles ont tendance à avoir une queue plus longue. Toutefois, ce modèle linéaire généralisé montre que la longueur de la queue est assez peu adapté pour déterminer le sexe avec certitude chez T.m.melancholicus. En effet, la distinction de la longueur de queue n'est pas très grande entre les deux sexes.
-#### Modèle linéaire généralisé et/ou mixte 2
+
+La courbe augmente avec la longeur de la queue, indiquant que les mâles ont tendance à avoir une queue plus longue. Toutefois, ce modèle linéaire généralisé montre que la longueur de la queue est assez peu adapté pour déterminer le sexe avec certitude chez T.m.melancholicus. En effet, la distinction de la longueur de queue n'est pas très grande entre les deux sexes. \#### Modèle linéaire généralisé et/ou mixte 2
 
 <!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
 
