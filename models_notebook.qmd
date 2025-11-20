@@ -81,8 +81,6 @@ Les différents sous-espèces ne montrent pas de forte variation lorsque l'on co
 
 <!--% Graphique et interprétation de l'étudiant #2 ci-dessous. -->
 
-
-
 ```{r chart2 Eva}
 
 chart(tyrannus, ~tarsus|subspecies)+
@@ -262,13 +260,13 @@ L'anova entre les deux modèles montre une différence significative entre les d
 ```{r Modèle linéaire 2}
 tyrcontinentfilt <- subset(tyrcontinent, wing_cord > 100)
 #un individu a une longueur de cordon ailaire 50% plus petite que tous les autres alors que sa longueur de tarse est normale
-contlm <- lm(data = tyrcontinentfilt, tarsus ~ wing_cord  + subspecies)
+contlm <- lm(data = tyrcontinent, tarsus ~ bill_depth  * subspecies)
 summary(contlm) |> tabularise()
 
-chart(data = tyrcontinentfilt, tarsus ~ wing_cord %col=% full_sp ) + 
+chart(data = tyrcontinent, tarsus ~ bill_depth %col=% full_sp ) + 
   geom_point() +
    stat_smooth(method = "lm", formula = y ~ x) +
-  xlab("Longueur du cordon ailaire [mm]") +
+  xlab("Profondeur du bec [mm]") +
   ylab("Longueur du tarse [mm]")
 ```
 
