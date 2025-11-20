@@ -81,14 +81,19 @@ Au sein de chacune des sous-espèces, le sexe ne semble pas varier en fonction d
 
 <!--% Graphique et interprétation de l'étudiant #2 ci-dessous. -->
 
+![](https://w-evadu-svbox2025sdd2-b089597fdd24471d93a7e5292cf8c767.community.saturnenterprise.io/chunk_output/53DE6AC1e7967f24/0A9530F3/cb0us77e15hdd/00005c.png)
+
 ```{r chart2 Eva}
-tyreva<-sdrop_na(tyrannus, age)
-chart(tyreva, ~tail %fill=% subspecies|age)+
+
+chart(tyrannus, ~tarsus|subspecies)+
 geom_histogram(bins = 30)+
 ylab("Effectifs")
+
+chart(tyrannus,tarsus ~subspecies )+
+geom_boxplot()
 ```
 
-Les adultes présentent une forte variabilité dans la longueur de leur queue, et le graphique n’indique pas qu’une sous-espèce ait tendance à posséder une queue plus longue que les autres. Les jeunes de l’année ont généralement des queues plus courtes que les adultes (jeunes : \< 90 mm ; adultes : 70–110 mm). Les individus de deuxième année sont peu nombreux, mais le graphique montre que leurs longueurs de queue varient entre 80 et 100 mm, alors que celles des jeunes ne dépassent pas 90 mm. Enfin, les oisillons au nid et les oisillons volant ne présentent pas encore de queue.
+Les individus des sous-espèces *melancholicus* et *despotes* présentent une longueur de tarse maximale de respectivement 21 mm et 20 mm, tandis que ceux de la sous-espèce *satrapa* atteignent environ 22 mm.
 
 <!--% Graphique et interprétation de l'étudiant #3 ci-dessous. -->
 
@@ -152,14 +157,30 @@ On peut remarquer qu'il y a chez la sous-espèce melancholicus une profondeur mo
 <!--% Ajustez une régression linéaire simple, multiple ou polynomiale par paire d'étudiants dans cette section (donc, deux modèles pour l'équipe de quatre). -->
 
 ```{r régresssion 1}
+#Eva
+tyrannus_lm<-lm(data=tyrannus,wing_cord~ tail)
+chart$residuals(tyrannus_lm)
 
+
+summary(tyrannus_lm)|>
+  tabularise()
+AIC(tyrannus_lm)
+anova(tyrannus_lm)
+
+chart(tyrannus_lm)
 ```
+
+Le modèle montre qu'il y a un rapport entre la longueur de la queue et la longueur du cordon alaire. En effet lorsque la queue augmente de 1mm la longueur du cordon alaire augmenterait de 0,73mm. Nous pouvons nous fier à cette régression car elle est significative au seuil de 5% et tous les paramètres ont été analysés(normalité, résidus et R² ).
 
 #### Régression linéaire 2
 
 <!--% Ajustez une régression linéaire simple, multiple ou polynomiale par paire d'étudiants dans cette section (donc, deux modèles pour l'équipe de quatre). -->
 
 ```{r régresssion 2}
+lmbis2<-lm(data = tyrannus, bill_depth ~ bill_length)
+summary_(lmbis2) |> tabularise()
+chart$residuals(lmbis2)
+chart(lmbis2)
 
 ```
 
@@ -239,10 +260,16 @@ L'anova entre les deux modèles montre une différence significative entre les d
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire 2}
-contlm <- lm(data = tyrcontinent, tarsus ~ continent* subspecies)
+tyrcontinentfilt <- subset(tyrcontinent, wing_cord > 100)
+#un individu a une longueur de cordon ailaire 50% plus petite que tous les autres alors que sa longueur de tarse est normale
+contlm <- lm(data = tyrcontinentfilt, tarsus ~ wing_cord  + subspecies)
 summary(contlm) |> tabularise()
 
-
+chart(data = tyrcontinentfilt, tarsus ~ wing_cord %col=% full_sp ) + 
+  geom_point() +
+   stat_smooth(method = "lm", formula = y ~ x) +
+  xlab("Longueur du cordon ailaire [mm]") +
+  ylab("Longueur du tarse [mm]")
 ```
 
 #### Modèle linéaire généralisé et/ou mixte 1
