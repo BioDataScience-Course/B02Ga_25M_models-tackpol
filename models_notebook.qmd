@@ -178,6 +178,10 @@ Le modèle montre qu'il y a un rapport entre la longueur de la queue et la longu
 <!--% Ajustez une régression linéaire simple, multiple ou polynomiale par paire d'étudiants dans cette section (donc, deux modèles pour l'équipe de quatre). -->
 
 ```{r régresssion 2}
+lmbis2<-lm(data = tyrannus, bill_depth ~ bill_length)
+summary_(lmbis2) |> tabularise()
+chart$residuals(lmbis2)
+chart(lmbis2)
 
 ```
 
@@ -208,10 +212,16 @@ chart(data = tyrannus, tarsus ~ kipp %col=% full_sp) +
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire 2}
-contlm <- lm(data = tyrcontinent, tarsus ~ continent* subspecies)
+tyrcontinentfilt <- subset(tyrcontinent, wing_cord > 100)
+#un individu a une longueur de cordon ailaire 50% plus petite que tous les autres alors que sa longueur de tarse est normale
+contlm <- lm(data = tyrcontinentfilt, tarsus ~ wing_cord + continent)
 summary(contlm) |> tabularise()
 
-
+chart(data = tyrcontinentfilt, tarsus ~ wing_cord %col=% continent) + 
+  geom_point() +
+   stat_smooth(method = "lm", formula = y ~ x) +
+  xlab("Longueur du cordon ailaire [mm]") +
+  ylab("Longueur du tarse [mm]")
 ```
 
 #### Modèle linéaire généralisé et/ou mixte 1
