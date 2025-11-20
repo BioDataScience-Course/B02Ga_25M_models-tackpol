@@ -177,7 +177,7 @@ Le modèle montre qu'il y a un rapport entre la longueur de la queue et la longu
 <!--% Ajustez une régression linéaire simple, multiple ou polynomiale par paire d'étudiants dans cette section (donc, deux modèles pour l'équipe de quatre). -->
 
 ```{r régresssion 2}
-lmbis2<-lm(data = tyrannus, bill_depth ~ bill_length)
+lmbis2<-lm(data = tyrcontinentfilt,  wing_cord ~ tarsus)
 summary_(lmbis2) |> tabularise()
 chart$residuals(lmbis2)
 chart(lmbis2)
