@@ -82,14 +82,19 @@ chart(tyrannus, tarsus ~bill_length %col=%sex )+
 
 <!--% Graphique et interprétation de l'étudiant #2 ci-dessous. -->
 
+![](https://w-evadu-svbox2025sdd2-b089597fdd24471d93a7e5292cf8c767.community.saturnenterprise.io/chunk_output/53DE6AC1e7967f24/0A9530F3/cb0us77e15hdd/00005c.png)
+
 ```{r chart2 Eva}
-tyreva<-sdrop_na(tyrannus, age)
-chart(tyreva, ~tail %fill=% subspecies|age)+
+
+chart(tyreva, ~tarsus|subspecies)+
 geom_histogram(bins = 30)+
 ylab("Effectifs")
+
+chart(tyreva,tarsus ~subspecies )+
+geom_boxplot()
 ```
 
-Les adultes présentent une forte variabilité dans la longueur de leur queue, et le graphique n’indique pas qu’une sous-espèce ait tendance à posséder une queue plus longue que les autres. Les jeunes de l’année ont généralement des queues plus courtes que les adultes (jeunes : \< 90 mm ; adultes : 70–110 mm). Les individus de deuxième année sont peu nombreux, mais le graphique montre que leurs longueurs de queue varient entre 80 et 100 mm, alors que celles des jeunes ne dépassent pas 90 mm. Enfin, les oisillons au nid et les oisillons volant ne présentent pas encore de queue.
+Les individus des sous-espèces *melancholicus* et *despotes* présentent une longueur de tarse maximale de respectivement 21 mm et 20 mm, tandis que ceux de la sous-espèce *satrapa* atteignent environ 22 mm.
 
 <!--% Graphique et interprétation de l'étudiant #3 ci-dessous. -->
 
