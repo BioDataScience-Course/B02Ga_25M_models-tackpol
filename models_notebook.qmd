@@ -196,10 +196,16 @@ chart(data = tyrannus, tarsus ~ kipp %col=% full_sp) +
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire 2}
-contlm <- lm(data = tyrcontinent, tarsus ~ continent* subspecies)
+tyrcontinentfilt <- subset(tyrcontinent, wing_cord > 100)
+#un individu a une longueur de cordon ailaire 50% plus petite que tous les autres alors que sa longueur de tarse est normale
+contlm <- lm(data = tyrcontinentfilt, tarsus ~ wing_cord + continent)
 summary(contlm) |> tabularise()
 
-
+chart(data = tyrcontinentfilt, tarsus ~ wing_cord %col=% continent) + 
+  geom_point() +
+   stat_smooth(method = "lm", formula = y ~ x) +
+  xlab("Longueur du cordon ailaire [mm]") +
+  ylab("Longueur du tarse [mm]")
 ```
 
 #### Modèle linéaire généralisé et/ou mixte 1
