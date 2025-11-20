@@ -86,11 +86,11 @@ chart(tyrannus, tarsus ~bill_length %col=%sex )+
 
 ```{r chart2 Eva}
 
-chart(tyreva, ~tarsus|subspecies)+
+chart(tyrannus, ~tarsus|subspecies)+
 geom_histogram(bins = 30)+
 ylab("Effectifs")
 
-chart(tyreva,tarsus ~subspecies )+
+chart(tyrannus,tarsus ~subspecies )+
 geom_boxplot()
 ```
 
@@ -158,8 +158,19 @@ On peut remarquer qu'il y a chez la sous-espèce melancholicus une profondeur mo
 <!--% Ajustez une régression linéaire simple, multiple ou polynomiale par paire d'étudiants dans cette section (donc, deux modèles pour l'équipe de quatre). -->
 
 ```{r régresssion 1}
+#Eva
+tyrannus_lm<-lm(data=tyrannus,wing_cord~ tail)
+chart$residuals(tyrannus_lm)
 
+
+summary(tyrannus_lm)
+AIC(tyrannus_lm)
+anova(tyrannus_lm)
+
+chart(tyrannus_lm)
 ```
+
+Le modèle montre qu'il y a un rapport entre la longueur de la queue et la longueur du cordon alaire. En effet lorsque la queue augmente de 1mm la longueur du cordon alaire augmenterait de 0,73mm. Nous pouvons nous fier à cette régression car elle est significative au seuil de 5% et tous les paramètres ont été analysés(normalité, résidus,...).
 
 #### Régression linéaire 2
 
@@ -200,10 +211,16 @@ chart(data = tyrannus, tarsus ~ kipp %col=% full_sp) +
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire 2}
-contlm <- lm(data = tyrcontinent, tarsus ~ continent* subspecies)
+tyrcontinentfilt <- subset(tyrcontinent, wing_cord > 100)
+#un individu a une longueur de cordon ailaire 50% plus petite que tous les autres alors que sa longueur de tarse est normale
+contlm <- lm(data = tyrcontinentfilt, tarsus ~ wing_cord + continent)
 summary(contlm) |> tabularise()
 
-
+chart(data = tyrcontinentfilt, tarsus ~ wing_cord %col=% continent) + 
+  geom_point() +
+   stat_smooth(method = "lm", formula = y ~ x) +
+  xlab("Longueur du cordon ailaire [mm]") +
+  ylab("Longueur du tarse [mm]")
 ```
 
 #### Modèle linéaire généralisé et/ou mixte 1
