@@ -63,21 +63,20 @@ skimr::skim(tyrannus)
 <!--% Chaque étudiant réalise et interprète un graphique pertinent en lien avec le but fixé et les modèles qui seront réalisés. Graphique et interprétation de l'étudiant #1 ci-dessous. -->
 
 ```{r chart1 Louis}
-chart(tyrannus , bill_length~bill_width %col=%full_sp |full_sp)+
+chart(tyrannus , bill_length~bill_width %col=%abbr_sp |abbr_sp)+
   geom_point(alpha=0.5, show.legend= FALSE)
 
-chart(tyrannus, bill_length~bill_width %col=%sex |full_sp)+
+chart(tyrannus, bill_length~bill_width %col=%sex |abbr_sp)+
   geom_point(alpha=0.5, show.legend= FALSE)
 
-chart(tyrannus, tarsus ~bill_length %col=%sex )+
-  geom_point(alpha=0.5, show.legend= FALSE)
+
 
 #a<-sselect(tyrannus, -species, -subspecies, -specimen, -country, -age, -sex, -full_sp,-abbr_sp)
 #b<- correlation(a, type = "lower")
 #plot(b)
 
 ```
-
+Au sein de chacune des sous-espèces, le sexe ne semble pas varier en fonction de la longueur la largeur de bec 
 ... interprétation #1...
 
 <!--% Graphique et interprétation de l'étudiant #2 ci-dessous. -->
@@ -169,23 +168,72 @@ On peut remarquer qu'il y a chez la sous-espèce melancholicus une profondeur mo
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire 1}
-lm3<-lm(data=tyrannus, tarsus~kipp*subspecies)
+
+
+
+lm3<-lm(data=tyrannus, tarsus~kipp*abbr_sp)
 tabularise(summary_(lm3))
 
-chart(data = tyrannus, tarsus ~ kipp %col=% full_sp) +
+chart(data = tyrannus, tarsus ~ kipp %col=% abbr_sp) +
   geom_point() +
   stat_smooth(method = "lm", formula = y ~ x)
 
+chart$residuals(lm3)
 
+
+lm3b<-lm(data=tyrannus, tarsus~kipp+abbr_sp)
+tabularise(summary_(lm3b))
+
+
+
+###
+# Pente commune
+slope <- 0.0591
+
+# Intercepts par espèce
+intercepts <- c(16.4066, 17.4346, 15.7947)
+
+# Palette de couleurs (une par espèce)
+cols <- c("red", "blue", "green")
+
+
+
+chart(data = tyrannus, tarsus ~ kipp %col=% abbr_sp) +
+  geom_point(aes(col = abbr_sp)) +
+  geom_abline(intercept = intercepts[1], slope = slope, col = cols[1]) +
+  geom_abline(intercept = intercepts[2], slope = slope, col = cols[2]) +
+  geom_abline(intercept = intercepts[3], slope = slope, col = cols[3]) +
+  scale_colour_manual(values = cols) +
+  xlab("Distance de Kipp [mm]") +
+  ylab("Longueur du tarse [mm]") +
+  theme_minimal()
+
+
+###
+
+
+chart$residuals(lm3b)
+
+tabularise(anova(lm3, lm3b))
+AIC(lm3)
+AIC(lm3b)
 #despotes est à part des autres
-#lm31<-lm(data=tyrannus, bill_depth~tarsus*subspecies)
+#lm31<-lm(data=tyrannus, bill_depth~tarsus*abbr_sp)
 #tabularise(summary_(lm31))
 
-#chart(data = tyrannus, bill_depth~tarsus %col=% full_sp) +
+#chart(data = tyrannus, bill_depth~tarsus %col=% abbr_sp) +
 #  geom_point() +
 #  stat_smooth(method = "lm", formula = y ~ x)
 ```
 
+1er modèle : La pente de référence n'est pas significativement différente de 0 au seuil alpha de 5%. Toutefois, les termes d'interaction montrent un décalage de pente pour les sous-espèces satrapa et despotes. Le décalage d'ordonnée à l'origine n'est pas significatif pour la sous-espèce satrapa.
+L'analyse des résidus , n'est pas parfaite, mais peut s'expliquer par la forme de notre nuage de points
+
+Le nuage de points de T.m.melancholicus ne montre pas une belle relation, nous tentons alors de forcer les pentes à être identiques.
+
+2ème modèle : En forcant la pente  tous les termes sont significativement différents au seuil alpha de 5%. 
+
+L'anova entre les deux modèles montre une différence significative entre les deux modèles. L'AIC est en faveur du premier modèle (=le plus complexe), c'est donc ce dernier que nous garderons.
 #### Modèle linéaire 2
 
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
@@ -202,9 +250,22 @@ summary(contlm) |> tabularise()
 <!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire gén 1}
+melan<-sfilter(tyrannus, subspecies=="melancholicus")
 
+# Supprimer uniquement les lignes où "sex" est NA
+melan <- melan %>% drop_na(sex)
+# Recoder sex en 0/1
+melan$sex_bin <- ifelse(melan$sex == "Mâle", 1, 0)
+
+glm(data=melan,sex_bin~tarsus, family=binomial )
+
+
+chart(melan,sex_bin~tail)+
+  geom_point()+
+  ylab("Probabilité d'être un mâle")+
+  stat_smooth(method="glm", method.args=list(family=binomial), formula=y~x, se=FALSE)
 ```
-
+La courbe augmente avec la longeur de la queue, indiquant que les mâles ont tendance à avoir une queue plus longue. Toutefois, ce modèle linéaire généralisé montre que la longueur de la queue est assez peu adapté pour déterminer le sexe avec certitude chez T.m.melancholicus. En effet, la distinction de la longueur de queue n'est pas très grande entre les deux sexes.
 #### Modèle linéaire généralisé et/ou mixte 2
 
 <!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
