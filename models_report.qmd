@@ -13,14 +13,14 @@ bibliography: references.bib
 <!--# Un rapport est différent d'un carnet de notes. Il ne s'agit donc pas de faire du copier-coller d'un document vers l'autre. Un rapport de synthèse doit être compréhensible sans devoir lire le carnet de notes. Le rapport de synthèse doit être  rédigé avec un style et une présentation adéquats. -->
 
 ## Introduction
-
+L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannys melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée. 
 <!--% Rédigez l'introduction de ce rapport en 5-6 phrases.-->
 
 ## But
 
 <!--% Rédigez le but de ce rapport en 2 phrases.-->
 
-Vérifier l'appartenance à une sous-espèce de *Tyrannus melancholicus* en fonction de différents paramètres morphomètriques.
+Ce rapport tente de mettre en évidence quelles variables morphométriques permettent de déterminer au mieux l'appartenance à une des sous-espèces de *Tyrannus melancholicus*.
 
 ## Matériel et méthodes
 

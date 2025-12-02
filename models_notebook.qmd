@@ -251,13 +251,16 @@ AIC(lm3b)
 #  stat_smooth(method = "lm", formula = y ~ x)
 ```
 
-1er modèle : La pente de référence n'est pas significativement différente de 0 au seuil alpha de 5%. Toutefois, les termes d'interaction montrent un décalage de pente pour les sous-espèces satrapa et despotes. Le décalage d'ordonnée à l'origine n'est pas significatif pour la sous-espèce satrapa. L'analyse des résidus , n'est pas parfaite, mais peut s'expliquer par la forme de notre nuage de points
+1er modèle : La pente de référence n'est pas significativement différente de 0 au seuil alpha de 5%. Toutefois, les termes d'interaction montrent un décalage de pente pour les sous-espèces *satrapa* et *despotes*. Le décalage d'ordonnée à l'origine n'est pas significatif pour la sous-espèce *satrapa*. L'analyse des résidus , n'est pas parfaite, mais peut s'expliquer par la forme de notre nuage de points
 
-Le nuage de points de T.m.melancholicus ne montre pas une belle relation, nous tentons alors de forcer les pentes à être identiques.
+Le nuage de points de *T.m.melancholicus* ne montre pas une belle relation, nous tentons alors de forcer les pentes à être identiques.
 
-2ème modèle : En forcant la pente tous les termes sont significativement différents au seuil alpha de 5%.
+2ème modèle : En forcant la pente tous les termes sont significativement différents de zéro au seuil alpha de 5%.
 
-L'anova entre les deux modèles montre une différence significative entre les deux modèles. L'AIC est en faveur du premier modèle (=le plus complexe), c'est donc ce dernier que nous garderons.
+L'anova entre les deux modèles montre une différence significative entre les deux modèles. De plus, l'AIC est en faveur du premier modèle (=le plus complexe). Nous 
+conservons donc de premier modèle.
+
+Chez *T. m. despotes* et *T. m. satrapa*, le tarse augmente avec la distance de Kipp, ce qui suggère une différenciation morphologique liée à la structure alaire. En revanche, chez *T. m. melancholicus*, aucune relation nette n’est observée.
 
 #### Modèle linéaire 2
 
@@ -297,7 +300,7 @@ chart(melan,sex_bin~tail)+
   stat_smooth(method="glm", method.args=list(family=binomial), formula=y~x, se=FALSE)
 ```
 
-La courbe augmente avec la longeur de la queue, indiquant que les mâles ont tendance à avoir une queue plus longue. Toutefois, ce modèle linéaire généralisé montre que la longueur de la queue est assez peu adapté pour déterminer le sexe avec certitude chez T.m.melancholicus. En effet, la distinction de la longueur de queue n'est pas très grande entre les deux sexes.
+Seuls les individus appartement à la sous-espèce *T. m. melancholicus* ont été arbitraitrement sélectionnées pour cette analyse. La courbe s'élève dans le sens d'une augmentation de la longeur de la queue, indiquant que les mâles ont tendance à avoir une queue plus longue. Toutefois, ce modèle linéaire généralisé montre que la longueur de la queue est assez peu adapté pour déterminer le sexe avec certitude chez *T.m.melancholicus*. En effet, la distinction de la longueur de queue n'est pas très grande entre les deux sexes chez cette sous-espèce.
 
 #### Modèle linéaire généralisé et/ou mixte 2
 
@@ -311,7 +314,7 @@ La courbe augmente avec la longeur de la queue, indiquant que les mâles ont ten
 
 <!--% Lorsque toutes les analyses sont réalisées, terminez ce bloc-notes avec 3 à 6 phrases de conclusion en rapport avec ce que vous avez observé dans vos analyses. Quels sont les modèles les plus pertinents que vous retenez ? -->
 
-...vos conclusions ici...
+Les diffénrentes analyses réalisées mettent en évidence des différences existantes, mais souvent subtiles entre les 3 sous-espèces de *Tyrannus melancholicus*. Les résultats issus des modèles linéaires simples mettent en évident le lien entre certaines mesures, mais ne sont pas adaptées à la prédiction de sous-espèce. Les modèles linéaires nous permettent de mieux appréhender notre thématique. ***Le premier modèle linéaire montre que la longueur du tarse varie significativement avec la distance de Kipp chez *T. m. satrapa* et *T. m. despotes***. **AJOUTER ICI LA PHRASE DE ML2**. ***Le premier modèle linéaire généralisé montre que les mâles de *T. m. melancholicus* tendent à avoir une queue légèrement plus longue, mais cette différence reste trop faible pour prédire le sexe avec certitude.*** Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
 
 ## Références
 
