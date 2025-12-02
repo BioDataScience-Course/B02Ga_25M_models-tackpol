@@ -23,7 +23,7 @@ bibliography: references.bib
 
 Notre jeu de données reprends des mesures réalisées par @macpherson2021 sur 2108 individus appartenant à 28 OTUs, tous du genre *Tyrannus*. Pour ce travail, nous avons choisi de ne conserver que les données relatives aux sous-espèces de *Tyrannus melancholicus* afin de réduire le nombre d'individus.
 
-Les données reprennent différentes mesures du bec, de la queue, du tarse et de la distance de Kipp (distance entre l'extrémité de la première rémige secondaire (S~1~) et l’extrémité de la plus longue rémige primaire (L~w~) [@kipp1942flugelbau]). L'âge, le sexe et le pays d'origine sont aussi connus. L'objectif de notre analyse est de tenter des déterminer quels critères morphologiques peuvent permettre d'identifier les sous espèces chez *Tyrannus melancholicus*.
+Les données reprennent différentes mesures du bec, de la queue, du tarse et de la distance de Kipp (distance entre l'extrémité de la première rémige secondaire (S~1~) et l’extrémité de la plus longue rémige primaire (L~w~) [@kipp1942flugelbau]). L'âge, le sexe et le pays d'origine sont aussi connus. L'objectif de notre analyse est de tenter de déterminer quels critères morphologiques peuvent permettre d'identifier les sous-espèces chez *Tyrannus melancholicus*.
 
 ![La distance de Kipp correspond à la distance entre les points S~1~et L~w~. Schéma issu de @articlekippdist](Distance%20de%20Kipp.png)
 
@@ -81,7 +81,7 @@ chart(tyrannus, bill_length~bill_width %col=%sex |abbr_sp)+
 
 ```
 
-Les différents sous-espèces ne montrent pas de forte variation lorsque l'on compare la longueur et la largeur du bec. En effet, chez toutes les trois, la longueur augmente avec la largeur du bec. De plus, au sein de chacune des sous-espèces, le sexe ne semble pas varier en fonction de la longueur la largeur de bec.
+Les différents sous-espèces ne montrent pas de forte variation lorsque l'on compare la longueur et la largeur du bec. En effet, chez toutes les trois, la longueur augmente avec la largeur du bec. De plus, au sein de chacune des sous-espèces, le sexe ne semble pas influer sur la longueur et la largeur de bec.
 
 <!--% Graphique et interprétation de l'étudiant #2 ci-dessous. -->
 
@@ -264,7 +264,7 @@ L'anova entre les deux modèles montre une différence significative entre les d
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire 2}
-#tyrcontinentfilt <- subset(tyrcontinent, wing_cord > 100)
+tyrcontinentfilt <- subset(tyrcontinent, wing_cord > 100)
 #un individu a une longueur de cordon ailaire 50% plus petite que tous les autres alors que sa longueur de tarse est normale
 contlm <- lm(data = tyrcontinent, tarsus ~ bill_depth  * subspecies)
 summary(contlm) |> tabularise()
@@ -274,17 +274,7 @@ chart(data = tyrcontinent, tarsus ~ bill_depth %col=% full_sp ) +
    stat_smooth(method = "lm", formula = y ~ x) +
   xlab("Profondeur du bec [mm]") +
   ylab("Longueur du tarse [mm]")
-
-chart$residuals(contlm)
-
-
 ```
-
-Tous les termes du modèle sont significativement différents de 0 sans ajustement nécessaires.
-
-Il y a bien significativement des intéractions entre chaque variable au seuil alpha de 5%.
-
-La distribution des résidus est très proche de la normale et montre une bonne homoscédasticité. La distance de Cook est faiblement impactée par des valeurs influentes. L'analyse des résidus est donc satisfaisante.
 
 #### Modèle linéaire généralisé et/ou mixte 1
 
