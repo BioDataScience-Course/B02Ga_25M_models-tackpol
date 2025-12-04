@@ -73,10 +73,10 @@ chart(data = tyrcontinent, tarsus ~ bill_depth %col=% abbr_sp ) +
   xlab("Profondeur du bec [mm]") +
   ylab("Longueur du tarse [mm]")
 ```
+
 $$
 `r eq__(contlm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
 $$
-
 
 ## Discussion et Conclusion
 
