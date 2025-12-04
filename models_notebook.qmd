@@ -129,7 +129,7 @@ chart(tyrcontinent, tarsus ~ continent %fill=% abbr_sp) +
 
 Le premier graphique indique que la moyenne de la longueur des tarses est plus grande en Amérique Centrale qu'en Amérique du Sud.
 
-Le deuxième graphique précise que cette différence se trouve chez la sous-espèce satrapa qui possède une longueur de tarse moyenne plus longue en Amérique Centrale.
+Le deuxième graphique précise que cette différence se trouve chez la sous-espèce *satrapa* qui possède une longueur de tarse moyenne plus longue en Amérique Centrale.
 
 <!--% Graphique et interprétation de l'étudiant #4 ci-dessous. -->
 
@@ -311,7 +311,7 @@ chart(melan,sex_bin~tail)+
   stat_smooth(method="glm", method.args=list(family=binomial), formula=y~x, se=FALSE)
 ```
 
-Seuls les individus appartement à la sous-espèce *T. m. melancholicus* ont été arbitraitrement sélectionnées pour cette analyse. La courbe s'élève dans le sens d'une augmentation de la longeur de la queue, indiquant que les mâles ont tendance à avoir une queue plus longue. Toutefois, ce modèle linéaire généralisé montre que la longueur de la queue est assez peu adapté pour déterminer le sexe avec certitude chez *T.m.melancholicus*. En effet, la distinction de la longueur de queue n'est pas très grande entre les deux sexes chez cette sous-espèce.
+Seuls les individus appartement à la sous-espèce *T. m. melancholicus* ont été arbitrairement sélectionnées pour cette analyse. La courbe s'élève dans le sens d'une augmentation de la longueur de la queue, indiquant que les mâles ont tendance à avoir une queue plus longue. Toutefois, ce modèle linéaire généralisé montre que la longueur de la queue est assez peu adapté pour déterminer le sexe avec certitude chez *T.m.melancholicus*. En effet, la distinction de la longueur de queue n'est pas très grande entre les deux sexes chez cette sous-espèce.
 
 #### Modèle linéaire généralisé et/ou mixte 2
 
@@ -326,13 +326,15 @@ chart(melan,bill_length~ tail )+
   stat_smooth(method="glm", method.args=list(family=gaussian), formula=y~x, se=FALSE)
 ```
 
-pas de dist non normale
+Aucune valeur ne présente de variable à distribution non-normale, il est donc compliqué de réaliser un modèle linéaire généralisé.
+
+La courbe montre une croissance positive, indiquant que lorsque la longueur du bec augmente de 1mm, la longueur de la queue augmente 0,05mm.
 
 ## Conclusion
 
 <!--% Lorsque toutes les analyses sont réalisées, terminez ce bloc-notes avec 3 à 6 phrases de conclusion en rapport avec ce que vous avez observé dans vos analyses. Quels sont les modèles les plus pertinents que vous retenez ? -->
 
-Les diffénrentes analyses réalisées mettent en évidence des différences existantes, mais souvent subtiles entre les 3 sous-espèces de *Tyrannus melancholicus*. Les résultats issus des modèles linéaires simples mettent en évident le lien entre certaines mesures, mais ne sont pas adaptées à la prédiction de sous-espèce. Les modèles linéaires nous permettent de mieux appréhender notre thématique. ***Le premier modèle linéaire montre que la longueur du tarse varie significativement avec la distance de Kipp chez*** **T. m. satrapa\* et *T. m. despotes***. **AJOUTER ICI LA PHRASE DE ML2**. ***Le premier modèle linéaire généralisé montre que les mâles de*** **T. m. melancholicus\* tendent à avoir une queue légèrement plus longue, mais cette différence reste trop faible pour prédire le sexe avec certitude.**\* Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
+Les différentes analyses réalisées mettent en évidence des différences existantes, mais souvent subtiles entre les 3 sous-espèces de *Tyrannus melancholicus*. Les résultats issus des modèles linéaires simples mettent en évident le lien entre certaines mesures, mais ne sont pas adaptées à la prédiction de sous-espèce. Les modèles linéaires nous permettent de mieux appréhender notre thématique. ***Le premier modèle linéaire montre que la longueur du tarse varie significativement avec la distance de Kipp chez*** **T. m. satrapa\* et *T. m. despotes***. **AJOUTER ICI LA PHRASE DE ML2**. ***Le premier modèle linéaire généralisé montre que les mâles de*** **T. m. melancholicus\* tendent à avoir une queue légèrement plus longue, mais cette différence reste trop faible pour prédire le sexe avec certitude.**\* Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
 
 ## Références
 
