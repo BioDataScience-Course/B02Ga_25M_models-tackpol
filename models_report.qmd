@@ -37,11 +37,27 @@ Les analyses réalisées consistent en ***XXX*** et un modèle linéaire. Les an
 <!--% Présentez les deux modèles les plus pertinents que vous avez sélectionnés. Structurez la section en deux parties avec deux titres de niveau trois.-->
 
 ```{r 1}
+chart(tyrannus, ~tarsus|abbr_sp)+
+geom_histogram(bins = 30)+
+ylab("Effectifs")
 
+chart(tyrannus,tarsus ~abbr_sp )+
+geom_boxplot()
 ```
 
 ```{r 2}
-
+tyrcontinent %>.%
+  sdrop_na(.,abbr_sp,bill_depth)->
+  tyr1
+chart(data = tyr1, bill_depth ~ abbr_sp %fill=% continent) +
+  geom_boxplot() +
+  labs(
+    title = "Profondeur du bec selon le sexe, la sous-espèce et le continent",
+    x = "Sous-espèce",
+    y = "Profondeur du bec (mm)",
+    fill = "Sexe"
+  )
+table(tyrcontinent$abbr_sp, tyrcontinent$continent)
 ```
 
 ```{r 3}
@@ -62,8 +78,6 @@ $$
 $$
 
 ```{r 4}
-tyrcontinentfilt <- subset(tyrcontinent, wing_cord > 100)
-#un individu a une longueur de cordon ailaire 50% plus petite que tous les autres alors que sa longueur de tarse est normale
 contlm <- lm(data = tyrcontinent, tarsus ~ bill_depth  * subspecies)
 summary(contlm) |> tabularise()
 
