@@ -129,7 +129,7 @@ chart(tyrcontinent, tarsus ~ continent %fill=% abbr_sp) +
 
 Le premier graphique indique que la moyenne de la longueur des tarses est plus grande en Amérique Centrale qu'en Amérique du Sud.
 
-Le deuxième graphique précise que cette différence se trouve chez la sous-espèce satrapa qui possède une longueur de tarse moyenne plus longue en Amérique Centrale.
+Le deuxième graphique précise que cette différence se trouve chez la sous-espèce *satrapa* qui possède une longueur de tarse moyenne plus longue en Amérique Centrale.
 
 <!--% Graphique et interprétation de l'étudiant #4 ci-dessous. -->
 
@@ -326,7 +326,9 @@ chart(melan,bill_length~ tail )+
   stat_smooth(method="glm", method.args=list(family=gaussian), formula=y~x, se=FALSE)
 ```
 
-pas de dist non normale
+Aucune valeur ne présente de variable à distribution non-normale, il est donc compliqué de réaliser un modèle linéaire généralisé.
+
+La courbe montre une croissance positive, indiquant que lorsque la longueur du bec augmente de 1mm, la longueur de la queue augmente 0,05mm.
 
 ## Conclusion
 
