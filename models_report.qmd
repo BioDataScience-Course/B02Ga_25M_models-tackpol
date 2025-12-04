@@ -45,12 +45,38 @@ Les analyses réalisées consistent en ***XXX*** et un modèle linéaire. Les an
 ```
 
 ```{r 3}
+tyrannus_lm<-lm(data=tyrannus,wing_cord~ tail)
+chart$residuals(tyrannus_lm)
 
+
+summary(tyrannus_lm)|>
+  tabularise()
+AIC(tyrannus_lm)
+anova(tyrannus_lm)
+
+chart(tyrannus_lm)
 ```
+
+$$
+`r eq__(tyrannus_lm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
+$$
 
 ```{r 4}
+tyrcontinentfilt <- subset(tyrcontinent, wing_cord > 100)
+#un individu a une longueur de cordon ailaire 50% plus petite que tous les autres alors que sa longueur de tarse est normale
+contlm <- lm(data = tyrcontinent, tarsus ~ bill_depth  * subspecies)
+summary(contlm) |> tabularise()
 
+chart(data = tyrcontinent, tarsus ~ bill_depth %col=% abbr_sp ) + 
+  geom_point() +
+   stat_smooth(method = "lm", formula = y ~ x) +
+  xlab("Profondeur du bec [mm]") +
+  ylab("Longueur du tarse [mm]")
 ```
+$$
+`r eq__(contlm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
+$$
+
 
 ## Discussion et Conclusion
 
