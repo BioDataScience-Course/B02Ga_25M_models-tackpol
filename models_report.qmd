@@ -13,7 +13,7 @@ bibliography: references.bib
 <!--# Un rapport est différent d'un carnet de notes. Il ne s'agit donc pas de faire du copier-coller d'un document vers l'autre. Un rapport de synthèse doit être compréhensible sans devoir lire le carnet de notes. Le rapport de synthèse doit être  rédigé avec un style et une présentation adéquats. -->
 
 ## Introduction
-L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannys melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée. 
+L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannus melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée. 
 <!--% Rédigez l'introduction de ce rapport en 5-6 phrases.-->
 
 ## But
@@ -26,7 +26,7 @@ Ce rapport tente de mettre en évidence quelles variables morphométriques perme
 
 <!--% Cette section doit comprendre deux parties. La première partie doit expliciter les données employées et la seconde traiter des analyses réalisées et des logiciels employés.-->
 
-Notre jeu de données reprends des mesures réalisées par @macpherson2021. Il contient des données sur *Tyrannus melancholicus* .
+Notre jeu de données reprends des mesures réalisées par @macpherson2021. Il contient des données sur *Tyrannus melancholicus*.
 
 Les données reprennent différentes mesures morphométriques du bec, de la queue, du tarse et de la distance de Kipp (distance entre l'extrémité de la première rémige secondaire (S~1~) et l’extrémité de la plus longue rémige primaire (L~w~) [@kipp1942flugelbau]). Des informations qualitatives comme le stade de vie , le sexe et le pays d'origine sont aussi connues.
 
