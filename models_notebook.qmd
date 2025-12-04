@@ -316,10 +316,10 @@ Seuls les individus appartement à la sous-espèce *T. m. melancholicus* ont ét
 <!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire gén 2}
-kipglm <- glm(data = tyrannus,  bill_length ~ bill_depth, family = gaussian)
-summary(kipglm) |> tabularise()
+tailglm <- glm(data = tyrannus,  bill_length ~ tail, family = gaussian)
+summary(tailglm) |> tabularise()
 
-chart(melan,bill_length~ bill_depth)+
+chart(melan,bill_length~ tail )+
   geom_point()+
   stat_smooth(method="glm", method.args=list(family=gaussian), formula=y~x, se=FALSE)
 ```
