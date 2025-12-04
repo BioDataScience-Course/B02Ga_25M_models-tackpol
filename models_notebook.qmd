@@ -78,6 +78,7 @@ chart(tyrannus, bill_length~bill_width %col=%sex |abbr_sp)+
 #a<-sselect(tyrannus, -species, -subspecies, -specimen, -country, -age, -sex, -full_sp,-abbr_sp)
 #b<- correlation(a, type = "lower")
 #plot(b)
+#test
 
 ```
 
