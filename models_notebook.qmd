@@ -328,7 +328,7 @@ chart(melan,bill_length~ tail )+
 
 Aucune valeur ne présente de variable à distribution non-normale, il est donc compliqué de réaliser un modèle linéaire généralisé.
 
-La longueur de la queue a un effet positif significatif sur la longueur du bec (p
+La longueur de la queue a un effet positif significatif sur la longueur du bec (p \< 0.001)
 
 La courbe montre une croissance positive, indiquant que lorsque la longueur du bec augmente de 1mm, la longueur de la queue augmente 0,05mm.
 
