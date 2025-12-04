@@ -14,8 +14,16 @@ bibliography: references.bib
 
 ## Introduction
 
+<<<<<<< HEAD
 L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannus melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie.
 Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée. <!--% Rédigez l'introduction de ce rapport en 5-6 phrases.-->
+=======
+<<<<<<< HEAD
+L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannys melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée. <!--% Rédigez l'introduction de ce rapport en 5-6 phrases.-->
+=======
+L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannus melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée. <!--% Rédigez l'introduction de ce rapport en 5-6 phrases.-->
+>>>>>>> 8e44254e431c37153d1d6ee05b02ac8c8edc4bf4
+>>>>>>> bc1af9185f39c568f06719363a153b81c7f1de48
 
 ## But
 
