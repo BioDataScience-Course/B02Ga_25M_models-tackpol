@@ -82,13 +82,7 @@ chart(tyrannus, bill_length~bill_width %col=%sex |abbr_sp)+
 
 ```
 
-
-
-
 Les différents sous-espèces ne montrent pas de forte variation lorsque l'on compare la longueur et la largeur du bec. En effet, chez toutes les trois, la longueur augmente avec la largeur du bec. De plus, au sein de chacune des sous-espèces, le sexe ne semble pas influer sur la longueur et la largeur de bec.
-
-
-
 
 <!--% Graphique et interprétation de l'étudiant #2 ci-dessous. -->
 
@@ -141,9 +135,9 @@ Le deuxième graphique précise que cette différence se trouve chez la sous-esp
 
 ```{r chart4 JC}
 tyrcontinent %>.%
-  sdrop_na(.,subspecies,bill_depth)->
+  sdrop_na(.,abbr_sp,bill_depth)->
   tyr1
-chart(data = tyr1, bill_depth ~ subspecies %fill=% continent) +
+chart(data = tyr1, bill_depth ~ abbr_sp %fill=% continent) +
   geom_boxplot() +
   labs(
     title = "Profondeur du bec selon le sexe, la sous-espèce et le continent",
@@ -151,11 +145,11 @@ chart(data = tyr1, bill_depth ~ subspecies %fill=% continent) +
     y = "Profondeur du bec (mm)",
     fill = "Sexe"
   )
-table(tyrcontinent$subspecies, tyrcontinent$continent)
+table(tyrcontinent$abbr_sp, tyrcontinent$continent)
 
 ```
 
-On peut remarquer qu'il y a chez la sous-espèce melancholicus une profondeur moyenne du bec légèrement plus importantes en A.Sud qu'en A.Centrale dû à une plus grande variabilité des données. Chez la sous espèces satrapa, il y a une différence plus net entre les continents.
+On peut remarquer qu'il y a chez la sous-espèce *melancholicus* une profondeur moyenne du bec légèrement plus importantes en A.Sud qu'en A.Centrale dû à une plus grande variabilité des données. Chez la sous espèces *satrapa*, il y a une différence plus net entre les continents.
 
 ### Modélisation
 
@@ -186,14 +180,13 @@ Le modèle montre qu'il y a un rapport entre la longueur de la queue et la longu
 <!--% Ajustez une régression linéaire simple, multiple ou polynomiale par paire d'étudiants dans cette section (donc, deux modèles pour l'équipe de quatre). -->
 
 ```{r régresssion 2}
-tyr <-subset(tyrcontinent, wing_cord < 120)
-lmbis2<-lm(data = tyr, kipp ~ wing_cord)
+lmbis2<-lm(data = tyrannus, kipp ~ wing_cord, subset = wing_cord >100 & wing_cord < 123)
 summary_(lmbis2) |> tabularise()
 chart$residuals(lmbis2)
 chart(lmbis2)
 ```
 
-Nous avons du supprimer les données au dessus de 120 car il n'y avait que un point très aberrant
+Nous avons supprimé deux points car ils paraissaient extrêmes par rapport à l'ensemble des autres points, cela peut être du à des erreurs de mesures. On remarque qu'il y a normalité des résidus, une homoscédaticité. De plus, il n'y a pas de point ayant un effet levier et une distance de Cook élevés . Le R² est de 0.4531, il est modéré, la prédiction est limitée
 
 #### Modèle linéaire 1
 
@@ -264,7 +257,6 @@ Le nuage de points de *T.m.melancholicus* ne montre pas une belle relation, nous
 
 2ème modèle : En forcant la pente tous les termes sont significativement différents de zéro au seuil alpha de 5%.
 
-
 L'anova entre les deux modèles montre une différence significative entre les deux modèles. De plus, l'AIC est en faveur du premier modèle (=le plus complexe). Nous conservons donc de premier modèle.
 
 Chez *T. m. despotes* et *T. m. satrapa*, le tarse augmente avec la distance de Kipp, ce qui suggère une différenciation morphologique liée à la structure alaire. En revanche, chez *T. m. melancholicus*, aucune relation nette n’est observée.
@@ -307,13 +299,7 @@ chart(melan,sex_bin~tail)+
   stat_smooth(method="glm", method.args=list(family=binomial), formula=y~x, se=FALSE)
 ```
 
-
-
-
 Seuls les individus appartement à la sous-espèce *T. m. melancholicus* ont été arbitraitrement sélectionnées pour cette analyse. La courbe s'élève dans le sens d'une augmentation de la longeur de la queue, indiquant que les mâles ont tendance à avoir une queue plus longue. Toutefois, ce modèle linéaire généralisé montre que la longueur de la queue est assez peu adapté pour déterminer le sexe avec certitude chez *T.m.melancholicus*. En effet, la distinction de la longueur de queue n'est pas très grande entre les deux sexes chez cette sous-espèce.
-
-
-
 
 #### Modèle linéaire généralisé et/ou mixte 2
 
