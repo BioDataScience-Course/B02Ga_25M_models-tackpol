@@ -13,8 +13,8 @@ bibliography: references.bib
 <!--# Un rapport est différent d'un carnet de notes. Il ne s'agit donc pas de faire du copier-coller d'un document vers l'autre. Un rapport de synthèse doit être compréhensible sans devoir lire le carnet de notes. Le rapport de synthèse doit être  rédigé avec un style et une présentation adéquats. -->
 
 ## Introduction
-L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannus melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée. 
-<!--% Rédigez l'introduction de ce rapport en 5-6 phrases.-->
+
+L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannus melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée. <!--% Rédigez l'introduction de ce rapport en 5-6 phrases.-->
 
 ## But
 
@@ -30,13 +30,26 @@ Notre jeu de données reprends des mesures réalisées par @macpherson2021. Il c
 
 Les données reprennent différentes mesures morphométriques du bec, de la queue, du tarse et de la distance de Kipp (distance entre l'extrémité de la première rémige secondaire (S~1~) et l’extrémité de la plus longue rémige primaire (L~w~) [@kipp1942flugelbau]). Des informations qualitatives comme le stade de vie , le sexe et le pays d'origine sont aussi connues.
 
-Les analyses réalisées consistent en ***XXX*** et un modèle linéaire. 
-Les analyses sont réalisées dans `r R.version.string` et plus précisément en utilisant la [SciViews Box 2025](https://www.sciviews.org/svbox/) dans [Saturn Cloud](https://saturncloud.io).
+Les analyses réalisées consistent en ***XXX*** et un modèle linéaire. Les analyses sont réalisées dans `r R.version.string` et plus précisément en utilisant la [SciViews Box 2025](https://www.sciviews.org/svbox/) dans [Saturn Cloud](https://saturncloud.io).
 
 ## Résultats
 
 <!--% Présentez les deux modèles les plus pertinents que vous avez sélectionnés. Structurez la section en deux parties avec deux titres de niveau trois.-->
+```{r 1}
 
+```
+
+```{r 2}
+
+```
+
+```{r 3}
+
+```
+
+```{r 4}
+
+```
 ## Discussion et Conclusion
 
 <!--% En tenant compte du but de votre carnet de notes et de vos résultats, discutez de résultats et proposez des conclusions à votre analyse en 5 à 10 phrases. -->
