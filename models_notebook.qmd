@@ -188,7 +188,7 @@ chart$residuals(lmbis2)
 chart(lmbis2)
 ```
 
-Nous avons supprimé deux points car ils paraissaient extrêmes par rapport à l'ensemble des autres points, cela peut être du à des erreurs de mesures. On remarque qu'il y a normalité des résidus, une homoscédaticité. De plus, il n'y a pas de point ayant un effet levier et une distance de Cook élevés . Le R² est de 0.4531, il est modéré, la prédiction est limitée
+Nous avons supprimé deux points car ils paraissaient extrêmes par rapport à l'ensemble des autres points, cela peut être du à des erreurs de mesures. On remarque qu'il y a normalité des résidus, une homoscédaticité. De plus, il n'y a pas de point ayant un effet levier et une distance de Cook élevés . Le R² est de 0.4531, il est modéré, la prédiction est donc limitée mais on remarque qu'il y a un rapport entre la distance de Kipp et la longueur du cordon alaire. Nous pouvons nous fier à notre modèle au seuil alpha de 5% ( p-value = 2.22e-16)
 
 #### Modèle linéaire 1
 
