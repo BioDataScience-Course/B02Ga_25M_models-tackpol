@@ -82,13 +82,7 @@ chart(tyrannus, bill_length~bill_width %col=%sex |abbr_sp)+
 
 ```
 
-
-
-
 Les différents sous-espèces ne montrent pas de forte variation lorsque l'on compare la longueur et la largeur du bec. En effet, chez toutes les trois, la longueur augmente avec la largeur du bec. De plus, au sein de chacune des sous-espèces, le sexe ne semble pas influer sur la longueur et la largeur de bec.
-
-
-
 
 <!--% Graphique et interprétation de l'étudiant #2 ci-dessous. -->
 
@@ -128,7 +122,7 @@ tyrcontinent <- tyrannus %>%
 chart(tyrcontinent, tarsus ~ continent) +
   geom_boxplot() + labs(title = "Variation de la longueur du tarse chez Tyrannus par continent")
 
-chart(tyrcontinent, tarsus ~ continent %fill=% subspecies) +
+chart(tyrcontinent, tarsus ~ continent %fill=% abbr_sp) +
   geom_boxplot() + labs(title = "Variation de la longueur du tarse chez Tyrannus par continent")
 
 ```
@@ -264,7 +258,6 @@ Le nuage de points de *T.m.melancholicus* ne montre pas une belle relation, nous
 
 2ème modèle : En forcant la pente tous les termes sont significativement différents de zéro au seuil alpha de 5%.
 
-
 L'anova entre les deux modèles montre une différence significative entre les deux modèles. De plus, l'AIC est en faveur du premier modèle (=le plus complexe). Nous conservons donc de premier modèle.
 
 Chez *T. m. despotes* et *T. m. satrapa*, le tarse augmente avec la distance de Kipp, ce qui suggère une différenciation morphologique liée à la structure alaire. En revanche, chez *T. m. melancholicus*, aucune relation nette n’est observée.
@@ -279,12 +272,22 @@ tyrcontinentfilt <- subset(tyrcontinent, wing_cord > 100)
 contlm <- lm(data = tyrcontinent, tarsus ~ bill_depth  * subspecies)
 summary(contlm) |> tabularise()
 
-chart(data = tyrcontinent, tarsus ~ bill_depth %col=% full_sp ) + 
+chart(data = tyrcontinent, tarsus ~ bill_depth %col=% abbr_sp ) + 
   geom_point() +
    stat_smooth(method = "lm", formula = y ~ x) +
   xlab("Profondeur du bec [mm]") +
   ylab("Longueur du tarse [mm]")
 ```
+
+Tous les termes du modèle sont significativement différents de 0 sans ajustement nécessaires.
+
+Il y a bien significativement des interactions entre chaque variable au seuil alpha de 5%.
+
+La distribution des résidus est très proche de la normale et montre une bonne homoscédasticité. La distance de Cook est faiblement impactée par des valeurs influentes. L'analyse des résidus est donc satisfaisante.
+
+$$
+`r eq__(contlm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
+$$
 
 #### Modèle linéaire généralisé et/ou mixte 1
 
@@ -307,22 +310,22 @@ chart(melan,sex_bin~tail)+
   stat_smooth(method="glm", method.args=list(family=binomial), formula=y~x, se=FALSE)
 ```
 
-
-
-
 Seuls les individus appartement à la sous-espèce *T. m. melancholicus* ont été arbitraitrement sélectionnées pour cette analyse. La courbe s'élève dans le sens d'une augmentation de la longeur de la queue, indiquant que les mâles ont tendance à avoir une queue plus longue. Toutefois, ce modèle linéaire généralisé montre que la longueur de la queue est assez peu adapté pour déterminer le sexe avec certitude chez *T.m.melancholicus*. En effet, la distinction de la longueur de queue n'est pas très grande entre les deux sexes chez cette sous-espèce.
-
-
-
 
 #### Modèle linéaire généralisé et/ou mixte 2
 
 <!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire gén 2}
-kipglm <- glm(data = tyrannus, kipp ~ bill_length, family = gaussian)
+kipglm <- glm(data = tyrannus,  bill_length ~ bill_depth, family = gaussian)
 summary(kipglm) |> tabularise()
+
+chart(melan,bill_length~ bill_depth)+
+  geom_point()+
+  stat_smooth(method="glm", method.args=list(family=gaussian), formula=y~x, se=FALSE)
 ```
+
+pas de dist non normale
 
 ## Conclusion
 
