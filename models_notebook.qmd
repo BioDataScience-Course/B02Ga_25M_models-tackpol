@@ -77,9 +77,7 @@ chart(tyrannus, bill_length~bill_width %col=%sex |abbr_sp)+
 
 ```
 
-
 Les différents sous-espèces ne montrent pas de forte variation lorsque l'on compare la longueur et la largeur du bec. En effet, chez toutes les trois, la longueur augmente avec la largeur du bec. De plus, au sein de chacune des sous-espèces, le sexe ne semble pas varier en fonction de la longueur la largeur de bec.
-
 
 <!--% Graphique et interprétation de l'étudiant #2 ci-dessous. -->
 
@@ -255,11 +253,9 @@ Le nuage de points de T.m.melancholicus ne montre pas une belle relation, nous t
 
 2ème modèle : En forcant la pente tous les termes sont significativement différents au seuil alpha de 5%.
 
-
 L'anova entre les deux modèles montre une différence significative entre les deux modèles. L'AIC est en faveur du premier modèle (=le plus complexe), c'est donc ce dernier que nous garderons.
 
 #### Modèle linéaire 2
-
 
 <!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
 
@@ -297,11 +293,9 @@ chart(melan,sex_bin~tail)+
   stat_smooth(method="glm", method.args=list(family=binomial), formula=y~x, se=FALSE)
 ```
 
-
 La courbe augmente avec la longeur de la queue, indiquant que les mâles ont tendance à avoir une queue plus longue. Toutefois, ce modèle linéaire généralisé montre que la longueur de la queue est assez peu adapté pour déterminer le sexe avec certitude chez T.m.melancholicus. En effet, la distinction de la longueur de queue n'est pas très grande entre les deux sexes.
 
 #### Modèle linéaire généralisé et/ou mixte 2
-
 
 <!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
 
