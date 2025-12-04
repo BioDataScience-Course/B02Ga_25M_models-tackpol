@@ -173,7 +173,9 @@ anova(tyrannus_lm)
 chart(tyrannus_lm)
 ```
 
-Le modèle montre qu'il y a un rapport entre la longueur de la queue et la longueur du cordon alaire. En effet lorsque la queue augmente de 1mm la longueur du cordon alaire augmenterait de 0,73mm. Nous pouvons nous fier à cette régression car elle est significative au seuil de 5% et tous les paramètres ont été analysés(normalité, résidus ). Cependant le R² est assez modéré, le pouvoir de prédiction du modèle est donc également limité.
+$$
+`r eq__(tyrannus_lm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
+$$ Le modèle montre qu'il y a un rapport entre la longueur de la queue et la longueur du cordon alaire. En effet lorsque la queue augmente de 1mm la longueur du cordon alaire augmenterait de 0,73mm. Nous pouvons nous fier à cette régression car elle est significative au seuil de 5% et tous les paramètres ont été analysés(normalité, résidus ). Cependant le R² est assez modéré, le pouvoir de prédiction du modèle est donc également limité.
 
 #### Régression linéaire 2
 
@@ -316,10 +318,10 @@ Seuls les individus appartement à la sous-espèce *T. m. melancholicus* ont ét
 <!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire gén 2}
-kipglm <- glm(data = tyrannus,  bill_length ~ bill_depth, family = gaussian)
-summary(kipglm) |> tabularise()
+tailglm <- glm(data = tyrannus,  bill_length ~ tail, family = gaussian)
+summary(tailglm) |> tabularise()
 
-chart(melan,bill_length~ bill_depth)+
+chart(melan,bill_length~ tail )+
   geom_point()+
   stat_smooth(method="glm", method.args=list(family=gaussian), formula=y~x, se=FALSE)
 ```
