@@ -257,8 +257,7 @@ Le nuage de points de *T.m.melancholicus* ne montre pas une belle relation, nous
 
 2ème modèle : En forcant la pente tous les termes sont significativement différents de zéro au seuil alpha de 5%.
 
-L'anova entre les deux modèles montre une différence significative entre les deux modèles. De plus, l'AIC est en faveur du premier modèle (=le plus complexe). Nous 
-conservons donc de premier modèle.
+L'anova entre les deux modèles montre une différence significative entre les deux modèles. De plus, l'AIC est en faveur du premier modèle (=le plus complexe). Nous conservons donc de premier modèle.
 
 Chez *T. m. despotes* et *T. m. satrapa*, le tarse augmente avec la distance de Kipp, ce qui suggère une différenciation morphologique liée à la structure alaire. En revanche, chez *T. m. melancholicus*, aucune relation nette n’est observée.
 
@@ -307,14 +306,15 @@ Seuls les individus appartement à la sous-espèce *T. m. melancholicus* ont ét
 <!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
 
 ```{r Modèle linéaire gén 2}
-
+kipglm <- glm(data = tyrannus, kipp ~ bill_length, family = gaussian)
+summary(kipglm) |> tabularise()
 ```
 
 ## Conclusion
 
 <!--% Lorsque toutes les analyses sont réalisées, terminez ce bloc-notes avec 3 à 6 phrases de conclusion en rapport avec ce que vous avez observé dans vos analyses. Quels sont les modèles les plus pertinents que vous retenez ? -->
 
-Les diffénrentes analyses réalisées mettent en évidence des différences existantes, mais souvent subtiles entre les 3 sous-espèces de *Tyrannus melancholicus*. Les résultats issus des modèles linéaires simples mettent en évident le lien entre certaines mesures, mais ne sont pas adaptées à la prédiction de sous-espèce. Les modèles linéaires nous permettent de mieux appréhender notre thématique. ***Le premier modèle linéaire montre que la longueur du tarse varie significativement avec la distance de Kipp chez *T. m. satrapa* et *T. m. despotes***. **AJOUTER ICI LA PHRASE DE ML2**. ***Le premier modèle linéaire généralisé montre que les mâles de *T. m. melancholicus* tendent à avoir une queue légèrement plus longue, mais cette différence reste trop faible pour prédire le sexe avec certitude.*** Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
+Les diffénrentes analyses réalisées mettent en évidence des différences existantes, mais souvent subtiles entre les 3 sous-espèces de *Tyrannus melancholicus*. Les résultats issus des modèles linéaires simples mettent en évident le lien entre certaines mesures, mais ne sont pas adaptées à la prédiction de sous-espèce. Les modèles linéaires nous permettent de mieux appréhender notre thématique. ***Le premier modèle linéaire montre que la longueur du tarse varie significativement avec la distance de Kipp chez*** **T. m. satrapa\* et *T. m. despotes***. **AJOUTER ICI LA PHRASE DE ML2**. ***Le premier modèle linéaire généralisé montre que les mâles de*** **T. m. melancholicus\* tendent à avoir une queue légèrement plus longue, mais cette différence reste trop faible pour prédire le sexe avec certitude.**\* Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
 
 ## Références
 
