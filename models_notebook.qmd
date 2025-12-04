@@ -88,11 +88,11 @@ Les différents sous-espèces ne montrent pas de forte variation lorsque l'on co
 
 ```{r chart2 Eva}
 
-chart(tyrannus, ~tarsus|subspecies)+
+chart(tyrannus, ~tarsus|abbr_sp)+
 geom_histogram(bins = 30)+
 ylab("Effectifs")
 
-chart(tyrannus,tarsus ~subspecies )+
+chart(tyrannus,tarsus ~abbr_sp )+
 geom_boxplot()
 ```
 
@@ -173,7 +173,7 @@ anova(tyrannus_lm)
 chart(tyrannus_lm)
 ```
 
-Le modèle montre qu'il y a un rapport entre la longueur de la queue et la longueur du cordon alaire. En effet lorsque la queue augmente de 1mm la longueur du cordon alaire augmenterait de 0,73mm. Nous pouvons nous fier à cette régression car elle est significative au seuil de 5% et tous les paramètres ont été analysés(normalité, résidus et R² ).
+Le modèle montre qu'il y a un rapport entre la longueur de la queue et la longueur du cordon alaire. En effet lorsque la queue augmente de 1mm la longueur du cordon alaire augmenterait de 0,73mm. Nous pouvons nous fier à cette régression car elle est significative au seuil de 5% et tous les paramètres ont été analysés(normalité, résidus ). Cependant le R² est assez modéré, le pouvoir de prédiction du modèle est donc également limité.
 
 #### Régression linéaire 2
 
