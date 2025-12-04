@@ -33,7 +33,22 @@ Les données reprennent différentes mesures morphométriques du bec, de la queu
 Les analyses réalisées consistent en ***XXX*** et un modèle linéaire. Les analyses sont réalisées dans `r R.version.string` et plus précisément en utilisant la [SciViews Box 2025](https://www.sciviews.org/svbox/) dans [Saturn Cloud](https://saturncloud.io).
 
 ## Résultats
-
+```{r import data}
+SciViews::R("model")
+tyrannus <- read("data/melancholicus.rds")
+tyrcontinent <- tyrannus %>%
+  filter(!is.na(country)) %>%
+  mutate(continent = case_when(
+    country %in% c("Argentina","Bolivia","Brazil","Colombia","Ecuador",
+                   "Paraguay","Peru","Suriname","Uruguay","Venezuela") ~ "A.du Sud",
+    country %in% c("Bahamas","Belize","Cayman Islands","Costa Rica","Cuba",
+                   "Dominican Republic","Dominican Republican","El Salvador","El Salvardor",
+                   "Guatemala","Guyana","Haiti","Honduras","Jamaica","Mexico",
+                   "Nicaragua","Panama","Puerto Rico","Trinidad and Tobago") ~ "A.Centrale",
+    country %in% c("Canada","United States","United States of America") ~ "A.du Nord"
+  )) %>%
+  filter(continent != "A.du Nord") 
+```
 <!--% Présentez les deux modèles les plus pertinents que vous avez sélectionnés. Structurez la section en deux parties avec deux titres de niveau trois.-->
 
 ```{r 1}
