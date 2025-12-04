@@ -23,8 +23,7 @@ bibliography: references.bib
 
 Notre jeu de données reprends des mesures réalisées par @macpherson2021 sur 2108 individus appartenant à 28 OTUs, tous du genre *Tyrannus*. Pour ce travail, nous avons choisi de ne conserver que les données relatives aux sous-espèces de *Tyrannus melancholicus* afin de réduire le nombre d'individus.
 
-Les données reprennent différentes mesures du bec, de la queue, du tarse et de la distance de Kipp (distance entre l'extrémité de la première rémige secondaire (S~1~) et l’extrémité de la plus longue rémige primaire (L~w~) [@kipp1942flugelbau]). L'âge, le sexe et le pays d'origine sont aussi connus.
-L'objectif de notre analyse est de tenter de déterminer quels critères morphologiques peuvent permettre d'identifier les sous-espèces chez *Tyrannus melancholicus*.
+Les données reprennent différentes mesures du bec, de la queue, du tarse et de la distance de Kipp (distance entre l'extrémité de la première rémige secondaire (S~1~) et l’extrémité de la plus longue rémige primaire (L~w~) [@kipp1942flugelbau]). L'âge, le sexe et le pays d'origine sont aussi connus. L'objectif de notre analyse est de tenter de déterminer quels critères morphologiques peuvent permettre d'identifier les sous-espèces chez *Tyrannus melancholicus*.
 
 ![La distance de Kipp correspond à la distance entre les points S~1~et L~w~. Schéma issu de @articlekippdist](Distance%20de%20Kipp.png)
 
@@ -32,7 +31,7 @@ L'objectif de notre analyse est de tenter de déterminer quels critères morphol
 
 <!--% Indiquez ici d'où viennent les données et aussi quel logiciel (et version) vous utilisez pour les analyses. Inspirez-vous des projets du premier module de SDD II. -->
 
-Les données sont issues de @macpherson2021. Ce notebook contient les différentes idées d'analyses essayées en vue d'écrire le rapport. Les analyses sont réalisées dans `r R.version.string` et plus précisément en utilisant la [SciViews Box 2025](https://www.sciviews.org/svbox/) dans [Saturn Cloud](https://saturncloud.io). 
+Les données sont issues de @macpherson2021. Ce notebook contient les différentes idées d'analyses essayées en vue d'écrire le rapport. Les analyses sont réalisées dans `r R.version.string` et plus précisément en utilisant la [SciViews Box 2025](https://www.sciviews.org/svbox/) dans [Saturn Cloud](https://saturncloud.io).
 
 ## Analyses
 
