@@ -140,10 +140,10 @@ tyrcontinent %>.%
 chart(data = tyr1, bill_depth ~ abbr_sp %fill=% continent) +
   geom_boxplot() +
   labs(
-    title = "Profondeur du bec selon le sexe, la sous-espèce et le continent",
+    title = "Profondeur du bec selon la sous-espèce et le continent",
     x = "Sous-espèce",
     y = "Profondeur du bec (mm)",
-    fill = "Sexe"
+    fill = "Origine"
   )
 table(tyrcontinent$abbr_sp, tyrcontinent$continent)
 
@@ -270,7 +270,7 @@ Chez *T. m. despotes* et *T. m. satrapa*, le tarse augmente avec la distance de 
 ```{r Modèle linéaire 2}
 tyrcontinentfilt <- subset(tyrcontinent, wing_cord > 100)
 #un individu a une longueur de cordon alaire 50% plus petite que tous les autres alors que sa longueur de tarse est normale
-contlm <- lm(data = tyrcontinent, tarsus ~ bill_depth  * subspecies)
+contlm <- lm(data = tyrcontinent, tarsus ~ bill_depth  * abbr_sp)
 summary(contlm) |> tabularise()
 
 chart(data = tyrcontinent, tarsus ~ bill_depth %col=% abbr_sp ) + 
@@ -336,7 +336,8 @@ La courbe montre une croissance positive, indiquant que lorsque la longueur du b
 
 <!--% Lorsque toutes les analyses sont réalisées, terminez ce bloc-notes avec 3 à 6 phrases de conclusion en rapport avec ce que vous avez observé dans vos analyses. Quels sont les modèles les plus pertinents que vous retenez ? -->
 
-Les différentes analyses réalisées mettent en évidence des différences existantes, mais souvent subtiles entre les 3 sous-espèces de *Tyrannus melancholicus*. Les résultats issus des modèles linéaires simples mettent en évident le lien entre certaines mesures, mais ne sont pas adaptées à la prédiction de sous-espèce. Les modèles linéaires nous permettent de mieux appréhender notre thématique. ***Le premier modèle linéaire montre que la longueur du tarse varie significativement avec la distance de Kipp chez*** **T. m. satrapa\* et *T. m. despotes***. ***Le deuxième modèle linéaire montre qu'il y a des interactions entre la longueur du tarse et la profondeur du bec***. ***Le premier modèle linéaire généralisé montre que les mâles de*** **T. m. melancholicus\* tendent à avoir une queue légèrement plus longue, mais cette différence reste trop faible pour prédire le sexe avec certitude.** ***Le deuxième modèle linéaire généralisé n'a pas pu être réalisé avec des variables à distribution non-normale car le jeu de données n'en contient pas***.\* Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
+Les différentes analyses réalisées mettent en évidence des différences existantes, mais souvent subtiles entre les 3 sous-espèces de *Tyrannus melancholicus*. Les résultats issus des modèles linéaires simples mettent en évident le lien entre certaines mesures, mais ne sont pas adaptées à la prédiction de sous-espèce. Les modèles linéaires nous permettent de mieux appréhender notre thématique. Le premier modèle linéaire montre que la longueur du tarse varie significativement avec la distance de Kipp chez *T. m. satrapa* et *T. m. despotes*. Le deuxième modèle linéaire montre qu'il y a des interactions entre la longueur du tarse et la profondeur du bec. Le premier modèle linéaire généralisé montre que les mâles de *T. m. melancholicus* tendent à avoir une queue légèrement plus longue, mais cette différence reste trop faible pour prédire le sexe avec certitude. Le deuxième modèle linéaire généralisé n'a pas pu être réalisé avec des variables à distribution non-normale car le jeu de données n'en contient pas.
+Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
 
 ## Références
 
