@@ -26,6 +26,13 @@ Ce rapport tente de mettre en évidence quelles variables morphométriques perme
 
 <!--% Cette section doit comprendre deux parties. La première partie doit expliciter les données employées et la seconde traiter des analyses réalisées et des logiciels employés.-->
 
+Notre jeu de données reprends des mesures réalisées par @macpherson2021. Il contient des données sur *Tyrannus melancholicus* .
+
+Les données reprennent différentes mesures du bec, de la queue, du tarse et de la distance de Kipp (distance entre l'extrémité de la première rémige secondaire (S~1~) et l’extrémité de la plus longue rémige primaire (L~w~) [@kipp1942flugelbau]). Des informations qualitatives comme le stade de vie , le sexe et le pays d'origine sont aussi connus.
+
+Les données sont issues de @macpherson2021. Les analyses réalisées consistent en ***XXX*** et un modèle linéaire. 
+Les analyses sont réalisées dans `r R.version.string` et plus précisément en utilisant la [SciViews Box 2025](https://www.sciviews.org/svbox/) dans [Saturn Cloud](https://saturncloud.io).
+
 ## Résultats
 
 <!--% Présentez les deux modèles les plus pertinents que vous avez sélectionnés. Structurez la section en deux parties avec deux titres de niveau trois.-->
