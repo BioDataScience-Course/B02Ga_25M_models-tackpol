@@ -93,8 +93,6 @@ $$
 $$
 
 ```{r 4}
-tyrcontinentfilt <- subset(tyrcontinent, wing_cord > 100)
-#un individu a une longueur de cordon ailaire 50% plus petite que tous les autres alors que sa longueur de tarse est normale
 contlm <- lm(data = tyrcontinent, tarsus ~ bill_depth  * subspecies)
 summary(contlm) |> tabularise()
 
