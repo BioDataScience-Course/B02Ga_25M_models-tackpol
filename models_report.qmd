@@ -14,9 +14,7 @@ bibliography: references.bib
 
 ## Introduction
 
-
-L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannys melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée. 
-
+L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannys melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée.
 
 ## But
 
@@ -47,8 +45,21 @@ Les analyses réalisées consistent en ***XXX*** et un modèle linéaire. Les an
 ```
 
 ```{r 3}
+tyrannus_lm<-lm(data=tyrannus,wing_cord~ tail)
+chart$residuals(tyrannus_lm)
 
+
+summary(tyrannus_lm)|>
+  tabularise()
+AIC(tyrannus_lm)
+anova(tyrannus_lm)
+
+chart(tyrannus_lm)
 ```
+
+$$
+`r eq__(tyrannus_lm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
+$$
 
 ```{r 4}
 
