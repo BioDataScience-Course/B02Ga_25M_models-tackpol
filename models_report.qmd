@@ -58,6 +58,7 @@ tyrcontinent <- tyrannus %>%
 ```
 
 <!--% Présentez les deux modèles les plus pertinents que vous avez sélectionnés. Structurez la section en deux parties avec deux titres de niveau trois.-->
+### Visualisation des données
 
 ```{r 1}
 chart(tyrannus, ~tarsus|abbr_sp)+
@@ -87,7 +88,7 @@ chart(data = tyr1, bill_depth ~ abbr_sp %fill=% continent) +
 
 On remarque que chez la sous-espèce *melancholicus*, le bec a une profondeur médiane légèrement plus importante en Amérique du Sud qu'en Amérique Centrale. Chez la sous espèces *satrapa*, la profondeur médiane du bec est plus petite chez les individus sud-américains.
 
-###Régression linéaire de la longueur du cordon alaire en fonction de la longueur de queue
+### Régression linéaire de la longueur du cordon alaire en fonction de la longueur de queue
 
 ```{r 3}
 tyrannus_lm<-lm(data=tyrannus,wing_cord~ tail)
@@ -103,9 +104,9 @@ chart(tyrannus_lm)
 
 $$
 `r eq__(tyrannus_lm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
-$$ Cette régression montre une relation directe entre la longueur du cordon alaire et la longueur de la queue. Lorsque la queue augmente de 1mm, la longueur du cordon alaire augmente de 0,73mm. Chaque paramètre est significativement différent de 0 au seuil $\alpha$ de 5% (test t , ***XXX à compléter**) et (test t ,* **XXX à compléter**). Les conditions (normalité des résidus, homoscédasticité) ont été analysés et considérés concluants. Le R² étant assez modéré, le pouvoir de prédiction du modèle est donc également limité.
+$$ Cette régression montre une relation directe entre la longueur du cordon alaire et la longueur de la queue. Lorsque la queue augmente de 1mm, la longueur du cordon alaire augmente de 0,73mm. Chaque paramètre est significativement différent de 0 au seuil $\alpha$ de 5% (test t , ***XXX à compléter**) et (test t ,* **XXX à compléter**). Les conditions (normalité des résidus, homoscédasticité) ont été analysés et validées. Le R² étant assez modéré, le pouvoir de prédiction du modèle est donc également limité.
 
-###Modèle linéaire entre la longueur du tarse et la profondeur du bec
+### Modèle linéaire entre la longueur du tarse et la profondeur du bec
 
 ```{r 4}
 contlm <- lm(data = tyrcontinent, tarsus ~ bill_depth  * abbr_sp)

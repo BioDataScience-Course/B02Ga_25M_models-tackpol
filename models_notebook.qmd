@@ -298,7 +298,7 @@ chart(data = tyrcontinent, tarsus ~ bill_depth %col=% abbr_sp ) +
 
 Tous les termes du modèle sont significativement différents de 0 sans ajustement nécessaires.
 
-Il y a bien significativement des interactions entre chaque variable au seuil alpha de 5%.
+Il y a bien significativement des interactions entre chaque variable au seuil $\alpha$ de 5%.
 
 La distribution des résidus est très proche de la normale et montre une bonne homoscédasticité. La distance de Cook est faiblement impactée par des valeurs influentes. L'analyse des résidus est donc satisfaisante.
 
