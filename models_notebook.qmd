@@ -21,11 +21,14 @@ bibliography: references.bib
 
 <!--% Rédigez une courte introduction de 3 ou 5 phrases qui présente vos données. Ajoutez une phrase de but (que vous remanierez éventuellement en fonction des modèles que vous ajouterez plus tard). Vous pouvez citer la bibliographie en utilisant le formatage Markdown ad hoc et en incluant votre référence au format bibtex dans le fichier references.bib. -->
 
-Notre jeu de données reprends des mesures réalisées par @macpherson2021 sur 2108 individus appartenant à 28 OTUs, tous du genre *Tyrannus*. Pour ce travail, nous avons choisi de ne conserver que les données relatives aux sous-espèces de *Tyrannus melancholicus* afin de réduire le nombre d'individus.
+Notre jeu de données reprend des mesures réalisées par @MacPherson2021data sur 2108 individus appartenant à 28 OTUs, tous du genre *Tyrannus* Lacépède, 1799. Ces données ont notament été utilisées par l'auteur pour évaluer les capacités migratrices sur bases morphologiques [macpherson2021]. Pour ce travail, nous avons choisi de ne conserver que les données relatives aux sous-espèces du tyran mélancolique *Tyrannus melancholicus* Vieillot, 1819 afin de réduire le nombre d'individus..
 
-Les données reprennent différentes mesures du bec, de la queue, du tarse et de la distance de Kipp (distance entre l'extrémité de la première rémige secondaire (S~1~) et l’extrémité de la plus longue rémige primaire (L~w~) [@kipp1942flugelbau]). L'âge, le sexe et le pays d'origine sont aussi connus. L'objectif de notre analyse est de tenter de déterminer quels critères morphologiques peuvent permettre d'identifier les sous-espèces chez *Tyrannus melancholicus*.
+![Image de *Tyrannus melancholicus melancholicus* ©Matin Flacks](tyran.jpg)
+
+Les données reprennent différentes mesures du bec, de la queue, du tarse. Des infos sur la taille des ailes sont également présentes via la longueur du cordon alaire (c'est-à-dire la longeur entre l'articulation carpienne et l'extrémité de la la plus longue rémige quand l'aile est pliée) ainsi que via la distance de Kipp (distance entre l'extrémité de la première rémige secondaire (S~1~) et l’extrémité de la plus longue rémige primaire (L~w~) [@kipp1942flugelbau]). L'âge, le sexe et le pays d'origine sont aussi connus. L'objectif de notre analyse est de tenter de déterminer quels critères morphologiques peuvent permettre d'identifier les sous-espèces chez *Tyrannus melancholicus*.
 
 ![La distance de Kipp correspond à la distance entre les points S~1~et L~w~. Schéma issu de @articlekippdist](Distance%20de%20Kipp.png)
+![Méthode de mesure du cordon alaire. Schéma issu de @ralph1993handbook](Image cordon alaire.png)
 
 ## Matériel et méthodes
 
@@ -188,7 +191,9 @@ chart$residuals(lmbis2)
 chart(lmbis2)
 ```
 
-Nous avons supprimé deux points car ils paraissaient extrêmes par rapport à l'ensemble des autres points, cela peut être du à des erreurs de mesures. On remarque qu'il y a normalité des résidus, une homoscédaticité. De plus, il n'y a pas de point ayant un effet levier et une distance de Cook élevés . Le R² est de 0.4531, il est modéré, la prédiction est donc limitée mais on remarque qu'il y a un rapport entre la distance de Kipp et la longueur du cordon alaire. Nous pouvons nous fier à notre modèle au seuil alpha de 5% ( p-value = 2.22e-16)
+Deux points ont été supprimmés car ils étaient aberrants par rapport à l'ensemble des autres points, cela peut être du à des erreurs de mesures. On remarque qu'il y a homoscédasticité. De plus, il n'y a pas de point ayant un effet levier et une distance de Cook élevés . 
+
+Le R² est de 0.4531, il est modéré, la prédiction est donc limitée mais cette régression permet toutefois de mettre en évidence qu'il existe un rapport entre la distance de Kipp et la longueur du cordon alaire. Les paramètre sont .... ( p-value = 2.22e-16)
 
 #### Modèle linéaire 1
 
@@ -253,15 +258,26 @@ AIC(lm3b)
 #  stat_smooth(method = "lm", formula = y ~ x)
 ```
 
-1er modèle : La pente de référence n'est pas significativement différente de 0 au seuil alpha de 5%. Toutefois, les termes d'interaction montrent un décalage de pente pour les sous-espèces *satrapa* et *despotes*. Le décalage d'ordonnée à l'origine n'est pas significatif pour la sous-espèce *satrapa*. L'analyse des résidus , n'est pas parfaite, mais peut s'expliquer par la forme de notre nuage de points
+Un premier modèle avec interaction est envisagé entre la longueur du tarse et la distance de Kipp.
+La pente de référence n'est pas significativement différente de 0 au seuil $\alpha$ de 5% ($\beta_1$; test t, t= 0.459, p> 0.05). Toutefois, les termes d'interaction montrent un décalage de pente significatif au seuil $\alpha$ de 5% pour les sous-espèces *satrapa* et *despotes* ($\beta_4$; 
+test t, t= 2.612, p= 9.36e-3 | $\beta_5$; 
+test t, t= 2.631, p= 8.87e-3). Le décalage d'ordonnée à l'origine n'est pas significatif au seuil $\alpha$ de 5% pour la sous-espèce *satrapa* ($\beta_2$; 
+test t, t= -1.707, p>0.05), mais il l'est pour la sous espèce *despotes* ($\beta_3$; 
+test t, t= -2.983, p= 3.05e-3).
+L'analyse des résidus n'est pas parfaite et montre une forte dissimilarité dans la répartition, mais cela peut s'expliquer par la forme de notre nuage de points
 
-Le nuage de points de *T.m.melancholicus* ne montre pas une belle relation, nous tentons alors de forcer les pentes à être identiques.
+Le nuage de points de *T.m.melancholicus* ne montre pas une belle relation, nous tentons donc artificiellement de forcer les pentes à être identiques.
 
-2ème modèle : En forcant la pente tous les termes sont significativement différents de zéro au seuil alpha de 5%.
+2ème modèle : En forcant la pente tous les termes sont significativement différents de zéro au seuil alpha de 5% ($\alpha$; test t, t = 30.87, p = 2e-16) | $\beta_1$; test t, t = 3.40, p = 7.46e-4) | $\beta_2$; test t, t = 10.20, p = 2e-16) | $\beta_3$; test t, t = -4.01, p = 7.38e-5).
+.
 
-L'anova entre les deux modèles montre une différence significative entre les deux modèles. De plus, l'AIC est en faveur du premier modèle (=le plus complexe). Nous conservons donc de premier modèle.
+L'anova entre les deux modèles montre une différence significative au seuil $\alpha$ de 5% entre les deux modèles (F=5.49, ddl = 371 & -2, p=0.00447). De plus, l'AIC est en faveur du premier modèle (=le plus complexe). Nous conservons donc de premier modèle.
 
 Chez *T. m. despotes* et *T. m. satrapa*, le tarse augmente avec la distance de Kipp, ce qui suggère une différenciation morphologique liée à la structure alaire. En revanche, chez *T. m. melancholicus*, aucune relation nette n’est observée.
+
+$$
+`r eq__(lm3, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
+$$
 
 #### Modèle linéaire 2
 
@@ -311,7 +327,7 @@ chart(melan,sex_bin~tail)+
   stat_smooth(method="glm", method.args=list(family=binomial), formula=y~x, se=FALSE)
 ```
 
-Seuls les individus appartement à la sous-espèce *T. m. melancholicus* ont été arbitrairement sélectionnées pour cette analyse. La courbe s'élève dans le sens d'une augmentation de la longueur de la queue, indiquant que les mâles ont tendance à avoir une queue plus longue. Toutefois, ce modèle linéaire généralisé montre que la longueur de la queue est assez peu adapté pour déterminer le sexe avec certitude chez *T.m.melancholicus*. En effet, la distinction de la longueur de queue n'est pas très grande entre les deux sexes chez cette sous-espèce.
+Seuls les individus appartement à la sous-espèce *T. m. melancholicus* ont été arbitrairement sélectionnées pour cette analyse. La courbe s'élève dans le sens d'une augmentation de la longueur de la queue, indiquant que les mâles ont tendance à avoir une queue plus longue. Toutefois, ce modèle linéaire généralisé montre que la longueur de la queue est assez peu adaptée pour déterminer le sexe avec certitude chez *T.m.melancholicus*. En effet, la distinction de la longueur de queue n'est pas très grande entre les deux sexes chez cette sous-espèce.
 
 #### Modèle linéaire généralisé et/ou mixte 2
 
@@ -337,6 +353,8 @@ La courbe montre une croissance positive, indiquant que lorsque la longueur du b
 <!--% Lorsque toutes les analyses sont réalisées, terminez ce bloc-notes avec 3 à 6 phrases de conclusion en rapport avec ce que vous avez observé dans vos analyses. Quels sont les modèles les plus pertinents que vous retenez ? -->
 
 Les différentes analyses réalisées mettent en évidence des différences existantes, mais souvent subtiles entre les 3 sous-espèces de *Tyrannus melancholicus*. Les résultats issus des modèles linéaires simples mettent en évident le lien entre certaines mesures, mais ne sont pas adaptées à la prédiction de sous-espèce. Les modèles linéaires nous permettent de mieux appréhender notre thématique. Le premier modèle linéaire montre que la longueur du tarse varie significativement avec la distance de Kipp chez *T. m. satrapa* et *T. m. despotes*. Le deuxième modèle linéaire montre qu'il y a des interactions entre la longueur du tarse et la profondeur du bec. Le premier modèle linéaire généralisé montre que les mâles de *T. m. melancholicus* tendent à avoir une queue légèrement plus longue, mais cette différence reste trop faible pour prédire le sexe avec certitude. Le deuxième modèle linéaire généralisé n'a pas pu être réalisé avec des variables à distribution non-normale car le jeu de données n'en contient pas.
+
+Les résultats de cette étude sont mitigés. Plusieurs variables comme la longueur du tarse et la profondeur du bec semblent être des variables intéressantes pour une première approche, mais leur seule utilisation n'est pas suffisante pour déterminer correctement la sous-espcèe d'un individu.
 Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
 
 ## Références
