@@ -146,6 +146,11 @@ Le deuxième graphique précise que cette différence se trouve chez la sous-esp
 tyrcontinent %>.%
   sdrop_na(.,abbr_sp,bill_depth)->
   tyr1
+
+give_n4 <- function(x)
+  c(y = max(x) * 1.1, label = length(x)) 
+
+
 chart(data = tyr1, bill_depth ~ abbr_sp %fill=% continent) +
   geom_boxplot() +
   labs(
@@ -153,7 +158,7 @@ chart(data = tyr1, bill_depth ~ abbr_sp %fill=% continent) +
     x = "Sous-espèce",
     y = "Profondeur du bec (mm)",
     fill = "Origine"
-  )
+  ) + stat_summary(fun.data = give_n4, geom = "text", hjust = 0.5, position = position_dodge(width = 0.75))
 table(tyrcontinent$abbr_sp, tyrcontinent$continent)
 
 ```

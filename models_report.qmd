@@ -16,9 +16,7 @@ bibliography: references.bib
 
 ## Introduction
 
-
 L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannus melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée.
-
 
 ## But
 
@@ -60,6 +58,7 @@ tyrcontinent <- tyrannus %>%
 ```
 
 <!--% Présentez les deux modèles les plus pertinents que vous avez sélectionnés. Structurez la section en deux parties avec deux titres de niveau trois.-->
+
 ### Visualisation des données
 
 ```{r 1}
@@ -67,8 +66,11 @@ chart(tyrannus, ~tarsus|abbr_sp)+
 geom_histogram(bins = 30)+
 ylab("Effectifs")
 
+give_n3 <- function(x)
+  c(y = max(x) * 1.1, label = length(x)) 
+
 chart(tyrannus,tarsus ~abbr_sp )+
-geom_boxplot()
+geom_boxplot()+ stat_summary(fun.data = give_n3, geom = "text", hjust = 0.5)
 ```
 
 Les individus des sous-espèces *melancholicus* et despotes présentent une longueur de tarse maximale de respectivement 21 mm et 20 mm, tandis que ceux de la sous-espèce *satrapa* atteignent environ 22 mm.
@@ -77,6 +79,10 @@ Les individus des sous-espèces *melancholicus* et despotes présentent une long
 tyrcontinent %>.%
   sdrop_na(.,abbr_sp,bill_depth)->
   tyr1
+
+give_n4 <- function(x)
+  c(y = max(x) * 1.1, label = length(x))
+
 chart(data = tyr1, bill_depth ~ abbr_sp %fill=% continent) +
   geom_boxplot() +
   labs(
@@ -84,10 +90,10 @@ chart(data = tyr1, bill_depth ~ abbr_sp %fill=% continent) +
     x = "Sous-espèce",
     y = "Profondeur du bec (mm)",
     fill = "Origine"
-  )
+  )+ stat_summary(fun.data = give_n4, geom = "text", hjust = 0.5, position = position_dodge(width = 0.75))
+table(tyrcontinent$abbr_sp, tyrcontinent$continent)
 
 ```
-
 
 On remarque que chez la sous-espèce *melancholicus*, le bec a une profondeur médiane légèrement plus importante en Amérique du Sud qu'en Amérique Centrale. Chez la sous espèces *satrapa*, la profondeur médiane du bec est plus petite chez les individus sud-américains.
 
@@ -124,7 +130,7 @@ chart(data = tyrcontinent, tarsus ~ bill_depth %col=% abbr_sp ) +
 
 $$
 `r eq__(contlm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
-$$ Tous les termes du modèle sont significativement différents de 0 au seuil $\alpha$ de 5% (test machin pour chaque param , ***XXX à compléter**). Cela démontre l'existence d'une interaction entre la longueur du tarse et la profondeur du bec.
+$$ Tous les termes du modèle sont significativement différents de 0 au seuil $\alpha$ de 5% (test machin pour chaque param , \***XXX à compléter**). Cela démontre l'existence d'une interaction entre la longueur du tarse et la profondeur du bec.
 
 La distribution des résidus est très proche de la normale et montre une bonne homoscédasticité. La distance de Cook est faiblement impactée par des valeurs influentes. L'analyse des résidus a donc été considérée comme satisfaisante.
 
