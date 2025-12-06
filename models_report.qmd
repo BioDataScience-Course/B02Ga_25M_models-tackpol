@@ -2,6 +2,8 @@
 title: "Détermination des sous-espèces de Tyrannus melancholicus à partir de variables morphométriques"
 author: "Carlier Louis, Dupont Eva, Aragona Samuel, Julien-Camille Tack"
 format:
+  html:
+    toc: true
   pdf:
     documentclass: report
     toc: true
@@ -14,7 +16,9 @@ bibliography: references.bib
 
 ## Introduction
 
+
 L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannus melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée.
+
 
 ## But
 
@@ -26,11 +30,15 @@ Ce rapport tente de mettre en évidence quelles variables morphométriques perme
 
 <!--% Cette section doit comprendre deux parties. La première partie doit expliciter les données employées et la seconde traiter des analyses réalisées et des logiciels employés.-->
 
-Notre jeu de données reprends des mesures réalisées par @macpherson2021. Il contient des données sur *Tyrannus melancholicus*.
+Notre jeu de données reprends des mesures réalisées par @MacPherson2021data. Il contient des données sur le tyran mélancolique *Tyrannus melancholicus* Vieillot, 1819.
 
-Les données reprennent différentes mesures morphométriques du bec, de la queue, du tarse et de la distance de Kipp (distance entre l'extrémité de la première rémige secondaire (S~1~) et l’extrémité de la plus longue rémige primaire (L~w~) [@kipp1942flugelbau]). Des informations qualitatives comme le stade de vie , le sexe et le pays d'origine sont aussi connues.
+![Image de *Tyrannus melancholicus melancholicus* ©Matin Flacks](tyran.jpg)
 
-Les analyses réalisées consistent en ***XXX*** et un modèle linéaire. Les analyses sont réalisées dans `r R.version.string` et plus précisément en utilisant la [SciViews Box 2025](https://www.sciviews.org/svbox/) dans [Saturn Cloud](https://saturncloud.io).
+Les données reprennent différentes mesures morphométriques portant sur le bec (notamment la profondeur) , la queue, les ailes (via la longueur du cordon alaire, définie comme la longeur entre l'articulation carpienne et l'extrémité de la la plus longue rémige quand l'aile est pliée) ainsi que le tarse. Des informations qualitatives comme le stade de vie , le sexe et le pays d'origine sont aussi connues.
+
+![Méthode de mesure du cordon alaire. Schéma issu de @ralph1993handbook](Image%20cordon%20alaire.png)
+
+Différentes représentations visuelles des données ont été réalisées. Les analyses réalisées consistent en une régression linéaire et un modèle linéaire. Tout cela a été réalisé dans `r R.version.string` et plus précisément en utilisant la [SciViews Box 2025](https://www.sciviews.org/svbox/) dans [Saturn Cloud](https://saturncloud.io).
 
 ## Résultats
 
@@ -41,17 +49,18 @@ tyrcontinent <- tyrannus %>%
   filter(!is.na(country)) %>%
   mutate(continent = case_when(
     country %in% c("Argentina","Bolivia","Brazil","Colombia","Ecuador",
-                   "Paraguay","Peru","Suriname","Uruguay","Venezuela") ~ "A.du Sud",
+                   "Paraguay","Peru","Suriname","Uruguay","Venezuela") ~ "Am.du Sud",
     country %in% c("Bahamas","Belize","Cayman Islands","Costa Rica","Cuba",
                    "Dominican Republic","Dominican Republican","El Salvador","El Salvardor",
                    "Guatemala","Guyana","Haiti","Honduras","Jamaica","Mexico",
-                   "Nicaragua","Panama","Puerto Rico","Trinidad and Tobago") ~ "A.Centrale",
-    country %in% c("Canada","United States","United States of America") ~ "A.du Nord"
+                   "Nicaragua","Panama","Puerto Rico","Trinidad and Tobago") ~ "Am.Centrale",
+    country %in% c("Canada","United States","United States of America") ~ "Am.du Nord"
   )) %>%
-  filter(continent != "A.du Nord") 
+  filter(continent != "Am.du Nord") 
 ```
 
 <!--% Présentez les deux modèles les plus pertinents que vous avez sélectionnés. Structurez la section en deux parties avec deux titres de niveau trois.-->
+### Visualisation des données
 
 ```{r 1}
 chart(tyrannus, ~tarsus|abbr_sp)+
@@ -71,35 +80,39 @@ tyrcontinent %>.%
 chart(data = tyr1, bill_depth ~ abbr_sp %fill=% continent) +
   geom_boxplot() +
   labs(
-    title = "Profondeur du bec selon le sexe, la sous-espèce et le continent",
+    title = "Profondeur du bec selon la sous-espèce et le continent",
     x = "Sous-espèce",
     y = "Profondeur du bec (mm)",
-    fill = "Sexe"
+    fill = "Origine"
   )
-table(tyrcontinent$abbr_sp, tyrcontinent$continent)
+
 ```
 
-On peut remarquer qu'il y a chez la sous-espèce *melancholicus* une profondeur moyenne du bec légèrement plus importantes en A.Sud qu'en A.Centrale dû à une plus grande variabilité des données. Chez la sous espèces *satrapa*, il y a une différence plus net entre les continents.
+
+On remarque que chez la sous-espèce *melancholicus*, le bec a une profondeur médiane légèrement plus importante en Amérique du Sud qu'en Amérique Centrale. Chez la sous espèces *satrapa*, la profondeur médiane du bec est plus petite chez les individus sud-américains.
+
+### Régression linéaire de la longueur du cordon alaire en fonction de la longueur de queue
 
 ```{r 3}
 tyrannus_lm<-lm(data=tyrannus,wing_cord~ tail)
-chart$residuals(tyrannus_lm)
+
 
 
 summary(tyrannus_lm)|>
   tabularise()
-AIC(tyrannus_lm)
-anova(tyrannus_lm)
+
 
 chart(tyrannus_lm)
 ```
 
 $$
 `r eq__(tyrannus_lm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
-$$ Le modèle montre qu'il y a un rapport entre la longueur de la queue et la longueur du cordon alaire. En effet lorsque la queue augmente de 1mm la longueur du cordon alaire augmenterait de 0,73mm. Nous pouvons nous fier à cette régression car elle est significative au seuil de 5% et tous les paramètres ont été analysés(normalité, résidus ). Cependant le R² est assez modéré, le pouvoir de prédiction du modèle est donc également limité.
+$$ Cette régression montre une relation directe entre la longueur du cordon alaire et la longueur de la queue. Lorsque la queue augmente de 1mm, la longueur du cordon alaire augmente de 0,73mm. Chaque paramètre est significativement différent de 0 au seuil $\alpha$ de 5% (test t , ***XXX à compléter**) et (test t ,* **XXX à compléter**). Les conditions (normalité des résidus, homoscédasticité) ont été analysés et validées. Le R² étant assez modéré, le pouvoir de prédiction du modèle est donc également limité.
+
+### Modèle linéaire entre la longueur du tarse et la profondeur du bec
 
 ```{r 4}
-contlm <- lm(data = tyrcontinent, tarsus ~ bill_depth  * subspecies)
+contlm <- lm(data = tyrcontinent, tarsus ~ bill_depth  * abbr_sp)
 summary(contlm) |> tabularise()
 
 chart(data = tyrcontinent, tarsus ~ bill_depth %col=% abbr_sp ) + 
@@ -111,12 +124,12 @@ chart(data = tyrcontinent, tarsus ~ bill_depth %col=% abbr_sp ) +
 
 $$
 `r eq__(contlm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
-$$ Tous les termes du modèle sont significativement différents de 0 sans ajustement nécessaires.
+$$ Tous les termes du modèle sont significativement différents de 0 au seuil $\alpha$ de 5% (test machin pour chaque param , ***XXX à compléter**). Cela démontre l'existence d'une interaction entre la longueur du tarse et la profondeur du bec.
 
-Il y a bien significativement des interactions entre chaque variable au seuil alpha de 5%.
+La distribution des résidus est très proche de la normale et montre une bonne homoscédasticité. La distance de Cook est faiblement impactée par des valeurs influentes. L'analyse des résidus a donc été considérée comme satisfaisante.
 
-La distribution des résidus est très proche de la normale et montre une bonne homoscédasticité. La distance de Cook est faiblement impactée par des valeurs influentes. L'analyse des résidus est donc satisfaisante. \## Discussion et Conclusion
+## Discussion et Conclusion
 
-<!--% En tenant compte du but de votre carnet de notes et de vos résultats, discutez de résultats et proposez des conclusions à votre analyse en 5 à 10 phrases. -->
+Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique. <!--% En tenant compte du but de votre carnet de notes et de vos résultats, discutez de résultats et proposez des conclusions à votre analyse en 5 à 10 phrases. -->
 
 ## Bibliographie
