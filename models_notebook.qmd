@@ -1,5 +1,5 @@
 ---
-title: "___"
+title: "Détermination des sous-espèces de Tyrannus melancholicus à partir de variables morphométriques"
 author: "Louis Carlier, Eva Dupont, Samuel Aragona, Julien-Camille Tack"
 format:
   html:
@@ -92,8 +92,11 @@ chart(tyrannus, ~tarsus|abbr_sp)+
 geom_histogram(bins = 30)+
 ylab("Effectifs")
 
+give_n3 <- function(x)
+  c(y = max(x) * 1.1, label = length(x)) 
+
 chart(tyrannus,tarsus ~abbr_sp )+
-geom_boxplot()
+geom_boxplot() + stat_summary(fun.data = give_n3, geom = "text", hjust = 0.5)
 ```
 
 Les individus des sous-espèces *melancholicus* et *despotes* présentent une longueur de tarse maximale de respectivement 21 mm et 20 mm, tandis que ceux de la sous-espèce *satrapa* atteignent environ 22 mm.
@@ -118,18 +121,22 @@ tyrcontinent <- tyrannus %>%
   )) %>%
   filter(continent != "A.du Nord")   
 
+give_n1 <- function(x)
+  c(y = max(x) * 1.1, label = length(x)) 
+
+give_n2 <- function(x)
+  c(y = max(x) * 1.1, label = length(x)) 
 
 chart(tyrcontinent, tarsus ~ continent) +
-  geom_boxplot() + labs(title = "Variation de la longueur du tarse chez Tyrannus par continent")
+  geom_boxplot()  + labs(title = "Variation de la longueur du tarse chez Tyrannus par continent") +  stat_summary(fun.data = give_n1, geom = "text", hjust = 0.5)
 
 chart(tyrcontinent, tarsus ~ continent %fill=% abbr_sp) +
-  geom_boxplot() + labs(title = "Variation de la longueur du tarse chez Tyrannus par continent")
-
+  geom_boxplot() +  labs(title = "Variation de la longueur du tarse chez Tyrannus par continent") + stat_summary(fun.data = give_n2, geom = "text", hjust = 0.5, position = position_dodge(width = 0.75))
 ```
 
 Le premier graphique indique que la moyenne de la longueur des tarses est plus grande en Amérique Centrale qu'en Amérique du Sud.
 
-Le deuxième graphique précise que cette différence se trouve chez la sous-espèce *satrapa* qui possède une longueur de tarse moyenne plus longue en Amérique Centrale.
+Le deuxième graphique précise que cette différence se trouve chez la sous-espèce *satrapa* qui possède une longueur de tarse moyenne plus longue en Amérique Centrale. Cette différence peut aussi être causée par un plus grand nombre d'échantillonnage chez *satrapa* en Amérique Centrale.
 
 <!--% Graphique et interprétation de l'étudiant #4 ci-dessous. -->
 

@@ -1,5 +1,5 @@
 ---
-title: "___"
+title: "Détermination des sous-espèces de Tyrannus melancholicus à partir de variables morphométriques"
 author: "Carlier Louis, Dupont Eva, Aragona Samuel, Julien-Camille Tack"
 format:
   pdf:
@@ -14,7 +14,7 @@ bibliography: references.bib
 
 ## Introduction
 
-L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannys melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée.
+L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannus melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée.
 
 ## But
 
@@ -62,7 +62,7 @@ chart(tyrannus,tarsus ~abbr_sp )+
 geom_boxplot()
 ```
 
-Les individus des sous-espèces melancholicus et despotes présentent une longueur de tarse maximale de respectivement 21 mm et 20 mm, tandis que ceux de la sous-espèce satrapa atteignent environ 22 mm.
+Les individus des sous-espèces *melancholicus* et despotes présentent une longueur de tarse maximale de respectivement 21 mm et 20 mm, tandis que ceux de la sous-espèce *satrapa* atteignent environ 22 mm.
 
 ```{r 2}
 tyrcontinent %>.%
@@ -79,7 +79,7 @@ chart(data = tyr1, bill_depth ~ abbr_sp %fill=% continent) +
 table(tyrcontinent$abbr_sp, tyrcontinent$continent)
 ```
 
-On peut remarquer qu'il y a chez la sous-espèce melancholicus une profondeur moyenne du bec légèrement plus importantes en A.Sud qu'en A.Centrale dû à une plus grande variabilité des données. Chez la sous espèces satrapa, il y a une différence plus net entre les continents.
+On peut remarquer qu'il y a chez la sous-espèce *melancholicus* une profondeur moyenne du bec légèrement plus importantes en A.Sud qu'en A.Centrale dû à une plus grande variabilité des données. Chez la sous espèces *satrapa*, il y a une différence plus net entre les continents.
 
 ```{r 3}
 tyrannus_lm<-lm(data=tyrannus,wing_cord~ tail)
