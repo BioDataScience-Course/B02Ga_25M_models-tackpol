@@ -27,7 +27,7 @@ Notre jeu de données reprend des mesures réalisées par @MacPherson2021data su
 
 Les données reprennent différentes mesures du bec, de la queue, du tarse. Des infos sur la taille des ailes sont également présentes via la longueur du cordon alaire (c'est-à-dire la longeur entre l'articulation carpienne et l'extrémité de la la plus longue rémige quand l'aile est pliée) ainsi que via la distance de Kipp (distance entre l'extrémité de la première rémige secondaire (S~1~) et l’extrémité de la plus longue rémige primaire (L~w~) [@kipp1942flugelbau]). L'âge, le sexe et le pays d'origine sont aussi connus. L'objectif de notre analyse est de tenter de déterminer quels critères morphologiques peuvent permettre d'identifier les sous-espèces chez *Tyrannus melancholicus*.
 
-![La distance de Kipp correspond à la distance entre les points S1et Lw. Schéma issu de ](Distance%20de%20Kipp.png) ![Méthode de mesure du cordon alaire. Schéma issu de ](Image%20cordon%20alaire.png)
+![La distance de Kipp correspond à la distance entre les points S1et Lw. Schéma issu de](Distance%20de%20Kipp.png) ![Méthode de mesure du cordon alaire. Schéma issu de](Image%20cordon%20alaire.png)
 
 ## Matériel et méthodes
 
@@ -130,10 +130,10 @@ give_n2 <- function(x)
   c(y = max(x) * 1.1, label = length(x)) 
 
 chart(tyrcontinent, tarsus ~ continent) +
-  geom_boxplot()  + labs(title = "Variation de la longueur du tarse chez Tyrannus par continent") +  stat_summary(fun.data = give_n1, geom = "text", hjust = 0.5)
+  geom_boxplot()  + labs(title = "Variation de la longueur du tarse chez Tyrannus par continent") +  stat_summary(fun.data = give_n1, geom = "text", hjust = 0.5) + xlab("Continents")
 
 chart(tyrcontinent, tarsus ~ continent %fill=% abbr_sp) +
-  geom_boxplot() +  labs(title = "Variation de la longueur du tarse chez Tyrannus par continent") + stat_summary(fun.data = give_n2, geom = "text", hjust = 0.5, position = position_dodge(width = 0.75))
+  geom_boxplot() +  labs(title = "Variation de la longueur du tarse chez Tyrannus par continent") + stat_summary(fun.data = give_n2, geom = "text", hjust = 0.5, position = position_dodge(width = 0.75)) + xlab("Continents")
 ```
 
 Le premier graphique indique que la moyenne de la longueur des tarses est plus grande en Amérique Centrale qu'en Amérique du Sud.
@@ -204,7 +204,7 @@ chart(lmbis2)
 
 Deux points ont été supprimmés car ils étaient aberrants par rapport à l'ensemble des autres points, cela peut être du à des erreurs de mesures. On remarque qu'il y a homoscédasticité. De plus, il n'y a pas de point ayant un effet levier et une distance de Cook élevés .
 
-Le R² est de 0.4531, il est modéré, la prédiction est donc limitée mais cette régression permet toutefois de mettre en évidence qu'il existe un rapport entre la distance de Kipp et la longueur du cordon alaire. Les paramètre sont .... ( p-value = 2.22e-16)
+Le R² est de 0.4531, il est modéré, la prédiction est donc limitée mais cette régression permet toutefois de mettre en évidence qu'il existe un rapport entre la distance de Kipp et la longueur du cordon alaire.Cependant, nous pouvons nous fier à ce modèle car il est significatif au seuil alpha de 5% ( p-value = 2.22e-16). Les paramètre sont tous significatifs au seuil alpha de 5%.
 
 #### Modèle linéaire 1
 
