@@ -204,7 +204,7 @@ chart(lmbis2)
 
 Deux points ont été supprimmés car ils étaient aberrants par rapport à l'ensemble des autres points, cela peut être du à des erreurs de mesures. On remarque qu'il y a homoscédasticité. De plus, il n'y a pas de point ayant un effet levier et une distance de Cook élevés .
 
-Le R² est de 0.4531, il est modéré, la prédiction est donc limitée mais cette régression permet toutefois de mettre en évidence qu'il existe un rapport entre la distance de Kipp et la longueur du cordon alaire.Cependant, nous pouvons nous fier à ce modèle car il est significatif au seuil alpha de 5% ( p-value = 2.22e-16). Les paramètre sont tous significatifs au seuil alpha de 5%.
+Le R² est de 0.4531, il est modéré, la prédiction est donc limitée mais cette régression permet toutefois de mettre en évidence qu'il existe un rapport entre la distance de Kipp et la longueur du cordon alaire.Cependant, nous pouvons nous fier à ce modèle car il est significatif au seuil alpha de 5% ( p-value = 2.22e-16). Les paramètre sont tous significatifs au seuil alpha de 5% ($\alpha$ ; test t, t = -6.53, p = 2.15e-10 \| $\beta$; test t, t = 17.51, p = 2e-16) .
 
 #### Modèle linéaire 1
 
