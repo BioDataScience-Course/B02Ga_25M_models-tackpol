@@ -114,12 +114,12 @@ tyrcontinent <- tyrannus %>%
   filter(!is.na(country)) %>%
   mutate(continent = case_when(
     country %in% c("Argentina","Bolivia","Brazil","Colombia","Ecuador",
-                   "Paraguay","Peru","Suriname","Uruguay","Venezuela") ~ "Am.du Sud",
+                   "Paraguay","Peru","Suriname","Uruguay","Venezuela") ~ "A.du Sud",
     country %in% c("Bahamas","Belize","Cayman Islands","Costa Rica","Cuba",
                    "Dominican Republic","Dominican Republican","El Salvador","El Salvardor",
                    "Guatemala","Guyana","Haiti","Honduras","Jamaica","Mexico",
-                   "Nicaragua","Panama","Puerto Rico","Trinidad and Tobago") ~ "Am.Centrale",
-    country %in% c("Canada","United States","United States of America") ~ "Am.du Nord"
+                   "Nicaragua","Panama","Puerto Rico","Trinidad and Tobago") ~ "A.Centrale",
+    country %in% c("Canada","United States","United States of America") ~ "A.du Nord"
   )) %>%
   filter(continent != "A.du Nord")   
 
@@ -130,10 +130,10 @@ give_n2 <- function(x)
   c(y = max(x) * 1.1, label = length(x)) 
 
 chart(tyrcontinent, tarsus ~ continent) +
-  geom_boxplot()  + labs(title = "Variation de la longueur du tarse chez Tyrannus par continent") +  stat_summary(fun.data = give_n1, geom = "text", hjust = 0.5) + xlab("Continents")
+  geom_boxplot()  + labs(title = "Variation de la longueur du tarse chez Tyrannus par continent") +  stat_summary(fun.data = give_n1, geom = "text", hjust = 0.5)
 
 chart(tyrcontinent, tarsus ~ continent %fill=% abbr_sp) +
-  geom_boxplot() +  labs(title = "Variation de la longueur du tarse chez Tyrannus par continent") + stat_summary(fun.data = give_n2, geom = "text", hjust = 0.5, position = position_dodge(width = 0.75)) + xlab("Continents")
+  geom_boxplot() +  labs(title = "Variation de la longueur du tarse chez Tyrannus par continent") + stat_summary(fun.data = give_n2, geom = "text", hjust = 0.5, position = position_dodge(width = 0.75))
 ```
 
 Le premier graphique indique que la moyenne de la longueur des tarses est plus grande en Amérique Centrale qu'en Amérique du Sud.
@@ -163,7 +163,7 @@ table(tyrcontinent$abbr_sp, tyrcontinent$continent)
 
 ```
 
-On peut remarquer qu'il y a chez la sous-espèce *melancholicus* une profondeur moyenne du bec légèrement plus importantes en A.Sud qu'en A.Centrale dû à une plus grande variabilité des données. Chez la sous espèces *satrapa*, il y a une différence plus nette entre les continents.
+On peut remarquer qu'il y a chez la sous-espèce *melancholicus* une profondeur moyenne du bec légèrement plus importantes en A.Sud qu'en A.Centrale dû à une plus grande variabilité des données. Chez la sous espèces *satrapa*, il y a une différence plus net entre les continents.
 
 ### Modélisation
 
@@ -204,7 +204,7 @@ chart(lmbis2)
 
 Deux points ont été supprimmés car ils étaient aberrants par rapport à l'ensemble des autres points, cela peut être du à des erreurs de mesures. On remarque qu'il y a homoscédasticité. De plus, il n'y a pas de point ayant un effet levier et une distance de Cook élevés .
 
-Le R² est de 0.4531, il est modéré, la prédiction est donc limitée mais cette régression permet toutefois de mettre en évidence qu'il existe un rapport entre la distance de Kipp et la longueur du cordon alaire.Cependant, nous pouvons nous fier à ce modèle car il est significatif au seuil alpha de 5% ( p-value = 2.22e-16). Les paramètre sont tous significatifs au seuil alpha de 5% ($\alpha$ ; test t, t = -6.53, p = 2.15e-10 \| $\beta$; test t, t = 17.51, p = 2e-16) .
+Le R² est de 0.4531, il est modéré, la prédiction est donc limitée mais cette régression permet toutefois de mettre en évidence qu'il existe un rapport entre la distance de Kipp et la longueur du cordon alaire. Les paramètre sont .... ( p-value = 2.22e-16)
 
 #### Modèle linéaire 1
 
@@ -300,11 +300,9 @@ chart(data = tyrcontinent, tarsus ~ bill_depth %col=% abbr_sp ) +
   ylab("Longueur du tarse [mm]")
 ```
 
-Tous les termes du modèle sont significativement différents de 0 sans ajustement nécessaires.
+Tous les termes du modèle sont significativement différents de 0 au seuil α de 5% : l'ordonnée à l'origine (α; test t, t = 25.82, p \< 2 × 10⁻¹⁶) est significative, la pente de référence pour la profondeur du bec (**β**1​; test t, t = 3.09, p = 2.14 × 10⁻³) est également significative, le décalage d'ordonnée à l'origine pour la sous-espèce T. m. satrapa (β2​; test t, t = -2.30, p = 2.19 × 10⁻²) et pour T. m. despotes (β3​; test t, t = -3.81, p = 1.60 × 10⁻⁴) est significatif, et les termes d'interaction montrent un décalage de pente significatif pour T. m. satrapa (β4​; test t, t = 3.22, p = 1.36 × 10⁻³) et pour T. m. despotes (β5​; test t, t = 3.55, p = 4.17 × 10⁻⁴), ce qui démontre l'existence d'une interaction entre la longueur du tarse et la profondeur du bec et montre que ces variables seraient a priori de bonnes candidates pour de plus profondes recherches sur le sujet.
 
-Il y a bien significativement des interactions entre chaque variable au seuil $\alpha$ de 5%.
-
-La distribution des résidus est très proche de la normale et montre une bonne homoscédasticité. La distance de Cook est faiblement impactée par des valeurs influentes. L'analyse des résidus est donc satisfaisante.
+La distribution des résidus est très proche de la normale et montre une bonne homoscédasticité. La distance de Cook est faiblement impactée par des valeurs influentes. L'analyse des résidus a donc été considérée comme satisfaisante.
 
 $$
 `r eq__(contlm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
@@ -322,8 +320,8 @@ melan <- melan %>% drop_na(sex)
 # Recoder sex en 0/1
 melan$sex_bin <- ifelse(melan$sex == "Mâle", 1, 0)
 
-glmLouis<-glm(data=melan,sex_bin~tarsus, family=binomial )
-tabularise(summary(glmLouis))
+glm(data=melan,sex_bin~tarsus, family=binomial )
+
 
 chart(melan,sex_bin~tail)+
   geom_point()+
@@ -358,7 +356,7 @@ La courbe montre une croissance positive, indiquant que lorsque la longueur du b
 
 Les différentes analyses réalisées mettent en évidence des différences existantes, mais souvent subtiles entre les 3 sous-espèces de *Tyrannus melancholicus*. Les résultats issus des modèles linéaires simples mettent en évident le lien entre certaines mesures, mais ne sont pas adaptées à la prédiction de sous-espèce. Les modèles linéaires nous permettent de mieux appréhender notre thématique. Le premier modèle linéaire montre que la longueur du tarse varie significativement avec la distance de Kipp chez *T. m. satrapa* et *T. m. despotes*. Le deuxième modèle linéaire montre qu'il y a des interactions entre la longueur du tarse et la profondeur du bec. Le premier modèle linéaire généralisé montre que les mâles de *T. m. melancholicus* tendent à avoir une queue légèrement plus longue, mais cette différence reste trop faible pour prédire le sexe avec certitude. Le deuxième modèle linéaire généralisé n'a pas pu être réalisé avec des variables à distribution non-normale car le jeu de données n'en contient pas.
 
-Les résultats de cette étude sont mitigés. Plusieurs variables comme la longueur du tarse et la profondeur du bec semblent être des variables intéressantes pour une première approche, mais leur seule utilisation n'est pas suffisante pour déterminer correctement la sous-espèce d'un individu. Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
+Les résultats de cette étude sont mitigés. Plusieurs variables comme la longueur du tarse et la profondeur du bec semblent être des variables intéressantes pour une première approche, mais leur seule utilisation n'est pas suffisante pour déterminer correctement la sous-espcèe d'un individu. Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
 
 ## Références
 
