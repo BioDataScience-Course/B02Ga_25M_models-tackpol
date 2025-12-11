@@ -113,7 +113,7 @@ chart(tyrannus_lm)
 
 $$
 `r eq__(tyrannus_lm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
-$$ Cette régression montre une relation directe entre la longueur du cordon alaire et la longueur de la queue. Lorsque la queue augmente de 1mm, la longueur du cordon alaire augmente de 0,73mm. Chaque paramètre est significativement différent de 0 au seuil $\alpha$ de 5% (test t , ***XXX à compléter**) et (test t ,* **XXX à compléter**). Les conditions (normalité des résidus, homoscédasticité) ont été analysées et validées. Le R² étant assez modéré, le pouvoir de prédiction du modèle est donc également limité.
+$$ Cette régression montre une relation directe entre la longueur du cordon alaire et la longueur de la queue. Lorsque la queue augmente de 1mm, la longueur du cordon alaire augmente de 0,73mm. Chaque paramètre est significativement différent de 0 au seuil $\alpha$ de 5% (test t , ***XXX à compléter**) et (test t ,* **XXX à compléter**). Les conditions (normalité des résidus, homoscédasticité) ont été analysées et validées. Le R² étant assez modéré, le pouvoir de prédiction du modèle est donc toutefois limité. Cette simple approche ne permet donc pas de déterminer la sous-espèce d'un *Tyrannus melancholicus*. Toutefois, cette régression indique l'existence d'un lien entre ces variables qui mériterait d'être étudié avec des outils plus adéquats ou en complément d'autres variables.
 
 ### Modèle linéaire entre la longueur du tarse et la profondeur du bec
 
@@ -130,9 +130,9 @@ chart(data = tyrcontinent, tarsus ~ bill_depth %col=% abbr_sp ) +
 
 $$
 `r eq__(contlm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
-$$ Tous les termes du modèle sont significativement différents de 0 au seuil $\alpha$ de 5% (test machin pour chaque param , \***XXX à compléter**). Cela démontre l'existence d'une interaction entre la longueur du tarse et la profondeur du bec.
+$$ Tous les termes du modèle sont significativement différents de 0 au seuil $\alpha$ de 5% (test machin pour chaque param , \***XXX à compléter**). Cela démontre l'existence d'une interaction entre la longueur du tarse et la profondeur du bec et montre que ces variables seraient à priori de bonnes candidates pour de plus profondes recherches sur le sujet..
 
-La distribution des résidus est très proche de la normale et montre une bonne homoscédasticité. La distance de Cook est faiblement impactée par des valeurs influentes. L'analyse des résidus a donc été considérée comme satisfaisante.
+La distribution des résidus est très proche de la normale et montre une bonne homoscédasticité. La distance de Cook est faiblement impactée par des valeurs influentes. L'analyse des résidus a donc été considérée comme satisfaisante 
 
 ## Discussion et Conclusion
 
