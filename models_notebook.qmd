@@ -114,12 +114,12 @@ tyrcontinent <- tyrannus %>%
   filter(!is.na(country)) %>%
   mutate(continent = case_when(
     country %in% c("Argentina","Bolivia","Brazil","Colombia","Ecuador",
-                   "Paraguay","Peru","Suriname","Uruguay","Venezuela") ~ "A.du Sud",
+                   "Paraguay","Peru","Suriname","Uruguay","Venezuela") ~ "Am.du Sud",
     country %in% c("Bahamas","Belize","Cayman Islands","Costa Rica","Cuba",
                    "Dominican Republic","Dominican Republican","El Salvador","El Salvardor",
                    "Guatemala","Guyana","Haiti","Honduras","Jamaica","Mexico",
-                   "Nicaragua","Panama","Puerto Rico","Trinidad and Tobago") ~ "A.Centrale",
-    country %in% c("Canada","United States","United States of America") ~ "A.du Nord"
+                   "Nicaragua","Panama","Puerto Rico","Trinidad and Tobago") ~ "Am.Centrale",
+    country %in% c("Canada","United States","United States of America") ~ "Am.du Nord"
   )) %>%
   filter(continent != "A.du Nord")   
 
@@ -163,7 +163,7 @@ table(tyrcontinent$abbr_sp, tyrcontinent$continent)
 
 ```
 
-On peut remarquer qu'il y a chez la sous-espèce *melancholicus* une profondeur moyenne du bec légèrement plus importantes en A.Sud qu'en A.Centrale dû à une plus grande variabilité des données. Chez la sous espèces *satrapa*, il y a une différence plus net entre les continents.
+On peut remarquer qu'il y a chez la sous-espèce *melancholicus* une profondeur moyenne du bec légèrement plus importantes en A.Sud qu'en A.Centrale dû à une plus grande variabilité des données. Chez la sous espèces *satrapa*, il y a une différence plus nette entre les continents.
 
 ### Modélisation
 
@@ -322,8 +322,8 @@ melan <- melan %>% drop_na(sex)
 # Recoder sex en 0/1
 melan$sex_bin <- ifelse(melan$sex == "Mâle", 1, 0)
 
-glm(data=melan,sex_bin~tarsus, family=binomial )
-
+glmLouis<-glm(data=melan,sex_bin~tarsus, family=binomial )
+tabularise(summary(glmLouis))
 
 chart(melan,sex_bin~tail)+
   geom_point()+
@@ -358,7 +358,7 @@ La courbe montre une croissance positive, indiquant que lorsque la longueur du b
 
 Les différentes analyses réalisées mettent en évidence des différences existantes, mais souvent subtiles entre les 3 sous-espèces de *Tyrannus melancholicus*. Les résultats issus des modèles linéaires simples mettent en évident le lien entre certaines mesures, mais ne sont pas adaptées à la prédiction de sous-espèce. Les modèles linéaires nous permettent de mieux appréhender notre thématique. Le premier modèle linéaire montre que la longueur du tarse varie significativement avec la distance de Kipp chez *T. m. satrapa* et *T. m. despotes*. Le deuxième modèle linéaire montre qu'il y a des interactions entre la longueur du tarse et la profondeur du bec. Le premier modèle linéaire généralisé montre que les mâles de *T. m. melancholicus* tendent à avoir une queue légèrement plus longue, mais cette différence reste trop faible pour prédire le sexe avec certitude. Le deuxième modèle linéaire généralisé n'a pas pu être réalisé avec des variables à distribution non-normale car le jeu de données n'en contient pas.
 
-Les résultats de cette étude sont mitigés. Plusieurs variables comme la longueur du tarse et la profondeur du bec semblent être des variables intéressantes pour une première approche, mais leur seule utilisation n'est pas suffisante pour déterminer correctement la sous-espcèe d'un individu. Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
+Les résultats de cette étude sont mitigés. Plusieurs variables comme la longueur du tarse et la profondeur du bec semblent être des variables intéressantes pour une première approche, mais leur seule utilisation n'est pas suffisante pour déterminer correctement la sous-espèce d'un individu. Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
 
 ## Références
 

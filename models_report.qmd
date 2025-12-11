@@ -16,7 +16,7 @@ bibliography: references.bib
 
 ## Introduction
 
-L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannus melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques peut s'avérer utiles, notamment pour les spécimens de musée.
+L'identification correcte de la sous-espèce d'un individu est devenue une nécessité. Toute volonté de gestion des populations ou de conservation nécessite en effet de cibler correctement les individus étudiés [@zink2004role]. Bien que la zone géographique puisse dans certains cas aider à l'identification de la sous-espèce, ce n'est pas le cas chez *Tyrannus melancholicus*, pour qui les différentes sous-espèces vivent en sympatrie. Par ailleurs, l'utilisation de données uniquement morphologiques pour l'identification peut s'avérer utile, notamment pour les spécimens de musée.
 
 ## But
 
@@ -32,7 +32,7 @@ Notre jeu de données reprends des mesures réalisées par @MacPherson2021data. 
 
 ![Image de *Tyrannus melancholicus melancholicus* ©Matin Flacks](tyran.jpg)
 
-Les données reprennent différentes mesures morphométriques portant sur le bec (notamment la profondeur) , la queue, les ailes (via la longueur du cordon alaire, définie comme la longeur entre l'articulation carpienne et l'extrémité de la la plus longue rémige quand l'aile est pliée) ainsi que le tarse. Des informations qualitatives comme le stade de vie , le sexe et le pays d'origine sont aussi connues.
+Les données reprennent différentes mesures morphométriques portant sur le bec (notamment sa profondeur) , la queue, le tarse ainsi que les ailes via la longueur du cordon alaire, définie comme la longeur entre l'articulation carpienne et l'extrémité de la la plus longue rémige quand l'aile est pliée. Des informations qualitatives comme le stade de vie , le sexe et le pays d'origine sont aussi connues.
 
 ![Méthode de mesure du cordon alaire. Schéma issu de @ralph1993handbook](Image%20cordon%20alaire.png)
 
@@ -73,7 +73,7 @@ chart(tyrannus,tarsus ~abbr_sp )+
 geom_boxplot()+ stat_summary(fun.data = give_n3, geom = "text", hjust = 0.5)
 ```
 
-Les individus des sous-espèces *melancholicus* et despotes présentent une longueur de tarse maximale de respectivement 21 mm et 20 mm, tandis que ceux de la sous-espèce *satrapa* atteignent environ 22 mm.
+Les individus des sous-espèces *melancholicus* et *despotes* présentent une longueur de tarse maximale de respectivement 21 mm et 20 mm, tandis que ceux de la sous-espèce *satrapa* atteignent environ 22 mm.
 
 ```{r 2}
 tyrcontinent %>.%
@@ -113,7 +113,7 @@ chart(tyrannus_lm)
 
 $$
 `r eq__(tyrannus_lm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
-$$ Cette régression montre une relation directe entre la longueur du cordon alaire et la longueur de la queue. Lorsque la queue augmente de 1mm, la longueur du cordon alaire augmente de 0,73mm. Chaque paramètre est significativement différent de 0 au seuil $\alpha$ de 5% (test t , ***XXX à compléter**) et (test t ,* **XXX à compléter**). Les conditions (normalité des résidus, homoscédasticité) ont été analysés et validées. Le R² étant assez modéré, le pouvoir de prédiction du modèle est donc également limité.
+$$ Cette régression montre une relation directe entre la longueur du cordon alaire et la longueur de la queue. Lorsque la queue augmente de 1mm, la longueur du cordon alaire augmente de 0,73mm. Chaque paramètre est significativement différent de 0 au seuil $\alpha$ de 5% (test t , ***XXX à compléter**) et (test t ,* **XXX à compléter**). Les conditions (normalité des résidus, homoscédasticité) ont été analysées et validées. Le R² étant assez modéré, le pouvoir de prédiction du modèle est donc également limité.
 
 ### Modèle linéaire entre la longueur du tarse et la profondeur du bec
 
