@@ -136,6 +136,12 @@ La distribution des résidus est très proche de la normale et montre une bonne 
 
 ## Discussion et Conclusion
 
-Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique. <!--% En tenant compte du but de votre carnet de notes et de vos résultats, discutez de résultats et proposez des conclusions à votre analyse en 5 à 10 phrases. -->
+L’analyse des variables morphométriques montre que la longueur du tarse et la profondeur du bec, ainsi que leurs interactions avec la sous-espèce, sont significativement liées et permettent d’identifier partiellement les sous-espèces de *Tyrannus melancholicus.*
+
+Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
+
+Les résultats obtenus mettent en évidence l’importance des interactions morphométriques et suggèrent que des études complémentaires sur d’autres caractéristiques anatomiques ou des données génétiques pourraient renforcer l’efficacité de l’identification des sous-espèces.
+
+<!--% En tenant compte du but de votre carnet de notes et de vos résultats, discutez de résultats et proposez des conclusions à votre analyse en 5 à 10 phrases. -->
 
 ## Bibliographie
