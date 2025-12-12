@@ -163,7 +163,7 @@ table(tyrcontinent$abbr_sp, tyrcontinent$continent)
 
 ```
 
-On peut remarquer qu'il y a chez la sous-espèce *melancholicus* une profondeur moyenne du bec légèrement plus importantes en A.Sud qu'en A.Centrale dû à une plus grande variabilité des données. Chez la sous espèces *satrapa*, il y a une différence plus net entre les continents.
+Les médianes de profondeur du bec varient légèrement selon la sous-espèce et l’origine. En effet, la sous-espèce *melancholicus*, présente une médiane un peu plus élevée pour les individus provenant d'Amérique du Sud que ceux d'Amérique Central, tandis que chez les *satrapa*, elle est légèrement plus grande en Amérique centrale. La sous-espèce *despotes* n'est présente qu'en Amérique du Sud et montre également la médiane la plus élevée.
 
 ### Modélisation
 

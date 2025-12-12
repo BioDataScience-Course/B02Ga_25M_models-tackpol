@@ -73,7 +73,7 @@ chart(tyrannus,tarsus ~abbr_sp )+
 geom_boxplot()+ stat_summary(fun.data = give_n3, geom = "text", hjust = 0.5)
 ```
 
-Les individus des sous-espèces *melancholicus* et *despotes* présentent une longueur de tarse maximale de respectivement 21 mm et 20 mm, tandis que ceux de la sous-espèce *satrapa* atteignent environ 22 mm.
+Les médianes de profondeur du bec varient légèrement selon la sous-espèce et l’origine. En effet, la sous-espèce *melancholicus*, présente une médiane un peu plus élevée pour les individus provenant d'Amérique du Sud que ceux d'Amérique Central, tandis que chez les *satrapa*, elle est légèrement plus grande en Amérique centrale. La sous-espèce *despotes* n'est présente qu'en Amérique du Sud et montre également la médiane la plus élevée.
 
 ```{r 2}
 tyrcontinent %>.%
