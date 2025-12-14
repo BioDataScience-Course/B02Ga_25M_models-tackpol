@@ -21,7 +21,7 @@ bibliography: references.bib
 
 <!--% Rédigez une courte introduction de 3 ou 5 phrases qui présente vos données. Ajoutez une phrase de but (que vous remanierez éventuellement en fonction des modèles que vous ajouterez plus tard). Vous pouvez citer la bibliographie en utilisant le formatage Markdown ad hoc et en incluant votre référence au format bibtex dans le fichier references.bib. -->
 
-Notre jeu de données reprend des mesures réalisées par @MacPherson2021data sur 2108 individus appartenant à 28 OTUs, tous du genre *Tyrannus* Lacépède, 1799. Ces données ont notament été utilisées par l'auteur pour évaluer les capacités migratrices sur bases morphologiques \[macpherson2021\]. Pour ce travail, nous avons choisi de ne conserver que les données relatives aux sous-espèces du tyran mélancolique *Tyrannus melancholicus* Vieillot, 1819 afin de réduire le nombre d'individus..
+Notre jeu de données reprend des mesures réalisées par @MacPherson2021data sur 2108 individus appartenant à 28 OTUs, tous du genre *Tyrannus* Lacépède, 1799. Ces données ont notament été utilisées par l'auteur pour évaluer les capacités migratrices sur bases morphologiques [@macpherson2021]. Pour ce travail, nous avons choisi de ne conserver que les données relatives aux sous-espèces du tyran mélancolique *Tyrannus melancholicus* Vieillot, 1819 afin de réduire le nombre d'individus..
 
 ![Image de *Tyrannus melancholicus melancholicus* ©Matin Flacks](tyran.jpg)
 

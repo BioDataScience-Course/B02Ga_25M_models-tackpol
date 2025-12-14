@@ -28,7 +28,7 @@ Ce rapport tente de mettre en évidence quelles variables morphométriques perme
 
 <!--% Cette section doit comprendre deux parties. La première partie doit expliciter les données employées et la seconde traiter des analyses réalisées et des logiciels employés.-->
 
-Notre jeu de données reprends des mesures réalisées par @MacPherson2021data. Il contient des données sur le tyran mélancolique *Tyrannus melancholicus* Vieillot, 1819.
+Notre jeu de données reprends des mesures réalisées par @MacPherson2021data. Il contient des données sur plus de 500 individus de tyran mélancolique *Tyrannus melancholicus* Vieillot, 1819.
 
 ![Image de *Tyrannus melancholicus melancholicus* ©Matin Flacks](tyran.jpg)
 
@@ -91,11 +91,11 @@ chart(data = tyr1, bill_depth ~ abbr_sp %fill=% continent) +
     y = "Profondeur du bec (mm)",
     fill = "Origine"
   )+ stat_summary(fun.data = give_n4, geom = "text", hjust = 0.5, position = position_dodge(width = 0.75))
-table(tyrcontinent$abbr_sp, tyrcontinent$continent)
+
 
 ```
 
-On remarque que chez la sous-espèce *melancholicus*, le bec a une profondeur médiane légèrement plus importante en Amérique du Sud qu'en Amérique Centrale. Chez la sous espèces *satrapa*, la profondeur médiane du bec est plus petite chez les individus sud-américains.
+On remarque que chez la sous-espèce *melancholicus*, le bec a une profondeur médiane légèrement plus importante chez les individus d'Amérique du Sud que ceux d'Amérique Centrale. Chez la sous espèces *satrapa*, la profondeur médiane du bec est plus petite chez les individus sud-américains et plus grande chez les centraméricains.
 
 ### Régression linéaire de la longueur du cordon alaire en fonction de la longueur de queue
 
@@ -130,7 +130,7 @@ chart(data = tyrcontinent, tarsus ~ bill_depth %col=% abbr_sp ) +
 
 $$
 `r eq__(contlm, use_coefs = TRUE, coef_digits = c(2, 2, 3, 3, 2, 3), wrap = TRUE, terms_per_line = 2)`
-$$ Tous les termes du modèle sont significativement différents de 0 au seuil α de 5% : l'ordonnée à l'origine (α; test t, t = 25.82, p \< 2 × 10⁻¹⁶) est significative, la pente de référence pour la profondeur du bec (**β**1​; test t, t = 3.09, p = 2.14 × 10⁻³) est également significative, le décalage d'ordonnée à l'origine pour la sous-espèce T. m. satrapa (β2​; test t, t = -2.30, p = 2.19 × 10⁻²) et pour T. m. despotes (β3​; test t, t = -3.81, p = 1.60 × 10⁻⁴) est significatif, et les termes d'interaction montrent un décalage de pente significatif pour T. m. satrapa (β4​; test t, t = 3.22, p = 1.36 × 10⁻³) et pour T. m. despotes (β5​; test t, t = 3.55, p = 4.17 × 10⁻⁴), ce qui démontre l'existence d'une interaction entre la longueur du tarse et la profondeur du bec et montre que ces variables seraient a priori de bonnes candidates pour de plus profondes recherches sur le sujet.
+$$ Tous les termes du modèle sont significativement différents de 0 au seuil α de 5% : l'ordonnée à l'origine (α; test t, t = 25.82, p \< 2 × 10⁻¹⁶) est significative, la pente de référence pour la profondeur du bec (β1​; test t, t = 3.09, p = 2.14 × 10⁻³) est également significative, le décalage d'ordonnée à l'origine pour la sous-espèce *T. m. satrapa* (β2​; test t, t = -2.30, p = 2.19 × 10⁻²) et pour *T. m. despotes* (β3​; test t, t = -3.81, p = 1.60 × 10⁻⁴) sont significatifs, et les termes d'interaction montrent un décalage de pente significatif pour *T. m. satrapa* (β4​; test t, t = 3.22, p = 1.36 × 10⁻³) et pour *T. m. despotes* (β5​; test t, t = 3.55, p = 4.17 × 10⁻⁴). Cela démontre l'existence d'une interaction entre la longueur du tarse et la profondeur du bec et montre que ces variables seraient a priori de bonnes candidates pour de plus profondes recherches sur le sujet.
 
 La distribution des résidus est très proche de la normale et montre une bonne homoscédasticité. La distance de Cook est faiblement impactée par des valeurs influentes. L'analyse des résidus a donc été considérée comme satisfaisante
 
