@@ -73,7 +73,7 @@ chart(tyrannus,tarsus ~abbr_sp )+
 geom_boxplot()+ stat_summary(fun.data = give_n3, geom = "text", hjust = 0.5)
 ```
 
-Les médianes de profondeur du bec varient légèrement selon la sous-espèce et l’origine. En effet, la sous-espèce *melancholicus*, présente une médiane un peu plus élevée pour les individus provenant d'Amérique du Sud que ceux d'Amérique Central, tandis que chez les *satrapa*, elle est légèrement plus grande en Amérique centrale. La sous-espèce *despotes* n'est présente qu'en Amérique du Sud et montre également la médiane la plus élevée.
+Les médianes de la longueur du tarse varient légèrement selon la sous-espèce. En effet, la sous-espèce *satrapa* présente une médiane nettement plus élevée que les deux autres.Les *melancholicus* présente une médiane intermédiaire tandis les *despotes* ont la médiane la plus faible.
 
 ```{r 2}
 tyrcontinent %>.%
