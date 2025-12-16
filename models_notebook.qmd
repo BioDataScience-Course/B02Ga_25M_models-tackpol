@@ -1,5 +1,5 @@
 ---
-title: "Détermination des sous-espèces de Tyrannus melancholicus à partir de variables morphométriques"
+title: "Tentative de détermination morphométrique des sous-espèces de *Tyrannus melancholicus* et mise en évidences de variables d'intérêt"
 author: "Louis Carlier, Eva Dupont, Samuel Aragona, Julien-Camille Tack"
 format:
   html:
@@ -21,13 +21,17 @@ bibliography: references.bib
 
 <!--% Rédigez une courte introduction de 3 ou 5 phrases qui présente vos données. Ajoutez une phrase de but (que vous remanierez éventuellement en fonction des modèles que vous ajouterez plus tard). Vous pouvez citer la bibliographie en utilisant le formatage Markdown ad hoc et en incluant votre référence au format bibtex dans le fichier references.bib. -->
 
-Notre jeu de données reprend des mesures réalisées par @MacPherson2021data sur 2108 individus appartenant à 28 OTUs, tous du genre *Tyrannus* Lacépède, 1799. Ces données ont notament été utilisées par l'auteur pour évaluer les capacités migratrices sur bases morphologiques [@macpherson2021]. Pour ce travail, nous avons choisi de ne conserver que les données relatives aux sous-espèces du tyran mélancolique *Tyrannus melancholicus* Vieillot, 1819 afin de réduire le nombre d'individus..
+Notre jeu de données reprend des mesures réalisées par @MacPherson2021data sur 2108 individus appartenant à 28 OTUs, tous du genre *Tyrannus* Lacépède, 1799. Ces données ont notament été utilisées par l'auteur pour évaluer les capacités migratrices sur bases morphologiques [@macpherson2021]. Pour ce travail, nous avons choisi de ne conserver que les données relatives aux sous-espèces du tyran mélancolique *Tyrannus melancholicus* Vieillot, 1819 afin de réduire le nombre d'individus.
 
 ![Image de *Tyrannus melancholicus melancholicus* ©Matin Flacks](tyran.jpg)
 
-Les données reprennent différentes mesures du bec, de la queue, du tarse. Des infos sur la taille des ailes sont également présentes via la longueur du cordon alaire (c'est-à-dire la longeur entre l'articulation carpienne et l'extrémité de la la plus longue rémige quand l'aile est pliée) ainsi que via la distance de Kipp (distance entre l'extrémité de la première rémige secondaire (S~1~) et l’extrémité de la plus longue rémige primaire (L~w~) [@kipp1942flugelbau]). L'âge, le sexe et le pays d'origine sont aussi connus. L'objectif de notre analyse est de tenter de déterminer quels critères morphologiques peuvent permettre d'identifier les sous-espèces chez *Tyrannus melancholicus*.
+Les données reprennent différentes mesures du bec, de la queue, du tarse. Des infos sur la taille des ailes sont également présentes via la longueur du cordon alaire (c'est-à-dire la longeur entre l'articulation carpienne et l'extrémité de la la plus longue rémige quand l'aile est pliée) ainsi que via la distance de Kipp (distance entre l'extrémité de la première rémige secondaire (S~1~) et l’extrémité de la plus longue rémige primaire (L~w~) [@kipp1942flugelbau]). L'âge, le sexe et le pays d'origine sont aussi connus. 
 
-![La distance de Kipp correspond à la distance entre les points S1et Lw. Schéma issu de](Distance%20de%20Kipp.png) ![Méthode de mesure du cordon alaire. Schéma issu de](Image%20cordon%20alaire.png)
+![La distance de Kipp correspond à la distance entre les points S1et Lw. Schéma issu de @articlekippdist](Distance%20de%20Kipp.png) 
+
+![Méthode de mesure du cordon alaire. Schéma issu de @ralph1993handbook](Image%20cordon%20alaire.png)
+
+Le but initial de ce travail était de démontrer comment des variables morphométriques permettaient de déterminer la sous-espèce chez *Tyrannus melancholicus*. Ce but étant difficile à atteindre au moyen de nos connaissances actuelles et compte-tenu de la complexité de la tâche chez cette espèce, il a été plutôt été décidé de tenter de mettre en évidence quelles variables seraient de bonnes candidates pour de plus profondes recherches sur le sujet. 
 
 ## Matériel et méthodes
 
@@ -70,10 +74,10 @@ skimr::skim(tyrannus)
 
 ```{r chart1 Louis}
 chart(tyrannus , bill_length~bill_width %col=%abbr_sp |abbr_sp)+
-  geom_point(alpha=0.5, show.legend= FALSE)
+  geom_point(alpha=0.5, show.legend= FALSE)+ labs(title = "Variation de la longueur du bec en fonction de la largeur du bec")
 
 chart(tyrannus, bill_length~bill_width %col=%sex |abbr_sp)+
-  geom_point(alpha=0.5, show.legend= FALSE)
+  geom_point(alpha=0.5, show.legend= FALSE) + labs(title = "Variation de la longueur du bec en fonction de la largeur du bec")
 
 
 
@@ -92,16 +96,16 @@ Les différents sous-espèces ne montrent pas de forte variation lorsque l'on co
 
 chart(tyrannus, ~tarsus|abbr_sp)+
 geom_histogram(bins = 30)+
-ylab("Effectifs")
+ylab("Effectifs")+ labs(title = "Histogramme de la longueur du tarse")
 
 give_n3 <- function(x)
   c(y = max(x) * 1.1, label = length(x)) 
 
 chart(tyrannus,tarsus ~abbr_sp )+
-geom_boxplot() + stat_summary(fun.data = give_n3, geom = "text", hjust = 0.5)
+geom_boxplot() + stat_summary(fun.data = give_n3, geom = "text", hjust = 0.5)+ labs(title = "Boxplot de la longueur du tarse")
 ```
 
-Les médianes de la longueur du tarse varient légèrement selon la sous-espèce. En effet, la sous-espèce *satrapa* présente une médiane nettement plus élevée que les deux autres.Les *melancholicus* présente une médiane intermédiaire tandis les *despotes* ont la médiane la plus faible.
+Les médianes de la longueur du tarse varient légèrement selon la sous-espèce. En effet, la sous-espèce *satrapa* présente une longueur de tarse médiane nettement plus élevée que les deux autres.Les *melancholicus* présente une médiane intermédiaire tandis les *despotes* ont la médiane la plus faible.
 
 <!--% Graphique et interprétation de l'étudiant #3 ci-dessous. -->
 
@@ -163,7 +167,7 @@ table(tyrcontinent$abbr_sp, tyrcontinent$continent)
 
 ```
 
-Les médianes de profondeur du bec varient légèrement selon la sous-espèce et l’origine. En effet, la sous-espèce *melancholicus*, présente une médiane un peu plus élevée pour les individus provenant d'Amérique du Sud que ceux d'Amérique Central, tandis que chez les *satrapa*, elle est légèrement plus grande en Amérique centrale. La sous-espèce *despotes* n'est présente qu'en Amérique du Sud et montre également la médiane la plus élevée.
+Les médianes de profondeur du bec varient légèrement selon la sous-espèce et l’origine. En effet, la sous-espèce *melancholicus* présente une longueur de bec médiane un peu plus élevée pour les individus provenant d'Amérique du Sud que ceux d'Amérique Centrale, tandis que chez les *satrapa*, elle est légèrement plus grande en Amérique Centrale qu'en Amérique du Sud. Toutefois, il est très probable que le faible nombre d'échantillons chez les *satrapa* sud-américains et chez les *melancholicus* centraméricains soit à l'origine de cette observation. La sous-espèce *despotes* n'est présente qu'en Amérique du Sud et montre également la une médiane élevée.
 
 ### Modélisation
 
@@ -300,7 +304,7 @@ chart(data = tyrcontinent, tarsus ~ bill_depth %col=% abbr_sp ) +
   ylab("Longueur du tarse [mm]")
 ```
 
-Tous les termes du modèle sont significativement différents de 0 au seuil α de 5% : l'ordonnée à l'origine (α; test t, t = 25.82, p \< 2 × 10⁻¹⁶) est significative, la pente de référence pour la profondeur du bec (β1​; test t, t = 3.09, p = 2.14 × 10⁻³) est également significative, le décalage d'ordonnée à l'origine pour la sous-espèce *T. m. satrapa* (β2​; test t, t = -2.30, p = 2.19 × 10⁻²) et pour *T. m. despotes* (β3​; test t, t = -3.81, p = 1.60 × 10⁻⁴) sont significatifs, et les termes d'interaction montrent un décalage de pente significatif pour *T. m. satrapa* (β4​; test t, t = 3.22, p = 1.36 × 10⁻³) et pour *T. m. despotes* (β5​; test t, t = 3.55, p = 4.17 × 10⁻⁴).
+Tous les termes du modèle sont significativement différents de 0 au seuil α de 5% : l'ordonnée à l'origine (α; test t, t = 25.82, p \< 2 × 10⁻¹⁶) est significative, la pente de référence pour la profondeur du bec ($\beta_1$; test t, t = 3.09, p = 2.14 × 10⁻³) est également significative, le décalage d'ordonnée à l'origine pour la sous-espèce *T. m. satrapa* ($\beta_2$; test t, t = -2.30, p = 2.19 × 10⁻²) et pour *T. m. despotes* ($\beta_3$; test t, t = -3.81, p = 1.60 × 10⁻⁴) sont significatifs, et les termes d'interaction montrent un décalage de pente significatif pour *T. m. satrapa* ($\beta_4$; test t, t = 3.22, p = 1.36 × 10⁻³) et pour *T. m. despotes* ($\beta_5$; test t, t = 3.55, p = 4.17 × 10⁻⁴).
 
 La distribution des résidus est très proche de la normale et montre une bonne homoscédasticité. La distance de Cook est faiblement impactée par des valeurs influentes. L'analyse des résidus a donc été considérée comme satisfaisante.
 
@@ -354,7 +358,7 @@ La courbe montre une croissance positive, indiquant que lorsque la longueur du b
 
 <!--% Lorsque toutes les analyses sont réalisées, terminez ce bloc-notes avec 3 à 6 phrases de conclusion en rapport avec ce que vous avez observé dans vos analyses. Quels sont les modèles les plus pertinents que vous retenez ? -->
 
-Les différentes analyses réalisées mettent en évidence des différences existantes, mais souvent subtiles entre les 3 sous-espèces de *Tyrannus melancholicus*. Les résultats issus des modèles linéaires simples mettent en évident le lien entre certaines mesures, mais ne sont pas adaptées à la prédiction de sous-espèce. Les modèles linéaires nous permettent de mieux appréhender notre thématique. Le premier modèle linéaire montre que la longueur du tarse varie significativement avec la distance de Kipp chez *T. m. satrapa* et *T. m. despotes*. Le deuxième modèle linéaire montre qu'il y a des interactions entre la longueur du tarse et la profondeur du bec. Le premier modèle linéaire généralisé montre que les mâles de *T. m. melancholicus* tendent à avoir une queue légèrement plus longue, mais cette différence reste trop faible pour prédire le sexe avec certitude. Le deuxième modèle linéaire généralisé n'a pas pu être réalisé avec des variables à distribution non-normale car le jeu de données n'en contient pas.
+Les différentes analyses réalisées mettent en évidence des différences existantes, mais souvent subtiles entre les 3 sous-espèces de *Tyrannus melancholicus*. Les résultats issus des modèles linéaires simples montrent le lien entre certaines mesures, mais ne sont pas adaptés à la prédiction de sous-espèce. Les modèles linéaires permettent de mieux appréhender notre thématique. Le premier modèle linéaire montre que la longueur du tarse varie significativement avec la distance de Kipp chez *T. m. satrapa* et *T. m. despotes*, mais ce n'est pas le cas chez *T. m. melancholicus*. Le deuxième modèle linéaire montre qu'il y a des interactions entre la longueur du tarse et la profondeur du bec, mais que ces interactions ne se comportent pas de la même façon chez les 3 sous-espèces. Le premier modèle linéaire généralisé montre quant à lui que les mâles de *T. m. melancholicus* tendent à avoir une queue légèrement plus longue, mais cette différence reste trop faible pour prédire le sexe avec certitude. Enfin, e deuxième modèle linéaire généralisé n'a pas pu être réalisé avec des variables à distribution non-normale car le jeu de données n'en contient pas.
 
 Les résultats de cette étude sont mitigés. Plusieurs variables comme la longueur du tarse et la profondeur du bec semblent être des variables intéressantes pour une première approche, mais leur seule utilisation n'est pas suffisante pour déterminer correctement la sous-espèce d'un individu. Une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique.
 
