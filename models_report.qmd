@@ -143,6 +143,7 @@ La régression linéaire entre le cordon alaire et la longueur de la queue met e
 Le modèle linéaire montre que la relation entre la longueur du tarse et la profondeur du bec varie significativement selon la sous-espèce. Cela démontre que ces variables pourraient potentiellement être utiles pour identifier la sous-espèces de *Tyrannus melancholicus*. Toutefois, ces variables ne permettent pas à elles seules de discriminer totalement les 3 sous-espèces, mais elles pourraient constituer une bonne base pour de plus amples recherches sur le sujet, notamment en complément d'autres variables.
 
 
+
 En conclusion, cette présente étude n'a pas permmis de déterminer la sous-espèce de *Tyrannus melancholicus* au moyen de variables morphométriques et qualitatives. Néanmoins, cette étude met en évidence le potentiel des mesures du cordon alaire, de la longueur de la queue, de la longueur du tarse ainsi que de la profondeur du bec comme d'éventuelles variables intéressantes en vue d'identifier correctement les sous-espèces de *Tyrannus melancholicus*. 
 
 Cette étude démontre par ailleurs qu'une approche multivariée, intégrant plusieurs traits et facteurs géographiques semble nécessaire pour améliorer la discrimination et comprendre la variabilité intra-spécifique. Les résultats obtenus mettent en évidence l’importance des interactions morphométriques et suggèrent que des études complémentaires avec d’autres caractéristiques anatomiquespourraient renforcer l’efficacité de l’identification des sous-espèces.
